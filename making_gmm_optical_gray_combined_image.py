@@ -5,128 +5,112 @@ Created on Tue Sep 25 16:56:16 2018
 @author: ahsanjalal
 """
 
-
-import sys,os,glob
-from os.path import join, isfile
-import numpy as np
-from pylab import *
-from PIL import Image
-import cv2
-import dlib
-from scipy.misc import imresize
-from statistics import mode
-from tempfile import TemporaryFile
-from collections import Counter
-import numpy
-from imutils.face_utils import FaceAligner
-from imutils.face_utils import rect_to_bb
-import argparse
-import imutils
-#from rgb2gray import rgb2gray
-import lxml.etree
-import scipy.misc
-from natsort import natsorted, ns
-import xml.etree.ElementTree as ET
-from shutil import copytree
-import matplotlib.pyplot as plt
-import glob
 import os
-import PIL
-from ctypes import *
-import math
-import random
+import glob
+import numpy as np
+import cv2
+from scipy.misc import imresize
 
-bkg_count=0
-# main directories
-gt_dir='~/annotated_frames'
-gmm_results='~/gmm_output'
-optical_results='~/Optical_flow'
-save_main_dir='~/no_gray_gmm_optical_mixed'
-total_gt_count=0
-gt_fol=os.listdir(gt_dir)
-TP=0
-FP=0
-gmm_count=0
+# Constants
+GT_DIR = "~/annotated_frames"
+GMM_RESULTS = "~/gmm_output"
+OPTICAL_RESULTS = "~/Optical_flow"
+SAVE_MAIN_DIR = "~/no_gray_gmm_optical_mixed"
+SPECIE_LIST = [
+    "abudefduf vaigiensis",
+    "acanthurus nigrofuscus",
+    "amphiprion clarkii",
+    "chaetodon lununatus",
+    "chaetodon speculum",
+    "chaetodon trifascialis",
+    "chromis chrysura",
+    "dascyllus aruanus",
+    "dascyllus reticulatus",
+    "hemigumnus malapterus",
+    "myripristis kuntee",
+    "neoglyphidodon nigroris",
+    "pempheris vanicolensis",
+    "plectrogly-phidodon dickii",
+    "zebrasoma scopas",
+    "Background",
+]
 
-num = np.zeros(16) # 17 for UWA dataset
-vid_counter=0
-specie_list= ["abudefduf vaigiensis",
-             "acanthurus nigrofuscus",
-             "amphiprion clarkii",
-             "chaetodon lununatus",
-             "chaetodon speculum",  
-             "chaetodon trifascialis",
-             "chromis chrysura",
-             "dascyllus aruanus",
-             "dascyllus reticulatus",
-             "hemigumnus malapterus",
-             "myripristis kuntee",
-             "neoglyphidodon nigroris",
-             "pempheris vanicolensis",
-             "plectrogly-phidodon dickii",
-            "zebrasoma scopas",
-            "Background"] # use UWA names for UWA dataset
-for video_fol in gt_fol:
-    print('video number {} is in process and video is {}'.format(vid_counter,video_fol))
-    vid_counter+=1
-    vid_fol_path=join(gt_dir,video_fol)
+# Global variables
+bkg_count = 0
+total_gt_count = 0
+TP = 0
+FP = 0
+gmm_count = 0
+num = np.zeros(16)  # 17 for UWA dataset
+vid_counter = 0
+
+
+def process_video(video_fol):
+    global total_gt_count
+    vid_fol_path = os.path.join(GT_DIR, video_fol)
     os.chdir(vid_fol_path)
-    video_name=video_fol.split('.flv')[0]
-    gt_text_files=glob.glob('*.txt')
-    gt_height,gt_width=[640,640]
-    gmm_height,gmm_width=[640,640]
-    for gt_files in gt_text_files:
-        img_gt=cv2.imread(gt_files.split('.')[0]+'.png')
-        a=open(gt_files)
-        gt_text=a.readlines()
-        gt_count=len(gt_text)
-        total_gt_count+=gt_count
-        
-    # reading infofromn the ground truth files
-    # 'del list[index]' to remove the specific line from the list
-        
-        if os.path.isfile(join(gmm_results,video_fol,gt_files).split('.txt')[0]+'.png'):
-            
-#            gmm_text=open(join(gmm_results,video_fol,gt_files))
-            img_gmm=cv2.imread(join(gmm_results,video_fol,gt_files).split('.txt')[0]+'.png')
-            img_optical=cv2.imread(join(optical_results,video_fol,gt_files).split('.txt')[0]+'.png')
-            img_optical=imresize(img_optical,[640,640])
-            img_gt_gray=cv2.cvtColor(img_gt,cv2.COLOR_BGR2GRAY)
-#            img_gt[:,:,0]=img_gt_gray
-            img_gt[:,:,0]=0
-            img_gt[:,:,1]=img_gmm[:,:,0]
-            img_gt[:,:,2]=img_optical[:,:,0]
-            if not os.path.exists(join(save_main_dir,video_fol)):
-                os.makedirs(join(save_main_dir,video_fol))
-            cv2.imwrite(join(save_main_dir,video_fol,gt_files).split('.txt')[0]+'.png',img_gt)
+    video_name = video_fol.split(".flv")[0]
+    gt_text_files = glob.glob("*.txt")
+    gt_height, gt_width = [640, 640]
+    gmm_height, gmm_width = [640, 640]
+
+    for gt_file in gt_text_files:
+        img_gt = cv2.imread(gt_file.split(".")[0] + ".png")
+        with open(gt_file) as f:
+            gt_text = f.readlines()
+        gt_count = len(gt_text)
+        total_gt_count += gt_count
+
+        process_gt_file(video_fol, gt_file, img_gt)
+
+
+def process_gt_file(video_fol, gt_file, img_gt):
+    gmm_img_path = (
+        os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+    )
+    optical_img_path = (
+        os.path.join(OPTICAL_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+    )
+
+    if os.path.isfile(gmm_img_path):
+        img_gmm = cv2.imread(gmm_img_path)
+        img_optical = cv2.imread(optical_img_path)
+        img_optical = imresize(img_optical, [640, 640])
+        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
+        img_gt[:, :, 0] = 0
+        img_gt[:, :, 1] = img_gmm[:, :, 0]
+        img_gt[:, :, 2] = img_optical[:, :, 0]
+    else:
+        img_gmm = np.zeros((640, 640))
+        if os.path.isfile(optical_img_path):
+            img_optical = cv2.imread(optical_img_path)
+            img_optical = imresize(img_optical, [640, 640])
         else:
-            img_gmm=np.zeros(shape=[640,640])
-            if os.path.isfile(join(optical_results,video_fol,gt_files).split('.txt')[0]+'.png'):
-                img_optical=cv2.imread(join(optical_results,video_fol,gt_files).split('.txt')[0]+'.png')
-                img_optical=imresize(img_optical,[640,640])
-            else:
-                img_optical=np.zeros(shape=[640,640,3])
-            
-            img_gt_gray=cv2.cvtColor(img_gt,cv2.COLOR_BGR2GRAY)
-            img_gt[:,:,0]=0  # no gray channel             
-#            img_gt[:,:,0]=img_gt_gray
-            img_gt[:,:,1]=img_gmm
-            img_gt[:,:,2]=img_optical[:,:,0]
-            if not os.path.exists(join(save_main_dir,video_fol)):
-                os.makedirs(join(save_main_dir,video_fol))
-            cv2.imwrite(join(save_main_dir,video_fol,gt_files).split('.txt')[0]+'.png',img_gt)
-#            text_gmm=gmm_text.readlines()
+            img_optical = np.zeros((640, 640, 3))
+
+        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
+        img_gt[:, :, 0] = 0
+        img_gt[:, :, 1] = img_gmm
+        img_gt[:, :, 2] = img_optical[:, :, 0]
+
+    save_image(video_fol, gt_file, img_gt)
 
 
+def save_image(video_fol, gt_file, img_gt):
+    save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    cv2.imwrite(os.path.join(save_path, gt_file).split(".txt")[0] + ".png", img_gt)
 
 
+def main():
+    global vid_counter
+    gt_fol = os.listdir(GT_DIR)
+    for video_fol in gt_fol:
+        print(f"video number {vid_counter} is in process and video is {video_fol}")
+        vid_counter += 1
+        process_video(video_fol)
 
 
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()

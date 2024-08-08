@@ -1,238 +1,116 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  2 11:40:04 2018
+Created on Tue Sep 25 16:56:16 2018
 
-@author: ahsanjalal
+Author: ahsanjalal
 """
-# use this code to save the output of YOLO on fishclef or UWA dataset
 
-
-import sys,os,glob
-from os.path import join, isfile
-import numpy as np
-from pylab import *
-from PIL import Image
-import cv2
-import dlib
-from scipy.misc import imresize
-from statistics import mode
-from tempfile import TemporaryFile
-from collections import Counter
-import numpy
-from imutils.face_utils import FaceAligner
-from imutils.face_utils import rect_to_bb
-import argparse
-import imutils
-#from rgb2gray import rgb2gray
-import lxml.etree
-import scipy.misc
-from natsort import natsorted, ns
-import xml.etree.ElementTree as ET
-from shutil import copytree
-import matplotlib.pyplot as plt
-import glob
 import os
-import PIL
-from ctypes import *
-import math
-import random
-bkg_count=0
-import time
-###################### incorporating darknet.py ######################################################
+import glob
+import numpy as np
+import cv2
+from scipy.misc import imresize
 
-def sample(probs):
-    s = sum(probs)
-    probs = [a/s for a in probs]
-    r = random.uniform(0, 1)
-    for i in range(len(probs)):
-        r = r - probs[i]
-        if r <= 0:
-            return i
-    return len(probs)-1
+# Constants
+GT_DIR = "~/annotated_frames"
+GMM_RESULTS = "~/gmm_output"
+OPTICAL_RESULTS = "~/Optical_flow"
+SAVE_MAIN_DIR = "~/no_gray_gmm_optical_mixed"
+SPECIE_LIST = [
+    "abudefduf vaigiensis",
+    "acanthurus nigrofuscus",
+    "amphiprion clarkii",
+    "chaetodon lununatus",
+    "chaetodon speculum",
+    "chaetodon trifascialis",
+    "chromis chrysura",
+    "dascyllus aruanus",
+    "dascyllus reticulatus",
+    "hemigumnus malapterus",
+    "myripristis kuntee",
+    "neoglyphidodon nigroris",
+    "pempheris vanicolensis",
+    "plectrogly-phidodon dickii",
+    "zebrasoma scopas",
+    "Background",
+]
 
-def c_array(ctype, values):
-    arr = (ctype*len(values))()
-    arr[:] = values
-    return arr
-
-class BOX(Structure):
-    _fields_ = [("x", c_float),
-                ("y", c_float),
-                ("w", c_float),
-                ("h", c_float)]
-
-class DETECTION(Structure):
-    _fields_ = [("bbox", BOX),
-                ("classes", c_int),
-                ("prob", POINTER(c_float)),
-                ("mask", POINTER(c_float)),
-                ("objectness", c_float),
-                ("sort_class", c_int)]
-
-
-class IMAGE(Structure):
-    _fields_ = [("w", c_int),
-                ("h", c_int),
-                ("c", c_int),
-                ("data", POINTER(c_float))]
-
-class METADATA(Structure):
-    _fields_ = [("classes", c_int),
-                ("names", POINTER(c_char_p))]
-
-    
-
-#lib = CDLL("/home/pjreddie/documents/darknet/libdarknet.so", RTLD_GLOBAL)
-lib = CDLL("~/libdarknet.so", RTLD_GLOBAL)
-lib.network_width.argtypes = [c_void_p]
-lib.network_width.restype = c_int
-lib.network_height.argtypes = [c_void_p]
-lib.network_height.restype = c_int
-
-predict = lib.network_predict
-predict.argtypes = [c_void_p, POINTER(c_float)]
-predict.restype = POINTER(c_float)
-
-set_gpu = lib.cuda_set_device
-set_gpu.argtypes = [c_int]
-
-make_image = lib.make_image
-make_image.argtypes = [c_int, c_int, c_int]
-make_image.restype = IMAGE
-
-get_network_boxes = lib.get_network_boxes
-get_network_boxes.argtypes = [c_void_p, c_int, c_int, c_float, c_float, POINTER(c_int), c_int, POINTER(c_int)]
-get_network_boxes.restype = POINTER(DETECTION)
-
-make_network_boxes = lib.make_network_boxes
-make_network_boxes.argtypes = [c_void_p]
-make_network_boxes.restype = POINTER(DETECTION)
-
-free_detections = lib.free_detections
-free_detections.argtypes = [POINTER(DETECTION), c_int]
-
-free_ptrs = lib.free_ptrs
-free_ptrs.argtypes = [POINTER(c_void_p), c_int]
-
-network_predict = lib.network_predict
-network_predict.argtypes = [c_void_p, POINTER(c_float)]
-
-reset_rnn = lib.reset_rnn
-reset_rnn.argtypes = [c_void_p]
-
-load_net = lib.load_network
-load_net.argtypes = [c_char_p, c_char_p, c_int]
-load_net.restype = c_void_p
-
-do_nms_obj = lib.do_nms_obj
-do_nms_obj.argtypes = [POINTER(DETECTION), c_int, c_int, c_float]
-
-do_nms_sort = lib.do_nms_sort
-do_nms_sort.argtypes = [POINTER(DETECTION), c_int, c_int, c_float]
-
-free_image = lib.free_image
-free_image.argtypes = [IMAGE]
-
-letterbox_image = lib.letterbox_image
-letterbox_image.argtypes = [IMAGE, c_int, c_int]
-letterbox_image.restype = IMAGE
-
-load_meta = lib.get_metadata
-lib.get_metadata.argtypes = [c_char_p]
-lib.get_metadata.restype = METADATA
-
-load_image = lib.load_image_color
-load_image.argtypes = [c_char_p, c_int, c_int]
-load_image.restype = IMAGE
-
-rgbgr_image = lib.rgbgr_image
-rgbgr_image.argtypes = [IMAGE]
-
-predict_image = lib.network_predict_image
-predict_image.argtypes = [c_void_p, IMAGE]
-predict_image.restype = POINTER(c_float)
-
-def classify(net, meta, im):
-    out = predict_image(net, im)
-    res = []
-    for i in range(meta.classes):
-        res.append((meta.names[i], out[i]))
-    res = sorted(res, key=lambda x: -x[1])
-    return res
-
-def detect(net, meta, image, thresh=.25, hier_thresh=.5, nms=.45):
-    im = load_image(image, 0, 0)
-    num = c_int(0)
-    pnum = pointer(num)
-    predict_image(net, im)
-    dets = get_network_boxes(net, im.w, im.h, thresh, hier_thresh, None, 0, pnum)
-    num = pnum[0]
-    if (nms): do_nms_obj(dets, num, meta.classes, nms);
-
-    res = []
-    for j in range(num):
-        for i in range(meta.classes):
-            if dets[j].prob[i] > 0:
-                b = dets[j].bbox
-                res.append((meta.names[i], dets[j].prob[i], (b.x, b.y, b.w, b.h)))
-    res = sorted(res, key=lambda x: -x[1])
-    free_image(im)
-    free_detections(dets, num)
-    return res
+# Global variables
+bkg_count = 0
+total_gt_count = 0
+TP = 0
+FP = 0
+gmm_count = 0
+num = np.zeros(16)  # 17 for UWA dataset
+vid_counter = 0
 
 
-net = load_net("~/cfg/yolov3-fishclef.cfg", "~/fishclef.weights", 0)
-meta = load_meta("~/cfg/fishclef.data")
-save_test_part='~/Test_dataset/yolo_test_part'
-save_train_part='~/Test_dataset/yolo_train_part'
-val_from_test=open('~/val_from_test.txt')
-val_from_train=open('~/val_from_train.txt')
-val_train=val_from_train.readlines()
-val_test=val_from_test.readlines()
-val_from_train.close()
-val_from_test.close()
-# Reading each image address and start making images for blob analysis
+def process_video(video_fol):
+    global total_gt_count
+    vid_fol_path = os.path.join(GT_DIR, video_fol)
+    os.chdir(vid_fol_path)
+    video_name = video_fol.split(".flv")[0]
+    gt_text_files = glob.glob("*.txt")
+    gt_height, gt_width = [640, 640]
+    gmm_height, gmm_width = [640, 640]
 
-# first loop over test annotations
+    for gt_file in gt_text_files:
+        img_gt = cv2.imread(gt_file.split(".")[0] + ".png")
+        with open(gt_file) as f:
+            gt_text = f.readlines()
+        gt_count = len(gt_text)
+        total_gt_count += gt_count
 
-test_tmp=0
-det_tmp=0
-img_height,img_width=[640,640]
-for img_name in val_test:
-    test_tmp+=1
-    print(test_tmp)
-    img_name = img_name.rstrip()
-    video_file=img_name.split('/')[-2]
-    img_file=img_name.split('/')[-1]
-    if not os.path.exists(join(save_test_part,video_file)):
-        os.makedirs(join(save_test_part,video_file))
-    r = detect(net, meta, img_name)
-    detected_blob_img=np.zeros(shape=[640,640])
-    img=cv2.imread(img_name)
-    if r:
-        
-    
-        det_tmp+=1
-        print('detected frame {} / {} ' .format(det_tmp,test_tmp) )
-        for fish_info in r:
-            x=int(fish_info[2][0])
-            y=int(fish_info[2][1])
-            w=int(fish_info[2][2])
-            h=int(fish_info[2][3])
-            xmin = int(x - w/2)
-            ymin = int(y - h/2)
-            xmax = int(x + w/2)
-            ymax = int(y + h/2)
-            if(xmax > 640):
-                xmax=640
-          
-            if(ymax > 640):
-                ymax=640
-         
-            if(w*h<25600):
-                detected_blob_img[ymin:ymax,xmin:xmax]=int(fish_info[1]*255)
-    #                    img=cv2.rectangle(img,(xmin,ymax),(xmax,ymax),(0,255,255),2)
-    #        cv2.imwrite(join(save_detector_results,video_file,img_name),img)
-    cv2.imwrite(join(save_test_part,video_file,img_file),detected_blob_img) 
-    
-    
+        process_gt_file(video_fol, gt_file, img_gt)
+
+
+def process_gt_file(video_fol, gt_file, img_gt):
+    gmm_img_path = (
+        os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+    )
+    optical_img_path = (
+        os.path.join(OPTICAL_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+    )
+
+    if os.path.isfile(gmm_img_path):
+        img_gmm = cv2.imread(gmm_img_path)
+        img_optical = cv2.imread(optical_img_path)
+        img_optical = imresize(img_optical, [640, 640])
+        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
+        img_gt[:, :, 0] = 0
+        img_gt[:, :, 1] = img_gmm[:, :, 0]
+        img_gt[:, :, 2] = img_optical[:, :, 0]
+    else:
+        img_gmm = np.zeros((640, 640))
+        if os.path.isfile(optical_img_path):
+            img_optical = cv2.imread(optical_img_path)
+            img_optical = imresize(img_optical, [640, 640])
+        else:
+            img_optical = np.zeros((640, 640, 3))
+
+        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
+        img_gt[:, :, 0] = 0
+        img_gt[:, :, 1] = img_gmm
+        img_gt[:, :, 2] = img_optical[:, :, 0]
+
+    save_image(video_fol, gt_file, img_gt)
+
+
+def save_image(video_fol, gt_file, img_gt):
+    save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    cv2.imwrite(os.path.join(save_path, gt_file).split(".txt")[0] + ".png", img_gt)
+
+
+def main():
+    global vid_counter
+    gt_fol = os.listdir(GT_DIR)
+    for video_fol in gt_fol:
+        print(f"video number {vid_counter} is in process and video is {video_fol}")
+        vid_counter += 1
+        process_video(video_fol)
+
+
+if __name__ == "__main__":
+    main()

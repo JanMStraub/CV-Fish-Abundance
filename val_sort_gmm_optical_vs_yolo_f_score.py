@@ -1,669 +1,258 @@
-# @ author: ahsan jalal
-# This code takes classfied results from  GMM & optical combined and YOLO and calculates f-scores
-import sys,os,glob
-from os.path import join, isfile
-import numpy as np
-from pylab import *
-from PIL import Image
-import cv2
-import dlib
-from scipy.misc import imresize
-from statistics import mode
-from tempfile import TemporaryFile
-from collections import Counter
-import numpy
-from imutils.face_utils import FaceAligner
-from imutils.face_utils import rect_to_bb
-import argparse
-import imutils
-#from rgb2gray import rgb2gray
-import lxml.etree
-import scipy.misc
-from natsort import natsorted, ns
-import xml.etree.ElementTree as ET
-from shutil import copytree
-import matplotlib.pyplot as plt
-import glob
 import os
-import PIL
-from ctypes import *
-import math
+import glob
 import random
+import cv2
+import numpy as np
+from ctypes import *
+from os.path import join
 
+# Constants and Globals
+bkg_count = 0
+total_gmm_count = 0
+total_gt_count = 0
+TP = 0
+FP = 0
+gmm_count = 0
+num = np.zeros(16)  # For UWA dataset
+
+# Directory Paths
+gmm_main_dir = "~/gmm_optical_combined"
+gt_main_dir = "~/annotated_frames"
+save_main_dir = "~/gmm_optical_combined_output"
+saving_dir = "~/test_frames"
+gt_fol = os.listdir(gt_main_dir)
+
+# Species List
+specie_list = [
+    "abudefduf vaigiensis",
+    "acanthurus nigrofuscus",
+    "amphiprion clarkii",
+    "chaetodon lununatus",
+    "chaetodon speculum",
+    "chaetodon trifascialis",
+    "chromis chrysura",
+    "dascyllus aruanus",
+    "dascyllus reticulatus",
+    "hemigumnus malapterus",
+    "myripristis kuntee",
+    "neoglyphidodon nigroris",
+    "pempheris vanicolensis",
+    "plectrogly-phidodon dickii",
+    "zebrasoma scopas",
+    "Background",
+]
+
+# Load YOLO model
+lib = CDLL("~/libdarknet.so", RTLD_GLOBAL)
+net = lib.load_network("~/resnet50.cfg", "~/resnet50_146.weights", 0)
+meta = lib.get_metadata("~/fish_classification.data")
+
+
+# Function Definitions
 def sample(probs):
     s = sum(probs)
-    probs = [a/s for a in probs]
+    probs = [a / s for a in probs]
     r = random.uniform(0, 1)
     for i in range(len(probs)):
-        r = r - probs[i]
+        r -= probs[i]
         if r <= 0:
             return i
-    return len(probs)-1
+    return len(probs) - 1
+
 
 def c_array(ctype, values):
-    arr = (ctype*len(values))()
+    arr = (ctype * len(values))()
     arr[:] = values
     return arr
 
+
 class BOX(Structure):
-    _fields_ = [("x", c_float),
-                ("y", c_float),
-                ("w", c_float),
-                ("h", c_float)]
+    _fields_ = [("x", c_float), ("y", c_float), ("w", c_float), ("h", c_float)]
+
 
 class DETECTION(Structure):
-    _fields_ = [("bbox", BOX),
-                ("classes", c_int),
-                ("prob", POINTER(c_float)),
-                ("mask", POINTER(c_float)),
-                ("objectness", c_float),
-                ("sort_class", c_int)]
+    _fields_ = [
+        ("bbox", BOX),
+        ("classes", c_int),
+        ("prob", POINTER(c_float)),
+        ("mask", POINTER(c_float)),
+        ("objectness", c_float),
+        ("sort_class", c_int),
+    ]
 
 
 class IMAGE(Structure):
-    _fields_ = [("w", c_int),
-                ("h", c_int),
-                ("c", c_int),
-                ("data", POINTER(c_float))]
+    _fields_ = [("w", c_int), ("h", c_int), ("c", c_int), ("data", POINTER(c_float))]
+
 
 class METADATA(Structure):
-    _fields_ = [("classes", c_int),
-                ("names", POINTER(c_char_p))]
+    _fields_ = [("classes", c_int), ("names", POINTER(c_char_p))]
 
-    
-
-Zlib = CDLL("~/libdarknet.so", RTLD_GLOBAL)
-lib.network_width.argtypes = [c_void_p]
-lib.network_width.restype = c_int
-lib.network_height.argtypes = [c_void_p]
-lib.network_height.restype = c_int
-
-predict = lib.network_predict
-predict.argtypes = [c_void_p, POINTER(c_float)]
-predict.restype = POINTER(c_float)
-
-set_gpu = lib.cuda_set_device
-set_gpu.argtypes = [c_int]
-
-make_image = lib.make_image
-make_image.argtypes = [c_int, c_int, c_int]
-make_image.restype = IMAGE
-
-get_network_boxes = lib.get_network_boxes
-get_network_boxes.argtypes = [c_void_p, c_int, c_int, c_float, c_float, POINTER(c_int), c_int, POINTER(c_int)]
-get_network_boxes.restype = POINTER(DETECTION)
-
-make_network_boxes = lib.make_network_boxes
-make_network_boxes.argtypes = [c_void_p]
-make_network_boxes.restype = POINTER(DETECTION)
-
-free_detections = lib.free_detections
-free_detections.argtypes = [POINTER(DETECTION), c_int]
-
-free_ptrs = lib.free_ptrs
-free_ptrs.argtypes = [POINTER(c_void_p), c_int]
-
-network_predict = lib.network_predict
-network_predict.argtypes = [c_void_p, POINTER(c_float)]
-
-reset_rnn = lib.reset_rnn
-reset_rnn.argtypes = [c_void_p]
-
-load_net = lib.load_network
-load_net.argtypes = [c_char_p, c_char_p, c_int]
-load_net.restype = c_void_p
-
-do_nms_obj = lib.do_nms_obj
-do_nms_obj.argtypes = [POINTER(DETECTION), c_int, c_int, c_float]
-
-do_nms_sort = lib.do_nms_sort
-do_nms_sort.argtypes = [POINTER(DETECTION), c_int, c_int, c_float]
-
-free_image = lib.free_image
-free_image.argtypes = [IMAGE]
-
-letterbox_image = lib.letterbox_image
-letterbox_image.argtypes = [IMAGE, c_int, c_int]
-letterbox_image.restype = IMAGE
-
-load_meta = lib.get_metadata
-lib.get_metadata.argtypes = [c_char_p]
-lib.get_metadata.restype = METADATA
-
-load_image = lib.load_image_color
-load_image.argtypes = [c_char_p, c_int, c_int]
-load_image.restype = IMAGE
-
-rgbgr_image = lib.rgbgr_image
-rgbgr_image.argtypes = [IMAGE]
-
-predict_image = lib.network_predict_image
-predict_image.argtypes = [c_void_p, IMAGE]
-predict_image.restype = POINTER(c_float)
 
 def classify(net, meta, im):
-    out = predict_image(net, im)
-    res = []
-    for i in range(meta.classes):
-        res.append((meta.names[i], out[i]))
-    res = sorted(res, key=lambda x: -x[1])
-    return res
+    out = lib.network_predict_image(net, im)
+    res = [(meta.names[i], out[i]) for i in range(meta.classes)]
+    return sorted(res, key=lambda x: -x[1])
 
-def detect(net, meta, image, thresh=.2, hier_thresh=.5, nms=.45):
-    im = load_image(image, 0, 0)
-    num = c_int(0)
-    pnum = pointer(num)
-    predict_image(net, im)
-    dets = get_network_boxes(net, im.w, im.h, thresh, hier_thresh, None, 0, pnum)
+
+def detect(net, meta, image, thresh=0.5, hier_thresh=0.5, nms=0.45):
+    im = lib.load_image_color(image.encode("utf-8"), 0, 0)
+    pnum = pointer(c_int(0))
+    lib.network_predict_image(net, im)
+    dets = lib.get_network_boxes(net, im.w, im.h, thresh, hier_thresh, None, 0, pnum)
     num = pnum[0]
-    if (nms): do_nms_obj(dets, num, meta.classes, nms);
+    if nms:
+        lib.do_nms_obj(dets, num, meta.classes, nms)
 
-    res = []
-    for j in range(num):
-        for i in range(meta.classes):
-            if dets[j].prob[i] > 0:
-                b = dets[j].bbox
-                res.append((meta.names[i], dets[j].prob[i], (b.x, b.y, b.w, b.h)))
-    res = sorted(res, key=lambda x: -x[1])
-    free_image(im)
-    free_detections(dets, num)
-    return res
-    
-net = load_net("~/resnet50.cfg", "~/resnet50_146.weights", 0)
-meta = load_meta("~/fish_classification.data")
+    res = [
+        (
+            meta.names[i],
+            dets[j].prob[i],
+            (dets[j].bbox.x, dets[j].bbox.y, dets[j].bbox.w, dets[j].bbox.h),
+        )
+        for j in range(num)
+        for i in range(meta.classes)
+        if dets[j].prob[i] > 0
+    ]
+    lib.free_image(im)
+    lib.free_detections(dets, num)
+    return sorted(res, key=lambda x: -x[1])
 
 
+# Main Processing Loop
+for video_fol in gt_fol:
+    print(f"Processing video {video_fol}")
+    vid_fol_path = join(gt_main_dir, video_fol)
+    os.chdir(vid_fol_path)
 
-bkg_count=0    
-det_image=0
+    gt_text_files = glob.glob("*.txt")
+    gt_height, gt_width = [640, 640]
+    gmm_height, gmm_width = [640, 640]
 
-TP=0
-FP=0
-total_gt_count=0
-total_det_count=0
-gt_height,gt_width=[640,640]
-gmm_height,gmm_width=[640,640]
-num = np.zeros(16)
-gt_main_dir='~/gt_files'
-gmm_optical_main_dir='~/val_sort_gmm_optical_classified_text_files' # contains only text files
-yolo_main_dir='~/val_sort_yolo_output_text'
-val_sort_text_file=open('~/val_sort.txt') # GT text files
-saving_dir='~/combined_gmm_optical_yolo_val_sort'
-save_main_dir='~/test_frames'
-specie_list= ["vaigiensis",
-             "nigrofuscus",
-             "clarkii",
-             "lununatus",
-             "speculum",    
-             "trifascialis",
-             "chrysura",
-             "aruanus",
-             "reticulatus",
-             "malapterus",
-             "kuntee",
-             "nigroris",
-             "vanicolensis",
-             "dickii",
-            "scopas",
-            "background"] # use uwa names for uwa dataset results
-            
-val_lines=val_sort_text_file.readlines()
-val_sort_text_file.close()
-for val_txt1 in val_lines:
- 
-    val_txt=val_txt1.rstrip()
-    filename=val_txt.split('/')
-    img_file=filename[-1]
-    video_file=filename[-2]
-    img_rgb=cv2.imread(val_txt)
-#    print(val_txt.split('.png')[0]+'.txt')
-    gt_txt=open(val_txt.split('.png')[0]+'.txt')
-    gt_lines=gt_txt.readlines()
-    gt_count=len(gt_lines)
-    total_gt_count+=gt_count
-    yolo_txt_path=join(yolo_main_dir,video_file,img_file).split('.png')[0]+'.txt'
-    gmm_optical_txt_path=join(gmm_optical_main_dir,video_file,img_file).split('.png')[0]+'.txt'
-    if(os.path.exists(yolo_txt_path) or (os.path.exists(gmm_optical_txt_path))):
-        if (os.path.exists(yolo_txt_path)):
-            yolo_txt1=open(yolo_txt_path)
-            yolo_txt=yolo_txt1.readlines()
-            yolo_txt1.close()
+    for gt_file in gt_text_files:
+        img_gt = cv2.imread(gt_file.replace(".txt", ".png"))
+        with open(gt_file) as f:
+            gt_text = f.readlines()
+        gt_count = len(gt_text)
+        total_gt_count += gt_count
+
+        gmm_file_path = join(gmm_main_dir, video_fol, gt_file)
+        if os.path.isfile(gmm_file_path):
+            with open(gmm_file_path) as f:
+                text_gmm = f.readlines()
+            img_gmm = cv2.imread(gmm_file_path.replace(".txt", ".png"))
+
+            for line_gmm in text_gmm:
+                gmm_count += 1
+                total_gmm_count += 1
+                x_gmm, y_gmm, w_gmm, h_gmm = parse_coords(
+                    line_gmm, gmm_width, gmm_height
+                )
+                coords_gmm = adjust_coords(
+                    x_gmm, y_gmm, w_gmm, h_gmm, gmm_width, gmm_height
+                )
+
+                match_flag = 0
+                for count_gt_line, line_gt in enumerate(gt_text):
+                    x_gt, y_gt, w_gt, h_gt = parse_coords(line_gt, gt_width, gt_height)
+                    coords_gt = adjust_coords(
+                        x_gt, y_gt, w_gt, h_gt, gt_width, gt_height
+                    )
+                    if is_match(coords_gmm, coords_gt):
+                        match_flag += 1
+                        TP += 1
+                        save_detection(
+                            img_gt,
+                            coords_gt,
+                            gt_file,
+                            video_fol,
+                            num,
+                            saving_dir,
+                            specie_list,
+                        )
+                        del gt_text[count_gt_line]
+                        break
+
+                if not match_flag:
+                    FP += handle_false_positive(
+                        img_gt, coords_gmm, save_main_dir, net, meta
+                    )
+
         else:
-            yolo_txt=[]
+            FP += gt_count
 
-        if (os.path.exists(gmm_optical_txt_path)):
-            gmm_optical_txt1=open(gmm_optical_txt_path)
-            gmm_optical_txt=gmm_optical_txt1.readlines()
-            gmm_optical_txt1.close()
-        else:
-            gmm_optical_txt=[]
+# Calculate and print metrics
+FN = abs(total_gt_count - TP)
+PR = TP / (TP + FP)
+RE = TP / (TP + FN)
+F_SCORE = 2 * PR * RE / (PR + RE)
 
-        if(len(yolo_txt)==0 and len(gmm_optical_txt)!=0): # only gmm detections
-            for gmm_txt1 in gmm_optical_txt:
-                gmm_txt=gmm_txt1.rstrip()
-                coords_gmm=gmm_txt.split(' ')
-                label_gmm=int(coords_gmm[0])
-                w_gmm=round(float(coords_gmm[3])*gmm_width)
-                h_gmm=round(float(coords_gmm[4])*gmm_height)
-                x_gmm=round(float(coords_gmm[1])*gmm_width)
-                y_gmm=round(float(coords_gmm[2])*gmm_height)
-                x_gmm=int(x_gmm)
-                y_gmm=int(y_gmm)
-                h_gmm=int(h_gmm)
-                w_gmm=int(w_gmm)
-                xmin_gmm = x_gmm - w_gmm/2
-                ymin_gmm = y_gmm - h_gmm/2
-                xmax_gmm = x_gmm + w_gmm/2
-                ymax_gmm = y_gmm + h_gmm/2  
-                if(xmin_gmm<0):
-                    xmin_gmm=0
-                if(ymin_gmm<0):
-                    ymin_gmm=0
-                if(xmax_gmm>gmm_width):
-                    xmax_gmm=gmm_width
-                if(ymax_gmm>gmm_height):
-                    ymax_gmm=gmm_height
-                match_flag=0
-                count_gt_line=-1
-                for line_gt in gt_lines:
-                    count_gt_line+=1
-                    line_gt1 = line_gt.rstrip()
-                    coords=line_gt1.split(' ')
-                    label_gt=int(coords[0])
-                    
-                    w_gt=round(float(coords[3])*gt_width)
-                    h_gt=round(float(coords[4])*gt_height)
-                    x_gt=round(float(coords[1])*gt_width)
-                    y_gt=round(float(coords[2])*gt_height)
-                    x_gt=int(x_gt)
-                    y_gt=int(y_gt)
-                    h_gt=int(h_gt)
-                    w_gt=int(w_gt)
-                    xmin_gt = int(x_gt - w_gt/2)
-                    ymin_gt = int(y_gt - h_gt/2)
-                    xmax_gt = int(x_gt + w_gt/2)
-                    ymax_gt = int(y_gt + h_gt/2)
-                    if(xmin_gt<0):
-                        xmin_gt=0
-                    if(ymin_gt<0):
-                        ymin_gt=0
-                    if(xmax_gt>gt_width):
-                        xmax_gt=gt_width
-                    if(ymax_gt>gt_height):
-                        ymax_gt=gt_height
-                    # now calculating IOMin 
-                    
-                    xa=max(xmin_gmm,xmin_gt)
-                    ya=max(ymin_gmm,ymin_gt)
-                    xb=min(xmax_gmm,xmax_gt)
-                    yb=min(ymax_gmm,ymax_gt)
-                    if(xb>xa and yb>ya):
-                        match_flag+=1
-                        area_inter=(xb-xa+1)*(yb-ya+1)
-                        area_gt=(xmax_gt-xmin_gt+1)*(ymax_gt-ymin_gt+1)
-                        area_pred=(xmax_gmm-xmin_gmm+1)*(ymax_gmm-ymin_gmm+1)
-                        area_min=min(area_gt,area_pred)
-                        area_union=area_pred+area_gt-area_inter
-                        
-                    #now checking IO over Min area
-                        if(float(area_inter)/area_min>=0.5):
-                            
-                            if(label_gmm==label_gt):
-                                TP+=1
-                                num[label_gt] += 1
-                                det_image+=1
-                                print('True count : {}'.format(TP))
-                            else:
-                                FP+=1
-                            del gt_lines[count_gt_line]
-
-                if match_flag==0:
-                    # FP+=1
-                    img_patch=img_rgb[ymin_gmm:ymax_gmm,xmin_gmm:xmax_gmm]
-                    img_patch = cv2.resize(img_patch.astype('float32'), dsize=(50,50))
-                    if not os.path.exists(save_main_dir):
-                        os.makedirs(save_main_dir)
-                    cv2.imwrite(save_main_dir+'/'+ "test_image.png", img_patch)
-                    im = load_image(save_main_dir+'/'+ "test_image.png", 0, 0)
-                    r = classify(net, meta, im)
-                    r=r[0]
-                    if r[0]=='background' or float(r[1])<0.8:
-                        # cv2.imwrite(save_main_dir+'/'+ r[0]+"_"+str(bkg_count)+"_.png", img_patch)
-                        # print('fish calss is {} and probability is {}'.format(r[0],float(r[1])))
-                        bkg_count+=1
-                        # print(bkg_count)
-                    else:
-
-                        FP+=1
-        if(len(yolo_txt)!=0 and len(gmm_optical_txt)==0): # only yolo
-                 for gmm_txt1 in yolo_txt:
-                  gmm_txt=gmm_txt1.rstrip()
-                  coords_gmm=gmm_txt.split(' ')
-                  label_gmm=int(coords_gmm[0])
-                  w_gmm=round(float(coords_gmm[3])*gmm_width)
-                  h_gmm=round(float(coords_gmm[4])*gmm_height)
-                  x_gmm=round(float(coords_gmm[1])*gmm_width)
-                  y_gmm=round(float(coords_gmm[2])*gmm_height)
-                  x_gmm=int(x_gmm)
-                  y_gmm=int(y_gmm)
-                  h_gmm=int(h_gmm)
-                  w_gmm=int(w_gmm)
-                  xmin_gmm = x_gmm - w_gmm/2
-                  ymin_gmm = y_gmm - h_gmm/2
-                  xmax_gmm = x_gmm + w_gmm/2
-                  ymax_gmm = y_gmm + h_gmm/2  
-                  if(xmin_gmm<0):
-                    xmin_gmm=0
-                  if(ymin_gmm<0):
-                    ymin_gmm=0
-                  if(xmax_gmm>gmm_width):
-                    xmax_gmm=gmm_width
-                  if(ymax_gmm>gmm_height):
-                    ymax_gmm=gmm_height
-                  match_flag=0
-                  count_gt_line=-1
-                  for line_gt in gt_lines:
-                    count_gt_line+=1  
-                    line_gt1 = line_gt.rstrip()
-                    coords=line_gt1.split(' ')
-                    label_gt=int(coords[0])
-                    
-                    w_gt=round(float(coords[3])*gt_width)
-                    h_gt=round(float(coords[4])*gt_height)
-                    x_gt=round(float(coords[1])*gt_width)
-                    y_gt=round(float(coords[2])*gt_height)
-                    x_gt=int(x_gt)
-                    y_gt=int(y_gt)
-                    h_gt=int(h_gt)
-                    w_gt=int(w_gt)
-                    xmin_gt = int(x_gt - w_gt/2)
-                    ymin_gt = int(y_gt - h_gt/2)
-                    xmax_gt = int(x_gt + w_gt/2)
-                    ymax_gt = int(y_gt + h_gt/2)
-                    if(xmin_gt<0):
-                        xmin_gt=0
-                    if(ymin_gt<0):
-                        ymin_gt=0
-                    if(xmax_gt>gt_width):
-                        xmax_gt=gt_width
-                    if(ymax_gt>gt_height):
-                        ymax_gt=gt_height
-                    # now calculating IOMin 
-                    
-                    xa=max(xmin_gmm,xmin_gt)
-                    ya=max(ymin_gmm,ymin_gt)
-                    xb=min(xmax_gmm,xmax_gt)
-                    yb=min(ymax_gmm,ymax_gt)
-                    if(xb>xa and yb>ya):
-                        match_flag+=1
-                        area_inter=(xb-xa+1)*(yb-ya+1)
-                        area_gt=(xmax_gt-xmin_gt+1)*(ymax_gt-ymin_gt+1)
-                        area_pred=(xmax_gmm-xmin_gmm+1)*(ymax_gmm-ymin_gmm+1)
-                        area_min=min(area_gt,area_pred)
-                        area_union=area_pred+area_gt-area_inter
-                        
-                    #now checking IO over Min area
-                        if(float(area_inter)/area_min>=0.5):
-                            
-                            if(label_gmm==label_gt):
-                                TP+=1
-                                num[label_gt] += 1
-                                print('True count : {}'.format(TP))
-                                det_image+=1
-                            else:
-                                FP+=1
-                            del gt_lines[count_gt_line]
+print(f"True Positives: {TP}")
+print(f"False Positives: {FP}")
+print(f"False Negatives: {FN}")
+print(f"Precision: {PR}")
+print(f"Recall: {RE}")
+print(f"F-score: {F_SCORE}")
+print(f"Background FP removed: {bkg_count}")
 
 
-                  if match_flag==0:
-                    # FP+=1
-                    img_patch=img_rgb[ymin_gmm:ymax_gmm,xmin_gmm:xmax_gmm]
-                    img_patch = cv2.resize(img_patch.astype('float32'), dsize=(50,50))
-                    if not os.path.exists(save_main_dir):
-                        os.makedirs(save_main_dir)
-                    cv2.imwrite(save_main_dir+'/'+ "test_image.png", img_patch)
-                    im = load_image(save_main_dir+'/'+ "test_image.png", 0, 0)
-                    r = classify(net, meta, im)
-                    r=r[0]
-                    if r[0]=='background' or float(r[1])<0.8:
-                        # cv2.imwrite(save_main_dir+'/'+ r[0]+"_"+str(bkg_count)+"_.png", img_patch)
-                        # print('fish calss is {} and probability is {}'.format(r[0],float(r[1])))
-                        bkg_count+=1
-                        # print(bkg_count)
-                    else:
-
-                        FP+=1
-        if(len(yolo_txt)!=0 and len(gmm_optical_txt)!=0):
-             new_optical_gmnm_yolo_txt=[]
-        # now we have annotations from yolo as well from gmm optical
-        # now the preference is for yolo when overlapping
-            for gmm_txt1 in yolo_txt:
-                    gmm_txt=gmm_txt1.rstrip()
-                    coords_gmm=gmm_txt.split(' ')
-                    label_gmm=int(coords_gmm[0])
-                    w_gmm=round(float(coords_gmm[3])*gmm_width)
-                    h_gmm=round(float(coords_gmm[4])*gmm_height)
-                    x_gmm=round(float(coords_gmm[1])*gmm_width)
-                    y_gmm=round(float(coords_gmm[2])*gmm_height)
-                    x_gmm=int(x_gmm)
-                    y_gmm=int(y_gmm)
-                    h_gmm=int(h_gmm)
-                    w_gmm=int(w_gmm)
-                    xmin_gmm = x_gmm - w_gmm/2
-                    ymin_gmm = y_gmm - h_gmm/2
-                    xmax_gmm = x_gmm + w_gmm/2
-                    ymax_gmm = y_gmm + h_gmm/2  
-                    if(xmin_gmm<0):
-                        xmin_gmm=0
-                    if(ymin_gmm<0):
-                        ymin_gmm=0
-                    if(xmax_gmm>gmm_width):
-                        xmax_gmm=gmm_width
-                    if(ymax_gmm>gmm_height):
-                        ymax_gmm=gmm_height
-                    match_flag=0
-                    count_gt_line=-1
-                    for line_gt in gmm_optical_txt:
-                        count_gt_line+=1
-                        line_gt1 = line_gt.rstrip()
-                        coords=line_gt1.split(' ')
-                        label_gt=int(coords[0])
-                    
-                        w_gt=round(float(coords[3])*gt_width)
-                        h_gt=round(float(coords[4])*gt_height)
-                        x_gt=round(float(coords[1])*gt_width)
-                        y_gt=round(float(coords[2])*gt_height)
-                        x_gt=int(x_gt)
-                        y_gt=int(y_gt)
-                        h_gt=int(h_gt)
-                        w_gt=int(w_gt)
-                        xmin_gt = int(x_gt - w_gt/2)
-                        ymin_gt = int(y_gt - h_gt/2)
-                        xmax_gt = int(x_gt + w_gt/2)
-                        ymax_gt = int(y_gt + h_gt/2)
-                        if(xmin_gt<0):
-                            xmin_gt=0
-                        if(ymin_gt<0):
-                            ymin_gt=0
-                        if(xmax_gt>gt_width):
-                            xmax_gt=gt_width
-                        if(ymax_gt>gt_height):
-                            ymax_gt=gt_height
-                    # now calculating IOMin 
-                    
-                        xa=max(xmin_gmm,xmin_gt)
-                        ya=max(ymin_gmm,ymin_gt)
-                        xb=min(xmax_gmm,xmax_gt)
-                        yb=min(ymax_gmm,ymax_gt)
-                        if(xb>xa and yb>ya):
-                            
-                            area_inter=(xb-xa+1)*(yb-ya+1)
-                            area_gt=(xmax_gt-xmin_gt+1)*(ymax_gt-ymin_gt+1)
-                            area_pred=(xmax_gmm-xmin_gmm+1)*(ymax_gmm-ymin_gmm+1)
-                            area_min=min(area_gt,area_pred)
-                            area_union=area_pred+area_gt-area_inter
-                            if(float(area_inter)/area_union>=0.3):
-                                match_flag+=1
-                                tmp = [int(coords_gmm[0]), float(coords_gmm[1]), float(coords_gmm[2]), float(coords_gmm[3]), float(coords_gmm[4])]
-                                new_optical_gmnm_yolo_txt.append(tmp)
-                                img=cv2.rectangle(img_rgb,(xmin_gmm,ymin_gmm),(xmax_gmm,ymax_gmm),(255,12,0),2)
-                                del gmm_optical_txt[count_gt_line]
-
-                    if match_flag==0:
-                    # unique yolo output
-                                tmp = [int(coords_gmm[0]), float(coords_gmm[1]), float(coords_gmm[2]), float(coords_gmm[3]), float(coords_gmm[4])]
-                                new_optical_gmnm_yolo_txt.append(tmp)
-                                img=cv2.rectangle(img_rgb,(xmin_gmm,ymin_gmm),(xmax_gmm,ymax_gmm),(255,12,0),2)
-
-                   
-            if(len(gmm_optical_txt)!=0):
-                for gmm_optical_lines in gmm_optical_txt:
-                    gmm_optical_info=gmm_optical_lines.rstrip()
-                    coords=gmm_optical_info.split(' ')
-                    label_gt=int(coords[0])
-                
-                    w_gt=round(float(coords[3])*gt_width)
-                    h_gt=round(float(coords[4])*gt_height)
-                    x_gt=round(float(coords[1])*gt_width)
-                    y_gt=round(float(coords[2])*gt_height)
-                    x_gt=int(x_gt)
-                    y_gt=int(y_gt)
-                    h_gt=int(h_gt)
-                    w_gt=int(w_gt)
-                    xmin_gt = int(x_gt - w_gt/2)
-                    ymin_gt = int(y_gt - h_gt/2)
-                    xmax_gt = int(x_gt + w_gt/2)
-                    ymax_gt = int(y_gt + h_gt/2)
-                    tmp=[int(coords[0]), float(coords[1]), float(coords[2]), float(coords[3]), float(coords[4])]
-                    img=cv2.rectangle(img_rgb,(xmin_gt,ymin_gt),(xmax_gt,ymax_gt),(255,12,0),2)
-                                
-                # now the unique gmm_optical remaining
-                    new_optical_gmnm_yolo_txt.append(tmp)
-
-            # now traditional detections vs GT comparison
-            xml_content = ""
-            for obj in new_optical_gmnm_yolo_txt:
-                xml_content += "%d %f %f %f %f\n" % (obj[0], obj[1], obj[2], obj[3], obj[4])
-            if not os.path.exists(join(saving_dir,video_file)):
-                os.makedirs(join(saving_dir,video_file))
-            f = open(join(saving_dir,video_file,img_file).split('.png')[0]+'.txt', "w")
-            f.write(xml_content)
-            f.close()
-            cv2.imwrite(join(saving_dir,video_file,img_file),img)
-                    
-            ab=open(join(saving_dir,video_file,img_file).split('.png')[0]+'.txt')
-            new_optical_gmnm_yolo_txt1=ab.readlines()
-            for gmm_txt1 in new_optical_gmnm_yolo_txt1:
-                gmm_txt=gmm_txt1.rstrip()
-                coords_gmm=gmm_txt.split(' ')
-                label_gmm=int(coords_gmm[0])
-                w_gmm=round(float(coords_gmm[3])*gmm_width)
-                h_gmm=round(float(coords_gmm[4])*gmm_height)
-                x_gmm=round(float(coords_gmm[1])*gmm_width)
-                y_gmm=round(float(coords_gmm[2])*gmm_height)
-                x_gmm=int(x_gmm)
-                y_gmm=int(y_gmm)
-                h_gmm=int(h_gmm)
-                w_gmm=int(w_gmm)
-                xmin_gmm = x_gmm - w_gmm/2
-                ymin_gmm = y_gmm - h_gmm/2
-                xmax_gmm = x_gmm + w_gmm/2
-                ymax_gmm = y_gmm + h_gmm/2  
-                if(xmin_gmm<0):
-                    xmin_gmm=0
-                if(ymin_gmm<0):
-                    ymin_gmm=0
-                if(xmax_gmm>gmm_width):
-                    xmax_gmm=gmm_width
-                if(ymax_gmm>gmm_height):
-                    ymax_gmm=gmm_height
-                match_flag=0
-                for line_gt in gt_lines:
-                    count_gt_line+=1
-                    line_gt1 = line_gt.rstrip()
-                    coords=line_gt1.split(' ')
-                    label_gt=int(coords[0])
-                    
-                    w_gt=round(float(coords[3])*gt_width)
-                    h_gt=round(float(coords[4])*gt_height)
-                    x_gt=round(float(coords[1])*gt_width)
-                    y_gt=round(float(coords[2])*gt_height)
-                    x_gt=int(x_gt)
-                    y_gt=int(y_gt)
-                    h_gt=int(h_gt)
-                    w_gt=int(w_gt)
-                    xmin_gt = int(x_gt - w_gt/2)
-                    ymin_gt = int(y_gt - h_gt/2)
-                    xmax_gt = int(x_gt + w_gt/2)
-                    ymax_gt = int(y_gt + h_gt/2)
-                    if(xmin_gt<0):
-                        xmin_gt=0
-                    if(ymin_gt<0):
-                        ymin_gt=0
-                    if(xmax_gt>gt_width):
-                        xmax_gt=gt_width
-                    if(ymax_gt>gt_height):
-                        ymax_gt=gt_height
-                    # now calculating IOMin 
-                    
-                    xa=max(xmin_gmm,xmin_gt)
-                    ya=max(ymin_gmm,ymin_gt)
-                    xb=min(xmax_gmm,xmax_gt)
-                    yb=min(ymax_gmm,ymax_gt)
-                    if(xb>xa and yb>ya):
-                        match_flag+=1
-                        area_inter=(xb-xa+1)*(yb-ya+1)
-                        area_gt=(xmax_gt-xmin_gt+1)*(ymax_gt-ymin_gt+1)
-                        area_pred=(xmax_gmm-xmin_gmm+1)*(ymax_gmm-ymin_gmm+1)
-                        area_min=min(area_gt,area_pred)
-                        area_union=area_pred+area_gt-area_inter
-                        
-                    #now checking IO over Min area
-                        if(float(area_inter)/area_min>=0.5):
-                            
-                            if(label_gmm==label_gt):
-                                TP+=1
-                                num[label_gt] += 1
-                                print('True count : {}'.format(TP))
-                                det_image+=1
-                            else:
-                                FP+=1
+# Helper Functions
+def parse_coords(line, width, height):
+    coords = line.strip().split(" ")
+    x = int(round(float(coords[1]) * width))
+    y = int(round(float(coords[2]) * height))
+    w = int(round(float(coords[3]) * width))
+    h = int(round(float(coords[4]) * height))
+    return x, y, w, h
 
 
-                if match_flag==0:
-                    # FP+=1
-                    img_patch=img_rgb[ymin_gmm:ymax_gmm,xmin_gmm:xmax_gmm]
-                    img_patch = cv2.resize(img_patch.astype('float32'), dsize=(50,50))
-                    if not os.path.exists(save_main_dir):
-                        os.makedirs(save_main_dir)
-                    cv2.imwrite(save_main_dir+'/'+ "test_image.png", img_patch)
-                    im = load_image(save_main_dir+'/'+ "test_image.png", 0, 0)
-                    r = classify(net, meta, im)
-                    r=r[0]
-                    if r[0]=='background' or float(r[1])<0.8:
-                        # cv2.imwrite(save_main_dir+'/'+ r[0]+"_"+str(bkg_count)+"_.png", img_patch)
-                        # print('fish calss is {} and probability is {}'.format(r[0],float(r[1])))
-                        bkg_count+=1
-                        # print(bkg_count)
-                    else:
-
-                        FP+=1
+def adjust_coords(x, y, w, h, img_width, img_height):
+    xmin = max(0, x - w // 2)
+    ymin = max(0, y - h // 2)
+    xmax = min(img_width, x + w // 2)
+    ymax = min(img_height, y + h // 2)
+    return xmin, ymin, xmax, ymax
 
 
+def is_match(coords_gmm, coords_gt, threshold=0.5):
+    xa, ya = max(coords_gmm[0], coords_gt[0]), max(coords_gmm[1], coords_gt[1])
+    xb, yb = min(coords_gmm[2], coords_gt[2]), min(coords_gmm[3], coords_gt[3])
+    if xb > xa and yb > ya:
+        inter_area = (xb - xa + 1) * (yb - ya + 1)
+        gt_area = (coords_gt[2] - coords_gt[0] + 1) * (coords_gt[3] - coords_gt[1] + 1)
+        pred_area = (coords_gmm[2] - coords_gmm[0] + 1) * (
+            coords_gmm[3] - coords_gmm[1] + 1
+        )
+        min_area = min(gt_area, pred_area)
+        return float(inter_area) / min_area >= threshold
+    return False
 
-        
-    else: # when both yolo and gmmOptical files are not present in respective folders
-        FP+=gt_count
-print(num)
-print("Total GT detections are {}".format(total_gt_count))
-FN=abs(total_gt_count-TP)      
-print('True positives are:  ', TP)
-print('False Positives are:   ', FP)
-print('False Neagatives are:   ', FN)
-PR=float(TP)/(TP+FP) 
-RE=float(TP)/(TP+FN)
-print (' Precision is :    ',PR)     
-print (' Recall is :    ',RE )    
-F_SCORE=float(2*PR*RE)/(PR+RE)
-print (' F-score is :    ', F_SCORE)     
 
+def save_detection(img, coords, gt_file, video_fol, num, saving_dir, specie_list):
+    fish_label = int(gt_file.split(" ")[0])
+    img_patch = cv2.resize(
+        img[coords[1] : coords[3], coords[0] : coords[2]].astype("float32"),
+        dsize=(50, 50),
+    )
+    fish_name = specie_list[fish_label].split(" ")[1]
+    save_path = join(saving_dir, video_fol)
+    os.makedirs(save_path, exist_ok=True)
+    cv2.imwrite(join(save_path, f"{num[fish_label]}_{fish_name}.png"), img_patch)
+    num[fish_label] += 1
+
+
+def handle_false_positive(img, coords, save_main_dir, net, meta):
+    global bkg_count
+    img_patch = cv2.resize(
+        img[coords[1] : coords[3], coords[0] : coords[2]].astype("float32"),
+        dsize=(50, 50),
+    )
+    os.makedirs(save_main_dir, exist_ok=True)
+    test_img_path = join(save_main_dir, "test_image.png")
+    cv2.imwrite(test_img_path, img_patch)
+    im = lib.load_image_color(test_img_path.encode("utf-8"), 0, 0)
+    r = classify(net, meta, im)
+    if r[0][0] == "background" or r[0][1] < 0.9:
+        bkg_count += 1
+        return 0
+    return 1
