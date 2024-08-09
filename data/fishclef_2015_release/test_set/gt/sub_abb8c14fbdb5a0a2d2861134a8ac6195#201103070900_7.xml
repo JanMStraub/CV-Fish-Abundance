@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="abb8c14fbdb5a0a2d2861134a8ac6195#201103070900">
+   <frame id="84">
+      <object h="28" species_id="3" species_name="Amphiprion Clarkii" w="86" x="134" y="0"/>
+   </frame>
+   <frame id="85">
+      <object h="36" species_id="1" species_name="Amphiprion Clarkii" w="95" x="125" y="0"/>
+   </frame>
+   <frame id="86">
+      <object h="42" species_id="1" species_name="Amphiprion Clarkii" w="114" x="108" y="0"/>
+   </frame>
+   <frame id="87">
+      <object h="48" species_id="1" species_name="Amphiprion Clarkii" w="118" x="92" y="0"/>
+   </frame>
+   <frame id="88">
+      <object h="54" species_id="1" species_name="Amphiprion Clarkii" w="117" x="66" y="2"/>
+   </frame>
+   <frame id="89">
+      <object h="60" species_id="1" species_name="Amphiprion Clarkii" w="121" x="47" y="1"/>
+   </frame>
+   <frame id="90">
+      <object h="55" species_id="1" species_name="Amphiprion Clarkii" w="116" x="35" y="9"/>
+   </frame>
+   <frame id="91">
+      <object h="55" species_id="1" species_name="Amphiprion Clarkii" w="103" x="27" y="10"/>
+   </frame>
+   <frame id="92">
+      <object h="64" species_id="1" species_name="Amphiprion Clarkii" w="96" x="16" y="4"/>
+   </frame>
+   <frame id="93">
+      <object h="62" species_id="1" species_name="Amphiprion Clarkii" w="78" x="9" y="2"/>
+   </frame>
+   <frame id="94">
+      <object h="44" id="611" species_id="1" species_name="Amphiprion Clarkii" w="54" x="5" y="31"/>
+   </frame>
+   <frame id="95">
+      <object h="32" id="612" species_id="1" species_name="Amphiprion Clarkii" w="25" x="10" y="39"/>
+   </frame>
+   <frame id="96">
+      <object h="33" id="613" species_id="1" species_name="Amphiprion Clarkii" w="16" x="5" y="40"/>
+   </frame>
+   <frame id="138">
+      <object h="37" id="614" species_id="1" species_name="Amphiprion Clarkii" w="11" x="5" y="20"/>
+   </frame>
+   <frame id="139">
+      <object h="42" id="615" species_id="1" species_name="Amphiprion Clarkii" w="15" x="5" y="15"/>
+   </frame>
+   <frame id="140">
+      <object h="37" id="616" species_id="1" species_name="Amphiprion Clarkii" w="19" x="5" y="15"/>
+   </frame>
+   <frame id="141">
+      <object h="37" id="617" species_id="1" species_name="Amphiprion Clarkii" w="27" x="5" y="11"/>
+   </frame>
+   <frame id="142">
+      <object h="32" id="618" species_id="1" species_name="Amphiprion Clarkii" w="31" x="5" y="12"/>
+   </frame>
+   <frame id="143">
+      <object h="24" id="619" species_id="1" species_name="Amphiprion Clarkii" w="19" x="21" y="12"/>
+   </frame>
+   <frame id="144">
+      <object h="19" id="620" species_id="1" species_name="Amphiprion Clarkii" w="18" x="5" y="12"/>
+   </frame>
+</video>

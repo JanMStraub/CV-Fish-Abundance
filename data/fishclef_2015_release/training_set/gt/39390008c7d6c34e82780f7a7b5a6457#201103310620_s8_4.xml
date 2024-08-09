@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="39390008c7d6c34e82780f7a7b5a6457#201103310620" location="NPP3" camera="4">
+   <frame id="0">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="236" y="108"/>
+   </frame>
+   <frame id="1">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="236" y="108"/>
+   </frame>
+   <frame id="2">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="236" y="107"/>
+   </frame>
+   <frame id="3">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="241" y="106"/>
+   </frame>
+   <frame id="4">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="246" y="105"/>
+   </frame>
+   <frame id="5">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="246" y="105"/>
+   </frame>
+   <frame id="6">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="248" y="104"/>
+   </frame>
+   <frame id="7">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="249" y="104"/>
+      <object fish_species="Dascyllus Reticulatus" h="49" w="53" x="266" y="38"/>
+   </frame>
+   <frame id="8">
+      <object fish_species="Myripristis Kuntee" h="19" w="43" x="251" y="104"/>
+      <object fish_species="Dascyllus Reticulatus" h="49" w="61" x="256" y="42"/>
+   </frame>
+   <frame id="9">
+      <object fish_species="Myripristis Kuntee" h="19" w="39" x="256" y="104"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="69" x="239" y="53"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Myripristis Kuntee" h="19" w="39" x="259" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="61" x="221" y="64"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Myripristis Kuntee" h="19" w="39" x="259" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="58" x="216" y="69"/>
+   </frame>
+   <frame id="12">
+      <object fish_species="Myripristis Kuntee" h="19" w="33" x="265" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="60" x="194" y="86"/>
+   </frame>
+   <frame id="13">
+      <object fish_species="Myripristis Kuntee" h="19" w="29" x="269" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="60" x="178" y="92"/>
+   </frame>
+   <frame id="14">
+      <object fish_species="Myripristis Kuntee" h="19" w="29" x="269" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="58" x="171" y="96"/>
+   </frame>
+   <frame id="15">
+      <object fish_species="Myripristis Kuntee" h="19" w="25" x="273" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="56" x="155" y="102"/>
+   </frame>
+   <frame id="16">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="275" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="51" x="149" y="107"/>
+   </frame>
+   <frame id="17">
+      <object fish_species="Dascyllus Reticulatus" h="33" w="46" x="145" y="110"/>
+   </frame>
+   <frame id="18">
+      <object fish_species="Dascyllus Reticulatus" h="31" w="43" x="138" y="113"/>
+   </frame>
+   <frame id="19">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="41" x="133" y="113"/>
+   </frame>
+   <frame id="20">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="41" x="126" y="113"/>
+   </frame>
+   <frame id="33">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="27" x="131" y="126"/>
+   </frame>
+   <frame id="34">
+      <object fish_species="Pempheris Vanicolensis" h="19" w="24" x="125" y="121"/>
+   </frame>
+   <frame id="35">
+      <object fish_species="Pempheris Vanicolensis" h="19" w="24" x="124" y="118"/>
+   </frame>
+   <frame id="46">
+      <object fish_species="Pempheris Vanicolensis" h="22" w="21" x="125" y="118"/>
+   </frame>
+   <frame id="47">
+      <object fish_species="Pempheris Vanicolensis" h="22" w="21" x="127" y="121"/>
+   </frame>
+   <frame id="56">
+      <object fish_species="Dascyllus Reticulatus" h="31" w="34" x="104" y="100"/>
+   </frame>
+   <frame id="57">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="44" x="125" y="95"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="134" y="130"/>
+   </frame>
+   <frame id="58">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="38" x="156" y="78"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="131" y="129"/>
+   </frame>
+   <frame id="59">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="42" x="173" y="66"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="131" y="129"/>
+   </frame>
+   <frame id="60">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="183" y="57"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="127" y="128"/>
+   </frame>
+   <frame id="61">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="235" y="37"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="127" y="128"/>
+   </frame>
+   <frame id="62">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="58" x="244" y="33"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="28" x="124" y="126"/>
+   </frame>
+   <frame id="63">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="39" x="280" y="19"/>
+      <object fish_species="Pempheris Vanicolensis" h="15" w="28" x="122" y="124"/>
+   </frame>
+   <frame id="96">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="21" x="171" y="105"/>
+   </frame>
+   <frame id="97">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="29" x="157" y="99"/>
+   </frame>
+   <frame id="98">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="33" x="149" y="94"/>
+   </frame>
+   <frame id="99">
+      <object fish_species="Dascyllus Reticulatus" h="33" w="35" x="138" y="79"/>
+   </frame>
+   <frame id="103">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="55" x="90" y="88"/>
+   </frame>
+   <frame id="104">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="60" x="76" y="76"/>
+   </frame>
+   <frame id="105">
+      <object fish_species="Dascyllus Reticulatus" h="51" w="54" x="61" y="55"/>
+   </frame>
+   <frame id="106">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="54" x="47" y="39"/>
+      <object fish_species="Abudefduf Vaigiensis" h="29" w="28" x="135" y="113"/>
+   </frame>
+   <frame id="107">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="54" x="42" y="34"/>
+      <object fish_species="Abudefduf Vaigiensis" h="29" w="28" x="135" y="113"/>
+   </frame>
+   <frame id="108">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="44" x="34" y="27"/>
+      <object fish_species="Abudefduf Vaigiensis" h="24" w="30" x="129" y="113"/>
+   </frame>
+   <frame id="109">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="38" x="28" y="22"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="34" x="122" y="116"/>
+   </frame>
+   <frame id="110">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="37" x="26" y="24"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="34" x="122" y="118"/>
+   </frame>
+   <frame id="111">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="44" x="35" y="28"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="34" x="117" y="118"/>
+   </frame>
+   <frame id="112">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="36" x="85" y="65"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="34" x="117" y="118"/>
+   </frame>
+   <frame id="113">
+      <object fish_species="Dascyllus Reticulatus" h="27" w="36" x="122" y="93"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="34" x="112" y="117"/>
+   </frame>
+   <frame id="114">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="40" x="183" y="128"/>
+      <object fish_species="Abudefduf Vaigiensis" h="22" w="27" x="113" y="116"/>
+   </frame>
+   <frame id="115">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="26" x="231" y="143"/>
+   </frame>
+   <frame id="121">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="23" x="134" y="56"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="26" x="135" y="50"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="33" x="143" y="47"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="36" x="156" y="49"/>
+      <object fish_species="Abudefduf Vaigiensis" h="20" w="28" x="152" y="93"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="23" x="126" y="121"/>
+   </frame>
+   <frame id="125">
+      <object fish_species="Abudefduf Vaigiensis" h="26" w="39" x="161" y="52"/>
+      <object fish_species="Abudefduf Vaigiensis" h="20" w="28" x="152" y="89"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="23" x="125" y="119"/>
+   </frame>
+   <frame id="126">
+      <object fish_species="Abudefduf Vaigiensis" h="27" w="40" x="176" y="57"/>
+      <object fish_species="Abudefduf Vaigiensis" h="20" w="28" x="147" y="83"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="29" x="123" y="114"/>
+   </frame>
+   <frame id="127">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="35" x="200" y="68"/>
+      <object fish_species="Abudefduf Vaigiensis" h="20" w="28" x="142" y="78"/>
+   </frame>
+   <frame id="128">
+      <object fish_species="Abudefduf Vaigiensis" h="28" w="35" x="209" y="73"/>
+      <object fish_species="Abudefduf Vaigiensis" h="20" w="28" x="140" y="73"/>
+   </frame>
+   <frame id="129">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="35" x="230" y="83"/>
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="21" x="136" y="64"/>
+   </frame>
+   <frame id="130">
+      <object fish_species="Abudefduf Vaigiensis" h="33" w="37" x="254" y="93"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Abudefduf Vaigiensis" h="33" w="37" x="264" y="98"/>
+   </frame>
+   <frame id="132">
+      <object fish_species="Abudefduf Vaigiensis" h="38" w="32" x="286" y="111"/>
+   </frame>
+   <frame id="133">
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="25" x="144" y="43"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="37" x="122" y="130"/>
+   </frame>
+   <frame id="134">
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="25" x="151" y="44"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="37" x="122" y="130"/>
+   </frame>
+   <frame id="135">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="30" x="169" y="55"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="37" x="121" y="130"/>
+   </frame>
+   <frame id="136">
+      <object fish_species="Abudefduf Vaigiensis" h="24" w="30" x="190" y="68"/>
+   </frame>
+   <frame id="137">
+      <object fish_species="Abudefduf Vaigiensis" h="25" w="33" x="202" y="74"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Abudefduf Vaigiensis" h="24" w="42" x="196" y="109"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Abudefduf Vaigiensis" h="24" w="38" x="191" y="109"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="32" x="216" y="95"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="36" x="225" y="96"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="39" x="241" y="101"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="39" x="267" y="109"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Abudefduf Vaigiensis" h="30" w="39" x="277" y="108"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Myripristis Kuntee" h="19" w="27" x="177" y="118"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Myripristis Kuntee" h="19" w="27" x="184" y="115"/>
+   </frame>
+   <frame id="158">
+      <object fish_species="Myripristis Kuntee" h="19" w="27" x="188" y="114"/>
+   </frame>
+   <frame id="159">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="192" y="109"/>
+   </frame>
+   <frame id="160">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="197" y="106"/>
+   </frame>
+   <frame id="161">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="203" y="104"/>
+   </frame>
+   <frame id="162">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="210" y="102"/>
+   </frame>
+   <frame id="163">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="217" y="99"/>
+   </frame>
+   <frame id="164">
+      <object fish_species="Myripristis Kuntee" h="19" w="32" x="219" y="98"/>
+   </frame>
+   <frame id="165">
+      <object fish_species="Myripristis Kuntee" h="19" w="31" x="226" y="96"/>
+      <object fish_species="Abudefduf Vaigiensis" h="26" w="22" x="284" y="13"/>
+   </frame>
+   <frame id="166">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="234" y="92"/>
+      <object fish_species="Abudefduf Vaigiensis" h="26" w="27" x="284" y="13"/>
+   </frame>
+   <frame id="167">
+      <object fish_species="Dascyllus Reticulatus" h="16" w="22" x="216" y="73"/>
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="238" y="92"/>
+      <object fish_species="Abudefduf Vaigiensis" h="26" w="36" x="282" y="12"/>
+   </frame>
+   <frame id="168">
+      <object fish_species="Dascyllus Reticulatus" h="16" w="22" x="226" y="65"/>
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="238" y="91"/>
+   </frame>
+   <frame id="169">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="242" y="88"/>
+      <object fish_species="Myripristis Kuntee" h="40" w="24" x="102" y="40"/>
+   </frame>
+   <frame id="170">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="242" y="88"/>
+      <object fish_species="Myripristis Kuntee" h="40" w="24" x="108" y="53"/>
+   </frame>
+   <frame id="171">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="245" y="87"/>
+      <object fish_species="Myripristis Kuntee" h="34" w="24" x="120" y="74"/>
+   </frame>
+   <frame id="172">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="245" y="86"/>
+   </frame>
+   <frame id="173">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="245" y="86"/>
+   </frame>
+   <frame id="174">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="248" y="86"/>
+   </frame>
+   <frame id="175">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="250" y="86"/>
+   </frame>
+   <frame id="176">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="250" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="38" x="158" y="77"/>
+   </frame>
+   <frame id="177">
+      <object fish_species="Myripristis Kuntee" h="18" w="21" x="254" y="89"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="40" x="185" y="71"/>
+   </frame>
+   <frame id="178">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="40" x="204" y="65"/>
+   </frame>
+   <frame id="179">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="22" x="126" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="30" w="28" x="222" y="60"/>
+   </frame>
+   <frame id="180">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="22" x="125" y="126"/>
+   </frame>
+   <frame id="188">
+      <object fish_species="Dascyllus Reticulatus" h="18" w="23" x="271" y="116"/>
+   </frame>
+   <frame id="190">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="24" x="238" y="133"/>
+   </frame>
+   <frame id="191">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="24" x="231" y="138"/>
+   </frame>
+   <frame id="211">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="214" y="98"/>
+   </frame>
+   <frame id="212">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="214" y="98"/>
+   </frame>
+   <frame id="213">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="214" y="98"/>
+   </frame>
+   <frame id="214">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="217" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="31" w="28" x="45" y="27"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="24" w="26" x="2" y="28"/>
+   </frame>
+   <frame id="215">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="217" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="26" w="28" x="40" y="34"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="24" w="29" x="10" y="34"/>
+   </frame>
+   <frame id="216">
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="217" y="100"/>
+      <object fish_species="Dascyllus Reticulatus" h="26" w="33" x="28" y="41"/>
+   </frame>
+   <frame id="217">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="33" x="16" y="48"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="27" w="29" x="49" y="53"/>
+      <object fish_species="Myripristis Kuntee" h="17" w="25" x="217" y="100"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="30" x="212" y="8"/>
+   </frame>
+   <frame id="218">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="30" x="218" y="17"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="29" x="56" y="59"/>
+      <object fish_species="Dascyllus Reticulatus" h="26" w="33" x="16" y="48"/>
+   </frame>
+   <frame id="219">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="30" x="230" y="38"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="22" w="29" x="72" y="73"/>
+      <object fish_species="Dascyllus Reticulatus" h="26" w="28" x="14" y="50"/>
+   </frame>
+   <frame id="220">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="33" x="241" y="62"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="22" w="25" x="85" y="83"/>
+      <object fish_species="Dascyllus Reticulatus" h="25" w="27" x="29" y="8"/>
+   </frame>
+   <frame id="221">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="37" x="244" y="68"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="20" w="24" x="92" y="88"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="26" x="28" y="10"/>
+   </frame>
+   <frame id="222">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="34" x="255" y="80"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="26" x="25" y="10"/>
+      <object fish_species="Dascyllus Reticulatus" h="31" w="33" x="181" y="46"/>
+   </frame>
+   <frame id="223">
+      <object fish_species="Dascyllus Reticulatus" h="31" w="33" x="175" y="55"/>
+   </frame>
+   <frame id="224">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="30" x="175" y="57"/>
+   </frame>
+   <frame id="225">
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="33" x="207" y="69"/>
+   </frame>
+   <frame id="226">
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="33" x="223" y="64"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="21" x="188" y="59"/>
+   </frame>
+   <frame id="227">
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="33" x="230" y="64"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="21" x="196" y="57"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="34" y="13"/>
+   </frame>
+   <frame id="228">
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="33" x="245" y="60"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="29" x="207" y="49"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="24" x="70" y="77"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="23" x="60" y="50"/>
+   </frame>
+   <frame id="229">
+      <object fish_species="Dascyllus Reticulatus" h="32" w="37" x="222" y="38"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="81" y="82"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="26" x="60" y="52"/>
+   </frame>
+   <frame id="230">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="31" x="56" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="86" y="85"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="37" x="229" y="33"/>
+   </frame>
+   <frame id="231">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="31" x="56" y="54"/>
+      <object fish_species="Dascyllus Reticulatus" h="25" w="41" x="246" y="26"/>
+   </frame>
+   <frame id="232">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="42" x="259" y="23"/>
+   </frame>
+   <frame id="233">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="42" x="264" y="21"/>
+   </frame>
+   <frame id="234">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="36" x="275" y="21"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="27" x="271" y="69"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="30" x="55" y="56"/>
+   </frame>
+   <frame id="235">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="32" x="281" y="21"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="25" x="270" y="66"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="36" x="58" y="55"/>
+   </frame>
+   <frame id="236">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="32" x="281" y="21"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="25" x="271" y="63"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="36" x="60" y="52"/>
+   </frame>
+   <frame id="237">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="32" x="281" y="16"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="25" x="271" y="59"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="71" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="25" x="133" y="115"/>
+   </frame>
+   <frame id="238">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="32" x="282" y="5"/>
+   </frame>
+   <frame id="239">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="34" x="281" y="1"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="27" x="149" y="120"/>
+   </frame>
+   <frame id="240">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="34" x="282" y="0"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="21" x="258" y="55"/>
+      <object fish_species="Dascyllus Reticulatus" h="25" w="24" x="155" y="126"/>
+   </frame>
+   <frame id="241">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="20" x="165" y="134"/>
+      <object fish_species="Dascyllus Reticulatus" h="31" w="30" x="253" y="52"/>
+   </frame>
+   <frame id="242">
+      <object fish_species="Dascyllus Reticulatus" h="31" w="30" x="253" y="52"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="25" x="204" y="98"/>
+   </frame>
+   <frame id="243">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="30" x="258" y="51"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="204" y="96"/>
+   </frame>
+   <frame id="244">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="30" x="263" y="45"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="29" x="199" y="96"/>
+   </frame>
+   <frame id="245">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="30" x="265" y="44"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="29" x="200" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="19" w="28" x="155" y="132"/>
+   </frame>
+   <frame id="246">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="32" x="273" y="40"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="29" x="200" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="25" x="146" y="127"/>
+   </frame>
+   <frame id="247">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="280" y="38"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="29" x="200" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="25" x="136" y="121"/>
+   </frame>
+   <frame id="248">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="283" y="36"/>
+      <object fish_species="Myripristis Kuntee" h="18" w="29" x="200" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="25" x="131" y="117"/>
+   </frame>
+   <frame id="249">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="94"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="22" x="124" y="110"/>
+   </frame>
+   <frame id="250">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="94"/>
+   </frame>
+   <frame id="251">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="94"/>
+   </frame>
+   <frame id="252">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="94"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="25" x="186" y="130"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="20" x="196" y="65"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="23" x="43" y="75"/>
+   </frame>
+   <frame id="253">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="96"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="185" y="130"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="20" x="207" y="60"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="23" x="36" y="68"/>
+   </frame>
+   <frame id="254">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="96"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="187" y="130"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="20" x="212" y="59"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="27" x="32" y="65"/>
+   </frame>
+   <frame id="255">
+      <object fish_species="Myripristis Kuntee" h="18" w="26" x="202" y="96"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="192" y="135"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="27" x="24" y="60"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="25" x="228" y="57"/>
+   </frame>
+   <frame id="256">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="27" x="244" y="54"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="30" x="19" y="58"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="29" x="196" y="136"/>
+   </frame>
+   <frame id="257">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="27" x="253" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="30" x="196" y="136"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="30" x="17" y="56"/>
+   </frame>
+   <frame id="258">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="27" x="269" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="28" x="200" y="139"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="27" x="15" y="54"/>
+   </frame>
+   <frame id="265">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="32" x="170" y="0"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="26" x="212" y="99"/>
+   </frame>
+   <frame id="266">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="33" x="175" y="3"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="26" x="212" y="99"/>
+   </frame>
+   <frame id="267">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="33" x="193" y="12"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="27" x="212" y="99"/>
+   </frame>
+   <frame id="268">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="32" x="208" y="16"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="27" x="215" y="99"/>
+   </frame>
+   <frame id="269">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="37" x="209" y="16"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="27" x="215" y="99"/>
+   </frame>
+   <frame id="270">
+      <object fish_species="Pempheris Vanicolensis" h="20" w="24" x="21" y="49"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="27" x="219" y="99"/>
+   </frame>
+   <frame id="271">
+      <object fish_species="Pempheris Vanicolensis" h="20" w="24" x="19" y="47"/>
+      <object fish_species="Myripristis Kuntee" h="16" w="29" x="219" y="98"/>
+   </frame>
+   <frame id="272">
+      <object fish_species="Myripristis Kuntee" h="18" w="25" x="225" y="97"/>
+      <object fish_species="Pempheris Vanicolensis" h="20" w="27" x="15" y="46"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="21" x="139" y="109"/>
+   </frame>
+   <frame id="273">
+      <object fish_species="Pempheris Vanicolensis" h="20" w="27" x="14" y="44"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="21" x="145" y="112"/>
+   </frame>
+   <frame id="274">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="23" x="151" y="113"/>
+      <object fish_species="Myripristis Kuntee" h="17" w="26" x="231" y="99"/>
+      <object fish_species="Pempheris Vanicolensis" h="19" w="21" x="13" y="41"/>
+   </frame>
+   <frame id="275">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="23" x="151" y="113"/>
+      <object fish_species="Myripristis Kuntee" h="17" w="26" x="231" y="99"/>
+      <object fish_species="Pempheris Vanicolensis" h="19" w="21" x="13" y="41"/>
+   </frame>
+   <frame id="276">
+      <object fish_species="Myripristis Kuntee" h="19" w="22" x="237" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="19" x="156" y="117"/>
+   </frame>
+   <frame id="277">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="238" y="99"/>
+   </frame>
+   <frame id="278">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="241" y="99"/>
+   </frame>
+   <frame id="279">
+      <object fish_species="Myripristis Kuntee" h="19" w="23" x="241" y="99"/>
+   </frame>
+   <frame id="280">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="192" y="128"/>
+   </frame>
+   <frame id="281">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="200" y="120"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="26" x="141" y="111"/>
+   </frame>
+   <frame id="282">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="213" y="108"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="26" x="135" y="110"/>
+   </frame>
+   <frame id="283">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="228" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="26" x="126" y="106"/>
+   </frame>
+   <frame id="284">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="237" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="14" w="21" x="123" y="106"/>
+   </frame>
+   <frame id="285">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="244" y="74"/>
+   </frame>
+   <frame id="286">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="250" y="62"/>
+   </frame>
+   <frame id="287">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="254" y="57"/>
+   </frame>
+   <frame id="288">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="264" y="42"/>
+      <object fish_species="Myripristis Kuntee" h="22" w="24" x="237" y="98"/>
+   </frame>
+   <frame id="289">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="271" y="31"/>
+      <object fish_species="Myripristis Kuntee" h="22" w="27" x="234" y="98"/>
+   </frame>
+</video>

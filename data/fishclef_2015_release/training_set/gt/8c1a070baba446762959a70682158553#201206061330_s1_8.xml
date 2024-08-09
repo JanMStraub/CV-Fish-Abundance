@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="8c1a070baba446762959a70682158553#201206061330" location="NPP3" camera="2">
+   <frame id="0">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="312" y="117"/>
+   </frame>
+   <frame id="1">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="309" y="115"/>
+   </frame>
+   <frame id="2">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="309" y="115"/>
+   </frame>
+   <frame id="3">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="304" y="115"/>
+   </frame>
+   <frame id="4">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="296" y="118"/>
+   </frame>
+   <frame id="5">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="296" y="118"/>
+   </frame>
+   <frame id="6">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="63" x="296" y="118"/>
+   </frame>
+   <frame id="7">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="293" y="121"/>
+   </frame>
+   <frame id="8">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="52" x="293" y="121"/>
+   </frame>
+   <frame id="9">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="47" x="293" y="121"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="47" x="293" y="121"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="40" x="293" y="121"/>
+   </frame>
+   <frame id="39">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="39" x="343" y="184"/>
+   </frame>
+   <frame id="40">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="39" x="343" y="184"/>
+   </frame>
+   <frame id="41">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="42" x="344" y="185"/>
+   </frame>
+   <frame id="42">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="48" x="341" y="181"/>
+   </frame>
+   <frame id="43">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="45" x="347" y="187"/>
+   </frame>
+   <frame id="44">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="49" x="358" y="193"/>
+   </frame>
+   <frame id="45">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="49" x="361" y="195"/>
+   </frame>
+   <frame id="46">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="363" y="196"/>
+   </frame>
+   <frame id="47">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="366" y="198"/>
+   </frame>
+   <frame id="48">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="369" y="199"/>
+   </frame>
+   <frame id="49">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="372" y="201"/>
+   </frame>
+   <frame id="50">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="375" y="202"/>
+   </frame>
+   <frame id="51">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="45" x="387" y="206"/>
+   </frame>
+   <frame id="52">
+      <object fish_species="Dascyllus Reticulatus" h="45" w="43" x="391" y="206"/>
+   </frame>
+   <frame id="53">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="41" x="394" y="207"/>
+   </frame>
+   <frame id="54">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="38" x="398" y="208"/>
+   </frame>
+   <frame id="120">
+      <object fish_species="Dascyllus Reticulatus" h="62" w="61" x="348" y="164"/>
+   </frame>
+   <frame id="121">
+      <object fish_species="Dascyllus Reticulatus" h="57" w="58" x="348" y="174"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="55" x="334" y="192"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="71" x="324" y="192"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="61" x="309" y="199"/>
+   </frame>
+   <frame id="125">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="53" x="308" y="197"/>
+   </frame>
+   <frame id="126">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="39" x="304" y="189"/>
+   </frame>
+   <frame id="128">
+      <object fish_species="Dascyllus Reticulatus" h="54" w="64" x="275" y="165"/>
+   </frame>
+   <frame id="129">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="68" x="268" y="159"/>
+   </frame>
+   <frame id="130">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="68" x="264" y="153"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="58" x="259" y="143"/>
+   </frame>
+   <frame id="139">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="39" x="252" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="77" w="125" x="206" y="212"/>
+   </frame>
+   <frame id="140">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="38" x="256" y="101"/>
+   </frame>
+   <frame id="141">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="35" x="264" y="97"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="43" x="259" y="92"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="36" x="269" y="87"/>
+   </frame>
+   <frame id="144">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="44" x="268" y="79"/>
+   </frame>
+   <frame id="146">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="39" x="276" y="74"/>
+   </frame>
+   <frame id="147">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="39" x="276" y="74"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="38" x="286" y="69"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="47" x="280" y="66"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="45" x="285" y="60"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="43" x="296" y="60"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="50" x="299" y="56"/>
+   </frame>
+   <frame id="153">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="51" x="304" y="56"/>
+   </frame>
+   <frame id="154">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="54" x="309" y="53"/>
+   </frame>
+   <frame id="155">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="52" x="326" y="51"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="52" x="333" y="51"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="49" x="338" y="51"/>
+   </frame>
+   <frame id="200">
+      <object fish_species="Acanthurus Nigrofuscus" h="177" w="160" x="109" y="1"/>
+   </frame>
+   <frame id="201">
+      <object fish_species="Acanthurus Nigrofuscus" h="189" w="170" x="109" y="1"/>
+   </frame>
+   <frame id="202">
+      <object fish_species="Acanthurus Nigrofuscus" h="197" w="160" x="125" y="1"/>
+   </frame>
+   <frame id="203">
+      <object fish_species="Acanthurus Nigrofuscus" h="216" w="133" x="178" y="1"/>
+   </frame>
+   <frame id="204">
+      <object fish_species="Acanthurus Nigrofuscus" h="221" w="127" x="189" y="1"/>
+   </frame>
+   <frame id="205">
+      <object fish_species="Acanthurus Nigrofuscus" h="227" w="135" x="189" y="1"/>
+   </frame>
+   <frame id="206">
+      <object fish_species="Acanthurus Nigrofuscus" h="222" w="149" x="204" y="24"/>
+   </frame>
+   <frame id="207">
+      <object fish_species="Acanthurus Nigrofuscus" h="222" w="149" x="208" y="29"/>
+   </frame>
+   <frame id="208">
+      <object fish_species="Acanthurus Nigrofuscus" h="219" w="158" x="209" y="34"/>
+   </frame>
+   <frame id="209">
+      <object fish_species="Acanthurus Nigrofuscus" h="206" w="171" x="215" y="53"/>
+   </frame>
+   <frame id="210">
+      <object fish_species="Acanthurus Nigrofuscus" h="192" w="198" x="224" y="85"/>
+   </frame>
+   <frame id="211">
+      <object fish_species="Acanthurus Nigrofuscus" h="187" w="207" x="227" y="93"/>
+   </frame>
+   <frame id="212">
+      <object fish_species="Acanthurus Nigrofuscus" h="183" w="216" x="236" y="104"/>
+   </frame>
+   <frame id="213">
+      <object fish_species="Acanthurus Nigrofuscus" h="173" w="232" x="247" y="124"/>
+   </frame>
+   <frame id="214">
+      <object fish_species="Acanthurus Nigrofuscus" h="170" w="239" x="256" y="133"/>
+   </frame>
+   <frame id="215">
+      <object fish_species="Acanthurus Nigrofuscus" h="166" w="245" x="267" y="144"/>
+   </frame>
+   <frame id="216">
+      <object fish_species="Acanthurus Nigrofuscus" h="166" w="258" x="272" y="149"/>
+   </frame>
+   <frame id="217">
+      <object fish_species="Acanthurus Nigrofuscus" h="170" w="262" x="304" y="161"/>
+   </frame>
+   <frame id="218">
+      <object fish_species="Acanthurus Nigrofuscus" h="170" w="262" x="314" y="165"/>
+   </frame>
+   <frame id="219">
+      <object fish_species="Acanthurus Nigrofuscus" h="174" w="262" x="333" y="166"/>
+   </frame>
+   <frame id="220">
+      <object fish_species="Acanthurus Nigrofuscus" h="174" w="268" x="338" y="169"/>
+   </frame>
+   <frame id="221">
+      <object fish_species="Acanthurus Nigrofuscus" h="184" w="250" x="385" y="162"/>
+   </frame>
+   <frame id="222">
+      <object fish_species="Acanthurus Nigrofuscus" h="167" w="229" x="407" y="182"/>
+   </frame>
+   <frame id="223">
+      <object fish_species="Acanthurus Nigrofuscus" h="152" w="219" x="417" y="197"/>
+   </frame>
+   <frame id="224">
+      <object fish_species="Acanthurus Nigrofuscus" h="130" w="174" x="462" y="219"/>
+   </frame>
+   <frame id="225">
+      <object fish_species="Acanthurus Nigrofuscus" h="125" w="148" x="488" y="224"/>
+   </frame>
+   <frame id="226">
+      <object fish_species="Acanthurus Nigrofuscus" h="120" w="131" x="505" y="228"/>
+   </frame>
+   <frame id="227">
+      <object fish_species="Dascyllus Reticulatus" h="83" w="149" x="315" y="336"/>
+   </frame>
+   <frame id="228">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="46" x="382" y="96"/>
+   </frame>
+   <frame id="229">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="51" x="378" y="99"/>
+   </frame>
+   <frame id="230">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="51" x="378" y="99"/>
+   </frame>
+   <frame id="231">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="51" x="377" y="100"/>
+   </frame>
+   <frame id="232">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="51" x="371" y="103"/>
+   </frame>
+   <frame id="255">
+      <object fish_species="Acanthurus Nigrofuscus" h="115" w="112" x="521" y="253"/>
+   </frame>
+   <frame id="256">
+      <object fish_species="Acanthurus Nigrofuscus" h="134" w="123" x="509" y="241"/>
+   </frame>
+   <frame id="257">
+      <object fish_species="Acanthurus Nigrofuscus" h="140" w="123" x="505" y="237"/>
+   </frame>
+   <frame id="258">
+      <object fish_species="Acanthurus Nigrofuscus" h="138" w="107" x="494" y="245"/>
+   </frame>
+   <frame id="259">
+      <object fish_species="Acanthurus Nigrofuscus" h="130" w="115" x="470" y="259"/>
+   </frame>
+   <frame id="260">
+      <object fish_species="Acanthurus Nigrofuscus" h="120" w="117" x="464" y="268"/>
+   </frame>
+   <frame id="261">
+      <object fish_species="Acanthurus Nigrofuscus" h="100" w="122" x="451" y="288"/>
+   </frame>
+   <frame id="262">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="139" x="421" y="299"/>
+   </frame>
+   <frame id="263">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="151" x="410" y="299"/>
+   </frame>
+   <frame id="264">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="151" x="403" y="300"/>
+   </frame>
+   <frame id="265">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="151" x="391" y="301"/>
+   </frame>
+   <frame id="266">
+      <object fish_species="Acanthurus Nigrofuscus" h="83" w="154" x="367" y="309"/>
+   </frame>
+   <frame id="267">
+      <object fish_species="Acanthurus Nigrofuscus" h="83" w="149" x="355" y="305"/>
+   </frame>
+   <frame id="268">
+      <object fish_species="Acanthurus Nigrofuscus" h="79" w="149" x="346" y="308"/>
+   </frame>
+   <frame id="269">
+      <object fish_species="Acanthurus Nigrofuscus" h="79" w="149" x="337" y="308"/>
+   </frame>
+   <frame id="270">
+      <object fish_species="Acanthurus Nigrofuscus" h="79" w="149" x="330" y="304"/>
+   </frame>
+   <frame id="271">
+      <object fish_species="Acanthurus Nigrofuscus" h="79" w="147" x="324" y="303"/>
+   </frame>
+   <frame id="272">
+      <object fish_species="Acanthurus Nigrofuscus" h="92" w="128" x="282" y="295"/>
+   </frame>
+   <frame id="273">
+      <object fish_species="Acanthurus Nigrofuscus" h="92" w="128" x="273" y="292"/>
+   </frame>
+   <frame id="278">
+      <object fish_species="Acanthurus Nigrofuscus" h="94" w="127" x="159" y="226"/>
+   </frame>
+   <frame id="279">
+      <object fish_species="Acanthurus Nigrofuscus" h="94" w="127" x="148" y="225"/>
+   </frame>
+   <frame id="280">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="120" x="142" y="224"/>
+   </frame>
+   <frame id="281">
+      <object fish_species="Acanthurus Nigrofuscus" h="90" w="71" x="114" y="224"/>
+   </frame>
+   <frame id="283">
+      <object fish_species="Chaetodon Trifascialis" h="77" w="49" x="10" y="182"/>
+   </frame>
+   <frame id="284">
+      <object fish_species="Chaetodon Trifascialis" h="80" w="54" x="10" y="182"/>
+   </frame>
+   <frame id="285">
+      <object fish_species="Chaetodon Trifascialis" h="91" w="78" x="10" y="182"/>
+   </frame>
+   <frame id="286">
+      <object fish_species="Chaetodon Trifascialis" h="91" w="84" x="10" y="182"/>
+   </frame>
+   <frame id="287">
+      <object fish_species="Chaetodon Trifascialis" h="96" w="84" x="15" y="183"/>
+   </frame>
+   <frame id="288">
+      <object fish_species="Chaetodon Trifascialis" h="100" w="100" x="15" y="183"/>
+   </frame>
+   <frame id="289">
+      <object fish_species="Chaetodon Trifascialis" h="103" w="97" x="35" y="187"/>
+   </frame>
+   <frame id="290">
+      <object fish_species="Chaetodon Trifascialis" h="103" w="93" x="51" y="187"/>
+   </frame>
+   <frame id="291">
+      <object fish_species="Chaetodon Trifascialis" h="116" w="90" x="58" y="182"/>
+   </frame>
+   <frame id="292">
+      <object fish_species="Chaetodon Trifascialis" h="125" w="98" x="58" y="177"/>
+   </frame>
+   <frame id="293">
+      <object fish_species="Chaetodon Trifascialis" h="135" w="106" x="57" y="172"/>
+   </frame>
+   <frame id="294">
+      <object fish_species="Chaetodon Trifascialis" h="153" w="128" x="50" y="161"/>
+   </frame>
+   <frame id="295">
+      <object fish_species="Chaetodon Trifascialis" h="166" w="138" x="45" y="152"/>
+   </frame>
+   <frame id="296">
+      <object fish_species="Chaetodon Trifascialis" h="170" w="142" x="41" y="148"/>
+   </frame>
+   <frame id="297">
+      <object fish_species="Chaetodon Trifascialis" h="178" w="164" x="33" y="143"/>
+   </frame>
+   <frame id="298">
+      <object fish_species="Chaetodon Trifascialis" h="185" w="164" x="35" y="136"/>
+   </frame>
+   <frame id="299">
+      <object fish_species="Chaetodon Trifascialis" h="185" w="164" x="36" y="133"/>
+   </frame>
+   <frame id="300">
+      <object fish_species="Chaetodon Trifascialis" h="193" w="169" x="36" y="130"/>
+   </frame>
+   <frame id="301">
+      <object fish_species="Chaetodon Trifascialis" h="203" w="169" x="36" y="125"/>
+   </frame>
+   <frame id="302">
+      <object fish_species="Chaetodon Trifascialis" h="221" w="182" x="28" y="106"/>
+   </frame>
+   <frame id="303">
+      <object fish_species="Chaetodon Trifascialis" h="228" w="182" x="28" y="99"/>
+   </frame>
+   <frame id="304">
+      <object fish_species="Chaetodon Trifascialis" h="233" w="182" x="31" y="94"/>
+   </frame>
+   <frame id="305">
+      <object fish_species="Chaetodon Trifascialis" h="238" w="174" x="49" y="86"/>
+   </frame>
+   <frame id="306">
+      <object fish_species="Chaetodon Trifascialis" h="243" w="168" x="56" y="84"/>
+   </frame>
+   <frame id="307">
+      <object fish_species="Chaetodon Trifascialis" h="243" w="156" x="70" y="84"/>
+   </frame>
+   <frame id="308">
+      <object fish_species="Chaetodon Trifascialis" h="256" w="137" x="91" y="77"/>
+   </frame>
+   <frame id="309">
+      <object fish_species="Chaetodon Trifascialis" h="256" w="137" x="91" y="77"/>
+   </frame>
+   <frame id="310">
+      <object fish_species="Chaetodon Trifascialis" h="253" w="132" x="101" y="79"/>
+   </frame>
+   <frame id="311">
+      <object fish_species="Chaetodon Trifascialis" h="246" w="161" x="82" y="77"/>
+   </frame>
+   <frame id="312">
+      <object fish_species="Chaetodon Trifascialis" h="246" w="165" x="82" y="77"/>
+   </frame>
+   <frame id="313">
+      <object fish_species="Chaetodon Trifascialis" h="241" w="170" x="81" y="86"/>
+   </frame>
+   <frame id="314">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="176" x="81" y="86"/>
+   </frame>
+   <frame id="315">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="176" x="81" y="86"/>
+   </frame>
+   <frame id="316">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="180" x="91" y="93"/>
+   </frame>
+   <frame id="317">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="186" x="91" y="93"/>
+   </frame>
+   <frame id="318">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="178" x="109" y="89"/>
+   </frame>
+   <frame id="319">
+      <object fish_species="Chaetodon Trifascialis" h="247" w="178" x="109" y="89"/>
+   </frame>
+   <frame id="320">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="38" x="595" y="74"/>
+      <object fish_species="Chaetodon Trifascialis" h="261" w="175" x="125" y="79"/>
+   </frame>
+   <frame id="321">
+      <object fish_species="Chaetodon Trifascialis" h="261" w="175" x="125" y="79"/>
+   </frame>
+   <frame id="322">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="46" x="587" y="66"/>
+      <object fish_species="Chaetodon Trifascialis" h="272" w="175" x="133" y="71"/>
+   </frame>
+   <frame id="323">
+      <object fish_species="Chaetodon Trifascialis" h="280" w="170" x="142" y="70"/>
+   </frame>
+   <frame id="324">
+      <object fish_species="Chaetodon Trifascialis" h="280" w="170" x="142" y="70"/>
+   </frame>
+   <frame id="325">
+      <object fish_species="Dascyllus Reticulatus" h="52" w="76" x="558" y="45"/>
+      <object fish_species="Chaetodon Trifascialis" h="280" w="170" x="147" y="71"/>
+   </frame>
+   <frame id="326">
+      <object fish_species="Dascyllus Reticulatus" h="54" w="86" x="544" y="39"/>
+      <object fish_species="Chaetodon Trifascialis" h="280" w="167" x="155" y="78"/>
+   </frame>
+   <frame id="327">
+      <object fish_species="Dascyllus Reticulatus" h="59" w="89" x="527" y="21"/>
+      <object fish_species="Chaetodon Trifascialis" h="268" w="163" x="171" y="103"/>
+   </frame>
+   <frame id="328">
+      <object fish_species="Dascyllus Reticulatus" h="59" w="89" x="523" y="16"/>
+      <object fish_species="Chaetodon Trifascialis" h="265" w="163" x="188" y="106"/>
+   </frame>
+   <frame id="329">
+      <object fish_species="Dascyllus Reticulatus" h="59" w="89" x="515" y="12"/>
+      <object fish_species="Chaetodon Trifascialis" h="265" w="163" x="200" y="108"/>
+   </frame>
+   <frame id="330">
+      <object fish_species="Chaetodon Trifascialis" h="250" w="147" x="205" y="119"/>
+   </frame>
+   <frame id="331">
+      <object fish_species="Chaetodon Trifascialis" h="212" w="131" x="221" y="145"/>
+   </frame>
+   <frame id="332">
+      <object fish_species="Chaetodon Trifascialis" h="207" w="124" x="226" y="150"/>
+   </frame>
+   <frame id="333">
+      <object fish_species="Chaetodon Trifascialis" h="188" w="107" x="238" y="167"/>
+   </frame>
+   <frame id="334">
+      <object fish_species="Chaetodon Trifascialis" h="174" w="96" x="243" y="181"/>
+   </frame>
+   <frame id="335">
+      <object fish_species="Chaetodon Trifascialis" h="181" w="84" x="255" y="172"/>
+   </frame>
+   <frame id="336">
+      <object fish_species="Chaetodon Trifascialis" h="226" w="82" x="269" y="124"/>
+   </frame>
+   <frame id="337">
+      <object fish_species="Chaetodon Trifascialis" h="226" w="87" x="279" y="126"/>
+   </frame>
+   <frame id="338">
+      <object fish_species="Chaetodon Trifascialis" h="235" w="91" x="274" y="130"/>
+   </frame>
+   <frame id="339">
+      <object fish_species="Chaetodon Trifascialis" h="239" w="83" x="273" y="129"/>
+   </frame>
+   <frame id="340">
+      <object fish_species="Chaetodon Trifascialis" h="239" w="64" x="275" y="133"/>
+   </frame>
+   <frame id="341">
+      <object fish_species="Chaetodon Trifascialis" h="239" w="60" x="266" y="136"/>
+   </frame>
+   <frame id="342">
+      <object fish_species="Chaetodon Trifascialis" h="236" w="53" x="271" y="139"/>
+   </frame>
+   <frame id="343">
+      <object fish_species="Chaetodon Trifascialis" h="240" w="75" x="255" y="125"/>
+   </frame>
+   <frame id="344">
+      <object fish_species="Chaetodon Trifascialis" h="240" w="84" x="255" y="125"/>
+   </frame>
+   <frame id="345">
+      <object fish_species="Chaetodon Trifascialis" h="219" w="83" x="255" y="134"/>
+   </frame>
+   <frame id="346">
+      <object fish_species="Chaetodon Trifascialis" h="219" w="83" x="255" y="134"/>
+   </frame>
+   <frame id="347">
+      <object fish_species="Chaetodon Trifascialis" h="219" w="95" x="249" y="134"/>
+   </frame>
+   <frame id="348">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="98" x="243" y="134"/>
+   </frame>
+   <frame id="349">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="58" x="284" y="138"/>
+   </frame>
+   <frame id="350">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="58" x="295" y="137"/>
+   </frame>
+   <frame id="351">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="58" x="295" y="137"/>
+   </frame>
+   <frame id="352">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="74" x="290" y="141"/>
+   </frame>
+   <frame id="353">
+      <object fish_species="Chaetodon Trifascialis" h="214" w="85" x="285" y="143"/>
+   </frame>
+   <frame id="354">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="74" x="285" y="167"/>
+   </frame>
+   <frame id="355">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="288" y="165"/>
+   </frame>
+   <frame id="356">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="288" y="165"/>
+   </frame>
+   <frame id="357">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="296" y="170"/>
+   </frame>
+   <frame id="358">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="302" y="170"/>
+   </frame>
+   <frame id="359">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="302" y="170"/>
+   </frame>
+   <frame id="360">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="75" x="316" y="170"/>
+   </frame>
+   <frame id="361">
+      <object fish_species="Chaetodon Trifascialis" h="188" w="75" x="324" y="182"/>
+   </frame>
+   <frame id="362">
+      <object fish_species="Chaetodon Trifascialis" h="188" w="75" x="324" y="182"/>
+   </frame>
+   <frame id="363">
+      <object fish_species="Chaetodon Trifascialis" h="188" w="94" x="316" y="188"/>
+   </frame>
+   <frame id="364">
+      <object fish_species="Chaetodon Trifascialis" h="188" w="94" x="316" y="188"/>
+   </frame>
+   <frame id="365">
+      <object fish_species="Chaetodon Trifascialis" h="178" w="74" x="347" y="205"/>
+   </frame>
+   <frame id="366">
+      <object fish_species="Chaetodon Trifascialis" h="170" w="74" x="352" y="216"/>
+   </frame>
+   <frame id="367">
+      <object fish_species="Chaetodon Trifascialis" h="176" w="74" x="362" y="215"/>
+   </frame>
+   <frame id="368">
+      <object fish_species="Chaetodon Trifascialis" h="186" w="76" x="361" y="205"/>
+   </frame>
+   <frame id="369">
+      <object fish_species="Chaetodon Trifascialis" h="202" w="86" x="354" y="200"/>
+   </frame>
+   <frame id="370">
+      <object fish_species="Chaetodon Trifascialis" h="202" w="86" x="354" y="200"/>
+   </frame>
+   <frame id="371">
+      <object fish_species="Chaetodon Trifascialis" h="202" w="64" x="387" y="205"/>
+   </frame>
+   <frame id="372">
+      <object fish_species="Chaetodon Trifascialis" h="202" w="53" x="405" y="206"/>
+   </frame>
+   <frame id="373">
+      <object fish_species="Chaetodon Trifascialis" h="202" w="58" x="405" y="206"/>
+   </frame>
+   <frame id="374">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="60" x="408" y="214"/>
+   </frame>
+   <frame id="375">
+      <object fish_species="Chaetodon Trifascialis" h="197" w="65" x="408" y="214"/>
+      <object fish_species="Acanthurus Nigrofuscus" h="54" w="66" x="479" y="287"/>
+   </frame>
+   <frame id="376">
+      <object fish_species="Chaetodon Trifascialis" h="191" w="65" x="408" y="220"/>
+      <object fish_species="Acanthurus Nigrofuscus" h="54" w="66" x="479" y="287"/>
+   </frame>
+   <frame id="377">
+      <object fish_species="Chaetodon Trifascialis" h="162" w="65" x="427" y="238"/>
+      <object fish_species="Acanthurus Nigrofuscus" h="54" w="66" x="494" y="282"/>
+   </frame>
+   <frame id="378">
+      <object fish_species="Chaetodon Trifascialis" h="142" w="51" x="443" y="252"/>
+      <object fish_species="Acanthurus Nigrofuscus" h="54" w="66" x="498" y="282"/>
+   </frame>
+   <frame id="379">
+      <object fish_species="Chaetodon Trifascialis" h="130" w="51" x="447" y="263"/>
+      <object fish_species="Acanthurus Nigrofuscus" h="54" w="66" x="506" y="282"/>
+   </frame>
+   <frame id="382">
+      <object fish_species="Acanthurus Nigrofuscus" h="59" w="67" x="538" y="278"/>
+   </frame>
+   <frame id="383">
+      <object fish_species="Acanthurus Nigrofuscus" h="59" w="72" x="538" y="278"/>
+   </frame>
+   <frame id="384">
+      <object fish_species="Acanthurus Nigrofuscus" h="62" w="79" x="538" y="275"/>
+      <object fish_species="Chaetodon Trifascialis" h="138" w="98" x="435" y="285"/>
+   </frame>
+   <frame id="385">
+      <object fish_species="Acanthurus Nigrofuscus" h="67" w="84" x="548" y="271"/>
+      <object fish_species="Chaetodon Trifascialis" h="138" w="98" x="435" y="285"/>
+   </frame>
+   <frame id="386">
+      <object fish_species="Acanthurus Nigrofuscus" h="67" w="74" x="558" y="272"/>
+      <object fish_species="Chaetodon Trifascialis" h="138" w="111" x="430" y="284"/>
+   </frame>
+   <frame id="387">
+      <object fish_species="Acanthurus Nigrofuscus" h="67" w="67" x="565" y="272"/>
+      <object fish_species="Chaetodon Trifascialis" h="138" w="111" x="430" y="284"/>
+   </frame>
+   <frame id="388">
+      <object fish_species="Acanthurus Nigrofuscus" h="67" w="59" x="573" y="274"/>
+      <object fish_species="Chaetodon Trifascialis" h="139" w="119" x="430" y="279"/>
+   </frame>
+   <frame id="389">
+      <object fish_species="Chaetodon Trifascialis" h="139" w="119" x="430" y="279"/>
+   </frame>
+   <frame id="390">
+      <object fish_species="Chaetodon Trifascialis" h="139" w="119" x="430" y="279"/>
+   </frame>
+   <frame id="391">
+      <object fish_species="Chaetodon Trifascialis" h="134" w="103" x="435" y="272"/>
+   </frame>
+   <frame id="392">
+      <object fish_species="Chaetodon Trifascialis" h="134" w="92" x="435" y="271"/>
+   </frame>
+   <frame id="393">
+      <object fish_species="Chaetodon Trifascialis" h="134" w="85" x="440" y="272"/>
+   </frame>
+   <frame id="394">
+      <object fish_species="Chaetodon Trifascialis" h="134" w="75" x="439" y="275"/>
+   </frame>
+   <frame id="745">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="36" x="230" y="160"/>
+   </frame>
+   <frame id="746">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="48" x="226" y="163"/>
+   </frame>
+   <frame id="747">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="50" x="228" y="165"/>
+   </frame>
+   <frame id="748">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="52" x="229" y="165"/>
+   </frame>
+   <frame id="749">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="52" x="234" y="166"/>
+   </frame>
+   <frame id="750">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="52" x="236" y="167"/>
+   </frame>
+   <frame id="751">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="52" x="241" y="167"/>
+   </frame>
+   <frame id="752">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="249" y="166"/>
+   </frame>
+   <frame id="753">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="50" x="253" y="166"/>
+   </frame>
+   <frame id="754">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="258" y="165"/>
+   </frame>
+   <frame id="755">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="46" x="261" y="164"/>
+   </frame>
+   <frame id="756">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="45" x="263" y="163"/>
+   </frame>
+   <frame id="757">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="37" x="276" y="163"/>
+   </frame>
+   <frame id="758">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="35" x="279" y="162"/>
+   </frame>
+   <frame id="774">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="46" x="314" y="141"/>
+   </frame>
+   <frame id="775">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="46" x="314" y="141"/>
+   </frame>
+   <frame id="788">
+      <object fish_species="Dascyllus Reticulatus" h="42" w="35" x="346" y="136"/>
+   </frame>
+   <frame id="789">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="41" x="342" y="135"/>
+   </frame>
+   <frame id="790">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="44" x="339" y="134"/>
+   </frame>
+   <frame id="791">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="66" x="326" y="130"/>
+   </frame>
+   <frame id="792">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="66" x="321" y="129"/>
+   </frame>
+   <frame id="793">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="66" x="321" y="129"/>
+   </frame>
+   <frame id="794">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="79" x="312" y="124"/>
+   </frame>
+   <frame id="795">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="79" x="312" y="124"/>
+   </frame>
+   <frame id="796">
+      <object fish_species="Dascyllus Reticulatus" h="53" w="87" x="295" y="115"/>
+   </frame>
+   <frame id="797">
+      <object fish_species="Dascyllus Reticulatus" h="62" w="78" x="277" y="102"/>
+   </frame>
+   <frame id="798">
+      <object fish_species="Dascyllus Reticulatus" h="57" w="71" x="275" y="99"/>
+   </frame>
+   <frame id="799">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="70" x="273" y="95"/>
+   </frame>
+   <frame id="800">
+      <object fish_species="Dascyllus Reticulatus" h="52" w="68" x="270" y="93"/>
+   </frame>
+   <frame id="801">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="63" x="265" y="89"/>
+   </frame>
+   <frame id="802">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="63" x="264" y="88"/>
+   </frame>
+</video>

@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="0b21f0579d247c855e05405d3ed805c1#201205251240" location="NPP3" camera="4">
+   <frame id="0">
+      <object fish_species="Dascyllus Aruanus" h="68" w="87" x="322" y="233"/>
+   </frame>
+   <frame id="1">
+      <object fish_species="Dascyllus Aruanus" h="68" w="87" x="319" y="230"/>
+   </frame>
+   <frame id="2">
+      <object fish_species="Dascyllus Aruanus" h="68" w="87" x="342" y="231"/>
+   </frame>
+   <frame id="3">
+      <object fish_species="Dascyllus Aruanus" h="68" w="70" x="356" y="230"/>
+   </frame>
+   <frame id="4">
+      <object fish_species="Dascyllus Aruanus" h="68" w="60" x="367" y="231"/>
+   </frame>
+   <frame id="5">
+      <object fish_species="Dascyllus Aruanus" h="68" w="60" x="372" y="232"/>
+   </frame>
+   <frame id="6">
+      <object fish_species="Dascyllus Aruanus" h="68" w="60" x="380" y="234"/>
+   </frame>
+   <frame id="7">
+      <object fish_species="Dascyllus Aruanus" h="68" w="60" x="385" y="234"/>
+   </frame>
+   <frame id="8">
+      <object fish_species="Dascyllus Aruanus" h="68" w="60" x="391" y="235"/>
+   </frame>
+   <frame id="9">
+      <object fish_species="Dascyllus Aruanus" h="76" w="60" x="394" y="237"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Dascyllus Aruanus" h="76" w="60" x="397" y="240"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="410" y="251"/>
+   </frame>
+   <frame id="12">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="413" y="262"/>
+   </frame>
+   <frame id="13">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="414" y="263"/>
+   </frame>
+   <frame id="14">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="414" y="270"/>
+   </frame>
+   <frame id="15">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="415" y="278"/>
+   </frame>
+   <frame id="16">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="413" y="280"/>
+   </frame>
+   <frame id="17">
+      <object fish_species="Dascyllus Aruanus" h="84" w="51" x="409" y="291"/>
+   </frame>
+   <frame id="18">
+      <object fish_species="Dascyllus Aruanus" h="84" w="40" x="410" y="292"/>
+   </frame>
+   <frame id="19">
+      <object fish_species="Dascyllus Aruanus" h="84" w="40" x="408" y="294"/>
+   </frame>
+   <frame id="20">
+      <object fish_species="Dascyllus Aruanus" h="84" w="40" x="404" y="296"/>
+   </frame>
+   <frame id="21">
+      <object fish_species="Dascyllus Aruanus" h="84" w="40" x="402" y="298"/>
+   </frame>
+   <frame id="22">
+      <object fish_species="Dascyllus Aruanus" h="126" w="57" x="386" y="279"/>
+   </frame>
+   <frame id="23">
+      <object fish_species="Dascyllus Aruanus" h="140" w="74" x="370" y="280"/>
+   </frame>
+   <frame id="24">
+      <object fish_species="Dascyllus Aruanus" h="160" w="97" x="348" y="281"/>
+   </frame>
+   <frame id="25">
+      <object fish_species="Dascyllus Aruanus" h="168" w="106" x="340" y="282"/>
+   </frame>
+   <frame id="26">
+      <object fish_species="Dascyllus Aruanus" h="174" w="109" x="311" y="301"/>
+   </frame>
+   <frame id="27">
+      <object fish_species="Dascyllus Aruanus" h="174" w="109" x="299" y="306"/>
+   </frame>
+   <frame id="28">
+      <object fish_species="Dascyllus Aruanus" h="174" w="109" x="268" y="310"/>
+   </frame>
+   <frame id="29">
+      <object fish_species="Dascyllus Aruanus" h="174" w="115" x="249" y="312"/>
+   </frame>
+   <frame id="30">
+      <object fish_species="Dascyllus Aruanus" h="174" w="188" x="177" y="313"/>
+   </frame>
+   <frame id="31">
+      <object fish_species="Dascyllus Aruanus" h="174" w="229" x="119" y="314"/>
+   </frame>
+   <frame id="32">
+      <object fish_species="Dascyllus Aruanus" h="174" w="296" x="2" y="315"/>
+   </frame>
+   <frame id="33">
+      <object fish_species="Dascyllus Aruanus" h="174" w="232" x="3" y="316"/>
+   </frame>
+   <frame id="374">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="45" w="38" x="273" y="346"/>
+   </frame>
+   <frame id="375">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="45" w="38" x="282" y="349"/>
+   </frame>
+   <frame id="376">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="38" x="284" y="352"/>
+   </frame>
+   <frame id="377">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="38" x="293" y="354"/>
+   </frame>
+   <frame id="378">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="38" x="295" y="358"/>
+   </frame>
+   <frame id="379">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="33" x="305" y="360"/>
+   </frame>
+   <frame id="380">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="33" x="307" y="360"/>
+   </frame>
+   <frame id="381">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="33" x="311" y="361"/>
+   </frame>
+   <frame id="382">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="315" y="362"/>
+   </frame>
+   <frame id="383">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="317" y="362"/>
+   </frame>
+   <frame id="384">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="318" y="363"/>
+   </frame>
+   <frame id="385">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="327" y="369"/>
+   </frame>
+   <frame id="386">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="329" y="368"/>
+   </frame>
+   <frame id="387">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="31" x="331" y="370"/>
+   </frame>
+   <frame id="388">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="30" x="332" y="370"/>
+   </frame>
+   <frame id="389">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="336" y="372"/>
+   </frame>
+   <frame id="390">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="338" y="374"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="270" y="335"/>
+   </frame>
+   <frame id="391">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="271" y="336"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="339" y="375"/>
+   </frame>
+   <frame id="392">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="272" y="337"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="340" y="376"/>
+   </frame>
+   <frame id="393">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="273" y="338"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="341" y="377"/>
+   </frame>
+   <frame id="394">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="274" y="339"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="342" y="378"/>
+   </frame>
+   <frame id="395">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="350" y="378"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="275" y="340"/>
+   </frame>
+   <frame id="396">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="351" y="379"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="276" y="341"/>
+   </frame>
+   <frame id="397">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="277" y="342"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="352" y="380"/>
+   </frame>
+   <frame id="398">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="286" y="340"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="353" y="381"/>
+   </frame>
+   <frame id="399">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="287" y="341"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="354" y="382"/>
+   </frame>
+   <frame id="400">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="288" y="342"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="355" y="383"/>
+   </frame>
+   <frame id="401">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="289" y="343"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="356" y="384"/>
+   </frame>
+   <frame id="402">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="29" x="360" y="381"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="35" x="290" y="344"/>
+   </frame>
+   <frame id="403">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="31" x="295" y="349"/>
+   </frame>
+   <frame id="404">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="31" x="296" y="350"/>
+   </frame>
+   <frame id="405">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="32" x="296" y="350"/>
+   </frame>
+   <frame id="406">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="32" x="298" y="350"/>
+   </frame>
+   <frame id="407">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="32" x="299" y="351"/>
+   </frame>
+   <frame id="408">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="34" x="297" y="350"/>
+   </frame>
+   <frame id="409">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="34" x="298" y="351"/>
+   </frame>
+   <frame id="410">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="33" x="299" y="353"/>
+   </frame>
+   <frame id="411">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="32" x="301" y="354"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="363" y="373"/>
+   </frame>
+   <frame id="412">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="32" x="301" y="355"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="362" y="372"/>
+   </frame>
+   <frame id="413">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="303" y="356"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="366" y="374"/>
+   </frame>
+   <frame id="414">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="304" y="357"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="365" y="373"/>
+   </frame>
+   <frame id="415">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="305" y="358"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="367" y="370"/>
+   </frame>
+   <frame id="416">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="306" y="359"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="366" y="369"/>
+   </frame>
+   <frame id="417">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="307" y="360"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="365" y="368"/>
+   </frame>
+   <frame id="418">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="308" y="361"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="366" y="370"/>
+   </frame>
+   <frame id="419">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="310" y="363"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="370" y="373"/>
+   </frame>
+   <frame id="420">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="310" y="363"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="369" y="372"/>
+   </frame>
+   <frame id="421">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="311" y="364"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="368" y="371"/>
+   </frame>
+   <frame id="422">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="312" y="365"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="367" y="370"/>
+   </frame>
+   <frame id="423">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="312" y="365"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="366" y="369"/>
+   </frame>
+   <frame id="424">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="31" x="313" y="366"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="367" y="370"/>
+   </frame>
+   <frame id="425">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="39" x="307" y="368"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="54" w="37" x="369" y="372"/>
+   </frame>
+   <frame id="426">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="43" x="304" y="366"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="370" y="373"/>
+   </frame>
+   <frame id="427">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="43" x="305" y="367"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="371" y="374"/>
+   </frame>
+   <frame id="428">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="303" y="366"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="371" y="374"/>
+   </frame>
+   <frame id="429">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="304" y="367"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="369" y="373"/>
+   </frame>
+   <frame id="430">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="305" y="368"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="368" y="371"/>
+   </frame>
+   <frame id="431">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="311" y="366"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="369" y="372"/>
+   </frame>
+   <frame id="432">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="312" y="367"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="370" y="373"/>
+   </frame>
+   <frame id="433">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="313" y="368"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="37" x="369" y="373"/>
+   </frame>
+   <frame id="434">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="43" x="314" y="369"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="20" x="370" y="374"/>
+   </frame>
+   <frame id="435">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="36" w="43" x="315" y="378"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="20" x="368" y="370"/>
+   </frame>
+   <frame id="436">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="36" w="43" x="316" y="379"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="20" x="367" y="374"/>
+   </frame>
+   <frame id="437">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="37" x="320" y="381"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="20" x="365" y="378"/>
+   </frame>
+   <frame id="438">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="37" x="321" y="382"/>
+   </frame>
+   <frame id="467">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="30" x="326" y="357"/>
+   </frame>
+   <frame id="468">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="30" x="324" y="362"/>
+   </frame>
+   <frame id="469">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="38" x="323" y="361"/>
+   </frame>
+   <frame id="470">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="38" x="322" y="360"/>
+   </frame>
+   <frame id="471">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="38" x="323" y="361"/>
+   </frame>
+   <frame id="472">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="38" x="322" y="361"/>
+   </frame>
+   <frame id="473">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="362"/>
+   </frame>
+   <frame id="474">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="327" y="361"/>
+   </frame>
+   <frame id="475">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="360"/>
+   </frame>
+   <frame id="476">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="325" y="359"/>
+   </frame>
+   <frame id="477">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="360"/>
+   </frame>
+   <frame id="478">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="328" y="362"/>
+   </frame>
+   <frame id="479">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="363"/>
+   </frame>
+   <frame id="480">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="327" y="362"/>
+   </frame>
+   <frame id="481">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="325" y="362"/>
+   </frame>
+   <frame id="482">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="363"/>
+   </frame>
+   <frame id="483">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="327" y="364"/>
+   </frame>
+   <frame id="484">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="325" y="362"/>
+   </frame>
+   <frame id="485">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="326" y="363"/>
+   </frame>
+   <frame id="486">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="51" w="38" x="327" y="364"/>
+   </frame>
+   <frame id="487">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="328" y="365"/>
+   </frame>
+   <frame id="488">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="329" y="366"/>
+   </frame>
+   <frame id="489">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="327" y="365"/>
+   </frame>
+   <frame id="490">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="328" y="366"/>
+   </frame>
+   <frame id="491">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="323" y="364"/>
+   </frame>
+   <frame id="492">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="324" y="365"/>
+   </frame>
+   <frame id="493">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="325" y="366"/>
+   </frame>
+   <frame id="494">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="35" x="326" y="367"/>
+   </frame>
+   <frame id="549">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="318" y="363"/>
+   </frame>
+   <frame id="550">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="319" y="364"/>
+   </frame>
+   <frame id="551">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="319" y="361"/>
+   </frame>
+   <frame id="552">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="320" y="362"/>
+   </frame>
+   <frame id="553">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="319" y="359"/>
+   </frame>
+   <frame id="554">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="313" y="357"/>
+   </frame>
+   <frame id="555">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="313" y="355"/>
+   </frame>
+   <frame id="556">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="42" x="309" y="355"/>
+   </frame>
+   <frame id="557">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="47" x="301" y="352"/>
+   </frame>
+   <frame id="558">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="41" w="47" x="300" y="353"/>
+   </frame>
+   <frame id="563">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="368" y="365"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="55" w="46" x="294" y="343"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="28" x="259" y="329"/>
+   </frame>
+   <frame id="564">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="28" x="260" y="330"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="55" w="46" x="295" y="344"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="372" y="368"/>
+   </frame>
+   <frame id="565">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="373" y="369"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="41" x="301" y="345"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="31" x="258" y="331"/>
+   </frame>
+   <frame id="566">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="374" y="370"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="45" x="304" y="344"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="257" y="332"/>
+   </frame>
+   <frame id="567">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="378" y="368"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="45" x="305" y="340"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="258" y="333"/>
+   </frame>
+   <frame id="568">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="259" y="334"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="45" x="306" y="341"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="57" w="46" x="379" y="369"/>
+   </frame>
+   <frame id="569">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="39" x="391" y="374"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="45" x="307" y="342"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="254" y="338"/>
+   </frame>
+   <frame id="570">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="36" x="396" y="375"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="45" x="311" y="324"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="247" y="337"/>
+   </frame>
+   <frame id="571">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="47" x="397" y="376"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="45" x="317" y="321"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="244" y="342"/>
+   </frame>
+   <frame id="572">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="46" x="409" y="383"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="45" x="329" y="310"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="235" y="344"/>
+   </frame>
+   <frame id="573">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="56" x="413" y="383"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="329" y="306"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="230" y="348"/>
+   </frame>
+   <frame id="574">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="225" y="350"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="335" y="301"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="56" x="430" y="368"/>
+   </frame>
+   <frame id="575">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="63" x="426" y="361"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="335" y="294"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="33" x="222" y="349"/>
+   </frame>
+   <frame id="576">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="63" x="437" y="337"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="345" y="290"/>
+   </frame>
+   <frame id="577">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="346" y="291"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="63" x="437" y="328"/>
+   </frame>
+   <frame id="578">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="59" x="352" y="291"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="63" x="437" y="324"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="36" x="201" y="335"/>
+   </frame>
+   <frame id="579">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="36" x="207" y="341"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="45" x="372" y="297"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="63" x="443" y="318"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="151" y="202"/>
+   </frame>
+   <frame id="580">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="63" x="441" y="311"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="45" x="380" y="295"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="36" x="220" y="334"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="143" y="198"/>
+   </frame>
+   <frame id="581">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="63" x="442" y="312"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="43" w="45" x="381" y="296"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="48" w="51" x="221" y="335"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="144" y="199"/>
+   </frame>
+   <frame id="582">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="51" x="455" y="313"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="392" y="299"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="33" x="242" y="335"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="145" y="200"/>
+   </frame>
+   <frame id="583">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="51" x="456" y="314"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="393" y="300"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="47" w="43" x="243" y="335"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="137" y="199"/>
+   </frame>
+   <frame id="584">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="256" y="338"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="51" x="457" y="315"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="394" y="301"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="138" y="200"/>
+   </frame>
+   <frame id="585">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="58" x="257" y="339"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="395" y="302"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="51" x="458" y="316"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="133" y="198"/>
+   </frame>
+   <frame id="586">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="35" x="281" y="340"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="396" y="303"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="51" x="459" y="317"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="131" y="197"/>
+   </frame>
+   <frame id="587">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="50" x="293" y="325"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="398" y="295"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="37" x="472" y="318"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="132" y="198"/>
+   </frame>
+   <frame id="588">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="50" x="305" y="323"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="399" y="296"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="36" w="37" x="473" y="327"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="129" y="197"/>
+   </frame>
+   <frame id="589">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="50" x="330" y="313"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="409" y="291"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="130" y="198"/>
+   </frame>
+   <frame id="590">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="50" x="347" y="310"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="418" y="299"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="126" y="199"/>
+   </frame>
+   <frame id="591">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="50" x="360" y="297"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="480" y="304"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="129" y="197"/>
+   </frame>
+   <frame id="592">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="26" x="379" y="292"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="480" y="298"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="127" y="196"/>
+   </frame>
+   <frame id="593">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="26" x="380" y="293"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="478" y="300"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="128" y="197"/>
+   </frame>
+   <frame id="594">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="479" y="301"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="26" x="384" y="291"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="129" y="198"/>
+   </frame>
+   <frame id="595">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="480" y="302"/>
+      <object fish_species="Dascyllus Aruanus" h="23" w="23" x="127" y="196"/>
+   </frame>
+   <frame id="596">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="481" y="303"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="456" y="185"/>
+   </frame>
+   <frame id="597">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="458" y="184"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="24" x="482" y="304"/>
+   </frame>
+   <frame id="598">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="465" y="190"/>
+   </frame>
+   <frame id="599">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="471" y="193"/>
+   </frame>
+   <frame id="600">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="474" y="200"/>
+   </frame>
+   <frame id="601">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="478" y="203"/>
+   </frame>
+   <frame id="602">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="485" y="208"/>
+   </frame>
+   <frame id="603">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="486" y="212"/>
+   </frame>
+   <frame id="604">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="60" w="41" x="478" y="278"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="496" y="218"/>
+   </frame>
+   <frame id="605">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="41" x="373" y="283"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="479" y="281"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="496" y="223"/>
+   </frame>
+   <frame id="606">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="500" y="229"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="475" y="274"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="369" y="283"/>
+   </frame>
+   <frame id="607">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="370" y="284"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="470" y="276"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="501" y="233"/>
+   </frame>
+   <frame id="608">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="502" y="234"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="471" y="272"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="375" y="285"/>
+   </frame>
+   <frame id="609">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="386" y="283"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="468" y="272"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="503" y="235"/>
+   </frame>
+   <frame id="610">
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="504" y="236"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="469" y="273"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="392" y="283"/>
+   </frame>
+   <frame id="611">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="44" w="51" x="396" y="285"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="53" w="37" x="470" y="274"/>
+      <object fish_species="Dascyllus Aruanus" h="27" w="25" x="509" y="232"/>
+   </frame>
+</video>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="81b8c1093e901f4c6c3ad511fc26ffe6#201104140610">
+   <frame id="0">
+      <object h="31" species_id="3" species_name="Amphiprion Clarkii" w="36" x="63" y="-1"/>
+   </frame>
+   <frame id="1">
+      <object h="31" species_id="3" species_name="Amphiprion Clarkii" w="36" x="59" y="-1"/>
+   </frame>
+   <frame id="2">
+      <object h="31" species_id="3" species_name="Amphiprion Clarkii" w="40" x="54" y="-1"/>
+   </frame>
+   <frame id="3">
+      <object h="26" species_id="3" species_name="Amphiprion Clarkii" w="40" x="49" y="0"/>
+   </frame>
+   <frame id="75">
+      <object h="30" species_id="15" species_name="Dascyllus Reticulatus" w="46" x="118" y="99"/>
+   </frame>
+   <frame id="76">
+      <object h="29" species_id="1" species_name="Dascyllus reticulatus" w="42" x="122" y="100"/>
+   </frame>
+   <frame id="77">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="40" x="123" y="98"/>
+   </frame>
+   <frame id="78">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="40" x="128" y="98"/>
+   </frame>
+   <frame id="79">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="33" x="132" y="96"/>
+   </frame>
+   <frame id="225">
+      <object h="36" species_id="15" species_name="Dascyllus Reticulatus" w="47" x="97" y="102"/>
+   </frame>
+   <frame id="226">
+      <object h="36" species_id="15" species_name="Dascyllus Reticulatus" w="47" x="100" y="102"/>
+   </frame>
+   <frame id="264">
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="54" x="83" y="107"/>
+   </frame>
+</video>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="8443157d656087fc7b1b3a08c073efed#201104211310">
+   <frame id="11">
+      <object h="24" species_id="21" species_name="Neoglyphidodon Nigroris" w="43" x="20" y="28"/>
+   </frame>
+   <frame id="12">
+      <object h="24" species_id="21" species_name="Neoglyphidodon Nigroris" w="43" x="20" y="28"/>
+   </frame>
+   <frame id="13">
+      <object h="27" species_id="21" species_name="Neoglyphidodon Nigroris" w="46" x="21" y="26"/>
+   </frame>
+   <frame id="14">
+      <object h="27" species_id="21" species_name="Neoglyphidodon Nigroris" w="46" x="21" y="26"/>
+   </frame>
+   <frame id="15">
+      <object h="27" species_id="21" species_name="Neoglyphidodon Nigroris" w="46" x="28" y="28"/>
+   </frame>
+   <frame id="16">
+      <object h="27" species_id="21" species_name="Neoglyphidodon Nigroris" w="46" x="28" y="28"/>
+   </frame>
+   <frame id="17">
+      <object h="29" species_id="21" species_name="Neoglyphidodon Nigroris" w="52" x="30" y="28"/>
+   </frame>
+   <frame id="18">
+      <object h="29" species_id="21" species_name="Neoglyphidodon Nigroris" w="52" x="28" y="27"/>
+   </frame>
+   <frame id="19">
+      <object h="26" species_id="21" species_name="Neoglyphidodon Nigroris" w="43" x="40" y="29"/>
+   </frame>
+   <frame id="20">
+      <object h="26" species_id="21" species_name="Neoglyphidodon Nigroris" w="43" x="40" y="29"/>
+   </frame>
+   <frame id="145">
+      <object h="26" species_id="1" species_name="Dascyllus reticulatus" w="41" x="52" y="11"/>
+   </frame>
+   <frame id="146">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="30" x="56" y="1"/>
+   </frame>
+   <frame id="147">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="30" x="56" y="1"/>
+   </frame>
+   <frame id="159">
+      <object h="27" species_id="11" species_name="Chaetodon Trifascialis" w="30" x="123" y="45"/>
+   </frame>
+   <frame id="160">
+      <object h="27" species_id="11" species_name="Chaetodon Trifascialis" w="30" x="118" y="47"/>
+   </frame>
+   <frame id="161">
+      <object h="27" species_id="11" species_name="Chaetodon Trifascialis" w="30" x="120" y="45"/>
+   </frame>
+   <frame id="162">
+      <object h="27" species_id="11" species_name="Chaetodon Trifascialis" w="30" x="120" y="45"/>
+   </frame>
+   <frame id="163">
+      <object h="27" species_id="11" species_name="Chaetodon Trifascialis" w="30" x="122" y="42"/>
+   </frame>
+   <frame id="164">
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="122" y="41"/>
+   </frame>
+   <frame id="165">
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="122" y="41"/>
+   </frame>
+   <frame id="166">
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="121" y="37"/>
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="38" x="50" y="27"/>
+   </frame>
+   <frame id="167">
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="121" y="37"/>
+      <object h="29" species_id="11" species_name="Chaetodon Trifascialis" w="38" x="50" y="27"/>
+   </frame>
+   <frame id="168">
+      <object h="32" species_id="11" species_name="Chaetodon Trifascialis" w="55" x="122" y="32"/>
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="50" y="24"/>
+   </frame>
+   <frame id="169">
+      <object h="32" species_id="11" species_name="Chaetodon Trifascialis" w="55" x="122" y="32"/>
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="50" y="24"/>
+   </frame>
+   <frame id="170">
+      <object h="34" species_id="11" species_name="Chaetodon Trifascialis" w="58" x="122" y="29"/>
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="48" y="23"/>
+   </frame>
+   <frame id="171">
+      <object h="34" species_id="11" species_name="Chaetodon Trifascialis" w="58" x="122" y="29"/>
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="48" y="23"/>
+   </frame>
+   <frame id="172">
+      <object h="34" species_id="11" species_name="Chaetodon Trifascialis" w="58" x="124" y="28"/>
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="50" y="21"/>
+   </frame>
+   <frame id="173">
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="53" y="20"/>
+      <object h="36" species_id="11" species_name="Chaetodon Trifascialis" w="56" x="126" y="26"/>
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="53" y="20"/>
+   </frame>
+   <frame id="174">
+      <object h="36" species_id="11" species_name="Chaetodon Trifascialis" w="56" x="126" y="26"/>
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="53" y="20"/>
+   </frame>
+   <frame id="175">
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="57" y="21"/>
+   </frame>
+   <frame id="176">
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="57" y="21"/>
+   </frame>
+   <frame id="177">
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="57" y="21"/>
+   </frame>
+   <frame id="178">
+      <object h="40" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="57" y="21"/>
+   </frame>
+   <frame id="179">
+      <object h="45" species_id="11" species_name="Chaetodon Trifascialis" w="51" x="57" y="17"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="31" x="67" y="30"/>
+   </frame>
+   <frame id="180">
+      <object h="45" species_id="11" species_name="Chaetodon Trifascialis" w="51" x="57" y="17"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="31" x="67" y="30"/>
+   </frame>
+   <frame id="181">
+      <object h="36" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="65" y="22"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="31" x="59" y="28"/>
+   </frame>
+   <frame id="182">
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="71" y="20"/>
+   </frame>
+   <frame id="183">
+      <object h="37" species_id="11" species_name="Chaetodon Trifascialis" w="40" x="71" y="20"/>
+   </frame>
+   <frame id="190">
+      <object h="48" species_id="15" species_name="Dascyllus Reticulatus" w="39" x="60" y="7"/>
+   </frame>
+   <frame id="191">
+      <object h="48" species_id="15" species_name="Dascyllus Reticulatus" w="39" x="63" y="17"/>
+   </frame>
+   <frame id="192">
+      <object h="48" species_id="15" species_name="Dascyllus Reticulatus" w="39" x="63" y="17"/>
+   </frame>
+   <frame id="256">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="131" y="0"/>
+   </frame>
+   <frame id="257">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="131" y="0"/>
+   </frame>
+   <frame id="258">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="135" y="4"/>
+   </frame>
+   <frame id="259">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="135" y="4"/>
+   </frame>
+   <frame id="260">
+      <object h="69" species_id="1" species_name="Abudefduf Vaigiensis" w="59" x="142" y="5"/>
+   </frame>
+   <frame id="261">
+      <object h="69" species_id="1" species_name="Abudefduf Vaigiensis" w="59" x="142" y="5"/>
+   </frame>
+   <frame id="262">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="56" x="149" y="8"/>
+   </frame>
+   <frame id="263">
+      <object h="66" species_id="1" species_name="Abudefduf Vaigiensis" w="62" x="154" y="12"/>
+   </frame>
+   <frame id="264">
+      <object h="66" species_id="1" species_name="Abudefduf Vaigiensis" w="62" x="154" y="12"/>
+   </frame>
+   <frame id="265">
+      <object h="67" species_id="11" species_name="Chaetodon Trifascialis" w="59" x="162" y="14"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="39" x="21" y="27"/>
+   </frame>
+   <frame id="266">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="59" x="162" y="14"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="39" x="21" y="27"/>
+   </frame>
+   <frame id="267">
+      <object h="63" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="167" y="20"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="39" x="21" y="27"/>
+   </frame>
+   <frame id="268">
+      <object h="63" species_id="1" species_name="Abudefduf Vaigiensis" w="63" x="167" y="20"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="39" x="21" y="27"/>
+   </frame>
+   <frame id="269">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="68" x="168" y="21"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="28" y="25"/>
+   </frame>
+   <frame id="270">
+      <object h="67" species_id="1" species_name="Abudefduf Vaigiensis" w="68" x="168" y="21"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="28" y="25"/>
+   </frame>
+   <frame id="271">
+      <object h="65" species_id="1" species_name="Abudefduf Vaigiensis" w="60" x="185" y="28"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="28" y="25"/>
+   </frame>
+   <frame id="272">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="202" y="35"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="28" y="25"/>
+   </frame>
+   <frame id="273">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="201" y="33"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="29" y="26"/>
+   </frame>
+   <frame id="274">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="212" y="41"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="36" y="22"/>
+   </frame>
+   <frame id="275">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="212" y="41"/>
+      <object h="26" species_id="11" species_name="Chaetodon Trifascialis" w="35" x="36" y="22"/>
+   </frame>
+   <frame id="276">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="219" y="45"/>
+      <object h="30" species_id="11" species_name="Chaetodon Trifascialis" w="45" x="33" y="21"/>
+   </frame>
+   <frame id="277">
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="219" y="45"/>
+      <object h="30" species_id="11" species_name="Chaetodon Trifascialis" w="45" x="33" y="21"/>
+   </frame>
+   <frame id="278">
+      <object h="35" species_id="11" species_name="Chaetodon Trifascialis" w="51" x="33" y="19"/>
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="230" y="48"/>
+   </frame>
+   <frame id="279">
+      <object h="35" species_id="11" species_name="Chaetodon Trifascialis" w="51" x="33" y="19"/>
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="230" y="48"/>
+   </frame>
+   <frame id="280">
+      <object h="35" species_id="11" species_name="Chaetodon Trifascialis" w="51" x="33" y="19"/>
+      <object h="62" species_id="1" species_name="Abudefduf Vaigiensis" w="50" x="241" y="53"/>
+   </frame>
+   <frame id="281">
+      <object h="35" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="63" y="23"/>
+      <object h="54" species_id="1" species_name="Abudefduf Vaigiensis" w="34" x="257" y="58"/>
+   </frame>
+   <frame id="282">
+      <object h="35" species_id="11" species_name="Chaetodon Trifascialis" w="43" x="63" y="23"/>
+      <object h="54" species_id="1" species_name="Abudefduf Vaigiensis" w="34" x="258" y="58"/>
+   </frame>
+   <frame id="283">
+      <object h="54" species_id="1" species_name="Abudefduf Vaigiensis" w="34" x="264" y="59"/>
+   </frame>
+   <frame id="284">
+      <object h="54" species_id="1" species_name="Abudefduf Vaigiensis" w="34" x="264" y="59"/>
+   </frame>
+   <frame id="299">
+      <object h="24" species_id="11" species_name="Chaetodon Trifascialis" w="41" x="31" y="18"/>
+   </frame>
+</video>

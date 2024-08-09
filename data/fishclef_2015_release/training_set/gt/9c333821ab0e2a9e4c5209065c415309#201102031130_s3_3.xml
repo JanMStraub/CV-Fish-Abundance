@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="9c333821ab0e2a9e4c5209065c415309#201102031130" location="NPP3" camera="1">
+   <frame id="0">
+      <object fish_species="Chaetodon Lununatus" h="58" w="30" x="173" y="70"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="206" y="65"/>
+   </frame>
+   <frame id="1">
+      <object fish_species="Chaetodon Lununatus" h="48" w="52" x="142" y="91"/>
+   </frame>
+   <frame id="2">
+      <object fish_species="Dascyllus Reticulatus" h="69" w="95" x="32" y="39"/>
+   </frame>
+   <frame id="18">
+      <object fish_species="Dascyllus Reticulatus" h="50" w="85" x="110" y="3"/>
+   </frame>
+   <frame id="19">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="74" x="112" y="1"/>
+   </frame>
+   <frame id="31">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="167" y="15"/>
+   </frame>
+   <frame id="32">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="165" y="13"/>
+   </frame>
+   <frame id="33">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="164" y="13"/>
+   </frame>
+   <frame id="34">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="161" y="13"/>
+   </frame>
+   <frame id="35">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="161" y="13"/>
+   </frame>
+   <frame id="36">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="161" y="13"/>
+   </frame>
+   <frame id="37">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="161" y="13"/>
+   </frame>
+   <frame id="38">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="159" y="15"/>
+   </frame>
+   <frame id="39">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="159" y="15"/>
+      <object fish_species="Chaetodon Lununatus" h="33" w="38" x="121" y="84"/>
+   </frame>
+   <frame id="40">
+      <object fish_species="Chaetodon Lununatus" h="33" w="38" x="123" y="77"/>
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="157" y="16"/>
+   </frame>
+   <frame id="41">
+      <object fish_species="Chaetodon Lununatus" h="29" w="30" x="152" y="16"/>
+      <object fish_species="Chaetodon Lununatus" h="34" w="42" x="128" y="69"/>
+   </frame>
+   <frame id="42">
+      <object fish_species="Chaetodon Lununatus" h="29" w="30" x="150" y="17"/>
+      <object fish_species="Chaetodon Lununatus" h="34" w="42" x="128" y="66"/>
+   </frame>
+   <frame id="43">
+      <object fish_species="Chaetodon Lununatus" h="36" w="44" x="134" y="59"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="32" x="144" y="19"/>
+   </frame>
+   <frame id="44">
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="141" y="56"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="32" x="141" y="21"/>
+   </frame>
+   <frame id="45">
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="141" y="56"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="32" x="141" y="21"/>
+   </frame>
+   <frame id="46">
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="134" y="19"/>
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="142" y="57"/>
+   </frame>
+   <frame id="47">
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="132" y="19"/>
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="145" y="56"/>
+   </frame>
+   <frame id="48">
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="132" y="21"/>
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="145" y="56"/>
+   </frame>
+   <frame id="49">
+      <object fish_species="Chaetodon Lununatus" h="39" w="46" x="145" y="56"/>
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="132" y="21"/>
+   </frame>
+   <frame id="50">
+      <object fish_species="Chaetodon Lununatus" h="39" w="45" x="152" y="57"/>
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="132" y="22"/>
+   </frame>
+   <frame id="51">
+      <object fish_species="Chaetodon Lununatus" h="43" w="45" x="150" y="55"/>
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="131" y="22"/>
+   </frame>
+   <frame id="52">
+      <object fish_species="Chaetodon Lununatus" h="43" w="48" x="145" y="55"/>
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="131" y="22"/>
+   </frame>
+   <frame id="53">
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="131" y="22"/>
+      <object fish_species="Chaetodon Lununatus" h="43" w="48" x="145" y="49"/>
+   </frame>
+   <frame id="54">
+      <object fish_species="Chaetodon Lununatus" h="35" w="36" x="131" y="22"/>
+      <object fish_species="Chaetodon Lununatus" h="43" w="48" x="145" y="49"/>
+   </frame>
+   <frame id="55">
+      <object fish_species="Chaetodon Lununatus" h="37" w="41" x="129" y="20"/>
+      <object fish_species="Chaetodon Lununatus" h="43" w="48" x="144" y="48"/>
+   </frame>
+   <frame id="56">
+      <object fish_species="Chaetodon Lununatus" h="37" w="41" x="129" y="20"/>
+      <object fish_species="Chaetodon Lununatus" h="47" w="44" x="151" y="47"/>
+   </frame>
+   <frame id="57">
+      <object fish_species="Chaetodon Lununatus" h="37" w="41" x="129" y="20"/>
+      <object fish_species="Chaetodon Lununatus" h="47" w="44" x="151" y="47"/>
+   </frame>
+   <frame id="58">
+      <object fish_species="Chaetodon Lununatus" h="47" w="40" x="164" y="52"/>
+      <object fish_species="Chaetodon Lununatus" h="37" w="41" x="131" y="18"/>
+   </frame>
+   <frame id="59">
+      <object fish_species="Chaetodon Lununatus" h="47" w="37" x="169" y="57"/>
+      <object fish_species="Chaetodon Lununatus" h="37" w="41" x="133" y="17"/>
+   </frame>
+   <frame id="60">
+      <object fish_species="Chaetodon Lununatus" h="47" w="35" x="171" y="59"/>
+      <object fish_species="Chaetodon Lununatus" h="37" w="36" x="139" y="17"/>
+   </frame>
+   <frame id="61">
+      <object fish_species="Chaetodon Lununatus" h="50" w="25" x="182" y="66"/>
+      <object fish_species="Chaetodon Lununatus" h="35" w="29" x="146" y="17"/>
+   </frame>
+   <frame id="68">
+      <object fish_species="Chaetodon Lununatus" h="31" w="30" x="164" y="13"/>
+   </frame>
+   <frame id="69">
+      <object fish_species="Chaetodon Lununatus" h="66" w="18" x="205" y="100"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="30" x="163" y="14"/>
+   </frame>
+   <frame id="70">
+      <object fish_species="Chaetodon Lununatus" h="68" w="29" x="205" y="107"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="30" x="163" y="14"/>
+   </frame>
+   <frame id="71">
+      <object fish_species="Chaetodon Lununatus" h="73" w="31" x="208" y="112"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="30" x="161" y="14"/>
+   </frame>
+   <frame id="72">
+      <object fish_species="Chaetodon Lununatus" h="73" w="31" x="210" y="120"/>
+      <object fish_species="Chaetodon Lununatus" h="32" w="33" x="158" y="14"/>
+   </frame>
+   <frame id="73">
+      <object fish_species="Chaetodon Lununatus" h="61" w="31" x="212" y="130"/>
+      <object fish_species="Chaetodon Lununatus" h="32" w="33" x="158" y="14"/>
+   </frame>
+   <frame id="74">
+      <object fish_species="Chaetodon Lununatus" h="32" w="33" x="158" y="14"/>
+   </frame>
+   <frame id="75">
+      <object fish_species="Chaetodon Lununatus" h="32" w="33" x="156" y="15"/>
+   </frame>
+   <frame id="76">
+      <object fish_species="Chaetodon Lununatus" h="30" w="28" x="156" y="20"/>
+   </frame>
+   <frame id="79">
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="199" y="158"/>
+   </frame>
+   <frame id="80">
+      <object fish_species="Chaetodon Lununatus" h="68" w="54" x="199" y="158"/>
+   </frame>
+   <frame id="81">
+      <object fish_species="Chaetodon Lununatus" h="68" w="54" x="196" y="156"/>
+   </frame>
+   <frame id="82">
+      <object fish_species="Chaetodon Lununatus" h="68" w="54" x="189" y="155"/>
+   </frame>
+   <frame id="83">
+      <object fish_species="Chaetodon Lununatus" h="68" w="54" x="189" y="158"/>
+   </frame>
+   <frame id="84">
+      <object fish_species="Chaetodon Lununatus" h="65" w="52" x="191" y="162"/>
+      <object fish_species="Chaetodon Lununatus" h="33" w="38" x="140" y="24"/>
+   </frame>
+   <frame id="85">
+      <object fish_species="Chaetodon Lununatus" h="60" w="39" x="196" y="169"/>
+      <object fish_species="Chaetodon Lununatus" h="33" w="38" x="140" y="24"/>
+   </frame>
+   <frame id="86">
+      <object fish_species="Chaetodon Lununatus" h="33" w="37" x="143" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="39" x="196" y="172"/>
+   </frame>
+   <frame id="87">
+      <object fish_species="Chaetodon Lununatus" h="33" w="37" x="143" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="39" x="196" y="172"/>
+   </frame>
+   <frame id="88">
+      <object fish_species="Chaetodon Lununatus" h="29" w="34" x="149" y="25"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="36" x="199" y="177"/>
+   </frame>
+   <frame id="89">
+      <object fish_species="Chaetodon Lununatus" h="26" w="32" x="154" y="25"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="36" x="201" y="175"/>
+   </frame>
+   <frame id="90">
+      <object fish_species="Chaetodon Lununatus" h="26" w="32" x="156" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="36" x="201" y="179"/>
+   </frame>
+   <frame id="91">
+      <object fish_species="Chaetodon Lununatus" h="55" w="36" x="201" y="184"/>
+      <object fish_species="Chaetodon Lununatus" h="26" w="32" x="159" y="22"/>
+   </frame>
+   <frame id="92">
+      <object fish_species="Chaetodon Lununatus" h="27" w="36" x="163" y="20"/>
+      <object fish_species="Chaetodon Lununatus" h="49" w="33" x="202" y="190"/>
+   </frame>
+   <frame id="93">
+      <object fish_species="Chaetodon Lununatus" h="27" w="36" x="163" y="20"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Chaetodon Lununatus" h="51" w="42" x="209" y="24"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Chaetodon Lununatus" h="53" w="44" x="207" y="24"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Chaetodon Lununatus" h="55" w="46" x="207" y="24"/>
+   </frame>
+   <frame id="125">
+      <object fish_species="Chaetodon Lununatus" h="56" w="49" x="208" y="24"/>
+   </frame>
+   <frame id="126">
+      <object fish_species="Chaetodon Lununatus" h="54" w="53" x="208" y="24"/>
+   </frame>
+   <frame id="127">
+      <object fish_species="Chaetodon Lununatus" h="56" w="49" x="210" y="22"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Chaetodon Lununatus" h="54" w="40" x="221" y="30"/>
+   </frame>
+   <frame id="132">
+      <object fish_species="Chaetodon Lununatus" h="54" w="40" x="219" y="32"/>
+   </frame>
+   <frame id="133">
+      <object fish_species="Chaetodon Lununatus" h="54" w="40" x="215" y="33"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="101" y="96"/>
+   </frame>
+   <frame id="134">
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="104" y="96"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="43" x="210" y="35"/>
+   </frame>
+   <frame id="135">
+      <object fish_species="Chaetodon Lununatus" h="57" w="43" x="209" y="36"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="106" y="96"/>
+   </frame>
+   <frame id="136">
+      <object fish_species="Chaetodon Lununatus" h="61" w="48" x="203" y="39"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="106" y="96"/>
+   </frame>
+   <frame id="137">
+      <object fish_species="Chaetodon Lununatus" h="61" w="44" x="204" y="44"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="106" y="96"/>
+   </frame>
+   <frame id="138">
+      <object fish_species="Chaetodon Lununatus" h="63" w="39" x="204" y="46"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="29" x="105" y="96"/>
+   </frame>
+   <frame id="139">
+      <object fish_species="Chaetodon Lununatus" h="30" w="30" x="104" y="95"/>
+      <object fish_species="Chaetodon Lununatus" h="56" w="34" x="204" y="53"/>
+   </frame>
+   <frame id="140">
+      <object fish_species="Chaetodon Lununatus" h="30" w="30" x="101" y="93"/>
+      <object fish_species="Chaetodon Lununatus" h="53" w="27" x="204" y="56"/>
+   </frame>
+   <frame id="141">
+      <object fish_species="Chaetodon Lununatus" h="30" w="30" x="101" y="93"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Chaetodon Lununatus" h="31" w="33" x="99" y="94"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Chaetodon Lununatus" h="31" w="33" x="100" y="95"/>
+   </frame>
+   <frame id="144">
+      <object fish_species="Chaetodon Lununatus" h="31" w="33" x="100" y="95"/>
+   </frame>
+   <frame id="145">
+      <object fish_species="Chaetodon Lununatus" h="31" w="33" x="102" y="97"/>
+   </frame>
+   <frame id="146">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="104" y="99"/>
+   </frame>
+   <frame id="147">
+      <object fish_species="Chaetodon Lununatus" h="26" w="34" x="104" y="99"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Chaetodon Lununatus" h="28" w="35" x="101" y="98"/>
+      <object fish_species="Chaetodon Lununatus" h="64" w="32" x="193" y="61"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Chaetodon Lununatus" h="26" w="36" x="99" y="98"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="35" x="193" y="57"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Chaetodon Lununatus" h="26" w="37" x="99" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="35" x="193" y="57"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Chaetodon Lununatus" h="26" w="37" x="99" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="35" x="193" y="61"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Chaetodon Lununatus" h="26" w="37" x="99" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="38" x="193" y="65"/>
+   </frame>
+   <frame id="153">
+      <object fish_species="Chaetodon Lununatus" h="26" w="37" x="99" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="41" x="193" y="65"/>
+   </frame>
+   <frame id="154">
+      <object fish_species="Chaetodon Lununatus" h="26" w="37" x="99" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="45" x="189" y="65"/>
+   </frame>
+   <frame id="155">
+      <object fish_species="Chaetodon Lununatus" h="26" w="29" x="107" y="97"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="49" x="186" y="65"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Chaetodon Lununatus" h="68" w="49" x="186" y="65"/>
+      <object fish_species="Chaetodon Lununatus" h="27" w="30" x="106" y="96"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Chaetodon Lununatus" h="68" w="53" x="186" y="65"/>
+      <object fish_species="Chaetodon Lununatus" h="27" w="30" x="106" y="96"/>
+   </frame>
+   <frame id="158">
+      <object fish_species="Chaetodon Lununatus" h="68" w="53" x="186" y="67"/>
+      <object fish_species="Chaetodon Lununatus" h="27" w="30" x="106" y="96"/>
+   </frame>
+   <frame id="159">
+      <object fish_species="Chaetodon Lununatus" h="69" w="55" x="186" y="67"/>
+   </frame>
+   <frame id="160">
+      <object fish_species="Chaetodon Lununatus" h="69" w="55" x="186" y="72"/>
+   </frame>
+   <frame id="161">
+      <object fish_species="Chaetodon Lununatus" h="69" w="56" x="186" y="72"/>
+   </frame>
+   <frame id="162">
+      <object fish_species="Chaetodon Lununatus" h="71" w="60" x="181" y="70"/>
+   </frame>
+   <frame id="163">
+      <object fish_species="Chaetodon Lununatus" h="71" w="60" x="181" y="70"/>
+   </frame>
+   <frame id="164">
+      <object fish_species="Chaetodon Lununatus" h="71" w="60" x="177" y="75"/>
+   </frame>
+   <frame id="165">
+      <object fish_species="Chaetodon Lununatus" h="71" w="60" x="177" y="77"/>
+   </frame>
+   <frame id="166">
+      <object fish_species="Chaetodon Lununatus" h="58" w="62" x="175" y="87"/>
+   </frame>
+   <frame id="167">
+      <object fish_species="Chaetodon Lununatus" h="53" w="62" x="175" y="94"/>
+   </frame>
+   <frame id="168">
+      <object fish_species="Chaetodon Lununatus" h="53" w="62" x="180" y="96"/>
+   </frame>
+   <frame id="169">
+      <object fish_species="Chaetodon Lununatus" h="55" w="67" x="175" y="93"/>
+   </frame>
+   <frame id="170">
+      <object fish_species="Chaetodon Lununatus" h="53" w="64" x="170" y="91"/>
+   </frame>
+   <frame id="171">
+      <object fish_species="Chaetodon Lununatus" h="51" w="66" x="167" y="91"/>
+   </frame>
+   <frame id="172">
+      <object fish_species="Chaetodon Lununatus" h="51" w="66" x="160" y="90"/>
+   </frame>
+   <frame id="173">
+      <object fish_species="Chaetodon Lununatus" h="51" w="66" x="157" y="83"/>
+   </frame>
+   <frame id="174">
+      <object fish_species="Chaetodon Lununatus" h="50" w="71" x="154" y="81"/>
+   </frame>
+   <frame id="175">
+      <object fish_species="Chaetodon Lununatus" h="50" w="73" x="150" y="78"/>
+   </frame>
+   <frame id="176">
+      <object fish_species="Chaetodon Lununatus" h="50" w="68" x="151" y="77"/>
+   </frame>
+   <frame id="177">
+      <object fish_species="Chaetodon Lununatus" h="50" w="68" x="151" y="77"/>
+   </frame>
+   <frame id="178">
+      <object fish_species="Chaetodon Lununatus" h="52" w="68" x="151" y="77"/>
+   </frame>
+   <frame id="179">
+      <object fish_species="Chaetodon Lununatus" h="55" w="66" x="151" y="77"/>
+   </frame>
+   <frame id="180">
+      <object fish_species="Chaetodon Lununatus" h="57" w="66" x="151" y="77"/>
+   </frame>
+   <frame id="181">
+      <object fish_species="Chaetodon Lununatus" h="59" w="58" x="155" y="77"/>
+   </frame>
+   <frame id="182">
+      <object fish_species="Chaetodon Lununatus" h="59" w="58" x="155" y="77"/>
+   </frame>
+   <frame id="183">
+      <object fish_species="Chaetodon Lununatus" h="59" w="58" x="155" y="78"/>
+   </frame>
+   <frame id="184">
+      <object fish_species="Chaetodon Lununatus" h="59" w="51" x="156" y="80"/>
+   </frame>
+   <frame id="185">
+      <object fish_species="Chaetodon Lununatus" h="59" w="51" x="156" y="80"/>
+   </frame>
+   <frame id="186">
+      <object fish_species="Chaetodon Lununatus" h="59" w="51" x="156" y="80"/>
+   </frame>
+   <frame id="187">
+      <object fish_species="Chaetodon Lununatus" h="59" w="51" x="155" y="80"/>
+   </frame>
+   <frame id="188">
+      <object fish_species="Chaetodon Lununatus" h="59" w="51" x="155" y="80"/>
+   </frame>
+   <frame id="189">
+      <object fish_species="Chaetodon Lununatus" h="62" w="54" x="152" y="80"/>
+   </frame>
+   <frame id="190">
+      <object fish_species="Chaetodon Lununatus" h="63" w="51" x="153" y="79"/>
+   </frame>
+   <frame id="191">
+      <object fish_species="Chaetodon Lununatus" h="63" w="53" x="149" y="75"/>
+   </frame>
+   <frame id="192">
+      <object fish_species="Chaetodon Lununatus" h="61" w="53" x="149" y="74"/>
+   </frame>
+   <frame id="193">
+      <object fish_species="Chaetodon Lununatus" h="61" w="55" x="149" y="72"/>
+   </frame>
+   <frame id="194">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="151" y="72"/>
+   </frame>
+   <frame id="195">
+      <object fish_species="Chaetodon Lununatus" h="60" w="57" x="151" y="72"/>
+   </frame>
+   <frame id="196">
+      <object fish_species="Chaetodon Lununatus" h="60" w="57" x="155" y="74"/>
+   </frame>
+   <frame id="197">
+      <object fish_species="Chaetodon Lununatus" h="60" w="57" x="156" y="75"/>
+   </frame>
+   <frame id="198">
+      <object fish_species="Chaetodon Lununatus" h="63" w="55" x="159" y="72"/>
+   </frame>
+   <frame id="199">
+      <object fish_species="Chaetodon Lununatus" h="64" w="53" x="161" y="72"/>
+   </frame>
+   <frame id="200">
+      <object fish_species="Chaetodon Lununatus" h="62" w="53" x="165" y="72"/>
+   </frame>
+   <frame id="201">
+      <object fish_species="Chaetodon Lununatus" h="61" w="53" x="165" y="75"/>
+   </frame>
+   <frame id="202">
+      <object fish_species="Chaetodon Lununatus" h="59" w="56" x="163" y="73"/>
+   </frame>
+   <frame id="203">
+      <object fish_species="Chaetodon Lununatus" h="60" w="62" x="160" y="73"/>
+   </frame>
+   <frame id="204">
+      <object fish_species="Chaetodon Lununatus" h="57" w="58" x="161" y="73"/>
+   </frame>
+   <frame id="205">
+      <object fish_species="Chaetodon Lununatus" h="53" w="60" x="160" y="72"/>
+   </frame>
+   <frame id="206">
+      <object fish_species="Chaetodon Lununatus" h="53" w="63" x="154" y="70"/>
+   </frame>
+   <frame id="207">
+      <object fish_species="Chaetodon Lununatus" h="53" w="63" x="154" y="70"/>
+   </frame>
+   <frame id="208">
+      <object fish_species="Chaetodon Lununatus" h="49" w="64" x="152" y="69"/>
+   </frame>
+   <frame id="209">
+      <object fish_species="Chaetodon Lununatus" h="53" w="65" x="147" y="66"/>
+   </frame>
+   <frame id="210">
+      <object fish_species="Chaetodon Lununatus" h="53" w="68" x="143" y="66"/>
+   </frame>
+   <frame id="211">
+      <object fish_species="Chaetodon Lununatus" h="53" w="66" x="136" y="65"/>
+   </frame>
+   <frame id="212">
+      <object fish_species="Chaetodon Lununatus" h="50" w="63" x="132" y="64"/>
+   </frame>
+   <frame id="213">
+      <object fish_species="Chaetodon Lununatus" h="48" w="66" x="130" y="61"/>
+   </frame>
+   <frame id="214">
+      <object fish_species="Chaetodon Lununatus" h="49" w="46" x="137" y="55"/>
+   </frame>
+   <frame id="224">
+      <object fish_species="Chaetodon Lununatus" h="31" w="34" x="85" y="90"/>
+   </frame>
+   <frame id="225">
+      <object fish_species="Chaetodon Lununatus" h="31" w="34" x="84" y="91"/>
+   </frame>
+   <frame id="226">
+      <object fish_species="Chaetodon Lununatus" h="31" w="34" x="84" y="91"/>
+   </frame>
+   <frame id="227">
+      <object fish_species="Chaetodon Lununatus" h="31" w="34" x="86" y="90"/>
+   </frame>
+   <frame id="228">
+      <object fish_species="Chaetodon Lununatus" h="28" w="34" x="87" y="90"/>
+      <object fish_species="Chaetodon Lununatus" h="31" w="47" x="125" y="26"/>
+   </frame>
+   <frame id="229">
+      <object fish_species="Chaetodon Lununatus" h="31" w="47" x="125" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="28" w="34" x="87" y="90"/>
+   </frame>
+   <frame id="264">
+      <object fish_species="Chaetodon Lununatus" h="33" w="41" x="112" y="88"/>
+   </frame>
+   <frame id="265">
+      <object fish_species="Chaetodon Lununatus" h="33" w="41" x="109" y="88"/>
+   </frame>
+   <frame id="266">
+      <object fish_species="Chaetodon Lununatus" h="37" w="48" x="109" y="88"/>
+   </frame>
+   <frame id="280">
+      <object fish_species="Chaetodon Lununatus" h="41" w="39" x="116" y="81"/>
+   </frame>
+   <frame id="281">
+      <object fish_species="Chaetodon Lununatus" h="41" w="46" x="112" y="80"/>
+   </frame>
+   <frame id="282">
+      <object fish_species="Chaetodon Lununatus" h="41" w="46" x="112" y="78"/>
+   </frame>
+   <frame id="283">
+      <object fish_species="Chaetodon Lununatus" h="41" w="43" x="112" y="76"/>
+   </frame>
+   <frame id="284">
+      <object fish_species="Chaetodon Lununatus" h="44" w="44" x="112" y="74"/>
+   </frame>
+   <frame id="285">
+      <object fish_species="Chaetodon Lununatus" h="46" w="44" x="112" y="73"/>
+   </frame>
+   <frame id="286">
+      <object fish_species="Chaetodon Lununatus" h="46" w="44" x="112" y="71"/>
+   </frame>
+</video>

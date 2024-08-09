@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="d10efaf06b4d5f9ac1ea104b512483a0#201108131250">
+   <frame id="12">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="43" x="70" y="89"/>
+   </frame>
+   <frame id="13">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="43" x="70" y="89"/>
+   </frame>
+   <frame id="14">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="75" y="88"/>
+   </frame>
+   <frame id="15">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="78" y="88"/>
+   </frame>
+   <frame id="16">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="78" y="88"/>
+   </frame>
+   <frame id="17">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="81" y="88"/>
+   </frame>
+   <frame id="18">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="81" y="88"/>
+   </frame>
+   <frame id="19">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="50" x="83" y="86"/>
+   </frame>
+   <frame id="20">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="50" x="90" y="84"/>
+   </frame>
+   <frame id="21">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="50" x="90" y="84"/>
+   </frame>
+   <frame id="22">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="53" x="93" y="79"/>
+   </frame>
+   <frame id="23">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="53" x="103" y="79"/>
+   </frame>
+   <frame id="24">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="52" x="103" y="79"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="64" x="129" y="166"/>
+   </frame>
+   <frame id="25">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="52" x="106" y="79"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="64" x="129" y="164"/>
+   </frame>
+   <frame id="26">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="52" x="106" y="79"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="64" x="129" y="164"/>
+   </frame>
+   <frame id="27">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="52" x="106" y="79"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="64" x="126" y="162"/>
+   </frame>
+   <frame id="28">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="52" x="113" y="78"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="64" x="127" y="152"/>
+   </frame>
+   <frame id="29">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="118" y="78"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="130" y="151"/>
+   </frame>
+   <frame id="30">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="120" y="78"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="128" y="148"/>
+   </frame>
+   <frame id="31">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="120" y="78"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="128" y="148"/>
+   </frame>
+   <frame id="32">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="123" y="80"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="128" y="148"/>
+   </frame>
+   <frame id="33">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="129" y="81"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="128" y="143"/>
+   </frame>
+   <frame id="34">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="135" y="81"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="130" y="140"/>
+   </frame>
+   <frame id="35">
+      <object h="46" species_id="9" species_name="Chaetodon Lunulatus" w="47" x="135" y="81"/>
+      <object h="58" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="130" y="140"/>
+   </frame>
+   <frame id="36">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="49" x="137" y="81"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="108" y="138"/>
+   </frame>
+   <frame id="37">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="49" x="138" y="81"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="108" y="138"/>
+   </frame>
+   <frame id="38">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="49" x="138" y="81"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="108" y="138"/>
+   </frame>
+   <frame id="39">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="49" x="138" y="81"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="108" y="138"/>
+   </frame>
+   <frame id="40">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="49" x="142" y="83"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="108" y="133"/>
+   </frame>
+   <frame id="41">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="150" y="83"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="107" y="130"/>
+   </frame>
+   <frame id="42">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="157" y="83"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="107" y="126"/>
+   </frame>
+   <frame id="43">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="157" y="83"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="107" y="126"/>
+   </frame>
+   <frame id="44">
+      <object h="49" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="157" y="83"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="107" y="126"/>
+   </frame>
+   <frame id="45">
+      <object h="43" species_id="9" species_name="Chaetodon Lunulatus" w="36" x="162" y="89"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="107" y="125"/>
+   </frame>
+   <frame id="46">
+      <object h="43" species_id="9" species_name="Chaetodon Lunulatus" w="36" x="166" y="90"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="96" y="124"/>
+   </frame>
+   <frame id="47">
+      <object h="43" species_id="9" species_name="Chaetodon Lunulatus" w="36" x="166" y="90"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="96" y="124"/>
+   </frame>
+   <frame id="48">
+      <object h="41" species_id="9" species_name="Chaetodon Lunulatus" w="33" x="169" y="90"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="96" y="122"/>
+   </frame>
+   <frame id="49">
+      <object h="41" species_id="9" species_name="Chaetodon Lunulatus" w="33" x="171" y="91"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="96" y="122"/>
+   </frame>
+   <frame id="50">
+      <object h="41" species_id="9" species_name="Chaetodon Lunulatus" w="33" x="174" y="93"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="99" y="121"/>
+   </frame>
+   <frame id="51">
+      <object h="41" species_id="9" species_name="Chaetodon Lunulatus" w="33" x="174" y="93"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="88" x="99" y="121"/>
+   </frame>
+   <frame id="52">
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="178" y="95"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="118"/>
+   </frame>
+   <frame id="53">
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="97"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="118"/>
+   </frame>
+   <frame id="54">
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="99"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="118"/>
+   </frame>
+   <frame id="55">
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="99"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="56">
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="104"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="57">
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="104"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="58">
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="104"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="59">
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="104"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="60">
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="179" y="104"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="116"/>
+   </frame>
+   <frame id="61">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="115"/>
+   </frame>
+   <frame id="62">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="115"/>
+   </frame>
+   <frame id="63">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="97" y="115"/>
+   </frame>
+   <frame id="64">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="96" y="114"/>
+   </frame>
+   <frame id="65">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="84" x="96" y="114"/>
+   </frame>
+   <frame id="66">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="93" y="113"/>
+   </frame>
+   <frame id="67">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="110"/>
+   </frame>
+   <frame id="68">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="110"/>
+   </frame>
+   <frame id="69">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="110"/>
+   </frame>
+   <frame id="70">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="110"/>
+   </frame>
+   <frame id="71">
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="110"/>
+   </frame>
+   <frame id="72">
+      <object h="66" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="106"/>
+   </frame>
+   <frame id="73">
+      <object h="66" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="106"/>
+   </frame>
+   <frame id="74">
+      <object h="66" species_id="15" species_name="Dascyllus Reticulatus" w="87" x="91" y="106"/>
+   </frame>
+   <frame id="79">
+      <object h="20" species_id="1" species_name="Dascyllus reticulatus" w="26" x="123" y="9"/>
+   </frame>
+   <frame id="80">
+      <object h="18" species_id="1" species_name="Dascyllus reticulatus" w="25" x="124" y="9"/>
+   </frame>
+   <frame id="81">
+      <object h="18" species_id="1" species_name="Dascyllus reticulatus" w="28" x="125" y="7"/>
+   </frame>
+   <frame id="82">
+      <object h="18" species_id="1" species_name="Dascyllus reticulatus" w="27" x="135" y="0"/>
+   </frame>
+   <frame id="83">
+      <object h="18" species_id="1" species_name="Dascyllus reticulatus" w="27" x="135" y="0"/>
+   </frame>
+   <frame id="84">
+      <object h="13" species_id="1" species_name="Dascyllus reticulatus" w="30" x="137" y="0"/>
+   </frame>
+   <frame id="85">
+      <object h="13" species_id="1" species_name="Dascyllus reticulatus" w="30" x="137" y="0"/>
+   </frame>
+   <frame id="86">
+      <object h="13" species_id="1" species_name="Dascyllus reticulatus" w="28" x="140" y="0"/>
+   </frame>
+   <frame id="96">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="101" x="90" y="77"/>
+   </frame>
+   <frame id="97">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="101" x="90" y="76"/>
+   </frame>
+   <frame id="98">
+      <object h="70" species_id="15" species_name="Dascyllus Reticulatus" w="101" x="90" y="74"/>
+   </frame>
+   <frame id="99">
+      <object h="70" species_id="15" species_name="Dascyllus Reticulatus" w="101" x="90" y="74"/>
+   </frame>
+   <frame id="134">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="47" x="1" y="0"/>
+   </frame>
+   <frame id="135">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="48" x="3" y="0"/>
+   </frame>
+   <frame id="136">
+      <object h="43" species_id="1" species_name="Dascyllus reticulatus" w="45" x="6" y="2"/>
+   </frame>
+   <frame id="137">
+      <object h="43" species_id="1" species_name="Dascyllus reticulatus" w="45" x="10" y="6"/>
+   </frame>
+   <frame id="138">
+      <object h="47" species_id="1" species_name="Dascyllus reticulatus" w="46" x="12" y="10"/>
+   </frame>
+   <frame id="139">
+      <object h="50" species_id="1" species_name="Dascyllus reticulatus" w="45" x="16" y="13"/>
+   </frame>
+   <frame id="140">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="42" x="17" y="18"/>
+   </frame>
+   <frame id="149">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="78" y="11"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="282" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="32" x="169" y="4"/>
+   </frame>
+   <frame id="150">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="78" y="11"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="280" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="168" y="4"/>
+   </frame>
+   <frame id="151">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="78" y="11"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="280" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="168" y="4"/>
+   </frame>
+   <frame id="152">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="76" y="9"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="278" y="31"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="165" y="4"/>
+   </frame>
+   <frame id="153">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="74" y="7"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="276" y="32"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="163" y="1"/>
+      <object h="82" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="182" y="67"/>
+   </frame>
+   <frame id="154">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="73" y="7"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="272" y="32"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="160" y="3"/>
+      <object h="82" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="169" y="60"/>
+   </frame>
+   <frame id="155">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="68" y="2"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="262" y="32"/>
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="150" y="0"/>
+      <object h="71" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="153" y="30"/>
+   </frame>
+   <frame id="156">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="68" y="1"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="261" y="32"/>
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="32" x="151" y="0"/>
+      <object h="71" species_id="15" species_name="Dascyllus Reticulatus" w="59" x="154" y="21"/>
+   </frame>
+   <frame id="157">
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="65" y="1"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="261" y="35"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="32" x="151" y="0"/>
+      <object h="74" species_id="15" species_name="Dascyllus Reticulatus" w="62" x="153" y="14"/>
+   </frame>
+   <frame id="158">
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="65" y="1"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="261" y="35"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="32" x="151" y="0"/>
+      <object h="74" species_id="15" species_name="Dascyllus Reticulatus" w="62" x="153" y="14"/>
+   </frame>
+   <frame id="159">
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="65" y="1"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="259" y="35"/>
+      <object h="80" species_id="15" species_name="Dascyllus Reticulatus" w="72" x="149" y="4"/>
+   </frame>
+   <frame id="160">
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="63" y="0"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="31" x="254" y="35"/>
+      <object h="75" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="147" y="2"/>
+   </frame>
+   <frame id="161">
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="63" y="0"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="255" y="33"/>
+      <object h="65" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="144" y="0"/>
+   </frame>
+   <frame id="162">
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="62" y="0"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="253" y="33"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="144" y="0"/>
+   </frame>
+   <frame id="163">
+      <object h="17" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="62" y="0"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="253" y="33"/>
+      <object h="62" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="141" y="0"/>
+   </frame>
+   <frame id="164">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="59" y="0"/>
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="253" y="38"/>
+      <object h="35" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="130" y="0"/>
+   </frame>
+   <frame id="165">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="253" y="38"/>
+      <object h="29" species_id="15" species_name="Dascyllus Reticulatus" w="74" x="130" y="0"/>
+   </frame>
+   <frame id="166">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="253" y="38"/>
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="68" x="130" y="0"/>
+      <object h="18" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="200" y="33"/>
+   </frame>
+   <frame id="167">
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="38"/>
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="200" y="33"/>
+   </frame>
+   <frame id="168">
+      <object h="24" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="38"/>
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="200" y="33"/>
+   </frame>
+   <frame id="169">
+      <object h="24" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="38"/>
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="200" y="33"/>
+   </frame>
+   <frame id="170">
+      <object h="24" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="38"/>
+      <object h="19" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="200" y="33"/>
+   </frame>
+   <frame id="171">
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="40"/>
+   </frame>
+   <frame id="172">
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="40"/>
+   </frame>
+   <frame id="173">
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="40"/>
+   </frame>
+   <frame id="174">
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="26" x="251" y="42"/>
+   </frame>
+   <frame id="179">
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="198" y="0"/>
+      <object h="21" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="250" y="45"/>
+   </frame>
+   <frame id="180">
+      <object h="22" species_id="1" species_name="Dascyllus reticulatus" w="26" x="221" y="50"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="198" y="0"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="203" y="37"/>
+   </frame>
+   <frame id="181">
+      <object h="22" species_id="1" species_name="Dascyllus reticulatus" w="26" x="221" y="50"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="198" y="0"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="203" y="37"/>
+   </frame>
+   <frame id="182">
+      <object h="22" species_id="1" species_name="Dascyllus reticulatus" w="26" x="221" y="50"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="198" y="0"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="205" y="38"/>
+   </frame>
+   <frame id="183">
+      <object h="22" species_id="1" species_name="Dascyllus reticulatus" w="26" x="219" y="50"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="198" y="0"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="205" y="38"/>
+   </frame>
+   <frame id="184">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="29" x="216" y="48"/>
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="195" y="0"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="205" y="38"/>
+      <object h="21" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="248" y="47"/>
+   </frame>
+   <frame id="185">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="29" x="216" y="48"/>
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="195" y="0"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="205" y="38"/>
+      <object h="21" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="248" y="47"/>
+   </frame>
+   <frame id="186">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="29" x="216" y="48"/>
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="195" y="0"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="205" y="38"/>
+      <object h="21" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="248" y="47"/>
+   </frame>
+   <frame id="187">
+      <object h="22" species_id="1" species_name="Dascyllus reticulatus" w="26" x="240" y="44"/>
+   </frame>
+   <frame id="188">
+      <object h="28" species_id="1" species_name="Dascyllus reticulatus" w="33" x="193" y="38"/>
+   </frame>
+   <frame id="189">
+      <object h="55" species_id="1" species_name="Dascyllus reticulatus" w="64" x="61" y="0"/>
+   </frame>
+   <frame id="190">
+      <object h="55" species_id="1" species_name="Dascyllus reticulatus" w="64" x="61" y="0"/>
+   </frame>
+   <frame id="191">
+      <object h="23" species_id="1" species_name="Dascyllus reticulatus" w="41" x="145" y="34"/>
+      <object h="69" species_id="15" species_name="Dascyllus Reticulatus" w="62" x="50" y="14"/>
+   </frame>
+   <frame id="194">
+      <object h="30" species_id="NULL" species_name="NULL" w="37" x="203" y="32"/>
+   </frame>
+   <frame id="195">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="45" x="201" y="35"/>
+   </frame>
+   <frame id="196">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="31" x="223" y="34"/>
+      <object h="22" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="81" y="15"/>
+   </frame>
+   <frame id="197">
+      <object h="24" species_id="1" species_name="Dascyllus reticulatus" w="25" x="197" y="47"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="238" y="38"/>
+   </frame>
+   <frame id="198">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="25" x="196" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="241" y="37"/>
+   </frame>
+   <frame id="199">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="25" x="196" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="244" y="37"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="133" y="20"/>
+   </frame>
+   <frame id="200">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="30" x="194" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="248" y="38"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="140" y="16"/>
+   </frame>
+   <frame id="201">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="30" x="194" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="250" y="38"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="141" y="16"/>
+   </frame>
+   <frame id="202">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="30" x="194" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="250" y="38"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="141" y="16"/>
+   </frame>
+   <frame id="203">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="28" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="254" y="37"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="32" x="145" y="14"/>
+   </frame>
+   <frame id="204">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="33" x="259" y="36"/>
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="39" x="149" y="14"/>
+   </frame>
+   <frame id="205">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="34" x="258" y="36"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="37" x="155" y="16"/>
+   </frame>
+   <frame id="206">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="34" x="258" y="36"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="155" y="16"/>
+   </frame>
+   <frame id="207">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="34" x="261" y="34"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="164" y="16"/>
+   </frame>
+   <frame id="208">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="34" x="263" y="33"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="164" y="16"/>
+   </frame>
+   <frame id="209">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="34" x="263" y="31"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="166" y="17"/>
+   </frame>
+   <frame id="210">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="33" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="263" y="31"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="175" y="18"/>
+   </frame>
+   <frame id="211">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="175" y="18"/>
+   </frame>
+   <frame id="212">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="179" y="18"/>
+   </frame>
+   <frame id="213">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="194" y="46"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="30"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="181" y="17"/>
+   </frame>
+   <frame id="214">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="195" y="45"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="29"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="185" y="18"/>
+   </frame>
+   <frame id="215">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="192" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="194" y="20"/>
+   </frame>
+   <frame id="216">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="192" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="198" y="22"/>
+   </frame>
+   <frame id="217">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="34" x="192" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="198" y="23"/>
+   </frame>
+   <frame id="218">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="191" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="202" y="24"/>
+   </frame>
+   <frame id="219">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="191" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="209" y="26"/>
+   </frame>
+   <frame id="220">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="191" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="213" y="26"/>
+   </frame>
+   <frame id="221">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="191" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="215" y="26"/>
+   </frame>
+   <frame id="222">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="191" y="43"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="217" y="27"/>
+   </frame>
+   <frame id="223">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="190" y="42"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="217" y="27"/>
+   </frame>
+   <frame id="224">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="190" y="42"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="222" y="29"/>
+   </frame>
+   <frame id="225">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="187" y="41"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="266" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="227" y="32"/>
+   </frame>
+   <frame id="226">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="187" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="227" y="32"/>
+   </frame>
+   <frame id="227">
+      <object h="25" species_id="1" species_name="Dascyllus reticulatus" w="35" x="187" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="28"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="228" y="32"/>
+   </frame>
+   <frame id="228">
+      <object h="23" species_id="1" species_name="Dascyllus reticulatus" w="32" x="187" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="27"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="231" y="31"/>
+   </frame>
+   <frame id="229">
+      <object h="23" species_id="1" species_name="Dascyllus reticulatus" w="32" x="187" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="27"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="231" y="31"/>
+   </frame>
+   <frame id="230">
+      <object h="23" species_id="1" species_name="Dascyllus reticulatus" w="32" x="187" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="265" y="27"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="232" y="31"/>
+   </frame>
+   <frame id="231">
+      <object h="23" species_id="1" species_name="Dascyllus reticulatus" w="26" x="189" y="40"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="264" y="27"/>
+      <object h="25" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="235" y="31"/>
+   </frame>
+   <frame id="232">
+      <object h="26" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="264" y="26"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="244" y="31"/>
+   </frame>
+   <frame id="233">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="32" x="247" y="32"/>
+   </frame>
+   <frame id="234">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="37" x="245" y="31"/>
+   </frame>
+   <frame id="235">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="34" x="247" y="31"/>
+   </frame>
+   <frame id="236">
+      <object h="27" species_id="1" species_name="Dascyllus reticulatus" w="34" x="250" y="31"/>
+   </frame>
+   <frame id="256">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="187" y="11"/>
+   </frame>
+   <frame id="257">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="187" y="11"/>
+   </frame>
+   <frame id="258">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="189" y="9"/>
+   </frame>
+   <frame id="259">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="189" y="8"/>
+   </frame>
+   <frame id="260">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="189" y="8"/>
+   </frame>
+   <frame id="261">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="189" y="6"/>
+   </frame>
+   <frame id="262">
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="189" y="6"/>
+   </frame>
+   <frame id="263">
+      <object h="24" species_id="15" species_name="Dascyllus Reticulatus" w="28" x="188" y="0"/>
+   </frame>
+</video>

@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="07baf895b711927a078c12eb6deb88b0#201011270630" location="NPP3" camera="3">
+   <frame id="2">
+      <object fish_species="Amphiprion Clarkii" h="26" w="29" x="202" y="76"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="17" x="257" y="76"/>
+   </frame>
+   <frame id="3">
+      <object fish_species="Amphiprion Clarkii" h="26" w="29" x="202" y="76"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="17" x="254" y="77"/>
+   </frame>
+   <frame id="4">
+      <object fish_species="Amphiprion Clarkii" h="26" w="29" x="202" y="76"/>
+   </frame>
+   <frame id="5">
+      <object fish_species="Amphiprion Clarkii" h="26" w="29" x="202" y="72"/>
+   </frame>
+   <frame id="6">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="207" y="70"/>
+   </frame>
+   <frame id="7">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="207" y="68"/>
+   </frame>
+   <frame id="8">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="208" y="66"/>
+   </frame>
+   <frame id="9">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="209" y="64"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="210" y="62"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="210" y="62"/>
+   </frame>
+   <frame id="12">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="210" y="62"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="20" w="30" x="242" y="81"/>
+   </frame>
+   <frame id="13">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="210" y="59"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="20" w="30" x="242" y="81"/>
+   </frame>
+   <frame id="14">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="214" y="58"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="242" y="81"/>
+   </frame>
+   <frame id="15">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="214" y="58"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="242" y="81"/>
+   </frame>
+   <frame id="16">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="215" y="57"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="242" y="80"/>
+   </frame>
+   <frame id="17">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="220" y="56"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="243" y="79"/>
+   </frame>
+   <frame id="18">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="222" y="56"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="243" y="79"/>
+   </frame>
+   <frame id="19">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="227" y="56"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="244" y="79"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="25" x="190" y="13"/>
+   </frame>
+   <frame id="20">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="25" x="186" y="19"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="233" y="57"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="245" y="78"/>
+   </frame>
+   <frame id="21">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="25" x="183" y="22"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="233" y="57"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="245" y="78"/>
+   </frame>
+   <frame id="22">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="20" x="182" y="28"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="242" y="63"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="245" y="75"/>
+   </frame>
+   <frame id="23">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="20" x="177" y="26"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="247" y="63"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="30" x="246" y="74"/>
+   </frame>
+   <frame id="24">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="25" x="176" y="20"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="250" y="63"/>
+   </frame>
+   <frame id="25">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="33" x="175" y="14"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="257" y="59"/>
+   </frame>
+   <frame id="26">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="38" x="177" y="3"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="266" y="56"/>
+   </frame>
+   <frame id="27">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="38" x="180" y="-1"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="24" x="270" y="57"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="29" x="254" y="67"/>
+   </frame>
+   <frame id="28">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="38" x="188" y="-3"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="28" x="276" y="57"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="29" x="258" y="67"/>
+   </frame>
+   <frame id="29">
+      <object fish_species="Dascyllus Reticulatus" h="18" w="38" x="196" y="-3"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="22" x="263" y="67"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="28" x="282" y="57"/>
+   </frame>
+   <frame id="30">
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="22" x="263" y="67"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="28" x="282" y="57"/>
+   </frame>
+   <frame id="31">
+      <object fish_species="Amphiprion Clarkii" h="20" w="28" x="285" y="56"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="22" x="263" y="65"/>
+   </frame>
+   <frame id="32">
+      <object fish_species="Amphiprion Clarkii" h="21" w="28" x="289" y="55"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="22" x="265" y="65"/>
+   </frame>
+   <frame id="33">
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="22" x="265" y="65"/>
+      <object fish_species="Amphiprion Clarkii" h="21" w="28" x="289" y="55"/>
+   </frame>
+   <frame id="34">
+      <object fish_species="Amphiprion Clarkii" h="21" w="24" x="293" y="55"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="19" x="268" y="65"/>
+   </frame>
+   <frame id="35">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="298" y="55"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="19" x="268" y="65"/>
+   </frame>
+   <frame id="36">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="299" y="52"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="19" w="19" x="268" y="64"/>
+   </frame>
+   <frame id="37">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="302" y="50"/>
+   </frame>
+   <frame id="38">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="302" y="46"/>
+   </frame>
+   <frame id="39">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="302" y="46"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="269" y="63"/>
+   </frame>
+   <frame id="40">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="302" y="46"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="270" y="63"/>
+   </frame>
+   <frame id="41">
+      <object fish_species="Amphiprion Clarkii" h="21" w="19" x="303" y="42"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="271" y="62"/>
+   </frame>
+   <frame id="42">
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="274" y="61"/>
+   </frame>
+   <frame id="43">
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="274" y="59"/>
+   </frame>
+   <frame id="44">
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="23" x="275" y="60"/>
+   </frame>
+   <frame id="53">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+   </frame>
+   <frame id="54">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+   </frame>
+   <frame id="55">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="30" x="275" y="31"/>
+   </frame>
+   <frame id="56">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="30" x="273" y="31"/>
+   </frame>
+   <frame id="57">
+      <object fish_species="Amphiprion Clarkii" h="28" w="30" x="272" y="29"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+   </frame>
+   <frame id="58">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="22" x="272" y="24"/>
+   </frame>
+   <frame id="59">
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="22" x="270" y="20"/>
+      <object fish_species="Dascyllus Reticulatus" h="12" w="16" x="254" y="49"/>
+   </frame>
+   <frame id="60">
+      <object fish_species="Amphiprion Clarkii" h="33" w="22" x="265" y="20"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="20" x="274" y="64"/>
+   </frame>
+   <frame id="61">
+      <object fish_species="Amphiprion Clarkii" h="33" w="27" x="259" y="16"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="23" x="274" y="64"/>
+   </frame>
+   <frame id="62">
+      <object fish_species="Amphiprion Clarkii" h="33" w="27" x="255" y="16"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="23" x="274" y="64"/>
+   </frame>
+   <frame id="63">
+      <object fish_species="Amphiprion Clarkii" h="33" w="27" x="251" y="16"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="23" x="274" y="64"/>
+   </frame>
+   <frame id="64">
+      <object fish_species="Amphiprion Clarkii" h="33" w="19" x="251" y="17"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="23" x="274" y="64"/>
+   </frame>
+   <frame id="65">
+      <object fish_species="Amphiprion Clarkii" h="33" w="19" x="247" y="22"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="17" w="23" x="274" y="63"/>
+   </frame>
+   <frame id="66">
+      <object fish_species="Amphiprion Clarkii" h="33" w="16" x="243" y="23"/>
+   </frame>
+   <frame id="67">
+      <object fish_species="Amphiprion Clarkii" h="33" w="18" x="233" y="29"/>
+   </frame>
+   <frame id="68">
+      <object fish_species="Amphiprion Clarkii" h="33" w="18" x="223" y="31"/>
+   </frame>
+   <frame id="69">
+      <object fish_species="Amphiprion Clarkii" h="34" w="20" x="217" y="31"/>
+   </frame>
+   <frame id="70">
+      <object fish_species="Amphiprion Clarkii" h="37" w="26" x="211" y="30"/>
+   </frame>
+   <frame id="71">
+      <object fish_species="Amphiprion Clarkii" h="42" w="43" x="200" y="25"/>
+   </frame>
+   <frame id="72">
+      <object fish_species="Amphiprion Clarkii" h="42" w="53" x="194" y="24"/>
+   </frame>
+   <frame id="73">
+      <object fish_species="Amphiprion Clarkii" h="42" w="55" x="194" y="23"/>
+   </frame>
+   <frame id="74">
+      <object fish_species="Amphiprion Clarkii" h="42" w="55" x="198" y="20"/>
+   </frame>
+   <frame id="75">
+      <object fish_species="Amphiprion Clarkii" h="42" w="55" x="199" y="19"/>
+   </frame>
+   <frame id="76">
+      <object fish_species="Amphiprion Clarkii" h="42" w="55" x="201" y="19"/>
+   </frame>
+   <frame id="77">
+      <object fish_species="Amphiprion Clarkii" h="42" w="55" x="204" y="19"/>
+   </frame>
+   <frame id="78">
+      <object fish_species="Amphiprion Clarkii" h="41" w="50" x="207" y="19"/>
+   </frame>
+   <frame id="79">
+      <object fish_species="Amphiprion Clarkii" h="41" w="40" x="217" y="19"/>
+   </frame>
+   <frame id="80">
+      <object fish_species="Amphiprion Clarkii" h="41" w="33" x="224" y="19"/>
+   </frame>
+   <frame id="81">
+      <object fish_species="Amphiprion Clarkii" h="36" w="29" x="228" y="24"/>
+   </frame>
+   <frame id="82">
+      <object fish_species="Amphiprion Clarkii" h="36" w="29" x="230" y="24"/>
+   </frame>
+   <frame id="83">
+      <object fish_species="Amphiprion Clarkii" h="33" w="19" x="240" y="27"/>
+   </frame>
+   <frame id="84">
+      <object fish_species="Amphiprion Clarkii" h="31" w="16" x="243" y="29"/>
+   </frame>
+   <frame id="85">
+      <object fish_species="Amphiprion Clarkii" h="31" w="11" x="248" y="28"/>
+   </frame>
+   <frame id="86">
+      <object fish_species="Amphiprion Clarkii" h="31" w="11" x="248" y="28"/>
+   </frame>
+   <frame id="87">
+      <object fish_species="Amphiprion Clarkii" h="31" w="11" x="248" y="25"/>
+   </frame>
+   <frame id="88">
+      <object fish_species="Amphiprion Clarkii" h="31" w="13" x="253" y="22"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="30" x="277" y="60"/>
+   </frame>
+   <frame id="89">
+      <object fish_species="Amphiprion Clarkii" h="31" w="18" x="255" y="21"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="30" x="277" y="60"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="17" x="217" y="12"/>
+   </frame>
+   <frame id="90">
+      <object fish_species="Amphiprion Clarkii" h="31" w="18" x="258" y="20"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="30" x="277" y="60"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="17" x="212" y="11"/>
+   </frame>
+   <frame id="91">
+      <object fish_species="Dascyllus Reticulatus" h="16" w="17" x="203" y="11"/>
+      <object fish_species="Amphiprion Clarkii" h="31" w="18" x="262" y="20"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="30" x="277" y="60"/>
+   </frame>
+   <frame id="92">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="38" x="77" y="71"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="17" x="195" y="11"/>
+      <object fish_species="Amphiprion Clarkii" h="31" w="18" x="268" y="20"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="18" w="19" x="283" y="60"/>
+   </frame>
+   <frame id="93">
+      <object fish_species="Amphiprion Clarkii" h="31" w="18" x="270" y="18"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="17" x="192" y="11"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="42" x="80" y="64"/>
+   </frame>
+   <frame id="94">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="42" x="83" y="62"/>
+   </frame>
+   <frame id="95">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="42" x="85" y="58"/>
+   </frame>
+   <frame id="96">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="42" x="85" y="58"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="28" x="271" y="20"/>
+   </frame>
+   <frame id="97">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="48" x="79" y="58"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="28" x="278" y="21"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="21" x="181" y="9"/>
+   </frame>
+   <frame id="98">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="48" x="80" y="58"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="177" y="7"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="27" w="26" x="280" y="52"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="28" x="281" y="21"/>
+   </frame>
+   <frame id="99">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="48" x="80" y="58"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="177" y="7"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="28" x="284" y="19"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="27" w="26" x="280" y="50"/>
+   </frame>
+   <frame id="100">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="48" x="80" y="58"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="181" y="7"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="23" x="293" y="16"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="27" w="26" x="280" y="50"/>
+   </frame>
+   <frame id="101">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="43" x="80" y="67"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="20" x="186" y="8"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="23" x="296" y="10"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="23" x="284" y="51"/>
+   </frame>
+   <frame id="102">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="43" x="80" y="67"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="20" x="186" y="8"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="23" x="296" y="8"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="23" x="285" y="50"/>
+   </frame>
+   <frame id="103">
+      <object fish_species="Dascyllus Reticulatus" h="45" w="46" x="80" y="76"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="17" x="189" y="8"/>
+      <object fish_species="Amphiprion Clarkii" h="24" w="23" x="296" y="2"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="23" x="285" y="50"/>
+   </frame>
+   <frame id="104">
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="23" x="285" y="50"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="18" x="301" y="0"/>
+   </frame>
+   <frame id="105">
+      <object fish_species="Neoglyphidodon Nigroris" h="26" w="23" x="285" y="50"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="18" x="301" y="0"/>
+   </frame>
+   <frame id="106">
+      <object fish_species="Neoglyphidodon Nigroris" h="24" w="33" x="278" y="48"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="19" x="191" y="2"/>
+   </frame>
+   <frame id="107">
+      <object fish_species="Dascyllus Reticulatus" h="15" w="19" x="195" y="-2"/>
+      <object fish_species="Neoglyphidodon Nigroris" h="24" w="26" x="283" y="48"/>
+   </frame>
+   <frame id="108">
+      <object fish_species="Neoglyphidodon Nigroris" h="24" w="26" x="283" y="48"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Dascyllus Reticulatus" h="13" w="23" x="208" y="7"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Dascyllus Reticulatus" h="13" w="23" x="208" y="7"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Dascyllus Reticulatus" h="13" w="15" x="213" y="7"/>
+   </frame>
+   <frame id="127">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="31" x="79" y="78"/>
+   </frame>
+   <frame id="128">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="31" x="79" y="78"/>
+   </frame>
+   <frame id="129">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="34" x="79" y="81"/>
+   </frame>
+   <frame id="130">
+      <object fish_species="Amphiprion Clarkii" h="24" w="14" x="288" y="15"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Amphiprion Clarkii" h="24" w="19" x="276" y="12"/>
+   </frame>
+   <frame id="132">
+      <object fish_species="Dascyllus Reticulatus" h="17" w="16" x="175" y="8"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="21" x="266" y="9"/>
+   </frame>
+   <frame id="133">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="20" x="163" y="10"/>
+      <object fish_species="Amphiprion Clarkii" h="28" w="30" x="243" y="4"/>
+   </frame>
+   <frame id="134">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="20" x="154" y="15"/>
+      <object fish_species="Amphiprion Clarkii" h="26" w="20" x="232" y="6"/>
+   </frame>
+   <frame id="135">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="20" x="147" y="16"/>
+      <object fish_species="Amphiprion Clarkii" h="31" w="20" x="224" y="1"/>
+   </frame>
+   <frame id="136">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="20" x="139" y="21"/>
+      <object fish_species="Amphiprion Clarkii" h="31" w="29" x="215" y="1"/>
+   </frame>
+   <frame id="137">
+      <object fish_species="Amphiprion Clarkii" h="42" w="26" x="226" y="13"/>
+   </frame>
+   <frame id="138">
+      <object fish_species="Amphiprion Clarkii" h="33" w="16" x="241" y="51"/>
+   </frame>
+   <frame id="139">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="18" x="159" y="6"/>
+   </frame>
+   <frame id="140">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="18" x="148" y="26"/>
+      <object fish_species="Dascyllus Reticulatus" h="74" w="27" x="285" y="92"/>
+   </frame>
+   <frame id="141">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="27" x="138" y="29"/>
+      <object fish_species="Dascyllus Reticulatus" h="74" w="27" x="283" y="92"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Dascyllus Reticulatus" h="74" w="50" x="267" y="87"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="44" x="121" y="32"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="40" x="118" y="32"/>
+      <object fish_species="Dascyllus Reticulatus" h="74" w="67" x="253" y="71"/>
+   </frame>
+   <frame id="144">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="31" x="118" y="32"/>
+      <object fish_species="Dascyllus Reticulatus" h="69" w="67" x="253" y="71"/>
+   </frame>
+   <frame id="145">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="22" x="115" y="30"/>
+   </frame>
+   <frame id="146">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="22" x="115" y="20"/>
+   </frame>
+   <frame id="147">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="25" x="117" y="16"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="118" y="13"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="128" y="7"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="133" y="7"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="35" x="144" y="4"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="229" y="80"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="35" x="154" y="0"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="234" y="77"/>
+   </frame>
+   <frame id="153">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="35" x="159" y="0"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="240" y="77"/>
+   </frame>
+   <frame id="154">
+      <object fish_species="Dascyllus Reticulatus" h="13" w="28" x="170" y="0"/>
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="248" y="76"/>
+   </frame>
+   <frame id="155">
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="250" y="75"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="255" y="74"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Amphiprion Clarkii" h="20" w="27" x="259" y="74"/>
+   </frame>
+   <frame id="158">
+      <object fish_species="Amphiprion Clarkii" h="20" w="22" x="270" y="70"/>
+   </frame>
+   <frame id="159">
+      <object fish_species="Amphiprion Clarkii" h="20" w="22" x="272" y="69"/>
+   </frame>
+   <frame id="160">
+      <object fish_species="Amphiprion Clarkii" h="20" w="22" x="280" y="66"/>
+   </frame>
+   <frame id="161">
+      <object fish_species="Amphiprion Clarkii" h="20" w="20" x="290" y="63"/>
+   </frame>
+   <frame id="162">
+      <object fish_species="Amphiprion Clarkii" h="20" w="20" x="292" y="62"/>
+   </frame>
+   <frame id="163">
+      <object fish_species="Amphiprion Clarkii" h="20" w="20" x="294" y="61"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="17" x="303" y="30"/>
+   </frame>
+   <frame id="164">
+      <object fish_species="Amphiprion Clarkii" h="20" w="20" x="298" y="61"/>
+   </frame>
+   <frame id="165">
+      <object fish_species="Amphiprion Clarkii" h="20" w="23" x="295" y="61"/>
+   </frame>
+   <frame id="166">
+      <object fish_species="Amphiprion Clarkii" h="20" w="20" x="298" y="60"/>
+   </frame>
+   <frame id="176">
+      <object fish_species="Amphiprion Clarkii" h="24" w="21" x="265" y="46"/>
+   </frame>
+   <frame id="177">
+      <object fish_species="Amphiprion Clarkii" h="24" w="21" x="260" y="47"/>
+   </frame>
+   <frame id="178">
+      <object fish_species="Amphiprion Clarkii" h="21" w="17" x="252" y="50"/>
+   </frame>
+   <frame id="179">
+      <object fish_species="Amphiprion Clarkii" h="21" w="17" x="245" y="50"/>
+   </frame>
+   <frame id="180">
+      <object fish_species="Amphiprion Clarkii" h="22" w="17" x="242" y="50"/>
+   </frame>
+   <frame id="181">
+      <object fish_species="Amphiprion Clarkii" h="22" w="22" x="237" y="51"/>
+   </frame>
+   <frame id="182">
+      <object fish_species="Amphiprion Clarkii" h="22" w="22" x="236" y="52"/>
+   </frame>
+   <frame id="183">
+      <object fish_species="Amphiprion Clarkii" h="22" w="22" x="233" y="52"/>
+   </frame>
+   <frame id="184">
+      <object fish_species="Amphiprion Clarkii" h="22" w="22" x="233" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="42" w="27" x="292" y="4"/>
+   </frame>
+   <frame id="185">
+      <object fish_species="Amphiprion Clarkii" h="24" w="27" x="228" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="27" x="292" y="8"/>
+   </frame>
+   <frame id="186">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="226" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="27" x="292" y="8"/>
+   </frame>
+   <frame id="187">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="226" y="52"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="27" x="292" y="0"/>
+   </frame>
+   <frame id="188">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="225" y="54"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="27" x="292" y="0"/>
+   </frame>
+   <frame id="189">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="225" y="54"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="32" x="287" y="0"/>
+   </frame>
+   <frame id="190">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="225" y="54"/>
+   </frame>
+   <frame id="191">
+      <object fish_species="Amphiprion Clarkii" h="24" w="30" x="225" y="54"/>
+   </frame>
+   <frame id="192">
+      <object fish_species="Amphiprion Clarkii" h="24" w="25" x="230" y="54"/>
+   </frame>
+   <frame id="193">
+      <object fish_species="Amphiprion Clarkii" h="22" w="19" x="235" y="54"/>
+   </frame>
+   <frame id="194">
+      <object fish_species="Amphiprion Clarkii" h="22" w="19" x="237" y="53"/>
+   </frame>
+   <frame id="195">
+      <object fish_species="Amphiprion Clarkii" h="22" w="19" x="237" y="53"/>
+   </frame>
+   <frame id="196">
+      <object fish_species="Amphiprion Clarkii" h="22" w="19" x="240" y="53"/>
+   </frame>
+   <frame id="209">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="32" x="198" y="2"/>
+   </frame>
+   <frame id="210">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="32" x="198" y="2"/>
+   </frame>
+   <frame id="211">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="39" x="198" y="7"/>
+   </frame>
+   <frame id="212">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="39" x="198" y="7"/>
+   </frame>
+   <frame id="213">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="39" x="199" y="5"/>
+   </frame>
+   <frame id="214">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="32" x="206" y="1"/>
+   </frame>
+   <frame id="215">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="32" x="206" y="0"/>
+   </frame>
+   <frame id="216">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="32" x="204" y="0"/>
+   </frame>
+   <frame id="217">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="32" x="204" y="0"/>
+   </frame>
+   <frame id="218">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="204" y="0"/>
+   </frame>
+   <frame id="219">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="29" x="204" y="0"/>
+   </frame>
+   <frame id="220">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="27" x="200" y="0"/>
+   </frame>
+   <frame id="221">
+      <object fish_species="Dascyllus Reticulatus" h="19" w="24" x="196" y="0"/>
+   </frame>
+   <frame id="222">
+      <object fish_species="Dascyllus Reticulatus" h="17" w="28" x="187" y="0"/>
+   </frame>
+   <frame id="223">
+      <object fish_species="Dascyllus Reticulatus" h="32" w="40" x="160" y="0"/>
+   </frame>
+   <frame id="224">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="136" y="19"/>
+   </frame>
+   <frame id="225">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="41" x="119" y="33"/>
+   </frame>
+   <frame id="226">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="24" x="107" y="59"/>
+   </frame>
+   <frame id="246">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="24" x="87" y="55"/>
+   </frame>
+   <frame id="247">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="88" y="53"/>
+   </frame>
+   <frame id="248">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="94" y="49"/>
+   </frame>
+   <frame id="249">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="94" y="49"/>
+   </frame>
+   <frame id="250">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="26" x="99" y="44"/>
+   </frame>
+   <frame id="251">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="23" x="103" y="38"/>
+   </frame>
+   <frame id="252">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="23" x="103" y="38"/>
+   </frame>
+   <frame id="253">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="23" x="101" y="34"/>
+   </frame>
+   <frame id="254">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="24" x="101" y="31"/>
+   </frame>
+   <frame id="255">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="30" x="95" y="31"/>
+   </frame>
+   <frame id="256">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="36" x="101" y="29"/>
+   </frame>
+   <frame id="257">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="36" x="113" y="31"/>
+   </frame>
+   <frame id="258">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="36" x="119" y="34"/>
+   </frame>
+   <frame id="259">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="38" x="130" y="40"/>
+   </frame>
+   <frame id="260">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="34" x="142" y="40"/>
+   </frame>
+   <frame id="261">
+      <object fish_species="Dascyllus Reticulatus" h="30" w="27" x="153" y="38"/>
+   </frame>
+   <frame id="262">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="25" x="160" y="37"/>
+   </frame>
+   <frame id="263">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="167" y="33"/>
+   </frame>
+   <frame id="264">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="167" y="32"/>
+   </frame>
+   <frame id="265">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="169" y="30"/>
+   </frame>
+   <frame id="266">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="171" y="27"/>
+   </frame>
+   <frame id="267">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="171" y="27"/>
+   </frame>
+   <frame id="268">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="21" x="169" y="28"/>
+   </frame>
+   <frame id="269">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="27" x="168" y="30"/>
+   </frame>
+   <frame id="270">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="164" y="31"/>
+   </frame>
+   <frame id="271">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="166" y="31"/>
+   </frame>
+   <frame id="272">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="166" y="31"/>
+   </frame>
+   <frame id="273">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="166" y="31"/>
+   </frame>
+   <frame id="274">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="166" y="31"/>
+   </frame>
+   <frame id="275">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="163" y="31"/>
+   </frame>
+   <frame id="276">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="163" y="31"/>
+   </frame>
+   <frame id="277">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="158" y="32"/>
+   </frame>
+   <frame id="278">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="154" y="34"/>
+   </frame>
+   <frame id="279">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="152" y="36"/>
+   </frame>
+   <frame id="280">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="151" y="38"/>
+   </frame>
+   <frame id="281">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="150" y="40"/>
+   </frame>
+   <frame id="282">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="32" x="149" y="41"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="42" x="40" y="74"/>
+   </frame>
+   <frame id="283">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="28" x="149" y="46"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="44" x="32" y="68"/>
+   </frame>
+   <frame id="284">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="25" x="149" y="50"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="20" y="57"/>
+   </frame>
+   <frame id="285">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="25" x="146" y="51"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="46" x="13" y="49"/>
+   </frame>
+   <frame id="286">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="23" x="144" y="57"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="46" x="21" y="49"/>
+   </frame>
+   <frame id="287">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="23" x="144" y="61"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="43" x="30" y="54"/>
+   </frame>
+   <frame id="288">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="23" x="142" y="66"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="37" x="32" y="60"/>
+   </frame>
+</video>

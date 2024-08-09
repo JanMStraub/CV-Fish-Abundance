@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="cf2e010daaf375e60dc7728ee74a683f#201106161330">
+   <frame id="63">
+      <object h="32" species_id="1" species_name="Dascyllus reticulatus" w="45" x="178" y="103"/>
+   </frame>
+   <frame id="64">
+      <object h="32" species_id="1" species_name="Dascyllus reticulatus" w="45" x="178" y="103"/>
+   </frame>
+   <frame id="65">
+      <object h="32" species_id="1" species_name="Dascyllus reticulatus" w="45" x="178" y="103"/>
+   </frame>
+   <frame id="66">
+      <object h="35" species_id="1" species_name="Dascyllus reticulatus" w="45" x="183" y="100"/>
+   </frame>
+   <frame id="67">
+      <object h="32" species_id="1" species_name="Dascyllus reticulatus" w="50" x="178" y="103"/>
+   </frame>
+   <frame id="68">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="49" x="179" y="101"/>
+   </frame>
+   <frame id="69">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="47" x="185" y="103"/>
+   </frame>
+   <frame id="70">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="45" x="187" y="100"/>
+   </frame>
+   <frame id="71">
+      <object h="35" species_id="1" species_name="Dascyllus reticulatus" w="44" x="188" y="102"/>
+   </frame>
+   <frame id="72">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="48" x="189" y="101"/>
+   </frame>
+   <frame id="73">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="58" x="186" y="102"/>
+   </frame>
+   <frame id="74">
+      <object h="40" species_id="1" species_name="Dascyllus reticulatus" w="53" x="185" y="102"/>
+   </frame>
+   <frame id="75">
+      <object h="40" species_id="1" species_name="Dascyllus reticulatus" w="62" x="181" y="104"/>
+   </frame>
+   <frame id="76">
+      <object h="40" species_id="1" species_name="Dascyllus reticulatus" w="61" x="182" y="104"/>
+   </frame>
+   <frame id="77">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="63" x="180" y="105"/>
+   </frame>
+   <frame id="78">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="56" x="193" y="109"/>
+   </frame>
+   <frame id="79">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="51" x="195" y="109"/>
+   </frame>
+   <frame id="80">
+      <object h="40" species_id="1" species_name="Dascyllus reticulatus" w="58" x="189" y="109"/>
+   </frame>
+   <frame id="81">
+      <object h="40" species_id="1" species_name="Dascyllus reticulatus" w="52" x="196" y="112"/>
+   </frame>
+   <frame id="82">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="54" x="194" y="111"/>
+   </frame>
+   <frame id="83">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="51" x="197" y="111"/>
+   </frame>
+   <frame id="84">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="207" y="114"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="99"/>
+   </frame>
+   <frame id="85">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="207" y="114"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="99"/>
+   </frame>
+   <frame id="86">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="207" y="114"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="99"/>
+   </frame>
+   <frame id="87">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="215" y="112"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="88">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="215" y="112"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="89">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="215" y="112"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="90">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="221" y="109"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="91">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="221" y="109"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="92">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="221" y="109"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="95"/>
+   </frame>
+   <frame id="93">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="223" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="94">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="223" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="95">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="223" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="96">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="234" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="97">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="234" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="98">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="234" y="108"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="0" y="92"/>
+   </frame>
+   <frame id="99">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="106"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="100">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="106"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="101">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="106"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="102">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="107"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="103">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="107"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="104">
+      <object h="31" species_id="1" species_name="Dascyllus reticulatus" w="46" x="239" y="107"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="37" x="1" y="91"/>
+   </frame>
+   <frame id="105">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="46" x="242" y="105"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="91"/>
+   </frame>
+   <frame id="106">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="46" x="242" y="105"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="91"/>
+   </frame>
+   <frame id="107">
+      <object h="34" species_id="1" species_name="Dascyllus reticulatus" w="46" x="242" y="105"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="91"/>
+   </frame>
+   <frame id="108">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="109">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="110">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="111">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="112">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="113">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="114">
+      <object h="37" species_id="1" species_name="Dascyllus reticulatus" w="46" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="50" x="1" y="91"/>
+   </frame>
+   <frame id="115">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="65" x="1" y="91"/>
+   </frame>
+   <frame id="116">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="65" x="1" y="91"/>
+   </frame>
+   <frame id="117">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="65" x="1" y="91"/>
+   </frame>
+   <frame id="118">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="44" species_id="14" species_name="Dascyllus Aruanus" w="55" x="11" y="91"/>
+   </frame>
+   <frame id="119">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="44" species_id="14" species_name="Dascyllus Aruanus" w="55" x="11" y="91"/>
+   </frame>
+   <frame id="120">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="49" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="121">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="49" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="122">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="49" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="123">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="124">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="125">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="126">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="127">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="128">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="129">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="57" x="13" y="93"/>
+   </frame>
+   <frame id="130">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="13" y="93"/>
+   </frame>
+   <frame id="131">
+      <object h="39" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="13" y="93"/>
+   </frame>
+   <frame id="132">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="133">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="134">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="135">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="136">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="137">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="138">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="139">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="140">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="55" x="10" y="87"/>
+   </frame>
+   <frame id="141">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="142">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="143">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="144">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="145">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="146">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="97"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="147">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="99"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="148">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="47" x="243" y="99"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="149">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="43" x="247" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="50" x="10" y="87"/>
+   </frame>
+   <frame id="150">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="43" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="52" x="10" y="87"/>
+   </frame>
+   <frame id="151">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="43" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="52" x="10" y="87"/>
+   </frame>
+   <frame id="152">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="43" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="52" x="10" y="87"/>
+   </frame>
+   <frame id="153">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="45" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="154">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="155">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="249" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="156">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="157">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="158">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="87"/>
+   </frame>
+   <frame id="159">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="160">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="161">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="254" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="162">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="257" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="163">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="257" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="164">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="46" x="259" y="103"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="165">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="166">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="167">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="168">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="169">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="170">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="261" y="102"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="171">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="101"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="172">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="101"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="173">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="101"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="10" y="82"/>
+   </frame>
+   <frame id="174">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="99"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="91"/>
+   </frame>
+   <frame id="175">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="99"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="91"/>
+   </frame>
+   <frame id="176">
+      <object h="41" species_id="1" species_name="Dascyllus reticulatus" w="54" x="265" y="99"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="91"/>
+   </frame>
+   <frame id="177">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="40" x="279" y="98"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="100"/>
+   </frame>
+   <frame id="178">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="40" x="279" y="98"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="100"/>
+   </frame>
+   <frame id="179">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="40" x="279" y="98"/>
+      <object h="46" species_id="14" species_name="Dascyllus Aruanus" w="56" x="15" y="100"/>
+   </frame>
+   <frame id="180">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="18" y="111"/>
+   </frame>
+   <frame id="181">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="18" y="111"/>
+   </frame>
+   <frame id="182">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="18" y="111"/>
+   </frame>
+   <frame id="183">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="115"/>
+   </frame>
+   <frame id="184">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="115"/>
+   </frame>
+   <frame id="185">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="98"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="115"/>
+   </frame>
+   <frame id="186">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="118"/>
+   </frame>
+   <frame id="187">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="118"/>
+   </frame>
+   <frame id="188">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="50" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="118"/>
+   </frame>
+   <frame id="189">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="114"/>
+   </frame>
+   <frame id="190">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="114"/>
+   </frame>
+   <frame id="191">
+      <object h="42" species_id="1" species_name="Dascyllus reticulatus" w="37" x="282" y="103"/>
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="19" y="114"/>
+   </frame>
+   <frame id="192">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="3" y="108"/>
+   </frame>
+   <frame id="193">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="3" y="108"/>
+   </frame>
+   <frame id="194">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="3" y="108"/>
+   </frame>
+   <frame id="195">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="1" y="104"/>
+   </frame>
+   <frame id="196">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="1" y="104"/>
+   </frame>
+   <frame id="197">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="1" y="104"/>
+   </frame>
+   <frame id="198">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="56" x="1" y="100"/>
+   </frame>
+   <frame id="199">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="52" x="1" y="100"/>
+   </frame>
+   <frame id="200">
+      <object h="51" species_id="14" species_name="Dascyllus Aruanus" w="52" x="1" y="100"/>
+   </frame>
+   <frame id="201">
+      <object h="45" species_id="14" species_name="Dascyllus Aruanus" w="49" x="1" y="100"/>
+   </frame>
+   <frame id="202">
+      <object h="45" species_id="14" species_name="Dascyllus Aruanus" w="49" x="1" y="100"/>
+   </frame>
+   <frame id="203">
+      <object h="45" species_id="14" species_name="Dascyllus Aruanus" w="49" x="1" y="100"/>
+   </frame>
+   <frame id="204">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="100"/>
+   </frame>
+   <frame id="205">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="100"/>
+   </frame>
+   <frame id="206">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="100"/>
+   </frame>
+   <frame id="207">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="44" x="1" y="96"/>
+   </frame>
+   <frame id="208">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="40" x="1" y="96"/>
+   </frame>
+   <frame id="209">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="210">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="211">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="212">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="213">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="214">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="215">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="38" x="1" y="96"/>
+   </frame>
+   <frame id="216">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="35" x="1" y="96"/>
+   </frame>
+   <frame id="217">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="35" x="1" y="96"/>
+   </frame>
+   <frame id="218">
+      <object h="40" species_id="14" species_name="Dascyllus Aruanus" w="35" x="1" y="96"/>
+   </frame>
+</video>

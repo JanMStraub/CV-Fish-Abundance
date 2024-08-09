@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="39390008c7d6c34e82780f7a7b5a6457#201103310620" location="NPP3" camera="4">
+   <frame id="1">
+      <object fish_species="Myripristis Kuntee" h="23" w="33" x="157" y="118"/>
+   </frame>
+   <frame id="2">
+      <object fish_species="Myripristis Kuntee" h="21" w="24" x="164" y="121"/>
+   </frame>
+   <frame id="3">
+      <object fish_species="Myripristis Kuntee" h="20" w="23" x="166" y="122"/>
+   </frame>
+   <frame id="4">
+      <object fish_species="Myripristis Kuntee" h="20" w="23" x="167" y="122"/>
+   </frame>
+   <frame id="5">
+      <object fish_species="Myripristis Kuntee" h="20" w="23" x="167" y="124"/>
+   </frame>
+   <frame id="6">
+      <object fish_species="Myripristis Kuntee" h="20" w="23" x="168" y="125"/>
+   </frame>
+   <frame id="7">
+      <object fish_species="Myripristis Kuntee" h="17" w="22" x="173" y="129"/>
+   </frame>
+   <frame id="8">
+      <object fish_species="Myripristis Kuntee" h="22" w="35" x="167" y="130"/>
+   </frame>
+   <frame id="9">
+      <object fish_species="Myripristis Kuntee" h="22" w="35" x="167" y="130"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Myripristis Kuntee" h="22" w="35" x="167" y="130"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Myripristis Kuntee" h="22" w="31" x="176" y="134"/>
+   </frame>
+   <frame id="12">
+      <object fish_species="Myripristis Kuntee" h="22" w="31" x="177" y="136"/>
+   </frame>
+   <frame id="13">
+      <object fish_species="Myripristis Kuntee" h="22" w="31" x="179" y="136"/>
+   </frame>
+   <frame id="14">
+      <object fish_species="Myripristis Kuntee" h="21" w="25" x="188" y="138"/>
+   </frame>
+   <frame id="25">
+      <object fish_species="Abudefduf Vaigiensis" h="16" w="20" x="266" y="1"/>
+   </frame>
+   <frame id="28">
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="22" x="283" y="18"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="25" x="247" y="46"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="16" x="104" y="33"/>
+   </frame>
+   <frame id="29">
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="22" x="291" y="29"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="28" x="252" y="46"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="16" x="107" y="39"/>
+   </frame>
+   <frame id="30">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="28" x="259" y="49"/>
+      <object fish_species="Dascyllus Reticulatus" h="16" w="16" x="105" y="43"/>
+   </frame>
+   <frame id="31">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="28" x="259" y="50"/>
+   </frame>
+   <frame id="32">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="26" x="264" y="54"/>
+   </frame>
+   <frame id="33">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="266" y="58"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="20" w="26" x="288" y="215"/>
+   </frame>
+   <frame id="34">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="268" y="62"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="20" w="26" x="288" y="215"/>
+   </frame>
+   <frame id="35">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="20" x="274" y="69"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="19" w="26" x="288" y="216"/>
+   </frame>
+   <frame id="36">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="19" w="26" x="288" y="217"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="20" x="274" y="75"/>
+   </frame>
+   <frame id="37">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="20" x="274" y="80"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="19" w="22" x="292" y="217"/>
+      <object fish_species="Abudefduf Vaigiensis" h="15" w="30" x="179" y="145"/>
+   </frame>
+   <frame id="38">
+      <object fish_species="Abudefduf Vaigiensis" h="15" w="30" x="188" y="145"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="20" x="274" y="86"/>
+   </frame>
+   <frame id="39">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="20" x="272" y="90"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="40" x="276" y="0"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="33" x="193" y="143"/>
+   </frame>
+   <frame id="40">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="272" y="94"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="41" x="276" y="0"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="32" x="196" y="143"/>
+   </frame>
+   <frame id="41">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="276" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="36" x="281" y="7"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="23" x="205" y="143"/>
+   </frame>
+   <frame id="42">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="282" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="25" x="293" y="19"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="23" x="205" y="143"/>
+   </frame>
+   <frame id="43">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="284" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="42" w="25" x="294" y="24"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="22" x="211" y="145"/>
+   </frame>
+   <frame id="44">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="290" y="110"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="22" x="211" y="145"/>
+   </frame>
+   <frame id="45">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="294" y="113"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="14" x="219" y="145"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="188" y="1"/>
+   </frame>
+   <frame id="46">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="24" x="294" y="113"/>
+      <object fish_species="Abudefduf Vaigiensis" h="18" w="14" x="222" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="28" x="188" y="0"/>
+   </frame>
+   <frame id="47">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="23" x="195" y="0"/>
+   </frame>
+   <frame id="53">
+      <object fish_species="Pempheris Vanicolensis" h="18" w="26" x="38" y="74"/>
+   </frame>
+   <frame id="54">
+      <object fish_species="Abudefduf Vaigiensis" h="17" w="32" x="266" y="0"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="31" x="32" y="74"/>
+   </frame>
+   <frame id="55">
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="37" x="258" y="0"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="29" x="32" y="74"/>
+   </frame>
+   <frame id="56">
+      <object fish_species="Abudefduf Vaigiensis" h="16" w="37" x="245" y="6"/>
+   </frame>
+   <frame id="57">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="27" x="201" y="21"/>
+   </frame>
+   <frame id="58">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="26" x="207" y="25"/>
+      <object fish_species="Abudefduf Vaigiensis" h="17" w="32" x="222" y="0"/>
+   </frame>
+   <frame id="59">
+      <object fish_species="Pempheris Vanicolensis" h="18" w="28" x="28" y="67"/>
+   </frame>
+   <frame id="60">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="30" x="24" y="64"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="18" x="235" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="19" w="17" x="217" y="33"/>
+   </frame>
+   <frame id="61">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="30" x="24" y="63"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="235" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="19" w="17" x="214" y="38"/>
+   </frame>
+   <frame id="62">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="25" x="23" y="61"/>
+   </frame>
+   <frame id="63">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="25" x="23" y="59"/>
+   </frame>
+   <frame id="64">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="25" x="23" y="59"/>
+   </frame>
+   <frame id="68">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="37" x="1" y="102"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="49" w="72" x="219" y="190"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="25" x="184" y="83"/>
+   </frame>
+   <frame id="69">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="37" x="1" y="102"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="50" w="89" x="200" y="187"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="27" x="179" y="85"/>
+   </frame>
+   <frame id="70">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="76" x="197" y="187"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="23" x="179" y="85"/>
+   </frame>
+   <frame id="71">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="42" w="58" x="197" y="187"/>
+   </frame>
+   <frame id="72">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="38" x="197" y="187"/>
+   </frame>
+   <frame id="73">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="35" w="30" x="198" y="187"/>
+   </frame>
+   <frame id="76">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="23" x="290" y="84"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="35" x="190" y="181"/>
+      <object fish_species="Pempheris Vanicolensis" h="21" w="23" x="33" y="64"/>
+   </frame>
+   <frame id="77">
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="178" y="79"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="29" w="26" x="197" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="24" x="293" y="80"/>
+      <object fish_species="Pempheris Vanicolensis" h="21" w="23" x="35" y="66"/>
+   </frame>
+   <frame id="78">
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="180" y="78"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="24" x="294" y="77"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="33" w="24" x="195" y="173"/>
+      <object fish_species="Pempheris Vanicolensis" h="23" w="26" x="35" y="66"/>
+   </frame>
+   <frame id="79">
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="182" y="77"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="24" x="195" y="170"/>
+      <object fish_species="Pempheris Vanicolensis" h="23" w="26" x="35" y="66"/>
+   </frame>
+   <frame id="80">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="28" w="19" x="191" y="166"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="183" y="75"/>
+   </frame>
+   <frame id="84">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="29" w="33" x="166" y="148"/>
+   </frame>
+   <frame id="85">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="29" w="34" x="166" y="149"/>
+   </frame>
+   <frame id="86">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="37" x="166" y="149"/>
+   </frame>
+   <frame id="87">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="34" w="37" x="169" y="148"/>
+   </frame>
+   <frame id="88">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="36" w="35" x="171" y="147"/>
+   </frame>
+   <frame id="89">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="175" y="144"/>
+   </frame>
+   <frame id="90">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="40" w="35" x="175" y="143"/>
+   </frame>
+   <frame id="91">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="37" x="175" y="143"/>
+   </frame>
+   <frame id="92">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="34" w="34" x="181" y="150"/>
+   </frame>
+   <frame id="93">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="35" w="36" x="186" y="152"/>
+   </frame>
+   <frame id="94">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="35" x="189" y="153"/>
+   </frame>
+   <frame id="95">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="34" w="33" x="194" y="155"/>
+   </frame>
+   <frame id="96">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="29" x="203" y="158"/>
+   </frame>
+   <frame id="97">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="25" x="208" y="160"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="23" x="275" y="84"/>
+   </frame>
+   <frame id="99">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="27" x="257" y="96"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="23" w="27" x="216" y="166"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="21" x="289" y="149"/>
+   </frame>
+   <frame id="100">
+      <object fish_species="Dascyllus Reticulatus" h="20" w="23" x="254" y="100"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="28" x="214" y="164"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="21" x="286" y="148"/>
+   </frame>
+   <frame id="101">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="26" x="243" y="108"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="34" x="208" y="165"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="26" x="277" y="144"/>
+   </frame>
+   <frame id="102">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="236" y="118"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="40" x="203" y="162"/>
+   </frame>
+   <frame id="103">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="231" y="125"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="27" w="40" x="199" y="160"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="30" x="259" y="143"/>
+   </frame>
+   <frame id="104">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="222" y="133"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="27" w="41" x="193" y="156"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="30" x="248" y="143"/>
+   </frame>
+   <frame id="105">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="39" x="189" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="29" x="241" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="217" y="140"/>
+   </frame>
+   <frame id="106">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="41" x="183" y="150"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="29" x="239" y="145"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="216" y="142"/>
+      <object fish_species="Pempheris Vanicolensis" h="15" w="28" x="51" y="66"/>
+   </frame>
+   <frame id="107">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="46" x="179" y="145"/>
+      <object fish_species="Pempheris Vanicolensis" h="15" w="31" x="51" y="66"/>
+   </frame>
+   <frame id="108">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="43" x="174" y="142"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="20" x="198" y="40"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="31" x="53" y="66"/>
+      <object fish_species="Dascyllus Reticulatus" h="14" w="16" x="134" y="9"/>
+   </frame>
+   <frame id="109">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="44" x="168" y="140"/>
+      <object fish_species="Dascyllus Reticulatus" h="19" w="22" x="196" y="41"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="31" x="53" y="66"/>
+   </frame>
+   <frame id="110">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="28" x="170" y="136"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="25" x="192" y="46"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="32" x="47" y="61"/>
+   </frame>
+   <frame id="111">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="25" x="190" y="52"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="32" x="41" y="59"/>
+   </frame>
+   <frame id="112">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="25" x="188" y="55"/>
+      <object fish_species="Pempheris Vanicolensis" h="16" w="32" x="38" y="59"/>
+   </frame>
+   <frame id="113">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="27" x="182" y="60"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="27" x="35" y="57"/>
+   </frame>
+   <frame id="114">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="28" x="164" y="129"/>
+      <object fish_species="Pempheris Vanicolensis" h="17" w="31" x="26" y="53"/>
+   </frame>
+   <frame id="115">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="28" x="164" y="129"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="31" x="172" y="63"/>
+   </frame>
+   <frame id="116">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="31" x="164" y="129"/>
+      <object fish_species="Abudefduf Vaigiensis" h="14" w="22" x="279" y="133"/>
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="19" x="284" y="103"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="23" x="169" y="63"/>
+   </frame>
+   <frame id="117">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="33" x="161" y="129"/>
+      <object fish_species="Abudefduf Vaigiensis" h="14" w="22" x="281" y="131"/>
+      <object fish_species="Abudefduf Vaigiensis" h="17" w="24" x="269" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="20" x="162" y="56"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="31" x="286" y="155"/>
+   </frame>
+   <frame id="118">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="30" x="161" y="129"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="33" x="280" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="20" x="160" y="55"/>
+      <object fish_species="Abudefduf Vaigiensis" h="14" w="22" x="282" y="130"/>
+      <object fish_species="Abudefduf Vaigiensis" h="17" w="19" x="266" y="96"/>
+   </frame>
+   <frame id="119">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="33" x="271" y="153"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="28" x="163" y="129"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="145" y="117"/>
+   </frame>
+   <frame id="120">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="23" w="22" x="163" y="129"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="27" x="264" y="148"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="133" y="110"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="151" y="52"/>
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="21" x="245" y="80"/>
+   </frame>
+   <frame id="121">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="23" w="22" x="163" y="129"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="25" x="260" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="27" x="130" y="107"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="151" y="52"/>
+      <object fish_species="Abudefduf Vaigiensis" h="19" w="23" x="243" y="79"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="151" y="52"/>
+      <object fish_species="Abudefduf Vaigiensis" h="21" w="26" x="229" y="78"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="18" x="161" y="129"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="28" x="153" y="51"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="27" x="154" y="51"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="22" w="31" x="145" y="129"/>
+   </frame>
+   <frame id="125">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="22" w="31" x="130" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="27" x="157" y="54"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="195" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="27" x="241" y="118"/>
+   </frame>
+   <frame id="126">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="20" w="30" x="121" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="27" x="157" y="54"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="202" y="128"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="26" x="243" y="114"/>
+   </frame>
+   <frame id="127">
+      <object fish_species="Dascyllus Reticulatus" h="18" w="22" x="163" y="56"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="22" x="206" y="126"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="27" x="242" y="113"/>
+   </frame>
+   <frame id="128">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="28" x="246" y="113"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="24" x="211" y="120"/>
+   </frame>
+   <frame id="129">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="30" x="252" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="22" x="218" y="116"/>
+   </frame>
+   <frame id="130">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="30" x="256" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="22" x="223" y="114"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="32" x="94" y="89"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="22" x="230" y="110"/>
+      <object fish_species="Dascyllus Reticulatus" h="19" w="28" x="269" y="115"/>
+   </frame>
+   <frame id="132">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="94" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="23" x="238" y="106"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="30" x="281" y="110"/>
+   </frame>
+   <frame id="133">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="28" x="94" y="87"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="30" x="286" y="108"/>
+      <object fish_species="Dascyllus Reticulatus" h="15" w="21" x="242" y="104"/>
+   </frame>
+   <frame id="134">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="32" x="88" y="83"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="24" x="249" y="100"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="23" w="27" x="120" y="118"/>
+   </frame>
+   <frame id="135">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="32" x="83" y="83"/>
+      <object fish_species="Dascyllus Reticulatus" h="17" w="24" x="256" y="98"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="30" x="118" y="119"/>
+   </frame>
+   <frame id="136">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="34" x="115" y="119"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="32" x="82" y="83"/>
+   </frame>
+   <frame id="137">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="31" x="81" y="84"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="24" w="36" x="113" y="117"/>
+   </frame>
+   <frame id="138">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="28" x="81" y="84"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="28" w="38" x="113" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="31" w="33" x="143" y="83"/>
+   </frame>
+   <frame id="139">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="29" x="80" y="85"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="28" w="39" x="112" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="34" x="141" y="89"/>
+   </frame>
+   <frame id="140">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="40" x="112" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="24" w="33" x="80" y="85"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="36" x="140" y="97"/>
+   </frame>
+   <frame id="141">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="33" x="80" y="85"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="27" w="34" x="112" y="113"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Dascyllus Reticulatus" h="22" w="29" x="81" y="84"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="27" w="34" x="112" y="113"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="35" x="77" y="82"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="40" x="109" y="112"/>
+   </frame>
+   <frame id="144">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="37" x="73" y="79"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="40" x="113" y="112"/>
+   </frame>
+   <frame id="145">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="37" x="72" y="78"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="38" x="115" y="113"/>
+   </frame>
+   <frame id="146">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="33" x="72" y="77"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="35" w="39" x="119" y="113"/>
+   </frame>
+   <frame id="147">
+      <object fish_species="Dascyllus Reticulatus" h="25" w="33" x="71" y="73"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="33" w="39" x="119" y="113"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="33" x="71" y="72"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="38" x="119" y="115"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="27" x="74" y="70"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="36" x="119" y="115"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Dascyllus Reticulatus" h="24" w="24" x="75" y="64"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="33" x="119" y="115"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="24" x="75" y="63"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="29" w="32" x="117" y="116"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="32" x="115" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="19" x="79" y="60"/>
+   </frame>
+   <frame id="153">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="27" x="116" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="19" x="81" y="58"/>
+   </frame>
+   <frame id="154">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="27" x="115" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="21" x="81" y="58"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Myripristis Kuntee" h="20" w="24" x="125" y="125"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="19" x="84" y="53"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Myripristis Kuntee" h="22" w="27" x="126" y="125"/>
+   </frame>
+   <frame id="158">
+      <object fish_species="Myripristis Kuntee" h="23" w="29" x="132" y="126"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="39" x="103" y="112"/>
+   </frame>
+   <frame id="161">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="41" x="110" y="117"/>
+   </frame>
+   <frame id="162">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="34" w="39" x="114" y="117"/>
+   </frame>
+   <frame id="163">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="41" x="116" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="57" w="33" x="116" y="46"/>
+   </frame>
+   <frame id="164">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="33" x="117" y="24"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="31" w="34" x="119" y="118"/>
+      <object fish_species="Dascyllus Reticulatus" h="22" w="20" x="82" y="45"/>
+   </frame>
+   <frame id="165">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="25" x="80" y="40"/>
+   </frame>
+   <frame id="166">
+      <object fish_species="Dascyllus Reticulatus" h="26" w="25" x="81" y="37"/>
+   </frame>
+   <frame id="167">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="30" w="34" x="111" y="118"/>
+      <object fish_species="Dascyllus Reticulatus" h="26" w="25" x="81" y="31"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="24" x="251" y="151"/>
+   </frame>
+   <frame id="168">
+      <object fish_species="Dascyllus Reticulatus" h="23" w="25" x="76" y="24"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="27" w="34" x="111" y="118"/>
+      <object fish_species="Myripristis Kuntee" h="24" w="46" x="130" y="114"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="26" x="256" y="151"/>
+   </frame>
+   <frame id="169">
+      <object fish_species="Myripristis Kuntee" h="26" w="54" x="130" y="112"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="25" x="74" y="20"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="21" w="32" x="110" y="122"/>
+      <object fish_species="Dascyllus Reticulatus" h="18" w="23" x="259" y="150"/>
+   </frame>
+   <frame id="170">
+      <object fish_species="Myripristis Kuntee" h="26" w="65" x="136" y="109"/>
+      <object fish_species="Dascyllus Reticulatus" h="23" w="25" x="72" y="13"/>
+   </frame>
+   <frame id="171">
+      <object fish_species="Myripristis Kuntee" h="26" w="61" x="150" y="106"/>
+      <object fish_species="Dascyllus Reticulatus" h="20" w="25" x="71" y="9"/>
+   </frame>
+   <frame id="172">
+      <object fish_species="Myripristis Kuntee" h="26" w="64" x="156" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="29" x="66" y="7"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="25" w="42" x="111" y="118"/>
+   </frame>
+   <frame id="173">
+      <object fish_species="Myripristis Kuntee" h="27" w="63" x="169" y="102"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="26" w="38" x="117" y="122"/>
+   </frame>
+   <frame id="174">
+      <object fish_species="Myripristis Kuntee" h="27" w="59" x="186" y="101"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="35" w="34" x="118" y="116"/>
+   </frame>
+   <frame id="175">
+      <object fish_species="Myripristis Kuntee" h="27" w="59" x="193" y="100"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="33" w="27" x="120" y="118"/>
+   </frame>
+   <frame id="176">
+      <object fish_species="Myripristis Kuntee" h="27" w="59" x="204" y="98"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="29" w="25" x="121" y="118"/>
+   </frame>
+   <frame id="177">
+      <object fish_species="Myripristis Kuntee" h="27" w="56" x="219" y="97"/>
+   </frame>
+   <frame id="178">
+      <object fish_species="Myripristis Kuntee" h="27" w="55" x="224" y="95"/>
+   </frame>
+   <frame id="179">
+      <object fish_species="Myripristis Kuntee" h="27" w="55" x="224" y="95"/>
+   </frame>
+   <frame id="180">
+      <object fish_species="Myripristis Kuntee" h="23" w="54" x="250" y="101"/>
+   </frame>
+   <frame id="181">
+      <object fish_species="Myripristis Kuntee" h="23" w="54" x="255" y="102"/>
+   </frame>
+   <frame id="182">
+      <object fish_species="Myripristis Kuntee" h="23" w="44" x="274" y="105"/>
+   </frame>
+   <frame id="183">
+      <object fish_species="Myripristis Kuntee" h="23" w="31" x="287" y="105"/>
+   </frame>
+   <frame id="191">
+      <object fish_species="Pempheris Vanicolensis" h="21" w="31" x="129" y="128"/>
+   </frame>
+   <frame id="192">
+      <object fish_species="Pempheris Vanicolensis" h="19" w="29" x="126" y="125"/>
+   </frame>
+   <frame id="193">
+      <object fish_species="Pempheris Vanicolensis" h="16" w="25" x="125" y="124"/>
+   </frame>
+   <frame id="200">
+      <object fish_species="Myripristis Kuntee" h="31" w="31" x="288" y="59"/>
+      <object fish_species="Pempheris Vanicolensis" h="20" w="23" x="119" y="122"/>
+   </frame>
+   <frame id="201">
+      <object fish_species="Myripristis Kuntee" h="35" w="33" x="285" y="55"/>
+      <object fish_species="Pempheris Vanicolensis" h="21" w="24" x="120" y="122"/>
+   </frame>
+   <frame id="202">
+      <object fish_species="Myripristis Kuntee" h="44" w="29" x="282" y="47"/>
+      <object fish_species="Pempheris Vanicolensis" h="21" w="24" x="121" y="123"/>
+   </frame>
+   <frame id="203">
+      <object fish_species="Myripristis Kuntee" h="38" w="20" x="278" y="54"/>
+      <object fish_species="Pempheris Vanicolensis" h="21" w="24" x="123" y="123"/>
+   </frame>
+   <frame id="204">
+      <object fish_species="Myripristis Kuntee" h="40" w="21" x="274" y="51"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="22" w="21" x="271" y="212"/>
+      <object fish_species="Pempheris Vanicolensis" h="24" w="24" x="125" y="121"/>
+   </frame>
+   <frame id="205">
+      <object fish_species="Myripristis Kuntee" h="43" w="25" x="269" y="48"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="22" w="21" x="271" y="212"/>
+      <object fish_species="Pempheris Vanicolensis" h="24" w="24" x="125" y="121"/>
+   </frame>
+   <frame id="206">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="18" w="21" x="271" y="215"/>
+      <object fish_species="Myripristis Kuntee" h="31" w="32" x="263" y="61"/>
+      <object fish_species="Pempheris Vanicolensis" h="23" w="22" x="128" y="123"/>
+   </frame>
+   <frame id="207">
+      <object fish_species="Myripristis Kuntee" h="40" w="42" x="254" y="54"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="19" w="23" x="269" y="215"/>
+      <object fish_species="Pempheris Vanicolensis" h="23" w="22" x="133" y="125"/>
+   </frame>
+   <frame id="208">
+      <object fish_species="Myripristis Kuntee" h="36" w="40" x="258" y="57"/>
+      <object fish_species="Plectrogly-Phidodon Dickii" h="19" w="23" x="269" y="215"/>
+   </frame>
+   <frame id="209">
+      <object fish_species="Myripristis Kuntee" h="37" w="44" x="258" y="58"/>
+   </frame>
+   <frame id="210">
+      <object fish_species="Myripristis Kuntee" h="35" w="48" x="258" y="61"/>
+   </frame>
+   <frame id="211">
+      <object fish_species="Myripristis Kuntee" h="35" w="48" x="259" y="62"/>
+   </frame>
+   <frame id="212">
+      <object fish_species="Myripristis Kuntee" h="34" w="47" x="262" y="64"/>
+   </frame>
+   <frame id="213">
+      <object fish_species="Myripristis Kuntee" h="33" w="46" x="266" y="67"/>
+   </frame>
+   <frame id="214">
+      <object fish_species="Myripristis Kuntee" h="33" w="44" x="269" y="68"/>
+   </frame>
+   <frame id="215">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="33" w="57" x="79" y="127"/>
+      <object fish_species="Myripristis Kuntee" h="33" w="41" x="274" y="72"/>
+   </frame>
+   <frame id="216">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="33" w="57" x="79" y="127"/>
+      <object fish_species="Myripristis Kuntee" h="34" w="42" x="276" y="74"/>
+   </frame>
+   <frame id="217">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="35" w="57" x="79" y="127"/>
+      <object fish_species="Myripristis Kuntee" h="32" w="39" x="278" y="76"/>
+   </frame>
+   <frame id="218">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="39" w="62" x="74" y="128"/>
+      <object fish_species="Myripristis Kuntee" h="28" w="32" x="285" y="80"/>
+   </frame>
+   <frame id="219">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="37" w="61" x="70" y="127"/>
+      <object fish_species="Myripristis Kuntee" h="28" w="30" x="289" y="86"/>
+   </frame>
+   <frame id="220">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="38" w="60" x="75" y="127"/>
+      <object fish_species="Myripristis Kuntee" h="28" w="28" x="291" y="86"/>
+   </frame>
+   <frame id="221">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="32" w="54" x="81" y="133"/>
+      <object fish_species="Myripristis Kuntee" h="25" w="25" x="294" y="89"/>
+   </frame>
+   <frame id="222">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="28" w="41" x="94" y="138"/>
+      <object fish_species="Myripristis Kuntee" h="23" w="22" x="297" y="93"/>
+   </frame>
+   <frame id="223">
+      <object fish_species="Plectrogly-Phidodon Dickii" h="28" w="33" x="102" y="141"/>
+      <object fish_species="Myripristis Kuntee" h="22" w="22" x="297" y="96"/>
+   </frame>
+   <frame id="231">
+      <object fish_species="Pempheris Vanicolensis" h="20" w="36" x="130" y="123"/>
+   </frame>
+   <frame id="232">
+      <object fish_species="Pempheris Vanicolensis" h="19" w="33" x="130" y="123"/>
+   </frame>
+   <frame id="233">
+      <object fish_species="Pempheris Vanicolensis" h="18" w="31" x="128" y="119"/>
+   </frame>
+   <frame id="254">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="32" x="219" y="44"/>
+   </frame>
+   <frame id="255">
+      <object fish_species="Dascyllus Reticulatus" h="21" w="32" x="240" y="31"/>
+   </frame>
+   <frame id="256">
+      <object fish_species="Dascyllus Reticulatus" h="49" w="24" x="199" y="1"/>
+      <object fish_species="Dascyllus Reticulatus" h="21" w="32" x="248" y="28"/>
+   </frame>
+   <frame id="257">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="24" x="212" y="30"/>
+   </frame>
+   <frame id="258">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="24" x="225" y="51"/>
+   </frame>
+   <frame id="260">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="26" x="242" y="88"/>
+   </frame>
+   <frame id="261">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="26" x="253" y="106"/>
+   </frame>
+   <frame id="262">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="28" x="257" y="117"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="33" x="143" y="133"/>
+   </frame>
+   <frame id="263">
+      <object fish_species="Dascyllus Reticulatus" h="32" w="32" x="268" y="133"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="33" x="142" y="131"/>
+   </frame>
+   <frame id="264">
+      <object fish_species="Dascyllus Reticulatus" h="28" w="32" x="285" y="145"/>
+      <object fish_species="Pempheris Vanicolensis" h="18" w="33" x="138" y="129"/>
+   </frame>
+   <frame id="265">
+      <object fish_species="Pempheris Vanicolensis" h="18" w="34" x="136" y="129"/>
+   </frame>
+   <frame id="266">
+      <object fish_species="Pempheris Vanicolensis" h="18" w="34" x="133" y="129"/>
+   </frame>
+   <frame id="267">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="31" x="130" y="127"/>
+   </frame>
+   <frame id="268">
+      <object fish_species="Pempheris Vanicolensis" h="17" w="32" x="128" y="126"/>
+   </frame>
+   <frame id="269">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="28" x="126" y="124"/>
+   </frame>
+   <frame id="270">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="30" x="119" y="122"/>
+   </frame>
+   <frame id="271">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="29" x="117" y="121"/>
+   </frame>
+   <frame id="272">
+      <object fish_species="Pempheris Vanicolensis" h="15" w="31" x="111" y="119"/>
+   </frame>
+   <frame id="284">
+      <object fish_species="Myripristis Kuntee" h="17" w="24" x="247" y="115"/>
+   </frame>
+   <frame id="285">
+      <object fish_species="Myripristis Kuntee" h="19" w="26" x="244" y="114"/>
+   </frame>
+   <frame id="286">
+      <object fish_species="Myripristis Kuntee" h="18" w="27" x="241" y="114"/>
+   </frame>
+   <frame id="287">
+      <object fish_species="Myripristis Kuntee" h="17" w="27" x="242" y="113"/>
+   </frame>
+   <frame id="288">
+      <object fish_species="Myripristis Kuntee" h="19" w="36" x="238" y="111"/>
+   </frame>
+</video>

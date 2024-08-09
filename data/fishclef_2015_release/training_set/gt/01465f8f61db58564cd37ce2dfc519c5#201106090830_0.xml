@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="01465f8f61db58564cd37ce2dfc519c5#201106090830" location="NPP3" camera="1">
+   <frame id="9">
+      <object fish_species="Dascyllus Reticulatus" h="93" w="101" x="449" y="207"/>
+   </frame>
+   <frame id="10">
+      <object fish_species="Dascyllus Reticulatus" h="93" w="101" x="449" y="210"/>
+   </frame>
+   <frame id="11">
+      <object fish_species="Dascyllus Reticulatus" h="93" w="101" x="449" y="210"/>
+   </frame>
+   <frame id="12">
+      <object fish_species="Dascyllus Reticulatus" h="90" w="90" x="464" y="211"/>
+   </frame>
+   <frame id="13">
+      <object fish_species="Dascyllus Reticulatus" h="90" w="90" x="466" y="209"/>
+   </frame>
+   <frame id="14">
+      <object fish_species="Dascyllus Reticulatus" h="90" w="90" x="466" y="209"/>
+   </frame>
+   <frame id="15">
+      <object fish_species="Dascyllus Reticulatus" h="90" w="90" x="466" y="209"/>
+   </frame>
+   <frame id="16">
+      <object fish_species="Dascyllus Reticulatus" h="88" w="78" x="478" y="209"/>
+   </frame>
+   <frame id="17">
+      <object fish_species="Dascyllus Reticulatus" h="81" w="76" x="478" y="216"/>
+   </frame>
+   <frame id="18">
+      <object fish_species="Dascyllus Reticulatus" h="81" w="63" x="491" y="216"/>
+   </frame>
+   <frame id="19">
+      <object fish_species="Dascyllus Reticulatus" h="81" w="63" x="491" y="216"/>
+   </frame>
+   <frame id="20">
+      <object fish_species="Dascyllus Reticulatus" h="81" w="63" x="493" y="217"/>
+   </frame>
+   <frame id="40">
+      <object fish_species="Amphiprion Clarkii" h="41" w="41" x="5" y="159"/>
+   </frame>
+   <frame id="57">
+      <object fish_species="Chaetodon Lununatus" h="135" w="97" x="4" y="111"/>
+   </frame>
+   <frame id="58">
+      <object fish_species="Chaetodon Lununatus" h="135" w="97" x="4" y="111"/>
+   </frame>
+   <frame id="59">
+      <object fish_species="Chaetodon Lununatus" h="135" w="97" x="4" y="111"/>
+   </frame>
+   <frame id="60">
+      <object fish_species="Chaetodon Lununatus" h="79" w="62" x="152" y="208"/>
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="40" y="129"/>
+   </frame>
+   <frame id="61">
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="40" y="129"/>
+      <object fish_species="Chaetodon Lununatus" h="81" w="63" x="151" y="208"/>
+   </frame>
+   <frame id="62">
+      <object fish_species="Chaetodon Lununatus" h="81" w="63" x="149" y="204"/>
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="37" y="127"/>
+   </frame>
+   <frame id="63">
+      <object fish_species="Chaetodon Lununatus" h="81" w="79" x="153" y="209"/>
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="62" y="136"/>
+   </frame>
+   <frame id="64">
+      <object fish_species="Chaetodon Lununatus" h="81" w="79" x="153" y="209"/>
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="62" y="136"/>
+      <object fish_species="Dascyllus Reticulatus" h="88" w="82" x="555" y="206"/>
+   </frame>
+   <frame id="65">
+      <object fish_species="Chaetodon Lununatus" h="135" w="104" x="62" y="136"/>
+      <object fish_species="Chaetodon Lununatus" h="81" w="79" x="153" y="209"/>
+      <object fish_species="Dascyllus Reticulatus" h="88" w="82" x="555" y="206"/>
+   </frame>
+   <frame id="66">
+      <object fish_species="Dascyllus Reticulatus" h="87" w="79" x="565" y="212"/>
+      <object fish_species="Chaetodon Lununatus" h="117" w="87" x="99" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="67" x="140" y="205"/>
+   </frame>
+   <frame id="67">
+      <object fish_species="Chaetodon Lununatus" h="117" w="87" x="99" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="67" x="140" y="205"/>
+      <object fish_species="Dascyllus Reticulatus" h="87" w="79" x="565" y="212"/>
+   </frame>
+   <frame id="68">
+      <object fish_species="Dascyllus Reticulatus" h="82" w="76" x="559" y="210"/>
+      <object fish_species="Chaetodon Lununatus" h="117" w="87" x="99" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="67" x="140" y="205"/>
+   </frame>
+   <frame id="69">
+      <object fish_species="Chaetodon Lununatus" h="124" w="100" x="114" y="163"/>
+   </frame>
+   <frame id="70">
+      <object fish_species="Chaetodon Lununatus" h="124" w="100" x="114" y="163"/>
+   </frame>
+   <frame id="71">
+      <object fish_species="Chaetodon Lununatus" h="124" w="100" x="114" y="163"/>
+   </frame>
+   <frame id="72">
+      <object fish_species="Chaetodon Lununatus" h="60" w="77" x="98" y="180"/>
+      <object fish_species="Chaetodon Lununatus" h="109" w="63" x="173" y="185"/>
+   </frame>
+   <frame id="73">
+      <object fish_species="Chaetodon Lununatus" h="60" w="77" x="98" y="180"/>
+      <object fish_species="Chaetodon Lununatus" h="109" w="63" x="173" y="185"/>
+   </frame>
+   <frame id="74">
+      <object fish_species="Chaetodon Lununatus" h="60" w="77" x="98" y="180"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="77" x="98" y="180"/>
+      <object fish_species="Chaetodon Lununatus" h="109" w="63" x="173" y="185"/>
+   </frame>
+   <frame id="75">
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="94" y="168"/>
+   </frame>
+   <frame id="76">
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="94" y="168"/>
+   </frame>
+   <frame id="77">
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="94" y="168"/>
+   </frame>
+   <frame id="78">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="42" x="221" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="84" w="62" x="207" y="209"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="80" y="168"/>
+   </frame>
+   <frame id="79">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="42" x="221" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="84" w="62" x="207" y="209"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="80" y="168"/>
+   </frame>
+   <frame id="80">
+      <object fish_species="Dascyllus Reticulatus" h="34" w="42" x="221" y="24"/>
+      <object fish_species="Chaetodon Lununatus" h="84" w="62" x="207" y="209"/>
+      <object fish_species="Chaetodon Lununatus" h="66" w="86" x="80" y="168"/>
+   </frame>
+   <frame id="81">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="47" x="240" y="30"/>
+      <object fish_species="Chaetodon Lununatus" h="86" w="78" x="213" y="210"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="86" x="73" y="159"/>
+   </frame>
+   <frame id="82">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="47" x="240" y="30"/>
+      <object fish_species="Chaetodon Lununatus" h="86" w="78" x="213" y="210"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="86" x="73" y="159"/>
+   </frame>
+   <frame id="83">
+      <object fish_species="Chaetodon Lununatus" h="86" w="78" x="213" y="210"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="86" x="73" y="159"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="47" x="240" y="30"/>
+   </frame>
+   <frame id="84">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="46" x="256" y="38"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="81" x="221" y="205"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="86" x="73" y="159"/>
+   </frame>
+   <frame id="85">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="46" x="256" y="38"/>
+      <object fish_species="Chaetodon Lununatus" h="85" w="94" x="214" y="202"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="88" x="70" y="157"/>
+   </frame>
+   <frame id="86">
+      <object fish_species="Dascyllus Reticulatus" h="35" w="46" x="256" y="38"/>
+      <object fish_species="Chaetodon Lununatus" h="85" w="94" x="214" y="202"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="88" x="70" y="157"/>
+   </frame>
+   <frame id="87">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="55" x="272" y="42"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="59" x="345" y="0"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="88" x="70" y="157"/>
+      <object fish_species="Chaetodon Lununatus" h="75" w="104" x="211" y="202"/>
+   </frame>
+   <frame id="88">
+      <object fish_species="Dascyllus Reticulatus" h="29" w="59" x="345" y="0"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="55" x="272" y="42"/>
+      <object fish_species="Chaetodon Lununatus" h="75" w="104" x="211" y="202"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="88" x="70" y="157"/>
+   </frame>
+   <frame id="89">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="55" x="272" y="42"/>
+      <object fish_species="Dascyllus Reticulatus" h="29" w="59" x="345" y="0"/>
+      <object fish_species="Chaetodon Lununatus" h="75" w="104" x="211" y="202"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="88" x="70" y="157"/>
+   </frame>
+   <frame id="90">
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="297" y="43"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="345" y="2"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="202" y="186"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="65" y="157"/>
+   </frame>
+   <frame id="91">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="345" y="2"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="297" y="43"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="202" y="186"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="65" y="157"/>
+   </frame>
+   <frame id="92">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="345" y="2"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="297" y="43"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="202" y="186"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="65" y="157"/>
+   </frame>
+   <frame id="93">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="311" y="50"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="194" y="166"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="60" y="164"/>
+   </frame>
+   <frame id="94">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="311" y="50"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="194" y="166"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="60" y="164"/>
+   </frame>
+   <frame id="95">
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="194" y="166"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="60" y="164"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="311" y="50"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+   </frame>
+   <frame id="96">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="324" y="54"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="190" y="159"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="52" y="169"/>
+   </frame>
+   <frame id="97">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="324" y="54"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="190" y="159"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="52" y="169"/>
+   </frame>
+   <frame id="98">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="343" y="12"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="324" y="54"/>
+      <object fish_species="Chaetodon Lununatus" h="77" w="114" x="190" y="159"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="52" y="169"/>
+   </frame>
+   <frame id="99">
+      <object fish_species="Chaetodon Lununatus" h="68" w="97" x="189" y="148"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="39" y="181"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="339" y="17"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="334" y="62"/>
+   </frame>
+   <frame id="100">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="339" y="17"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="334" y="62"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="97" x="189" y="148"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="39" y="181"/>
+   </frame>
+   <frame id="101">
+      <object fish_species="Dascyllus Reticulatus" h="37" w="55" x="339" y="17"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="44" x="334" y="62"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="97" x="189" y="148"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="39" y="181"/>
+   </frame>
+   <frame id="102">
+      <object fish_species="Chaetodon Lununatus" h="75" w="107" x="174" y="134"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="33" y="184"/>
+   </frame>
+   <frame id="103">
+      <object fish_species="Chaetodon Lununatus" h="75" w="107" x="174" y="134"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="33" y="184"/>
+   </frame>
+   <frame id="104">
+      <object fish_species="Chaetodon Lununatus" h="75" w="107" x="174" y="134"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="33" y="184"/>
+   </frame>
+   <frame id="105">
+      <object fish_species="Chaetodon Lununatus" h="73" w="96" x="170" y="128"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="23" y="189"/>
+   </frame>
+   <frame id="106">
+      <object fish_species="Chaetodon Lununatus" h="73" w="96" x="170" y="128"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="23" y="189"/>
+   </frame>
+   <frame id="107">
+      <object fish_species="Chaetodon Lununatus" h="73" w="96" x="170" y="128"/>
+      <object fish_species="Chaetodon Lununatus" h="88" w="82" x="23" y="189"/>
+   </frame>
+   <frame id="108">
+      <object fish_species="Chaetodon Lununatus" h="73" w="92" x="170" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="22" y="192"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="56" x="467" y="119"/>
+   </frame>
+   <frame id="109">
+      <object fish_species="Chaetodon Lununatus" h="73" w="92" x="170" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="22" y="192"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="56" x="467" y="119"/>
+   </frame>
+   <frame id="110">
+      <object fish_species="Dascyllus Aruanus" h="42" w="56" x="467" y="119"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="92" x="170" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="22" y="192"/>
+   </frame>
+   <frame id="111">
+      <object fish_species="Chaetodon Lununatus" h="73" w="84" x="176" y="123"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="16" y="193"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="476" y="123"/>
+   </frame>
+   <frame id="112">
+      <object fish_species="Chaetodon Lununatus" h="73" w="84" x="176" y="123"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="16" y="193"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="476" y="123"/>
+   </frame>
+   <frame id="113">
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="476" y="123"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="84" x="176" y="123"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="16" y="193"/>
+   </frame>
+   <frame id="114">
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="10" y="195"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="480" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="167" w="208" x="158" y="13"/>
+   </frame>
+   <frame id="115">
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="10" y="195"/>
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="480" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="167" w="208" x="158" y="13"/>
+   </frame>
+   <frame id="116">
+      <object fish_species="Dascyllus Aruanus" h="42" w="52" x="480" y="127"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="79" x="10" y="195"/>
+      <object fish_species="Dascyllus Reticulatus" h="167" w="208" x="158" y="13"/>
+   </frame>
+   <frame id="117">
+      <object fish_species="Dascyllus Reticulatus" h="171" w="262" x="44" y="67"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="485" y="139"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="76" x="6" y="186"/>
+   </frame>
+   <frame id="118">
+      <object fish_species="Dascyllus Reticulatus" h="171" w="262" x="44" y="67"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="76" x="6" y="186"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="485" y="139"/>
+   </frame>
+   <frame id="119">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="485" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="171" w="262" x="44" y="67"/>
+      <object fish_species="Chaetodon Lununatus" h="89" w="76" x="6" y="186"/>
+   </frame>
+   <frame id="120">
+      <object fish_species="Dascyllus Reticulatus" h="165" w="237" x="1" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="484" y="142"/>
+   </frame>
+   <frame id="121">
+      <object fish_species="Dascyllus Reticulatus" h="165" w="237" x="1" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="484" y="142"/>
+   </frame>
+   <frame id="122">
+      <object fish_species="Dascyllus Reticulatus" h="165" w="237" x="1" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="48" x="484" y="142"/>
+   </frame>
+   <frame id="123">
+      <object fish_species="Chaetodon Lununatus" h="60" w="55" x="178" y="136"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="493" y="142"/>
+   </frame>
+   <frame id="124">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="493" y="142"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="55" x="178" y="136"/>
+   </frame>
+   <frame id="125">
+      <object fish_species="Chaetodon Lununatus" h="60" w="55" x="178" y="136"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="493" y="142"/>
+   </frame>
+   <frame id="126">
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="494" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="425" y="90"/>
+   </frame>
+   <frame id="127">
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="494" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="425" y="90"/>
+   </frame>
+   <frame id="128">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="494" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="425" y="90"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="155"/>
+   </frame>
+   <frame id="129">
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="1" y="148"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="438" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="498" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="335" y="21"/>
+   </frame>
+   <frame id="130">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="335" y="21"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="438" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="498" y="149"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="1" y="148"/>
+   </frame>
+   <frame id="131">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="335" y="21"/>
+      <object fish_species="Dascyllus Aruanus" h="43" w="55" x="438" y="99"/>
+      <object fish_species="Dascyllus Reticulatus" h="40" w="42" x="498" y="149"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="1" y="148"/>
+   </frame>
+   <frame id="132">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="340" y="20"/>
+      <object fish_species="Dascyllus Aruanus" h="47" w="57" x="451" y="106"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="144"/>
+      <object fish_species="Chaetodon Lununatus" h="78" w="68" x="169" y="138"/>
+   </frame>
+   <frame id="133">
+      <object fish_species="Chaetodon Lununatus" h="78" w="68" x="169" y="138"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="340" y="20"/>
+      <object fish_species="Dascyllus Aruanus" h="47" w="57" x="451" y="106"/>
+   </frame>
+   <frame id="134">
+      <object fish_species="Dascyllus Aruanus" h="47" w="57" x="451" y="106"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="340" y="20"/>
+      <object fish_species="Chaetodon Lununatus" h="78" w="68" x="169" y="138"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="75" x="2" y="144"/>
+   </frame>
+   <frame id="135">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="349" y="27"/>
+      <object fish_species="Dascyllus Aruanus" h="51" w="48" x="472" y="119"/>
+      <object fish_species="Chaetodon Lununatus" h="78" w="63" x="167" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="142"/>
+   </frame>
+   <frame id="136">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="349" y="27"/>
+      <object fish_species="Dascyllus Aruanus" h="51" w="48" x="472" y="119"/>
+      <object fish_species="Chaetodon Lununatus" h="78" w="63" x="167" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="142"/>
+   </frame>
+   <frame id="137">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="53" x="349" y="27"/>
+      <object fish_species="Dascyllus Aruanus" h="51" w="48" x="472" y="119"/>
+      <object fish_species="Chaetodon Lununatus" h="78" w="63" x="167" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="142"/>
+   </frame>
+   <frame id="138">
+      <object fish_species="Dascyllus Reticulatus" h="54" w="57" x="352" y="28"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="62" x="173" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="139">
+      <object fish_species="Dascyllus Reticulatus" h="54" w="57" x="352" y="28"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="62" x="173" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="140">
+      <object fish_species="Dascyllus Reticulatus" h="54" w="57" x="352" y="28"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="62" x="173" y="147"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="141">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="363" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="495" y="141"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="142">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="363" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="495" y="141"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="143">
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="363" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="495" y="141"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="144">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="362" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="-1" y="136"/>
+   </frame>
+   <frame id="145">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="362" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="146">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="362" y="35"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="147">
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="364" y="42"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="148">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="364" y="42"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="149">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="56" x="364" y="42"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="502" y="145"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="138"/>
+   </frame>
+   <frame id="150">
+      <object fish_species="Dascyllus Reticulatus" h="68" w="55" x="371" y="47"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="134"/>
+   </frame>
+   <frame id="151">
+      <object fish_species="Dascyllus Reticulatus" h="68" w="55" x="371" y="47"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="134"/>
+   </frame>
+   <frame id="152">
+      <object fish_species="Dascyllus Reticulatus" h="68" w="55" x="371" y="47"/>
+      <object fish_species="Chaetodon Lununatus" h="72" w="68" x="1" y="134"/>
+   </frame>
+   <frame id="153">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="376" y="57"/>
+   </frame>
+   <frame id="154">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="376" y="57"/>
+   </frame>
+   <frame id="155">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="376" y="57"/>
+   </frame>
+   <frame id="156">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="377" y="64"/>
+   </frame>
+   <frame id="157">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="377" y="64"/>
+   </frame>
+   <frame id="158">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="377" y="64"/>
+   </frame>
+   <frame id="159">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="380" y="74"/>
+   </frame>
+   <frame id="160">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="380" y="74"/>
+   </frame>
+   <frame id="161">
+      <object fish_species="Dascyllus Reticulatus" h="67" w="52" x="380" y="74"/>
+   </frame>
+   <frame id="162">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="52" x="387" y="86"/>
+   </frame>
+   <frame id="163">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="52" x="387" y="86"/>
+   </frame>
+   <frame id="164">
+      <object fish_species="Dascyllus Reticulatus" h="61" w="52" x="387" y="86"/>
+   </frame>
+   <frame id="165">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="388" y="94"/>
+   </frame>
+   <frame id="166">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="388" y="94"/>
+   </frame>
+   <frame id="167">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="388" y="94"/>
+   </frame>
+   <frame id="168">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="389" y="101"/>
+      <object fish_species="Chaetodon Lununatus" h="100" w="70" x="36" y="134"/>
+   </frame>
+   <frame id="169">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="389" y="101"/>
+      <object fish_species="Chaetodon Lununatus" h="100" w="70" x="36" y="134"/>
+   </frame>
+   <frame id="170">
+      <object fish_species="Dascyllus Reticulatus" h="63" w="57" x="389" y="101"/>
+      <object fish_species="Chaetodon Lununatus" h="100" w="70" x="36" y="134"/>
+   </frame>
+   <frame id="171">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="53" x="393" y="112"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="70" x="53" y="143"/>
+   </frame>
+   <frame id="172">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="53" x="393" y="112"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="70" x="53" y="143"/>
+   </frame>
+   <frame id="173">
+      <object fish_species="Dascyllus Reticulatus" h="58" w="53" x="393" y="112"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="70" x="53" y="143"/>
+   </frame>
+   <frame id="174">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="55" x="398" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="63" x="64" y="153"/>
+   </frame>
+   <frame id="175">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="55" x="398" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="63" x="64" y="153"/>
+   </frame>
+   <frame id="176">
+      <object fish_species="Dascyllus Reticulatus" h="47" w="55" x="398" y="124"/>
+      <object fish_species="Chaetodon Lununatus" h="91" w="63" x="64" y="153"/>
+   </frame>
+   <frame id="177">
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="63" y="161"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="410" y="135"/>
+   </frame>
+   <frame id="178">
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="63" y="161"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="410" y="135"/>
+   </frame>
+   <frame id="179">
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="63" y="161"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="410" y="135"/>
+   </frame>
+   <frame id="180">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="414" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="70" y="163"/>
+   </frame>
+   <frame id="181">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="414" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="70" y="163"/>
+   </frame>
+   <frame id="182">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="50" x="414" y="137"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="64" x="70" y="163"/>
+   </frame>
+   <frame id="183">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="49" x="420" y="144"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="59" x="74" y="163"/>
+   </frame>
+   <frame id="184">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="49" x="420" y="144"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="59" x="74" y="163"/>
+   </frame>
+   <frame id="185">
+      <object fish_species="Dascyllus Reticulatus" h="43" w="49" x="420" y="144"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="59" x="74" y="163"/>
+   </frame>
+   <frame id="186">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="43" x="432" y="151"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="50" x="82" y="179"/>
+   </frame>
+   <frame id="187">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="43" x="432" y="151"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="50" x="82" y="179"/>
+   </frame>
+   <frame id="188">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="43" x="432" y="151"/>
+      <object fish_species="Chaetodon Lununatus" h="83" w="50" x="82" y="179"/>
+   </frame>
+   <frame id="189">
+      <object fish_species="Chaetodon Lununatus" h="75" w="50" x="83" y="189"/>
+   </frame>
+   <frame id="190">
+      <object fish_species="Chaetodon Lununatus" h="75" w="50" x="83" y="189"/>
+   </frame>
+   <frame id="191">
+      <object fish_species="Chaetodon Lununatus" h="75" w="50" x="83" y="189"/>
+   </frame>
+   <frame id="192">
+      <object fish_species="Chaetodon Lununatus" h="68" w="56" x="87" y="198"/>
+   </frame>
+   <frame id="193">
+      <object fish_species="Chaetodon Lununatus" h="68" w="56" x="87" y="198"/>
+   </frame>
+   <frame id="194">
+      <object fish_species="Chaetodon Lununatus" h="68" w="56" x="87" y="198"/>
+   </frame>
+   <frame id="198">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="436" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="46" x="508" y="121"/>
+   </frame>
+   <frame id="199">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="436" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="46" x="508" y="121"/>
+   </frame>
+   <frame id="200">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="436" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="33" w="46" x="508" y="121"/>
+   </frame>
+   <frame id="201">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="46" x="493" y="127"/>
+   </frame>
+   <frame id="202">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="46" x="493" y="127"/>
+   </frame>
+   <frame id="203">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="46" x="493" y="127"/>
+   </frame>
+   <frame id="204">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+   </frame>
+   <frame id="205">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+   </frame>
+   <frame id="206">
+      <object fish_species="Dascyllus Reticulatus" h="38" w="56" x="439" y="150"/>
+   </frame>
+   <frame id="330">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="120" x="511" y="279"/>
+   </frame>
+   <frame id="331">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="120" x="511" y="279"/>
+   </frame>
+   <frame id="332">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="120" x="511" y="279"/>
+   </frame>
+   <frame id="333">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="107" x="490" y="282"/>
+   </frame>
+   <frame id="334">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="107" x="490" y="282"/>
+   </frame>
+   <frame id="335">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="107" x="490" y="282"/>
+   </frame>
+   <frame id="336">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="91" x="490" y="282"/>
+   </frame>
+   <frame id="337">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="91" x="485" y="283"/>
+   </frame>
+   <frame id="338">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="91" x="485" y="283"/>
+   </frame>
+   <frame id="339">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="79" x="485" y="280"/>
+   </frame>
+   <frame id="340">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="79" x="485" y="280"/>
+   </frame>
+   <frame id="341">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="79" x="485" y="280"/>
+   </frame>
+   <frame id="354">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+   </frame>
+   <frame id="355">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+   </frame>
+   <frame id="356">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+   </frame>
+   <frame id="357">
+      <object fish_species="Chaetodon Lununatus" h="51" w="55" x="191" y="163"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+   </frame>
+   <frame id="358">
+      <object fish_species="Chaetodon Lununatus" h="51" w="55" x="191" y="163"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+   </frame>
+   <frame id="359">
+      <object fish_species="Dascyllus Reticulatus" h="36" w="42" x="446" y="157"/>
+      <object fish_species="Chaetodon Lununatus" h="51" w="55" x="191" y="163"/>
+   </frame>
+   <frame id="360">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+   </frame>
+   <frame id="361">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+   </frame>
+   <frame id="362">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+   </frame>
+   <frame id="363">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="421" y="125"/>
+      <object fish_species="Dascyllus Reticulatus" h="66" w="112" x="422" y="280"/>
+   </frame>
+   <frame id="364">
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="421" y="125"/>
+      <object fish_species="Dascyllus Reticulatus" h="66" w="112" x="422" y="280"/>
+   </frame>
+   <frame id="365">
+      <object fish_species="Dascyllus Reticulatus" h="66" w="112" x="422" y="280"/>
+      <object fish_species="Chaetodon Lununatus" h="58" w="55" x="186" y="154"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="421" y="125"/>
+   </frame>
+   <frame id="366">
+      <object fish_species="Dascyllus Reticulatus" h="66" w="120" x="416" y="278"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="60" x="181" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="55" x="427" y="125"/>
+   </frame>
+   <frame id="367">
+      <object fish_species="Dascyllus Reticulatus" h="66" w="120" x="416" y="278"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="60" x="181" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="55" x="427" y="125"/>
+   </frame>
+   <frame id="368">
+      <object fish_species="Dascyllus Reticulatus" h="66" w="120" x="416" y="278"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="60" x="181" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="55" x="427" y="125"/>
+   </frame>
+   <frame id="369">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="438" y="126"/>
+   </frame>
+   <frame id="370">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="438" y="126"/>
+   </frame>
+   <frame id="371">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="52" x="438" y="126"/>
+   </frame>
+   <frame id="372">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="45" x="452" y="130"/>
+   </frame>
+   <frame id="373">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="45" x="452" y="130"/>
+   </frame>
+   <frame id="374">
+      <object fish_species="Dascyllus Reticulatus" h="71" w="135" x="401" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="67" x="179" y="144"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="45" x="452" y="130"/>
+   </frame>
+   <frame id="375">
+      <object fish_species="Chaetodon Lununatus" h="70" w="63" x="183" y="148"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="376">
+      <object fish_species="Chaetodon Lununatus" h="70" w="63" x="183" y="148"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="377">
+      <object fish_species="Chaetodon Lununatus" h="70" w="63" x="183" y="148"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="378">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="379">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="380">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="381">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="382">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="80" w="142" x="402" y="264"/>
+   </frame>
+   <frame id="383">
+      <object fish_species="Chaetodon Lununatus" h="67" w="60" x="190" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="74" w="142" x="400" y="273"/>
+   </frame>
+   <frame id="384">
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="195" y="151"/>
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+   </frame>
+   <frame id="385">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="195" y="151"/>
+   </frame>
+   <frame id="386">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="195" y="151"/>
+   </frame>
+   <frame id="387">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="192" y="152"/>
+   </frame>
+   <frame id="388">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="192" y="152"/>
+   </frame>
+   <frame id="389">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="151" x="400" y="268"/>
+      <object fish_species="Chaetodon Lununatus" h="67" w="58" x="192" y="152"/>
+   </frame>
+   <frame id="390">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="143" x="416" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="56" x="192" y="152"/>
+   </frame>
+   <frame id="391">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="143" x="416" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="56" x="192" y="152"/>
+   </frame>
+   <frame id="392">
+      <object fish_species="Dascyllus Reticulatus" h="79" w="143" x="416" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="56" x="192" y="152"/>
+   </frame>
+   <frame id="393">
+      <object fish_species="Dascyllus Reticulatus" h="84" w="137" x="422" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="190" y="154"/>
+   </frame>
+   <frame id="394">
+      <object fish_species="Dascyllus Reticulatus" h="84" w="137" x="422" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="190" y="154"/>
+   </frame>
+   <frame id="395">
+      <object fish_species="Dascyllus Reticulatus" h="84" w="137" x="422" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="190" y="154"/>
+   </frame>
+   <frame id="396">
+      <object fish_species="Dascyllus Reticulatus" h="84" w="137" x="422" y="275"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="190" y="154"/>
+   </frame>
+   <frame id="397">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="129" x="437" y="277"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="185" y="153"/>
+   </frame>
+   <frame id="398">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="129" x="437" y="277"/>
+      <object fish_species="Chaetodon Lununatus" h="59" w="61" x="185" y="153"/>
+   </frame>
+   <frame id="399">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="135" x="432" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="400">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="135" x="432" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="401">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="135" x="432" y="273"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="402">
+      <object fish_species="Dascyllus Reticulatus" h="97" w="130" x="434" y="279"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="403">
+      <object fish_species="Dascyllus Reticulatus" h="97" w="130" x="434" y="279"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="404">
+      <object fish_species="Dascyllus Reticulatus" h="97" w="130" x="434" y="279"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="65" x="180" y="152"/>
+   </frame>
+   <frame id="405">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="125" x="440" y="284"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+   </frame>
+   <frame id="406">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="125" x="440" y="284"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+   </frame>
+   <frame id="407">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="125" x="440" y="284"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+   </frame>
+   <frame id="408">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="130" x="444" y="291"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="50" x="325" y="56"/>
+   </frame>
+   <frame id="409">
+      <object fish_species="Dascyllus Reticulatus" h="98" w="136" x="444" y="294"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="50" x="325" y="56"/>
+   </frame>
+   <frame id="410">
+      <object fish_species="Dascyllus Reticulatus" h="98" w="136" x="444" y="294"/>
+      <object fish_species="Chaetodon Lununatus" h="63" w="73" x="171" y="151"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="50" x="325" y="56"/>
+   </frame>
+   <frame id="411">
+      <object fish_species="Dascyllus Reticulatus" h="105" w="148" x="450" y="301"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="165" y="142"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="343" y="72"/>
+   </frame>
+   <frame id="412">
+      <object fish_species="Dascyllus Reticulatus" h="105" w="148" x="450" y="301"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="165" y="142"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="343" y="72"/>
+   </frame>
+   <frame id="413">
+      <object fish_species="Dascyllus Reticulatus" h="105" w="148" x="450" y="301"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="165" y="142"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="343" y="72"/>
+   </frame>
+   <frame id="414">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="141" x="474" y="312"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="356" y="85"/>
+   </frame>
+   <frame id="415">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="141" x="474" y="312"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="356" y="85"/>
+   </frame>
+   <frame id="416">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="141" x="474" y="312"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="356" y="85"/>
+   </frame>
+   <frame id="417">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="147" x="484" y="317"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="367" y="91"/>
+   </frame>
+   <frame id="418">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="147" x="484" y="317"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="367" y="91"/>
+   </frame>
+   <frame id="419">
+      <object fish_species="Dascyllus Reticulatus" h="99" w="147" x="484" y="317"/>
+      <object fish_species="Chaetodon Lununatus" h="82" w="73" x="164" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="48" x="367" y="91"/>
+   </frame>
+   <frame id="420">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="489" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="68" x="164" y="134"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="43" x="380" y="103"/>
+   </frame>
+   <frame id="421">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="492" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="68" x="164" y="134"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="43" x="380" y="103"/>
+   </frame>
+   <frame id="422">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="492" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="68" x="164" y="134"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="43" x="380" y="103"/>
+   </frame>
+   <frame id="423">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="492" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="63" x="166" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="48" x="386" y="112"/>
+   </frame>
+   <frame id="424">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="492" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="168" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="48" x="386" y="112"/>
+   </frame>
+   <frame id="425">
+      <object fish_species="Dascyllus Reticulatus" h="94" w="147" x="492" y="316"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="168" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="48" x="386" y="112"/>
+   </frame>
+   <frame id="426">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="397" y="124"/>
+   </frame>
+   <frame id="427">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="397" y="124"/>
+   </frame>
+   <frame id="428">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="397" y="124"/>
+   </frame>
+   <frame id="429">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="397" y="124"/>
+   </frame>
+   <frame id="430">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="402" y="127"/>
+   </frame>
+   <frame id="431">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="63" x="170" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="402" y="127"/>
+   </frame>
+   <frame id="432">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="55" x="178" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="402" y="127"/>
+   </frame>
+   <frame id="433">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="55" x="178" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="402" y="127"/>
+   </frame>
+   <frame id="434">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="139" x="491" y="314"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="55" x="178" y="137"/>
+      <object fish_species="Dascyllus Reticulatus" h="43" w="48" x="402" y="127"/>
+   </frame>
+   <frame id="435">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="504" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="50" x="186" y="140"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="42" x="408" y="132"/>
+   </frame>
+   <frame id="436">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="504" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="50" x="186" y="140"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="42" x="408" y="132"/>
+   </frame>
+   <frame id="437">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="504" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="79" w="50" x="186" y="140"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="42" x="408" y="132"/>
+   </frame>
+   <frame id="438">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="509" y="327"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="34" x="416" y="132"/>
+   </frame>
+   <frame id="439">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="509" y="327"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="34" x="416" y="132"/>
+   </frame>
+   <frame id="440">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="509" y="327"/>
+      <object fish_species="Dascyllus Reticulatus" h="38" w="34" x="416" y="132"/>
+   </frame>
+   <frame id="441">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="512" y="330"/>
+   </frame>
+   <frame id="442">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="512" y="330"/>
+   </frame>
+   <frame id="443">
+      <object fish_species="Dascyllus Reticulatus" h="102" w="116" x="512" y="330"/>
+   </frame>
+   <frame id="450">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="570" y="175"/>
+   </frame>
+   <frame id="451">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="570" y="175"/>
+   </frame>
+   <frame id="452">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="570" y="175"/>
+   </frame>
+   <frame id="453">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="556" y="170"/>
+   </frame>
+   <frame id="454">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="556" y="170"/>
+   </frame>
+   <frame id="455">
+      <object fish_species="Dascyllus Reticulatus" h="39" w="63" x="556" y="170"/>
+   </frame>
+   <frame id="468">
+      <object fish_species="Chaetodon Lununatus" h="86" w="51" x="186" y="144"/>
+   </frame>
+   <frame id="469">
+      <object fish_species="Chaetodon Lununatus" h="86" w="51" x="186" y="144"/>
+   </frame>
+   <frame id="470">
+      <object fish_species="Chaetodon Lununatus" h="86" w="51" x="186" y="144"/>
+   </frame>
+   <frame id="471">
+      <object fish_species="Chaetodon Lununatus" h="90" w="62" x="181" y="137"/>
+   </frame>
+   <frame id="472">
+      <object fish_species="Chaetodon Lununatus" h="90" w="62" x="181" y="137"/>
+   </frame>
+   <frame id="473">
+      <object fish_species="Chaetodon Lununatus" h="90" w="62" x="181" y="137"/>
+   </frame>
+   <frame id="474">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="178" y="135"/>
+   </frame>
+   <frame id="475">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="178" y="135"/>
+   </frame>
+   <frame id="476">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="178" y="135"/>
+   </frame>
+   <frame id="477">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="177" y="133"/>
+   </frame>
+   <frame id="478">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="177" y="133"/>
+   </frame>
+   <frame id="479">
+      <object fish_species="Chaetodon Lununatus" h="86" w="64" x="177" y="133"/>
+   </frame>
+   <frame id="480">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="481">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="482">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="483">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="484">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="485">
+      <object fish_species="Chaetodon Lununatus" h="85" w="71" x="171" y="126"/>
+   </frame>
+   <frame id="486">
+      <object fish_species="Chaetodon Lununatus" h="85" w="56" x="176" y="122"/>
+   </frame>
+   <frame id="487">
+      <object fish_species="Chaetodon Lununatus" h="85" w="56" x="176" y="122"/>
+   </frame>
+   <frame id="488">
+      <object fish_species="Chaetodon Lununatus" h="85" w="56" x="176" y="122"/>
+   </frame>
+   <frame id="501">
+      <object fish_species="Chaetodon Lununatus" h="102" w="55" x="158" y="111"/>
+   </frame>
+   <frame id="502">
+      <object fish_species="Chaetodon Lununatus" h="102" w="55" x="158" y="111"/>
+   </frame>
+   <frame id="503">
+      <object fish_species="Chaetodon Lununatus" h="102" w="55" x="158" y="111"/>
+   </frame>
+   <frame id="504">
+      <object fish_species="Chaetodon Lununatus" h="102" w="69" x="151" y="116"/>
+   </frame>
+   <frame id="505">
+      <object fish_species="Chaetodon Lununatus" h="102" w="69" x="151" y="116"/>
+   </frame>
+   <frame id="506">
+      <object fish_species="Chaetodon Lununatus" h="102" w="69" x="151" y="116"/>
+   </frame>
+   <frame id="507">
+      <object fish_species="Chaetodon Lununatus" h="102" w="73" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="64" x="3" y="191"/>
+   </frame>
+   <frame id="508">
+      <object fish_species="Chaetodon Lununatus" h="102" w="73" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="64" x="3" y="191"/>
+   </frame>
+   <frame id="509">
+      <object fish_species="Chaetodon Lununatus" h="102" w="73" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="64" x="3" y="191"/>
+   </frame>
+   <frame id="510">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="70" x="3" y="191"/>
+   </frame>
+   <frame id="511">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="70" x="3" y="191"/>
+   </frame>
+   <frame id="512">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="70" x="3" y="191"/>
+   </frame>
+   <frame id="513">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="70" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="573" y="208"/>
+   </frame>
+   <frame id="514">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="70" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="573" y="208"/>
+   </frame>
+   <frame id="515">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="73" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="573" y="208"/>
+   </frame>
+   <frame id="516">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="73" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="577" y="201"/>
+   </frame>
+   <frame id="517">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="73" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="577" y="201"/>
+   </frame>
+   <frame id="518">
+      <object fish_species="Chaetodon Lununatus" h="106" w="81" x="151" y="116"/>
+      <object fish_species="Dascyllus Aruanus" h="104" w="73" x="3" y="191"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="577" y="201"/>
+   </frame>
+   <frame id="519">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="520">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="521">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="522">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="523">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="524">
+      <object fish_species="Chaetodon Lununatus" h="101" w="68" x="167" y="120"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="73" x="4" y="198"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="586" y="195"/>
+   </frame>
+   <frame id="525">
+      <object fish_species="Chaetodon Lununatus" h="96" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="83" x="17" y="202"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="587" y="191"/>
+   </frame>
+   <frame id="526">
+      <object fish_species="Chaetodon Lununatus" h="96" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="83" x="17" y="202"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="587" y="191"/>
+   </frame>
+   <frame id="527">
+      <object fish_species="Chaetodon Lununatus" h="96" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="99" w="83" x="17" y="202"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="46" x="587" y="191"/>
+   </frame>
+   <frame id="528">
+      <object fish_species="Chaetodon Lununatus" h="84" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="41" y="209"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+   </frame>
+   <frame id="529">
+      <object fish_species="Chaetodon Lununatus" h="84" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="41" y="209"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+   </frame>
+   <frame id="530">
+      <object fish_species="Chaetodon Lununatus" h="84" w="64" x="173" y="117"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="41" y="209"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+   </frame>
+   <frame id="531">
+      <object fish_species="Chaetodon Lununatus" h="79" w="58" x="175" y="109"/>
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="56" y="220"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="2" y="121"/>
+   </frame>
+   <frame id="532">
+      <object fish_species="Chaetodon Lununatus" h="79" w="58" x="175" y="109"/>
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="56" y="220"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="2" y="121"/>
+   </frame>
+   <frame id="533">
+      <object fish_species="Chaetodon Lununatus" h="79" w="58" x="175" y="109"/>
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="56" y="220"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="2" y="121"/>
+   </frame>
+   <frame id="534">
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="72" y="225"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="78" x="2" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="535">
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="72" y="225"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="78" x="2" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="536">
+      <object fish_species="Dascyllus Aruanus" h="79" w="79" x="72" y="225"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="570" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="78" x="2" y="116"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="537">
+      <object fish_species="Dascyllus Aruanus" h="69" w="79" x="88" y="229"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="8" y="120"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="538">
+      <object fish_species="Dascyllus Aruanus" h="69" w="79" x="88" y="229"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="8" y="120"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="539">
+      <object fish_species="Dascyllus Aruanus" h="69" w="79" x="88" y="229"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="8" y="120"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="492" y="252"/>
+   </frame>
+   <frame id="540">
+      <object fish_species="Dascyllus Aruanus" h="69" w="63" x="106" y="227"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="26" y="131"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="541">
+      <object fish_species="Dascyllus Aruanus" h="69" w="63" x="106" y="227"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="26" y="131"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="542">
+      <object fish_species="Dascyllus Aruanus" h="69" w="63" x="106" y="227"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="90" w="92" x="26" y="131"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="543">
+      <object fish_species="Dascyllus Aruanus" h="66" w="55" x="114" y="235"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="46" y="147"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="544">
+      <object fish_species="Dascyllus Aruanus" h="66" w="55" x="114" y="235"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="46" y="147"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="545">
+      <object fish_species="Dascyllus Aruanus" h="66" w="55" x="114" y="235"/>
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="46" y="147"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="252"/>
+   </frame>
+   <frame id="546">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="52" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="253"/>
+   </frame>
+   <frame id="547">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="52" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="253"/>
+   </frame>
+   <frame id="548">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="87" x="52" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="488" y="253"/>
+   </frame>
+   <frame id="549">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="42" x="101" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="484" y="253"/>
+   </frame>
+   <frame id="550">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="42" x="101" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="484" y="253"/>
+   </frame>
+   <frame id="551">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="80" w="42" x="101" y="149"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="118" x="484" y="253"/>
+   </frame>
+   <frame id="552">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="44" x="119" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="66" x="150" y="78"/>
+   </frame>
+   <frame id="553">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="44" x="119" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="66" x="150" y="78"/>
+   </frame>
+   <frame id="554">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="44" x="119" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="73" w="66" x="150" y="78"/>
+   </frame>
+   <frame id="555">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="127" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+   </frame>
+   <frame id="556">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="127" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+   </frame>
+   <frame id="557">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="568" y="127"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="127" y="135"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+   </frame>
+   <frame id="558">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="570" y="132"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="135" y="133"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+   </frame>
+   <frame id="559">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="570" y="132"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="135" y="133"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+   </frame>
+   <frame id="560">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="63" x="570" y="132"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="44" x="135" y="133"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="484" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="68" w="60" x="149" y="76"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+   </frame>
+   <frame id="561">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="582" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+   </frame>
+   <frame id="562">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="582" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+   </frame>
+   <frame id="563">
+      <object fish_species="Dascyllus Reticulatus" h="60" w="51" x="582" y="139"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="32" x="133" y="260"/>
+      <object fish_species="Dascyllus Aruanus" h="60" w="43" x="149" y="134"/>
+   </frame>
+   <frame id="564">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="41" x="155" y="134"/>
+   </frame>
+   <frame id="565">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="41" x="155" y="134"/>
+   </frame>
+   <frame id="566">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="152"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="491" y="255"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="141" y="63"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="41" x="155" y="134"/>
+   </frame>
+   <frame id="567">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="163"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="33" x="163" y="134"/>
+   </frame>
+   <frame id="568">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="163"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="33" x="163" y="134"/>
+   </frame>
+   <frame id="569">
+      <object fish_species="Dascyllus Reticulatus" h="65" w="42" x="590" y="163"/>
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+      <object fish_species="Dascyllus Aruanus" h="56" w="33" x="163" y="134"/>
+   </frame>
+   <frame id="570">
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+   </frame>
+   <frame id="571">
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+   </frame>
+   <frame id="572">
+      <object fish_species="Dascyllus Reticulatus" h="95" w="129" x="501" y="253"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="61" x="135" y="50"/>
+   </frame>
+   <frame id="573">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="124" x="501" y="259"/>
+      <object fish_species="Chaetodon Lununatus" h="87" w="61" x="126" y="30"/>
+   </frame>
+   <frame id="574">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="114" x="501" y="259"/>
+      <object fish_species="Chaetodon Lununatus" h="87" w="64" x="123" y="38"/>
+   </frame>
+   <frame id="575">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="114" x="501" y="259"/>
+      <object fish_species="Chaetodon Lununatus" h="87" w="64" x="123" y="38"/>
+   </frame>
+   <frame id="576">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="75" w="72" x="106" y="25"/>
+   </frame>
+   <frame id="577">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="75" w="72" x="106" y="25"/>
+   </frame>
+   <frame id="578">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="70" w="68" x="110" y="30"/>
+   </frame>
+   <frame id="579">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="97" y="26"/>
+   </frame>
+   <frame id="580">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="97" y="26"/>
+   </frame>
+   <frame id="581">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="97" y="26"/>
+   </frame>
+   <frame id="582">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="91" y="22"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="178" y="135"/>
+   </frame>
+   <frame id="583">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="91" y="22"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="178" y="135"/>
+   </frame>
+   <frame id="584">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="110" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="74" w="81" x="91" y="22"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="178" y="135"/>
+   </frame>
+   <frame id="585">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="100" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="65" x="91" y="22"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="183" y="143"/>
+   </frame>
+   <frame id="586">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="100" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="65" x="91" y="22"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="183" y="143"/>
+   </frame>
+   <frame id="587">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="95" x="507" y="264"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="65" x="90" y="27"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="183" y="143"/>
+   </frame>
+   <frame id="588">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="95" x="507" y="271"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="65" x="80" y="17"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="188" y="149"/>
+   </frame>
+   <frame id="589">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="105" x="507" y="271"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="65" x="80" y="17"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="188" y="149"/>
+   </frame>
+   <frame id="590">
+      <object fish_species="Dascyllus Reticulatus" h="89" w="105" x="507" y="271"/>
+      <object fish_species="Chaetodon Lununatus" h="60" w="54" x="86" y="17"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="188" y="149"/>
+   </frame>
+   <frame id="591">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="592">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="593">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="594">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="595">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="596">
+      <object fish_species="Dascyllus Reticulatus" h="80" w="97" x="507" y="271"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="36" x="192" y="156"/>
+   </frame>
+   <frame id="654">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="45" x="588" y="123"/>
+   </frame>
+   <frame id="678">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="512" y="219"/>
+   </frame>
+   <frame id="679">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="512" y="219"/>
+   </frame>
+   <frame id="680">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="512" y="219"/>
+   </frame>
+   <frame id="681">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="511" y="212"/>
+   </frame>
+   <frame id="682">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="511" y="212"/>
+   </frame>
+   <frame id="683">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="80" x="511" y="212"/>
+   </frame>
+   <frame id="684">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="498" y="198"/>
+   </frame>
+   <frame id="685">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="498" y="198"/>
+   </frame>
+   <frame id="686">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="498" y="198"/>
+   </frame>
+   <frame id="687">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="503" y="191"/>
+   </frame>
+   <frame id="688">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="503" y="191"/>
+   </frame>
+   <frame id="689">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="98" x="503" y="191"/>
+   </frame>
+   <frame id="690">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="103" x="505" y="178"/>
+   </frame>
+   <frame id="691">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="103" x="505" y="178"/>
+   </frame>
+   <frame id="692">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="103" x="505" y="178"/>
+   </frame>
+   <frame id="693">
+      <object fish_species="Dascyllus Aruanus" h="44" w="42" x="171" y="127"/>
+      <object fish_species="Dascyllus Reticulatus" h="91" w="112" x="506" y="173"/>
+   </frame>
+   <frame id="694">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="112" x="506" y="173"/>
+      <object fish_species="Dascyllus Aruanus" h="44" w="42" x="171" y="127"/>
+   </frame>
+   <frame id="695">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="112" x="506" y="173"/>
+      <object fish_species="Dascyllus Aruanus" h="44" w="42" x="171" y="127"/>
+   </frame>
+   <frame id="696">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="506" y="171"/>
+      <object fish_species="Dascyllus Aruanus" h="44" w="42" x="171" y="127"/>
+   </frame>
+   <frame id="697">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="506" y="171"/>
+      <object fish_species="Dascyllus Aruanus" h="44" w="42" x="171" y="127"/>
+   </frame>
+   <frame id="698">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="506" y="171"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="53" x="166" y="127"/>
+   </frame>
+   <frame id="699">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="509" y="165"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="164" y="125"/>
+   </frame>
+   <frame id="700">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="509" y="165"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="164" y="125"/>
+   </frame>
+   <frame id="701">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="120" x="509" y="165"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="164" y="125"/>
+   </frame>
+   <frame id="702">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="122" x="511" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="120"/>
+   </frame>
+   <frame id="703">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="122" x="511" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="120"/>
+   </frame>
+   <frame id="704">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="122" x="511" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="120"/>
+   </frame>
+   <frame id="705">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="122" x="511" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="120"/>
+   </frame>
+   <frame id="706">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="505" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="118"/>
+   </frame>
+   <frame id="707">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="505" y="160"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="165" y="118"/>
+   </frame>
+   <frame id="708">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="166" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="50" x="360" y="85"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="44" x="392" y="112"/>
+   </frame>
+   <frame id="709">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="166" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="50" x="360" y="85"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="44" x="392" y="112"/>
+   </frame>
+   <frame id="710">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="58" x="166" y="115"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="50" x="360" y="85"/>
+      <object fish_species="Dascyllus Reticulatus" h="32" w="44" x="392" y="112"/>
+   </frame>
+   <frame id="711">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="397" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="363" y="78"/>
+   </frame>
+   <frame id="712">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="397" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="363" y="78"/>
+   </frame>
+   <frame id="713">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="128" x="507" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="397" y="105"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="363" y="78"/>
+   </frame>
+   <frame id="714">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="124" x="511" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="407" y="100"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="372" y="67"/>
+   </frame>
+   <frame id="715">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="124" x="511" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="407" y="100"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="372" y="67"/>
+   </frame>
+   <frame id="716">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="124" x="511" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="407" y="100"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="372" y="67"/>
+   </frame>
+   <frame id="717">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="113" x="522" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="418" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="381" y="55"/>
+      <object fish_species="Dascyllus Aruanus" h="60" w="48" x="164" y="106"/>
+   </frame>
+   <frame id="718">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="113" x="522" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="418" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="381" y="55"/>
+      <object fish_species="Dascyllus Aruanus" h="60" w="48" x="164" y="106"/>
+   </frame>
+   <frame id="719">
+      <object fish_species="Dascyllus Reticulatus" h="91" w="113" x="522" y="155"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="418" y="95"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="381" y="55"/>
+      <object fish_species="Dascyllus Aruanus" h="60" w="48" x="164" y="106"/>
+   </frame>
+   <frame id="720">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="428" y="90"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="387" y="46"/>
+      <object fish_species="Dascyllus Aruanus" h="73" w="76" x="127" y="106"/>
+   </frame>
+   <frame id="721">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="428" y="90"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="387" y="46"/>
+      <object fish_species="Dascyllus Aruanus" h="73" w="76" x="127" y="106"/>
+   </frame>
+   <frame id="722">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="428" y="90"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="387" y="46"/>
+      <object fish_species="Dascyllus Aruanus" h="73" w="76" x="127" y="106"/>
+   </frame>
+   <frame id="723">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="437" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="391" y="36"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="76" x="114" y="103"/>
+   </frame>
+   <frame id="724">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="437" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="391" y="36"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="76" x="114" y="103"/>
+   </frame>
+   <frame id="725">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="437" y="86"/>
+      <object fish_species="Dascyllus Reticulatus" h="36" w="52" x="391" y="36"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="76" x="114" y="103"/>
+   </frame>
+   <frame id="726">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="443" y="77"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="49" x="396" y="24"/>
+      <object fish_species="Dascyllus Aruanus" h="78" w="90" x="72" y="104"/>
+   </frame>
+   <frame id="727">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="443" y="77"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="49" x="396" y="24"/>
+      <object fish_species="Dascyllus Aruanus" h="78" w="90" x="72" y="104"/>
+   </frame>
+   <frame id="728">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="107" x="529" y="146"/>
+      <object fish_species="Dascyllus Reticulatus" h="37" w="49" x="443" y="77"/>
+      <object fish_species="Dascyllus Reticulatus" h="39" w="49" x="396" y="24"/>
+      <object fish_species="Dascyllus Aruanus" h="78" w="90" x="72" y="104"/>
+   </frame>
+   <frame id="729">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="94" x="46" y="100"/>
+   </frame>
+   <frame id="730">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="94" x="46" y="100"/>
+   </frame>
+   <frame id="731">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="94" x="46" y="100"/>
+   </frame>
+   <frame id="732">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="84" x="39" y="102"/>
+   </frame>
+   <frame id="733">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="84" x="39" y="102"/>
+   </frame>
+   <frame id="734">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="146"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="84" x="39" y="102"/>
+   </frame>
+   <frame id="735">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="55" x="37" y="108"/>
+   </frame>
+   <frame id="736">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="53" x="33" y="113"/>
+   </frame>
+   <frame id="737">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="542" y="147"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="53" x="33" y="113"/>
+   </frame>
+   <frame id="738">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="544" y="157"/>
+      <object fish_species="Dascyllus Aruanus" h="108" w="68" x="30" y="154"/>
+   </frame>
+   <frame id="739">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="544" y="157"/>
+      <object fish_species="Dascyllus Aruanus" h="108" w="68" x="30" y="154"/>
+   </frame>
+   <frame id="740">
+      <object fish_species="Dascyllus Reticulatus" h="112" w="94" x="544" y="157"/>
+      <object fish_species="Dascyllus Aruanus" h="108" w="68" x="30" y="154"/>
+   </frame>
+   <frame id="741">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="71" x="566" y="163"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="70" y="255"/>
+   </frame>
+   <frame id="742">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="78" x="559" y="163"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="70" y="255"/>
+   </frame>
+   <frame id="743">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="78" x="559" y="163"/>
+      <object fish_species="Dascyllus Aruanus" h="84" w="83" x="70" y="255"/>
+   </frame>
+   <frame id="744">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="62" x="575" y="175"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="73" x="137" y="324"/>
+   </frame>
+   <frame id="745">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="62" x="575" y="175"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="73" x="137" y="324"/>
+   </frame>
+   <frame id="746">
+      <object fish_species="Dascyllus Reticulatus" h="115" w="62" x="575" y="175"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="73" x="137" y="324"/>
+   </frame>
+   <frame id="747">
+      <object fish_species="Dascyllus Reticulatus" h="52" w="37" x="470" y="123"/>
+   </frame>
+   <frame id="748">
+      <object fish_species="Dascyllus Reticulatus" h="52" w="37" x="470" y="123"/>
+   </frame>
+   <frame id="749">
+      <object fish_species="Dascyllus Reticulatus" h="52" w="37" x="470" y="123"/>
+   </frame>
+   <frame id="750">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="472" y="136"/>
+   </frame>
+   <frame id="751">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="472" y="136"/>
+   </frame>
+   <frame id="752">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="472" y="136"/>
+   </frame>
+   <frame id="753">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="477" y="148"/>
+   </frame>
+   <frame id="754">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="477" y="148"/>
+   </frame>
+   <frame id="755">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="42" x="477" y="148"/>
+   </frame>
+   <frame id="756">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="49" x="482" y="153"/>
+   </frame>
+   <frame id="757">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="49" x="482" y="153"/>
+   </frame>
+   <frame id="758">
+      <object fish_species="Dascyllus Reticulatus" h="55" w="49" x="482" y="153"/>
+   </frame>
+   <frame id="759">
+      <object fish_species="Dascyllus Reticulatus" h="111" w="129" x="382" y="368"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="54" x="489" y="164"/>
+   </frame>
+   <frame id="760">
+      <object fish_species="Dascyllus Reticulatus" h="111" w="129" x="382" y="368"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="54" x="489" y="164"/>
+   </frame>
+   <frame id="761">
+      <object fish_species="Dascyllus Reticulatus" h="111" w="129" x="382" y="368"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="54" x="489" y="164"/>
+   </frame>
+   <frame id="762">
+      <object fish_species="Dascyllus Reticulatus" h="133" w="154" x="364" y="346"/>
+      <object fish_species="Dascyllus Reticulatus" h="55" w="54" x="496" y="167"/>
+   </frame>
+   <frame id="763">
+      <object fish_species="Dascyllus Reticulatus" h="133" w="154" x="364" y="346"/>
+      <object fish_species="Dascyllus Reticulatus" h="55" w="54" x="496" y="167"/>
+   </frame>
+   <frame id="764">
+      <object fish_species="Dascyllus Reticulatus" h="133" w="154" x="364" y="346"/>
+      <object fish_species="Dascyllus Reticulatus" h="55" w="54" x="496" y="167"/>
+   </frame>
+   <frame id="765">
+      <object fish_species="Dascyllus Reticulatus" h="143" w="181" x="352" y="333"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="54" x="506" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="35" x="551" y="64"/>
+   </frame>
+   <frame id="766">
+      <object fish_species="Dascyllus Reticulatus" h="143" w="181" x="352" y="333"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="54" x="506" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="35" x="551" y="64"/>
+   </frame>
+   <frame id="767">
+      <object fish_species="Dascyllus Reticulatus" h="143" w="181" x="352" y="333"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="54" x="506" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="41" w="35" x="551" y="64"/>
+   </frame>
+   <frame id="768">
+      <object fish_species="Dascyllus Reticulatus" h="148" w="181" x="352" y="328"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="59" x="511" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="542" y="75"/>
+   </frame>
+   <frame id="769">
+      <object fish_species="Dascyllus Reticulatus" h="148" w="181" x="352" y="328"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="59" x="511" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="542" y="75"/>
+   </frame>
+   <frame id="770">
+      <object fish_species="Dascyllus Reticulatus" h="148" w="181" x="352" y="328"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="59" x="511" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="542" y="75"/>
+   </frame>
+   <frame id="771">
+      <object fish_species="Dascyllus Reticulatus" h="155" w="193" x="343" y="322"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="54" x="516" y="187"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="538" y="84"/>
+   </frame>
+   <frame id="772">
+      <object fish_species="Dascyllus Reticulatus" h="155" w="193" x="343" y="322"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="54" x="516" y="187"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="538" y="84"/>
+   </frame>
+   <frame id="773">
+      <object fish_species="Dascyllus Reticulatus" h="155" w="193" x="343" y="322"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="54" x="516" y="187"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="538" y="84"/>
+   </frame>
+   <frame id="774">
+      <object fish_species="Dascyllus Reticulatus" h="159" w="193" x="337" y="318"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="527" y="186"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="535" y="102"/>
+   </frame>
+   <frame id="775">
+      <object fish_species="Dascyllus Reticulatus" h="159" w="193" x="337" y="318"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="527" y="186"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="535" y="102"/>
+   </frame>
+   <frame id="776">
+      <object fish_species="Dascyllus Reticulatus" h="159" w="193" x="337" y="318"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="57" x="527" y="186"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="40" x="535" y="102"/>
+   </frame>
+   <frame id="777">
+      <object fish_species="Dascyllus Reticulatus" h="162" w="194" x="324" y="314"/>
+   </frame>
+   <frame id="778">
+      <object fish_species="Dascyllus Reticulatus" h="162" w="194" x="324" y="314"/>
+   </frame>
+   <frame id="779">
+      <object fish_species="Dascyllus Reticulatus" h="162" w="194" x="324" y="314"/>
+   </frame>
+   <frame id="780">
+      <object fish_species="Dascyllus Reticulatus" h="178" w="199" x="319" y="298"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="48" x="187" y="198"/>
+   </frame>
+   <frame id="781">
+      <object fish_species="Dascyllus Reticulatus" h="178" w="199" x="319" y="298"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="48" x="187" y="198"/>
+   </frame>
+   <frame id="782">
+      <object fish_species="Dascyllus Reticulatus" h="178" w="199" x="319" y="298"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="48" x="187" y="198"/>
+   </frame>
+   <frame id="783">
+      <object fish_species="Dascyllus Reticulatus" h="191" w="204" x="311" y="285"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="46" x="187" y="197"/>
+   </frame>
+   <frame id="784">
+      <object fish_species="Dascyllus Reticulatus" h="191" w="204" x="311" y="285"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="46" x="187" y="197"/>
+   </frame>
+   <frame id="785">
+      <object fish_species="Dascyllus Reticulatus" h="191" w="204" x="311" y="285"/>
+      <object fish_species="Dascyllus Aruanus" h="58" w="46" x="187" y="197"/>
+   </frame>
+   <frame id="786">
+      <object fish_species="Dascyllus Reticulatus" h="221" w="241" x="291" y="257"/>
+      <object fish_species="Dascyllus Aruanus" h="61" w="40" x="180" y="189"/>
+   </frame>
+   <frame id="787">
+      <object fish_species="Dascyllus Reticulatus" h="221" w="241" x="291" y="257"/>
+      <object fish_species="Dascyllus Aruanus" h="61" w="40" x="180" y="189"/>
+   </frame>
+   <frame id="788">
+      <object fish_species="Dascyllus Reticulatus" h="221" w="241" x="291" y="257"/>
+      <object fish_species="Dascyllus Aruanus" h="61" w="40" x="180" y="189"/>
+   </frame>
+   <frame id="789">
+      <object fish_species="Dascyllus Reticulatus" h="247" w="241" x="267" y="215"/>
+      <object fish_species="Dascyllus Aruanus" h="66" w="56" x="163" y="184"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="81" y="26"/>
+   </frame>
+   <frame id="790">
+      <object fish_species="Dascyllus Reticulatus" h="247" w="241" x="267" y="215"/>
+      <object fish_species="Dascyllus Aruanus" h="66" w="56" x="163" y="184"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="81" y="26"/>
+   </frame>
+   <frame id="791">
+      <object fish_species="Dascyllus Reticulatus" h="247" w="241" x="267" y="215"/>
+      <object fish_species="Dascyllus Aruanus" h="66" w="56" x="163" y="184"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="81" y="26"/>
+   </frame>
+   <frame id="792">
+      <object fish_species="Dascyllus Reticulatus" h="262" w="262" x="240" y="167"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="72" x="143" y="188"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="793">
+      <object fish_species="Dascyllus Reticulatus" h="262" w="262" x="240" y="167"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="72" x="143" y="188"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="794">
+      <object fish_species="Dascyllus Reticulatus" h="262" w="262" x="240" y="167"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="87" x="143" y="188"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="795">
+      <object fish_species="Dascyllus Reticulatus" h="262" w="250" x="230" y="122"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="87" x="138" y="192"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="796">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="257" x="222" y="128"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="87" x="138" y="192"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="797">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="257" x="222" y="128"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="87" x="138" y="192"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="64" x="85" y="25"/>
+   </frame>
+   <frame id="798">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="257" x="204" y="61"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="82" x="136" y="196"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="57" x="93" y="29"/>
+   </frame>
+   <frame id="799">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="257" x="204" y="61"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="127" y="196"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="57" x="93" y="29"/>
+   </frame>
+   <frame id="800">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="257" x="204" y="61"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="127" y="196"/>
+      <object fish_species="Chaetodon Lununatus" h="45" w="57" x="93" y="29"/>
+   </frame>
+   <frame id="801">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="242" x="187" y="3"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="105" y="26"/>
+   </frame>
+   <frame id="802">
+      <object fish_species="Dascyllus Reticulatus" h="255" w="242" x="187" y="3"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="105" y="26"/>
+   </frame>
+   <frame id="803">
+      <object fish_species="Dascyllus Reticulatus" h="250" w="242" x="187" y="8"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="105" y="26"/>
+   </frame>
+   <frame id="804">
+      <object fish_species="Dascyllus Reticulatus" h="177" w="241" x="169" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="110" y="25"/>
+   </frame>
+   <frame id="805">
+      <object fish_species="Dascyllus Reticulatus" h="177" w="241" x="169" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="110" y="25"/>
+   </frame>
+   <frame id="806">
+      <object fish_species="Dascyllus Reticulatus" h="170" w="235" x="169" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="44" x="110" y="25"/>
+   </frame>
+   <frame id="807">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="229" x="158" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Dascyllus Reticulatus" h="45" w="51" x="574" y="172"/>
+   </frame>
+   <frame id="808">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="229" x="158" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Dascyllus Reticulatus" h="45" w="51" x="574" y="172"/>
+   </frame>
+   <frame id="809">
+      <object fish_species="Dascyllus Reticulatus" h="101" w="229" x="158" y="0"/>
+      <object fish_species="Dascyllus Aruanus" h="74" w="91" x="126" y="200"/>
+      <object fish_species="Dascyllus Reticulatus" h="45" w="51" x="574" y="172"/>
+   </frame>
+   <frame id="810">
+      <object fish_species="Dascyllus Aruanus" h="70" w="90" x="115" y="204"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="567" y="172"/>
+   </frame>
+   <frame id="811">
+      <object fish_species="Dascyllus Aruanus" h="70" w="90" x="115" y="204"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="567" y="172"/>
+   </frame>
+   <frame id="812">
+      <object fish_species="Dascyllus Aruanus" h="75" w="92" x="112" y="199"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="567" y="172"/>
+   </frame>
+   <frame id="813">
+      <object fish_species="Dascyllus Aruanus" h="75" w="92" x="101" y="197"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="561" y="171"/>
+   </frame>
+   <frame id="814">
+      <object fish_species="Dascyllus Aruanus" h="75" w="92" x="101" y="197"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="561" y="171"/>
+   </frame>
+   <frame id="815">
+      <object fish_species="Dascyllus Aruanus" h="75" w="92" x="101" y="197"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="561" y="171"/>
+   </frame>
+   <frame id="816">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="93" y="192"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="558" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="57" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="241" y="376"/>
+   </frame>
+   <frame id="817">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="93" y="192"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="558" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="57" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="241" y="376"/>
+   </frame>
+   <frame id="818">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="93" y="192"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="558" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="57" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="241" y="376"/>
+   </frame>
+   <frame id="819">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="86" y="190"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="558" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="48" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="246" y="372"/>
+   </frame>
+   <frame id="820">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="86" y="190"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="56" x="558" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="48" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="246" y="372"/>
+   </frame>
+   <frame id="821">
+      <object fish_species="Dascyllus Aruanus" h="75" w="87" x="86" y="190"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="60" x="554" y="174"/>
+      <object fish_species="Dascyllus Reticulatus" h="34" w="48" x="326" y="94"/>
+      <object fish_species="Dascyllus Aruanus" h="83" w="98" x="246" y="372"/>
+   </frame>
+   <frame id="822">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="79" y="189"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="55" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="96" w="108" x="248" y="363"/>
+   </frame>
+   <frame id="823">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="79" y="189"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="55" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="96" w="108" x="248" y="363"/>
+   </frame>
+   <frame id="824">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="79" y="189"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="55" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="96" w="108" x="248" y="363"/>
+   </frame>
+   <frame id="825">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="46" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="139" x="253" y="361"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="61" x="194" y="108"/>
+   </frame>
+   <frame id="826">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="46" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="139" x="253" y="361"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="61" x="194" y="108"/>
+   </frame>
+   <frame id="827">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="46" x="556" y="178"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="139" x="253" y="361"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="61" x="194" y="108"/>
+   </frame>
+   <frame id="828">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="75" x="203" y="133"/>
+   </frame>
+   <frame id="829">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="75" x="203" y="133"/>
+   </frame>
+   <frame id="830">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="107" w="75" x="203" y="133"/>
+   </frame>
+   <frame id="831">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="215" y="150"/>
+   </frame>
+   <frame id="832">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="215" y="150"/>
+   </frame>
+   <frame id="833">
+      <object fish_species="Dascyllus Aruanus" h="75" w="84" x="74" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="355"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="215" y="150"/>
+   </frame>
+   <frame id="834">
+      <object fish_species="Dascyllus Aruanus" h="75" w="81" x="67" y="186"/>
+      <object fish_species="Dascyllus Aruanus" h="122" w="137" x="253" y="348"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="232" y="170"/>
+   </frame>
+   <frame id="835">
+      <object fish_species="Dascyllus Aruanus" h="75" w="81" x="67" y="186"/>
+      <object fish_species="Dascyllus Aruanus" h="124" w="144" x="253" y="348"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="232" y="170"/>
+   </frame>
+   <frame id="836">
+      <object fish_species="Dascyllus Aruanus" h="75" w="81" x="67" y="186"/>
+      <object fish_species="Dascyllus Aruanus" h="124" w="144" x="253" y="348"/>
+      <object fish_species="Chaetodon Lununatus" h="112" w="71" x="232" y="170"/>
+   </frame>
+   <frame id="837">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="62" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="121" w="130" x="260" y="343"/>
+      <object fish_species="Chaetodon Lununatus" h="108" w="67" x="254" y="197"/>
+   </frame>
+   <frame id="838">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="62" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="121" w="130" x="260" y="343"/>
+      <object fish_species="Chaetodon Lununatus" h="108" w="67" x="254" y="197"/>
+   </frame>
+   <frame id="839">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="62" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="121" w="130" x="260" y="343"/>
+      <object fish_species="Chaetodon Lununatus" h="108" w="67" x="254" y="197"/>
+   </frame>
+   <frame id="840">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="45" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="141" w="125" x="253" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="103" w="64" x="268" y="212"/>
+   </frame>
+   <frame id="841">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="45" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="141" w="125" x="253" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="103" w="64" x="268" y="212"/>
+   </frame>
+   <frame id="842">
+      <object fish_species="Dascyllus Aruanus" h="72" w="75" x="45" y="188"/>
+      <object fish_species="Dascyllus Aruanus" h="141" w="125" x="253" y="323"/>
+      <object fish_species="Chaetodon Lununatus" h="103" w="64" x="268" y="212"/>
+   </frame>
+   <frame id="843">
+      <object fish_species="Dascyllus Aruanus" h="72" w="77" x="38" y="190"/>
+      <object fish_species="Dascyllus Aruanus" h="98" w="116" x="256" y="326"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="56" x="283" y="223"/>
+   </frame>
+   <frame id="844">
+      <object fish_species="Dascyllus Aruanus" h="72" w="77" x="38" y="190"/>
+      <object fish_species="Dascyllus Aruanus" h="98" w="116" x="256" y="326"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="56" x="283" y="223"/>
+   </frame>
+   <frame id="845">
+      <object fish_species="Dascyllus Aruanus" h="72" w="77" x="38" y="190"/>
+      <object fish_species="Dascyllus Aruanus" h="98" w="116" x="256" y="326"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="56" x="283" y="223"/>
+   </frame>
+   <frame id="846">
+      <object fish_species="Dascyllus Aruanus" h="61" w="77" x="14" y="197"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="52" x="298" y="228"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="268" y="302"/>
+   </frame>
+   <frame id="847">
+      <object fish_species="Dascyllus Aruanus" h="61" w="77" x="14" y="197"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="52" x="298" y="228"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="268" y="302"/>
+   </frame>
+   <frame id="848">
+      <object fish_species="Dascyllus Aruanus" h="61" w="77" x="14" y="197"/>
+      <object fish_species="Chaetodon Lununatus" h="97" w="52" x="298" y="228"/>
+      <object fish_species="Dascyllus Aruanus" h="65" w="65" x="268" y="302"/>
+   </frame>
+   <frame id="849">
+      <object fish_species="Dascyllus Aruanus" h="61" w="62" x="5" y="194"/>
+      <object fish_species="Chaetodon Lununatus" h="92" w="52" x="310" y="233"/>
+      <object fish_species="Dascyllus Aruanus" h="107" w="74" x="250" y="288"/>
+   </frame>
+   <frame id="850">
+      <object fish_species="Dascyllus Aruanus" h="61" w="62" x="5" y="194"/>
+      <object fish_species="Chaetodon Lununatus" h="92" w="52" x="310" y="233"/>
+      <object fish_species="Dascyllus Aruanus" h="107" w="74" x="250" y="288"/>
+   </frame>
+   <frame id="851">
+      <object fish_species="Dascyllus Aruanus" h="61" w="62" x="5" y="194"/>
+      <object fish_species="Chaetodon Lununatus" h="92" w="52" x="310" y="233"/>
+      <object fish_species="Dascyllus Aruanus" h="107" w="78" x="250" y="288"/>
+   </frame>
+   <frame id="852">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="113" w="80" x="246" y="276"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="853">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="113" w="80" x="246" y="276"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="854">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="113" w="80" x="246" y="276"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="855">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="110" w="103" x="224" y="269"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="856">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="110" w="103" x="224" y="269"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="857">
+      <object fish_species="Chaetodon Lununatus" h="87" w="55" x="318" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="110" w="103" x="224" y="269"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="544" y="197"/>
+   </frame>
+   <frame id="858">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="105" w="137" x="195" y="251"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="540" y="197"/>
+   </frame>
+   <frame id="859">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="105" w="137" x="195" y="251"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="540" y="197"/>
+   </frame>
+   <frame id="860">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="105" w="137" x="195" y="251"/>
+      <object fish_species="Dascyllus Reticulatus" h="58" w="39" x="540" y="197"/>
+   </frame>
+   <frame id="861">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="150" y="232"/>
+      <object fish_species="Dascyllus Reticulatus" h="54" w="39" x="540" y="203"/>
+   </frame>
+   <frame id="862">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="150" y="232"/>
+      <object fish_species="Dascyllus Reticulatus" h="54" w="39" x="540" y="203"/>
+   </frame>
+   <frame id="863">
+      <object fish_species="Chaetodon Lununatus" h="82" w="57" x="326" y="235"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="150" y="232"/>
+      <object fish_species="Dascyllus Reticulatus" h="54" w="39" x="540" y="203"/>
+   </frame>
+   <frame id="864">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="334" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="105" y="227"/>
+   </frame>
+   <frame id="865">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="334" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="105" y="227"/>
+   </frame>
+   <frame id="866">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="334" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="112" w="137" x="105" y="227"/>
+   </frame>
+   <frame id="867">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="337" y="240"/>
+      <object fish_species="Dascyllus Aruanus" h="118" w="171" x="67" y="212"/>
+   </frame>
+   <frame id="868">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="337" y="240"/>
+      <object fish_species="Dascyllus Aruanus" h="118" w="171" x="67" y="212"/>
+   </frame>
+   <frame id="869">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="337" y="240"/>
+      <object fish_species="Dascyllus Aruanus" h="118" w="171" x="67" y="212"/>
+   </frame>
+   <frame id="870">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="337" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="120" w="171" x="22" y="195"/>
+   </frame>
+   <frame id="871">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="337" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="120" w="171" x="22" y="195"/>
+   </frame>
+   <frame id="872">
+      <object fish_species="Chaetodon Lununatus" h="81" w="52" x="335" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="120" w="171" x="22" y="195"/>
+   </frame>
+   <frame id="873">
+      <object fish_species="Chaetodon Lununatus" h="81" w="48" x="335" y="243"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="121" x="5" y="190"/>
+   </frame>
+   <frame id="874">
+      <object fish_species="Chaetodon Lununatus" h="81" w="48" x="335" y="243"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="121" x="5" y="190"/>
+   </frame>
+   <frame id="875">
+      <object fish_species="Chaetodon Lununatus" h="81" w="48" x="335" y="243"/>
+      <object fish_species="Dascyllus Aruanus" h="116" w="121" x="5" y="190"/>
+   </frame>
+   <frame id="876">
+      <object fish_species="Chaetodon Lununatus" h="71" w="45" x="336" y="249"/>
+   </frame>
+   <frame id="877">
+      <object fish_species="Chaetodon Lununatus" h="71" w="45" x="336" y="249"/>
+   </frame>
+   <frame id="878">
+      <object fish_species="Chaetodon Lununatus" h="71" w="45" x="336" y="249"/>
+   </frame>
+   <frame id="879">
+      <object fish_species="Chaetodon Lununatus" h="66" w="43" x="334" y="250"/>
+   </frame>
+   <frame id="880">
+      <object fish_species="Chaetodon Lununatus" h="66" w="43" x="334" y="250"/>
+   </frame>
+   <frame id="881">
+      <object fish_species="Chaetodon Lununatus" h="66" w="43" x="334" y="250"/>
+   </frame>
+   <frame id="882">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="883">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="884">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="885">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="886">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="887">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="327" y="245"/>
+   </frame>
+   <frame id="888">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="324" y="244"/>
+   </frame>
+   <frame id="889">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="324" y="244"/>
+   </frame>
+   <frame id="890">
+      <object fish_species="Chaetodon Lununatus" h="71" w="48" x="324" y="244"/>
+   </frame>
+   <frame id="891">
+      <object fish_species="Chaetodon Lununatus" h="71" w="54" x="322" y="246"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="892">
+      <object fish_species="Chaetodon Lununatus" h="71" w="54" x="322" y="246"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="893">
+      <object fish_species="Chaetodon Lununatus" h="71" w="54" x="322" y="246"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="894">
+      <object fish_species="Chaetodon Lununatus" h="66" w="58" x="327" y="249"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="895">
+      <object fish_species="Chaetodon Lununatus" h="66" w="58" x="327" y="249"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="896">
+      <object fish_species="Chaetodon Lununatus" h="66" w="58" x="327" y="249"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="48" x="5" y="167"/>
+   </frame>
+   <frame id="897">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="334" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="59" x="5" y="165"/>
+   </frame>
+   <frame id="898">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="334" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="59" x="5" y="165"/>
+   </frame>
+   <frame id="899">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="334" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="59" x="5" y="165"/>
+   </frame>
+   <frame id="900">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="344" y="253"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="59" x="5" y="165"/>
+   </frame>
+   <frame id="901">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="344" y="253"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="59" x="5" y="165"/>
+   </frame>
+   <frame id="902">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="344" y="253"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="165"/>
+   </frame>
+   <frame id="903">
+      <object fish_species="Chaetodon Lununatus" h="61" w="68" x="344" y="253"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="165"/>
+   </frame>
+   <frame id="904">
+      <object fish_species="Chaetodon Lununatus" h="61" w="81" x="349" y="251"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="165"/>
+   </frame>
+   <frame id="905">
+      <object fish_species="Chaetodon Lununatus" h="61" w="81" x="349" y="251"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="165"/>
+   </frame>
+   <frame id="906">
+      <object fish_species="Chaetodon Lununatus" h="59" w="72" x="364" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+   </frame>
+   <frame id="907">
+      <object fish_species="Chaetodon Lununatus" h="59" w="72" x="364" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+   </frame>
+   <frame id="908">
+      <object fish_species="Chaetodon Lununatus" h="59" w="72" x="364" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+   </frame>
+   <frame id="909">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="380" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="55" x="501" y="187"/>
+   </frame>
+   <frame id="910">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="380" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="55" x="501" y="187"/>
+   </frame>
+   <frame id="911">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="380" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="55" x="501" y="187"/>
+   </frame>
+   <frame id="912">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="380" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="55" x="501" y="187"/>
+   </frame>
+   <frame id="913">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="380" y="250"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="46" w="55" x="501" y="187"/>
+   </frame>
+   <frame id="914">
+      <object fish_species="Chaetodon Lununatus" h="59" w="66" x="382" y="246"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="4" y="168"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="55" x="504" y="187"/>
+   </frame>
+   <frame id="915">
+      <object fish_species="Chaetodon Lununatus" h="68" w="71" x="382" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="55" x="506" y="184"/>
+   </frame>
+   <frame id="916">
+      <object fish_species="Chaetodon Lununatus" h="68" w="71" x="382" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="55" x="506" y="184"/>
+   </frame>
+   <frame id="917">
+      <object fish_species="Chaetodon Lununatus" h="68" w="71" x="382" y="241"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="55" x="506" y="184"/>
+   </frame>
+   <frame id="918">
+      <object fish_species="Chaetodon Lununatus" h="68" w="71" x="388" y="242"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="55" x="512" y="184"/>
+   </frame>
+   <frame id="919">
+      <object fish_species="Chaetodon Lununatus" h="70" w="75" x="383" y="242"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="512" y="184"/>
+   </frame>
+   <frame id="920">
+      <object fish_species="Chaetodon Lununatus" h="70" w="75" x="383" y="242"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="64" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="512" y="184"/>
+   </frame>
+   <frame id="921">
+      <object fish_species="Chaetodon Lununatus" h="78" w="59" x="409" y="239"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="69" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="515" y="182"/>
+   </frame>
+   <frame id="922">
+      <object fish_species="Chaetodon Lununatus" h="78" w="59" x="409" y="239"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="69" x="5" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="515" y="182"/>
+   </frame>
+   <frame id="923">
+      <object fish_species="Chaetodon Lununatus" h="78" w="59" x="409" y="239"/>
+      <object fish_species="Dascyllus Aruanus" h="77" w="74" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="515" y="182"/>
+   </frame>
+   <frame id="924">
+      <object fish_species="Chaetodon Lununatus" h="71" w="55" x="414" y="248"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="520" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="362" y="90"/>
+   </frame>
+   <frame id="925">
+      <object fish_species="Chaetodon Lununatus" h="71" w="55" x="414" y="248"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="520" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="362" y="90"/>
+   </frame>
+   <frame id="926">
+      <object fish_species="Chaetodon Lununatus" h="71" w="55" x="414" y="248"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="520" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="362" y="90"/>
+   </frame>
+   <frame id="927">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="524" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="366" y="83"/>
+   </frame>
+   <frame id="928">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="524" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="366" y="83"/>
+   </frame>
+   <frame id="929">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="524" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="366" y="83"/>
+   </frame>
+   <frame id="930">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="532" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="367" y="76"/>
+   </frame>
+   <frame id="931">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="532" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="367" y="76"/>
+   </frame>
+   <frame id="932">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="532" y="184"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="367" y="76"/>
+   </frame>
+   <frame id="933">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="541" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="372" y="63"/>
+      <object fish_species="Chaetodon Lununatus" h="55" w="52" x="449" y="286"/>
+   </frame>
+   <frame id="934">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="541" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="372" y="63"/>
+      <object fish_species="Chaetodon Lununatus" h="55" w="52" x="449" y="286"/>
+   </frame>
+   <frame id="935">
+      <object fish_species="Dascyllus Aruanus" h="72" w="79" x="4" y="185"/>
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="541" y="183"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="372" y="63"/>
+      <object fish_species="Chaetodon Lununatus" h="55" w="52" x="449" y="286"/>
+   </frame>
+   <frame id="936">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="545" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="377" y="54"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="937">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="545" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="377" y="54"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="938">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="545" y="182"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="377" y="54"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="939">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="553" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="389" y="42"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="940">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="553" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="389" y="42"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="941">
+      <object fish_species="Dascyllus Reticulatus" h="44" w="56" x="553" y="179"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="49" x="389" y="42"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="942">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="46" x="565" y="176"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="44" x="403" y="32"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="943">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="46" x="565" y="176"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="44" x="403" y="32"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="944">
+      <object fish_species="Dascyllus Reticulatus" h="40" w="46" x="565" y="176"/>
+      <object fish_species="Dascyllus Reticulatus" h="35" w="44" x="403" y="32"/>
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="945">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="946">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="947">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="948">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="949">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="950">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="951">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="952">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="953">
+      <object fish_species="Dascyllus Aruanus" h="72" w="82" x="5" y="185"/>
+   </frame>
+   <frame id="954">
+      <object fish_species="Dascyllus Aruanus" h="71" w="73" x="5" y="185"/>
+   </frame>
+   <frame id="955">
+      <object fish_species="Dascyllus Aruanus" h="71" w="73" x="5" y="185"/>
+   </frame>
+   <frame id="956">
+      <object fish_species="Dascyllus Aruanus" h="71" w="73" x="5" y="185"/>
+   </frame>
+   <frame id="957">
+      <object fish_species="Dascyllus Aruanus" h="71" w="66" x="3" y="180"/>
+   </frame>
+   <frame id="958">
+      <object fish_species="Dascyllus Aruanus" h="71" w="66" x="3" y="180"/>
+   </frame>
+   <frame id="959">
+      <object fish_species="Dascyllus Aruanus" h="71" w="66" x="3" y="180"/>
+   </frame>
+   <frame id="960">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+   </frame>
+   <frame id="961">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+   </frame>
+   <frame id="962">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+   </frame>
+   <frame id="963">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="65" x="504" y="326"/>
+   </frame>
+   <frame id="964">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="65" x="504" y="326"/>
+   </frame>
+   <frame id="965">
+      <object fish_species="Dascyllus Aruanus" h="71" w="61" x="6" y="175"/>
+      <object fish_species="Chaetodon Lununatus" h="57" w="65" x="504" y="326"/>
+   </frame>
+   <frame id="966">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="5" y="171"/>
+      <object fish_species="Chaetodon Lununatus" h="49" w="65" x="511" y="326"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="31" x="591" y="123"/>
+   </frame>
+   <frame id="967">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="49" w="65" x="511" y="326"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="31" x="591" y="123"/>
+   </frame>
+   <frame id="968">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="49" w="65" x="511" y="326"/>
+      <object fish_species="Dascyllus Reticulatus" h="48" w="31" x="591" y="123"/>
+   </frame>
+   <frame id="969">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="970">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="971">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="972">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="973">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="974">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+   </frame>
+   <frame id="975">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="61" w="58" x="535" y="323"/>
+   </frame>
+   <frame id="976">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="61" w="58" x="535" y="323"/>
+   </frame>
+   <frame id="977">
+      <object fish_species="Dascyllus Aruanus" h="71" w="58" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="61" w="58" x="535" y="323"/>
+   </frame>
+   <frame id="978">
+      <object fish_species="Dascyllus Aruanus" h="71" w="54" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="53" x="549" y="319"/>
+   </frame>
+   <frame id="979">
+      <object fish_species="Dascyllus Aruanus" h="71" w="54" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="53" x="549" y="319"/>
+   </frame>
+   <frame id="980">
+      <object fish_species="Dascyllus Aruanus" h="71" w="54" x="3" y="168"/>
+      <object fish_species="Chaetodon Lununatus" h="69" w="53" x="549" y="319"/>
+   </frame>
+   <frame id="981">
+      <object fish_species="Chaetodon Lununatus" h="69" w="53" x="557" y="319"/>
+   </frame>
+   <frame id="982">
+      <object fish_species="Chaetodon Lununatus" h="74" w="48" x="562" y="320"/>
+   </frame>
+   <frame id="983">
+      <object fish_species="Chaetodon Lununatus" h="74" w="48" x="562" y="320"/>
+   </frame>
+   <frame id="984">
+      <object fish_species="Chaetodon Lununatus" h="74" w="48" x="562" y="320"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="38" x="579" y="35"/>
+   </frame>
+   <frame id="985">
+      <object fish_species="Chaetodon Lununatus" h="81" w="45" x="568" y="322"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="38" x="579" y="35"/>
+   </frame>
+   <frame id="986">
+      <object fish_species="Chaetodon Lununatus" h="81" w="45" x="568" y="322"/>
+      <object fish_species="Dascyllus Reticulatus" h="50" w="38" x="579" y="35"/>
+   </frame>
+   <frame id="987">
+      <object fish_species="Chaetodon Lununatus" h="77" w="45" x="573" y="324"/>
+   </frame>
+   <frame id="988">
+      <object fish_species="Chaetodon Lununatus" h="77" w="45" x="573" y="324"/>
+   </frame>
+   <frame id="989">
+      <object fish_species="Chaetodon Lununatus" h="77" w="45" x="572" y="326"/>
+   </frame>
+   <frame id="990">
+      <object fish_species="Chaetodon Lununatus" h="83" w="61" x="564" y="326"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="39" x="54" y="165"/>
+   </frame>
+   <frame id="991">
+      <object fish_species="Chaetodon Lununatus" h="83" w="61" x="564" y="326"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="39" x="54" y="165"/>
+   </frame>
+   <frame id="992">
+      <object fish_species="Chaetodon Lununatus" h="83" w="61" x="564" y="326"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="39" x="54" y="165"/>
+   </frame>
+   <frame id="993">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="578" y="338"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="48" x="54" y="165"/>
+   </frame>
+   <frame id="994">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="578" y="338"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="48" x="54" y="165"/>
+   </frame>
+   <frame id="995">
+      <object fish_species="Chaetodon Lununatus" h="77" w="52" x="578" y="338"/>
+      <object fish_species="Dascyllus Aruanus" h="49" w="48" x="54" y="165"/>
+   </frame>
+   <frame id="996">
+      <object fish_species="Chaetodon Lununatus" h="77" w="54" x="578" y="345"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="60" x="62" y="169"/>
+   </frame>
+   <frame id="997">
+      <object fish_species="Chaetodon Lununatus" h="77" w="54" x="578" y="345"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="60" x="62" y="169"/>
+   </frame>
+   <frame id="998">
+      <object fish_species="Chaetodon Lununatus" h="77" w="54" x="578" y="345"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="60" x="62" y="169"/>
+   </frame>
+   <frame id="999">
+      <object fish_species="Chaetodon Lununatus" h="77" w="54" x="578" y="345"/>
+      <object fish_species="Dascyllus Aruanus" h="53" w="60" x="62" y="169"/>
+   </frame>
+   <frame id="1000">
+      <object fish_species="Amphiprion Clarkii" h="65" w="50" x="583" y="356"/>
+      <object fish_species="Dascyllus Reticulatus" h="49" w="51" x="74" y="174"/>
+   </frame>
+</video>

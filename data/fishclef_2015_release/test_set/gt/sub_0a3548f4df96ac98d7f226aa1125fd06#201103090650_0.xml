@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video id="0a3548f4df96ac98d7f226aa1125fd06#201103090650">
+   <frame id="7">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="131" y="152"/>
+   </frame>
+   <frame id="8">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="133" y="151"/>
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="13" x="304" y="34"/>
+   </frame>
+   <frame id="9">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="133" y="153"/>
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="13" x="304" y="38"/>
+   </frame>
+   <frame id="10">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="13" x="299" y="47"/>
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="18" x="213" y="46"/>
+   </frame>
+   <frame id="11">
+      <object h="16" species_id="15" species_name="Dascyllus Reticulatus" w="18" x="294" y="52"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="23" x="201" y="40"/>
+   </frame>
+   <frame id="12">
+      <object h="15" species_id="15" species_name="Dascyllus Reticulatus" w="18" x="293" y="56"/>
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="23" x="192" y="36"/>
+   </frame>
+   <frame id="13">
+      <object h="15" species_id="15" species_name="Dascyllus Reticulatus" w="18" x="291" y="61"/>
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="22" x="186" y="34"/>
+   </frame>
+   <frame id="14">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="25" x="177" y="31"/>
+      <object h="16" species_id="15" species_name="Dascyllus Reticulatus" w="17" x="287" y="66"/>
+   </frame>
+   <frame id="15">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="22" x="174" y="30"/>
+      <object h="16" species_id="15" species_name="Dascyllus Reticulatus" w="15" x="287" y="72"/>
+      <object h="22" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="130" y="152"/>
+   </frame>
+   <frame id="16">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="22" x="167" y="31"/>
+      <object h="11" species_id="15" species_name="Dascyllus Reticulatus" w="14" x="287" y="75"/>
+      <object h="22" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="129" y="150"/>
+   </frame>
+   <frame id="17">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="21" x="163" y="32"/>
+      <object h="22" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="129" y="150"/>
+   </frame>
+   <frame id="18">
+      <object h="13" species_id="15" species_name="Dascyllus Reticulatus" w="15" x="161" y="31"/>
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="129" y="148"/>
+   </frame>
+   <frame id="19">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="129" y="148"/>
+   </frame>
+   <frame id="20">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="134" y="148"/>
+   </frame>
+   <frame id="28">
+      <object h="10" species_id="6" species_name="Canthigaster Valentini" w="39" x="8" y="45"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="141" y="136"/>
+   </frame>
+   <frame id="29">
+      <object h="10" species_id="6" species_name="Canthigaster Valentini" w="54" x="8" y="47"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="141" y="134"/>
+   </frame>
+   <frame id="30">
+      <object h="15" species_id="6" species_name="Canthigaster Valentini" w="45" x="31" y="45"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="140" y="134"/>
+   </frame>
+   <frame id="31">
+      <object h="19" species_id="6" species_name="Canthigaster Valentini" w="45" x="42" y="40"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="139" y="133"/>
+   </frame>
+   <frame id="32">
+      <object h="24" species_id="6" species_name="Canthigaster Valentini" w="38" x="57" y="37"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="139" y="132"/>
+   </frame>
+   <frame id="33">
+      <object h="22" species_id="6" species_name="Canthigaster Valentini" w="42" x="69" y="32"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="137" y="132"/>
+   </frame>
+   <frame id="34">
+      <object h="17" species_id="6" species_name="Canthigaster Valentini" w="46" x="96" y="26"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="133" y="128"/>
+   </frame>
+   <frame id="35">
+      <object h="15" species_id="6" species_name="Canthigaster Valentini" w="37" x="107" y="25"/>
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="133" y="128"/>
+   </frame>
+   <frame id="36">
+      <object h="15" species_id="6" species_name="Canthigaster Valentini" w="22" x="122" y="25"/>
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="131" y="128"/>
+   </frame>
+   <frame id="37">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="131" y="126"/>
+   </frame>
+   <frame id="38">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="131" y="126"/>
+   </frame>
+   <frame id="39">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="132" y="126"/>
+   </frame>
+   <frame id="40">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="135" y="125"/>
+   </frame>
+   <frame id="41">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="139" y="126"/>
+   </frame>
+   <frame id="42">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="141" y="127"/>
+      <object h="23" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="288" y="33"/>
+   </frame>
+   <frame id="43">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="141" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="283" y="32"/>
+   </frame>
+   <frame id="44">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="143" y="128"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="272" y="29"/>
+   </frame>
+   <frame id="45">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="139" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="263" y="28"/>
+   </frame>
+   <frame id="46">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="139" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="27" x="254" y="27"/>
+   </frame>
+   <frame id="47">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="137" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="243" y="27"/>
+   </frame>
+   <frame id="48">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="136" y="125"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="231" y="27"/>
+      <object h="12" species_id="6" species_name="Canthigaster Valentini" w="24" x="103" y="36"/>
+   </frame>
+   <frame id="49">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="136" y="125"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="216" y="27"/>
+      <object h="12" species_id="6" species_name="Canthigaster Valentini" w="24" x="106" y="32"/>
+   </frame>
+   <frame id="50">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="136" y="125"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="208" y="28"/>
+      <object h="15" species_id="6" species_name="Canthigaster Valentini" w="26" x="108" y="26"/>
+   </frame>
+   <frame id="51">
+      <object h="23" species_id="9" species_name="Chaetodon Lunulatus" w="23" x="136" y="125"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="195" y="27"/>
+      <object h="15" species_id="6" species_name="Canthigaster Valentini" w="26" x="111" y="21"/>
+   </frame>
+   <frame id="52">
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="134" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="181" y="25"/>
+      <object h="16" species_id="6" species_name="Canthigaster Valentini" w="28" x="116" y="14"/>
+   </frame>
+   <frame id="53">
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="134" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="167" y="25"/>
+      <object h="16" species_id="6" species_name="Canthigaster Valentini" w="28" x="122" y="6"/>
+   </frame>
+   <frame id="54">
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="134" y="127"/>
+      <object h="20" species_id="15" species_name="Dascyllus Reticulatus" w="24" x="158" y="24"/>
+      <object h="16" species_id="6" species_name="Canthigaster Valentini" w="28" x="125" y="2"/>
+   </frame>
+   <frame id="55">
+      <object h="17" species_id="1" species_name="Dascyllus reticulatus" w="20" x="145" y="24"/>
+      <object h="10" species_id="6" species_name="Canthigaster Valentini" w="28" x="132" y="1"/>
+   </frame>
+   <frame id="56">
+      <object h="17" species_id="1" species_name="Dascyllus reticulatus" w="25" x="132" y="22"/>
+   </frame>
+   <frame id="57">
+      <object h="17" species_id="1" species_name="Dascyllus reticulatus" w="26" x="120" y="20"/>
+   </frame>
+   <frame id="58">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="19" x="102" y="17"/>
+   </frame>
+   <frame id="59">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="96" y="15"/>
+   </frame>
+   <frame id="60">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="89" y="14"/>
+   </frame>
+   <frame id="61">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="84" y="12"/>
+   </frame>
+   <frame id="62">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="78" y="14"/>
+   </frame>
+   <frame id="63">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="72" y="13"/>
+   </frame>
+   <frame id="64">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="65" y="14"/>
+   </frame>
+   <frame id="65">
+      <object h="16" species_id="1" species_name="Dascyllus reticulatus" w="17" x="60" y="14"/>
+   </frame>
+   <frame id="84">
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="10" x="304" y="43"/>
+   </frame>
+   <frame id="85">
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="10" x="304" y="38"/>
+   </frame>
+   <frame id="86">
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="10" x="304" y="34"/>
+   </frame>
+   <frame id="87">
+      <object h="14" species_id="15" species_name="Dascyllus Reticulatus" w="10" x="302" y="28"/>
+   </frame>
+   <frame id="88">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="13" x="299" y="24"/>
+   </frame>
+   <frame id="89">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="13" x="296" y="21"/>
+   </frame>
+   <frame id="90">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="16" x="291" y="15"/>
+   </frame>
+   <frame id="91">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="16" x="287" y="9"/>
+   </frame>
+   <frame id="92">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="16" x="282" y="6"/>
+   </frame>
+   <frame id="93">
+      <object h="12" species_id="15" species_name="Dascyllus Reticulatus" w="16" x="276" y="1"/>
+   </frame>
+   <frame id="94">
+      <object h="8" species_id="15" species_name="Dascyllus Reticulatus" w="12" x="271" y="0"/>
+   </frame>
+   <frame id="106">
+      <object h="31" species_id="9" species_name="Chaetodon Lunulatus" w="29" x="28" y="118"/>
+      <object h="14" species_id="25" species_name="Plectrogly-phidodon Dickii" w="20" x="295" y="79"/>
+   </frame>
+   <frame id="107">
+      <object h="31" species_id="9" species_name="Chaetodon Lunulatus" w="29" x="30" y="115"/>
+      <object h="14" species_id="25" species_name="Plectrogly-phidodon Dickii" w="20" x="295" y="79"/>
+   </frame>
+   <frame id="108">
+      <object h="31" species_id="9" species_name="Chaetodon Lunulatus" w="29" x="34" y="114"/>
+      <object h="14" species_id="25" species_name="Plectrogly-phidodon Dickii" w="20" x="290" y="77"/>
+   </frame>
+   <frame id="109">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="43" y="110"/>
+      <object h="14" species_id="25" species_name="Plectrogly-phidodon Dickii" w="20" x="286" y="73"/>
+   </frame>
+   <frame id="110">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="43" y="110"/>
+      <object h="14" species_id="25" species_name="Plectrogly-phidodon Dickii" w="20" x="286" y="73"/>
+   </frame>
+   <frame id="111">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="51" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="24" x="281" y="69"/>
+   </frame>
+   <frame id="112">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="56" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="24" x="275" y="65"/>
+   </frame>
+   <frame id="113">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="61" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="24" x="270" y="62"/>
+   </frame>
+   <frame id="114">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="66" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="24" x="266" y="60"/>
+   </frame>
+   <frame id="115">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="69" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="24" x="264" y="57"/>
+   </frame>
+   <frame id="116">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="21" x="77" y="110"/>
+      <object h="15" species_id="25" species_name="Plectrogly-phidodon Dickii" w="28" x="258" y="57"/>
+   </frame>
+   <frame id="117">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="80" y="110"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="30" x="256" y="55"/>
+   </frame>
+   <frame id="118">
+      <object h="40" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="85" y="110"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="32" x="248" y="54"/>
+   </frame>
+   <frame id="119">
+      <object h="48" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="92" y="110"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="32" x="248" y="54"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="142" y="108"/>
+   </frame>
+   <frame id="120">
+      <object h="48" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="97" y="106"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="248" y="54"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="142" y="108"/>
+   </frame>
+   <frame id="121">
+      <object h="48" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="102" y="106"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="243" y="54"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="144" y="106"/>
+   </frame>
+   <frame id="122">
+      <object h="48" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="106" y="106"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="238" y="53"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="145" y="103"/>
+   </frame>
+   <frame id="123">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="112" y="109"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="235" y="51"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="145" y="103"/>
+   </frame>
+   <frame id="124">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="118" y="113"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="232" y="49"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="145" y="103"/>
+   </frame>
+   <frame id="125">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="126" y="117"/>
+      <object h="17" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="229" y="48"/>
+      <object h="24" species_id="9" species_name="Chaetodon Lunulatus" w="14" x="145" y="103"/>
+   </frame>
+   <frame id="126">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="133" y="122"/>
+      <object h="16" species_id="25" species_name="Plectrogly-phidodon Dickii" w="22" x="229" y="49"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="127">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="40" x="138" y="128"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="128">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="40" x="142" y="132"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="129">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="40" x="148" y="137"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="130">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="40" x="159" y="151"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="131">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="172" y="157"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="132">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="177" y="159"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="133">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="177" y="159"/>
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+   </frame>
+   <frame id="134">
+      <object h="16" species_id="9" species_name="Chaetodon Lunulatus" w="16" x="140" y="103"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="286" y="1"/>
+   </frame>
+   <frame id="135">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="142" y="101"/>
+      <object h="41" species_id="15" species_name="Dascyllus Reticulatus" w="29" x="286" y="1"/>
+   </frame>
+   <frame id="136">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="142" y="101"/>
+      <object h="47" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="286" y="1"/>
+   </frame>
+   <frame id="137">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="142" y="101"/>
+      <object h="47" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="286" y="4"/>
+   </frame>
+   <frame id="138">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="142" y="101"/>
+      <object h="47" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="286" y="4"/>
+      <object h="22" species_id="25" species_name="Plectrogly-phidodon Dickii" w="26" x="241" y="46"/>
+   </frame>
+   <frame id="139">
+      <object h="47" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="286" y="4"/>
+      <object h="22" species_id="25" species_name="Plectrogly-phidodon Dickii" w="26" x="258" y="50"/>
+   </frame>
+   <frame id="140">
+      <object h="36" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="283" y="14"/>
+      <object h="18" species_id="25" species_name="Plectrogly-phidodon Dickii" w="30" x="274" y="53"/>
+   </frame>
+   <frame id="141">
+      <object h="36" species_id="15" species_name="Dascyllus Reticulatus" w="30" x="275" y="15"/>
+      <object h="18" species_id="25" species_name="Plectrogly-phidodon Dickii" w="30" x="281" y="59"/>
+   </frame>
+   <frame id="142">
+      <object h="36" species_id="15" species_name="Dascyllus Reticulatus" w="40" x="273" y="15"/>
+      <object h="18" species_id="25" species_name="Plectrogly-phidodon Dickii" w="21" x="295" y="64"/>
+   </frame>
+   <frame id="143">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="198" y="154"/>
+      <object h="38" species_id="15" species_name="Dascyllus Reticulatus" w="45" x="265" y="14"/>
+   </frame>
+   <frame id="144">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="194" y="154"/>
+      <object h="38" species_id="15" species_name="Dascyllus Reticulatus" w="45" x="259" y="15"/>
+      <object h="18" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="99"/>
+   </frame>
+   <frame id="145">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="25" x="196" y="152"/>
+      <object h="38" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="254" y="15"/>
+      <object h="18" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="99"/>
+   </frame>
+   <frame id="146">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="153"/>
+      <object h="38" species_id="15" species_name="Dascyllus Reticulatus" w="44" x="244" y="17"/>
+      <object h="18" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="99"/>
+   </frame>
+   <frame id="147">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="153"/>
+      <object h="38" species_id="15" species_name="Dascyllus Reticulatus" w="54" x="233" y="16"/>
+      <object h="18" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="99"/>
+      <object h="34" species_id="25" species_name="Plectrogly-phidodon Dickii" w="21" x="295" y="78"/>
+   </frame>
+   <frame id="148">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="150"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="62" x="220" y="15"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="99"/>
+   </frame>
+   <frame id="149">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="191" y="149"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="62" x="208" y="12"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="101"/>
+   </frame>
+   <frame id="150">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="34" x="188" y="149"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="49" x="203" y="9"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="105"/>
+   </frame>
+   <frame id="151">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="34" x="188" y="149"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="39" x="198" y="8"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="134" y="105"/>
+   </frame>
+   <frame id="152">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="34" x="183" y="149"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="21" x="193" y="7"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="130" y="104"/>
+   </frame>
+   <frame id="153">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="34" x="183" y="149"/>
+      <object h="34" species_id="15" species_name="Dascyllus Reticulatus" w="21" x="190" y="6"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="130" y="104"/>
+   </frame>
+   <frame id="154">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="178" y="149"/>
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="36" x="183" y="5"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="18" x="130" y="99"/>
+   </frame>
+   <frame id="155">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="41" x="178" y="149"/>
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="41" x="183" y="5"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="130" y="99"/>
+   </frame>
+   <frame id="156">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="178" y="149"/>
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="41" x="183" y="5"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="130" y="99"/>
+   </frame>
+   <frame id="157">
+      <object h="39" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="174" y="149"/>
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="41" x="189" y="2"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="130" y="99"/>
+   </frame>
+   <frame id="158">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="175" y="153"/>
+      <object h="31" species_id="15" species_name="Dascyllus Reticulatus" w="41" x="193" y="1"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="130" y="99"/>
+   </frame>
+   <frame id="159">
+      <object h="37" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="175" y="153"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="41" x="199" y="1"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="133" y="100"/>
+   </frame>
+   <frame id="160">
+      <object h="33" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="175" y="157"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="205" y="0"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="133" y="100"/>
+   </frame>
+   <frame id="161">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="175" y="161"/>
+      <object h="27" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="211" y="0"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="133" y="100"/>
+   </frame>
+   <frame id="162">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="175" y="161"/>
+      <object h="21" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="215" y="0"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="133" y="100"/>
+   </frame>
+   <frame id="163">
+      <object h="16" species_id="15" species_name="Dascyllus Reticulatus" w="35" x="220" y="0"/>
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="133" y="100"/>
+   </frame>
+   <frame id="164">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="138" y="99"/>
+   </frame>
+   <frame id="178">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="133" y="0"/>
+   </frame>
+   <frame id="179">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="142" y="1"/>
+   </frame>
+   <frame id="180">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="147" y="1"/>
+   </frame>
+   <frame id="181">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="153" y="0"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="182">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="159" y="0"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="183">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="164" y="1"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="184">
+      <object h="14" species_id="20" species_name="Myripristis Kuntee" w="17" x="173" y="1"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="185">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="186">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+   </frame>
+   <frame id="187">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+      <object h="60" species_id="15" species_name="Dascyllus Reticulatus" w="66" x="210" y="176"/>
+   </frame>
+   <frame id="188">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="30" x="176" y="165"/>
+      <object h="73" species_id="15" species_name="Dascyllus Reticulatus" w="79" x="208" y="163"/>
+   </frame>
+   <frame id="189">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="26" x="176" y="165"/>
+      <object h="73" species_id="15" species_name="Dascyllus Reticulatus" w="79" x="206" y="156"/>
+   </frame>
+   <frame id="190">
+      <object h="75" species_id="15" species_name="Dascyllus Reticulatus" w="90" x="191" y="147"/>
+   </frame>
+   <frame id="191">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="91" x="182" y="141"/>
+   </frame>
+   <frame id="192">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="91" x="174" y="130"/>
+   </frame>
+   <frame id="193">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="91" x="168" y="125"/>
+   </frame>
+   <frame id="194">
+      <object h="68" species_id="15" species_name="Dascyllus Reticulatus" w="91" x="163" y="123"/>
+   </frame>
+   <frame id="195">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="160" y="122"/>
+   </frame>
+   <frame id="196">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="145" y="119"/>
+   </frame>
+   <frame id="197">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="137" y="115"/>
+   </frame>
+   <frame id="198">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="134" y="114"/>
+   </frame>
+   <frame id="199">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="81" x="127" y="114"/>
+   </frame>
+   <frame id="200">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="71" x="123" y="114"/>
+   </frame>
+   <frame id="201">
+      <object h="53" species_id="15" species_name="Dascyllus Reticulatus" w="43" x="123" y="119"/>
+   </frame>
+   <frame id="204">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="152" y="93"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="165" y="167"/>
+   </frame>
+   <frame id="205">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="152" y="93"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="166" y="165"/>
+   </frame>
+   <frame id="206">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="152" y="93"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="170" y="163"/>
+   </frame>
+   <frame id="207">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="154" y="95"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="170" y="163"/>
+   </frame>
+   <frame id="208">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="157" y="96"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="172" y="158"/>
+   </frame>
+   <frame id="209">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="157" y="96"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="172" y="158"/>
+   </frame>
+   <frame id="210">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="157" y="96"/>
+      <object h="30" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="172" y="158"/>
+   </frame>
+   <frame id="211">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="157" y="96"/>
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="172" y="153"/>
+   </frame>
+   <frame id="212">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="160" y="96"/>
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="175" y="153"/>
+   </frame>
+   <frame id="213">
+      <object h="20" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="160" y="95"/>
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="175" y="153"/>
+   </frame>
+   <frame id="214">
+      <object h="35" species_id="9" species_name="Chaetodon Lunulatus" w="27" x="175" y="153"/>
+   </frame>
+   <frame id="215">
+      <object h="22" species_id="9" species_name="Chaetodon Lunulatus" w="29" x="176" y="154"/>
+   </frame>
+   <frame id="216">
+      <object h="26" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="174" y="153"/>
+   </frame>
+   <frame id="217">
+      <object h="19" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="181" y="156"/>
+   </frame>
+   <frame id="218">
+      <object h="18" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="190" y="156"/>
+   </frame>
+   <frame id="226">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="211" y="111"/>
+   </frame>
+   <frame id="228">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="22" x="153" y="94"/>
+   </frame>
+   <frame id="229">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="142" y="94"/>
+   </frame>
+   <frame id="230">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="137" y="94"/>
+   </frame>
+   <frame id="231">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="132" y="92"/>
+   </frame>
+   <frame id="232">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="128" y="92"/>
+   </frame>
+   <frame id="233">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="128" y="92"/>
+   </frame>
+   <frame id="234">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="128" y="92"/>
+   </frame>
+   <frame id="235">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="92"/>
+   </frame>
+   <frame id="236">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="92"/>
+   </frame>
+   <frame id="237">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="92"/>
+   </frame>
+   <frame id="238">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="90"/>
+   </frame>
+   <frame id="239">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="90"/>
+   </frame>
+   <frame id="240">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="90"/>
+   </frame>
+   <frame id="241">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="127" y="89"/>
+   </frame>
+   <frame id="242">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="243">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="244">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="245">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="246">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="247">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="248">
+      <object h="17" species_id="9" species_name="Chaetodon Lunulatus" w="19" x="131" y="89"/>
+   </frame>
+   <frame id="254">
+      <object h="43" species_id="1" species_name="Dascyllus reticulatus" w="35" x="280" y="15"/>
+   </frame>
+   <frame id="255">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="37" x="278" y="14"/>
+   </frame>
+   <frame id="256">
+      <object h="44" species_id="1" species_name="Dascyllus reticulatus" w="40" x="275" y="14"/>
+   </frame>
+   <frame id="257">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="48" x="267" y="15"/>
+   </frame>
+   <frame id="258">
+      <object h="46" species_id="1" species_name="Dascyllus reticulatus" w="52" x="255" y="17"/>
+   </frame>
+   <frame id="259">
+      <object h="47" species_id="1" species_name="Dascyllus reticulatus" w="55" x="235" y="21"/>
+   </frame>
+   <frame id="260">
+      <object h="48" species_id="1" species_name="Dascyllus reticulatus" w="57" x="213" y="24"/>
+   </frame>
+   <frame id="261">
+      <object h="49" species_id="1" species_name="Dascyllus reticulatus" w="60" x="192" y="28"/>
+   </frame>
+   <frame id="262">
+      <object h="47" species_id="1" species_name="Dascyllus reticulatus" w="58" x="179" y="32"/>
+   </frame>
+   <frame id="263">
+      <object h="43" species_id="1" species_name="Dascyllus reticulatus" w="53" x="168" y="38"/>
+   </frame>
+   <frame id="264">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="54" x="160" y="42"/>
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="31" y="26"/>
+   </frame>
+   <frame id="265">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="54" x="160" y="42"/>
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="35" y="26"/>
+   </frame>
+   <frame id="266">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="32" x="156" y="42"/>
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="43" y="26"/>
+   </frame>
+   <frame id="267">
+      <object h="45" species_id="1" species_name="Dascyllus reticulatus" w="32" x="155" y="53"/>
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="47" y="23"/>
+   </frame>
+   <frame id="268">
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="59" y="19"/>
+   </frame>
+   <frame id="269">
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="67" y="16"/>
+   </frame>
+   <frame id="270">
+      <object h="14" species_id="24" species_name="Plectorhinchus Vittatus" w="39" x="79" y="13"/>
+   </frame>
+   <frame id="271">
+      <object h="10" species_id="24" species_name="Plectorhinchus Vittatus" w="25" x="89" y="14"/>
+   </frame>
+   <frame id="283">
+      <object h="21" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="135" y="89"/>
+   </frame>
+   <frame id="284">
+      <object h="21" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="133" y="89"/>
+   </frame>
+   <frame id="285">
+      <object h="29" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="130" y="94"/>
+   </frame>
+   <frame id="286">
+      <object h="29" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="127" y="102"/>
+   </frame>
+   <frame id="287">
+      <object h="29" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="121" y="111"/>
+   </frame>
+   <frame id="288">
+      <object h="29" species_id="9" species_name="Chaetodon Lunulatus" w="17" x="115" y="119"/>
+   </frame>
+   <frame id="289">
+      <object h="34" species_id="9" species_name="Chaetodon Lunulatus" w="24" x="107" y="124"/>
+   </frame>
+   <frame id="290">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="98" y="134"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="195" y="130"/>
+   </frame>
+   <frame id="291">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="92" y="138"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="185" y="127"/>
+   </frame>
+   <frame id="292">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="82" y="143"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="189" y="122"/>
+      <object h="17" species_id="2" species_name="Acanthurus Nigrofuscus" w="22" x="266" y="1"/>
+   </frame>
+   <frame id="293">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="82" y="143"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="189" y="122"/>
+      <object h="17" species_id="2" species_name="Acanthurus Nigrofuscus" w="22" x="276" y="1"/>
+   </frame>
+   <frame id="294">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="77" y="145"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="190" y="129"/>
+      <object h="17" species_id="2" species_name="Acanthurus Nigrofuscus" w="22" x="285" y="1"/>
+   </frame>
+   <frame id="295">
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="74" y="148"/>
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="128"/>
+      <object h="17" species_id="2" species_name="Acanthurus Nigrofuscus" w="22" x="294" y="1"/>
+   </frame>
+   <frame id="296">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="133"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="74" y="148"/>
+   </frame>
+   <frame id="297">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="133"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="74" y="148"/>
+   </frame>
+   <frame id="298">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="140"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="74" y="148"/>
+   </frame>
+   <frame id="299">
+      <object h="28" species_id="9" species_name="Chaetodon Lunulatus" w="31" x="193" y="140"/>
+      <object h="25" species_id="9" species_name="Chaetodon Lunulatus" w="28" x="74" y="148"/>
+   </frame>
+</video>
