@@ -1,8 +1,29 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 25 16:56:16 2018
+YOLO on Frames Processing Script
+================================
 
-Author: ahsanjalal
+This script processes video frames and their corresponding ground truth annotations to generate mixed images using GMM and Optical Flow results.
+It saves the processed images for further analysis.
+
+Author: ahsanjalal, Jan M. Straub
+Date: 2024-08-12
+
+Constants:
+- GT_DIR: Directory containing the ground truth annotated frames.
+- GMM_RESULTS: Directory containing the GMM output images.
+- OPTICAL_RESULTS: Directory containing the Optical Flow output images.
+- SAVE_MAIN_DIR: Directory to save the mixed images.
+- SPECIE_LIST: List of fish species to be labeled.
+
+Functions:
+- process_video: Processes a single video's frames and their corresponding ground truth annotations.
+- process_gt_file: Processes a single ground truth file and generates a mixed image.
+- save_image: Saves the processed mixed image to the specified directory.
+- main: Main function to process all video folders in the GT_DIR directory.
+
+Usage:
+- Run this script to process all video folders in the GT_DIR and save the results in SAVE_MAIN_DIR.
 """
 
 import os
@@ -12,7 +33,7 @@ import cv2
 
 # Constants
 GT_DIR = "~/annotated_frames"
-GMM_RESULTS = "~/gmm_output"
+GMM_RESULTS = "/Users/jan/Documents/code/cv/project/train_gmm"
 OPTICAL_RESULTS = "~/Optical_flow"
 SAVE_MAIN_DIR = "~/no_gray_gmm_optical_mixed"
 SPECIE_LIST = [
@@ -45,6 +66,14 @@ vid_counter = 0
 
 
 def process_video(video_fol):
+    """
+    Processes a single video's frames and their corresponding ground truth annotations.
+
+    Parameters:
+    - video_fol: Folder name of the video.
+
+    This function reads the ground truth text files and corresponding images, and processes each frame.
+    """
     global total_gt_count
     vid_fol_path = os.path.join(GT_DIR, video_fol)
     os.chdir(vid_fol_path)
@@ -64,6 +93,16 @@ def process_video(video_fol):
 
 
 def process_gt_file(video_fol, gt_file, img_gt):
+    """
+    Processes a single ground truth file and generates a mixed image.
+
+    Parameters:
+    - video_fol: Folder name of the video.
+    - gt_file: Ground truth text file name.
+    - img_gt: Ground truth image.
+
+    This function reads the GMM and Optical Flow images, combines them with the ground truth image, and saves the result.
+    """
     gmm_img_path = (
         os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
     )
@@ -96,6 +135,16 @@ def process_gt_file(video_fol, gt_file, img_gt):
 
 
 def save_image(video_fol, gt_file, img_gt):
+    """
+    Saves the processed mixed image to the specified directory.
+
+    Parameters:
+    - video_fol: Folder name of the video.
+    - gt_file: Ground truth text file name.
+    - img_gt: Processed mixed image.
+
+    This function creates the save directory if it doesn't exist and saves the image.
+    """
     save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
     if not os.path.exists(save_path):
         os.makedirs(save_path)
@@ -103,6 +152,13 @@ def save_image(video_fol, gt_file, img_gt):
 
 
 def main():
+    """
+    Main function to process all video folders in the GT_DIR directory.
+
+    This function performs the following steps:
+    1. Retrieves a list of video folders in the GT_DIR directory.
+    2. Processes each video folder and its corresponding ground truth annotations.
+    """
     global vid_counter
     gt_fol = os.listdir(GT_DIR)
     for video_fol in gt_fol:
@@ -112,4 +168,10 @@ def main():
 
 
 if __name__ == "__main__":
+    """
+    Entry point of the script.
+
+    This block checks if the script is being run directly (not imported as a module).
+    If so, it calls the main() function to start processing the video folders.
+    """
     main()

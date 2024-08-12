@@ -35,7 +35,7 @@ import imageio.v3 as iio
 # Constants
 VID_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/videos"
 XML_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/gt"
-SAVE_IMG_DIR = "/Users/jan/Documents/code/cv/project/training/img_pool_retrain"
+SAVE_IMG_DIR = "/Users/jan/Documents/code/cv/project/train_img/img_pool_retrain"
 SAVE_LAB_DIR = SAVE_IMG_DIR
 SPECIE_LIST = [
     "abudefduf vaigiensis",

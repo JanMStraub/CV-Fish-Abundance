@@ -90,10 +90,10 @@ venv.bak/
 
 # Custom Project-Specific Directories
 cv_project/
-training/
+train_img/
 data/
-train_optical_flow/
 train_gmm/
+train_optical/
 
 # macOS system files
 .DS_Store

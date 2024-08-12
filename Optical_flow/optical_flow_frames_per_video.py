@@ -1,8 +1,25 @@
-# -*- coding: utf-8 -*-
 """
-Created on Tue Sep 25 11:48:07 2018
+Optical Flow Frames Processing Script
+=====================================
 
-Author: ahsanjalal
+This script processes video files to compute optical flow for each frame and save the results.
+It uses the Farneback method for optical flow computation.
+
+Author: ahsanjalal, Jan M. Straub
+Date: 2024-08-12
+
+Constants:
+- VIDEO_DIR: Directory containing the input video files.
+- SAVE_DIR: Directory to save the optical flow results.
+- FARNEBACK_PARAMS: Parameters for the Farneback optical flow algorithm.
+
+Functions:
+- process_video: Processes a single video file to compute optical flow for each frame.
+- save_optical_flow: Saves the computed optical flow image to the specified directory.
+- main: Main function to process all video files in the VIDEO_DIR directory.
+
+Usage:
+- Run this script to process all videos in the VIDEO_DIR and save the optical flow results in SAVE_DIR.
 """
 
 import os
@@ -10,80 +27,105 @@ import cv2
 import numpy as np
 
 # Constants
-VIDEO_DIR = "~/Training_dataset/Videos/"
-SAVE_DIR = "~/Train_Optical_flow/"
-KERNEL_SIZE = (7, 7)
-FOURCC = cv2.VideoWriter_fourcc(*"MJPG")
+VIDEO_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/videos"
+SAVE_DIR = "/Users/jan/Documents/code/cv/project/train_optical"
+FARNEBACK_PARAMS = {
+    "pyr_scale": 0.5,
+    "levels": 3,
+    "winsize": 15,
+    "iterations": 3,
+    "poly_n": 5,
+    "poly_sigma": 1.2,
+    "flags": 0,
+}
 
 
-def setup_directories(video_file):
-    """Create directories for saving optical flow frames if they don't exist."""
-    save_path = os.path.join(SAVE_DIR, video_file)
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    return save_path
+def process_video(video_path):
+    """
+    Processes a single video file to compute optical flow for each frame.
 
+    Parameters:
+    - video_path: Path to the video file.
 
-def preprocess_frame(frame):
-    """Convert frame to YUV, equalize histogram, and convert back to BGR."""
-    img_yuv = cv2.cvtColor(frame, cv2.COLOR_BGR2YUV)
-    img_yuv[:, :, 0] = cv2.equalizeHist(img_yuv[:, :, 0])
-    return cv2.cvtColor(img_yuv, cv2.COLOR_YUV2BGR)
-
-
-def calculate_optical_flow(prvs, next1):
-    """Calculate optical flow using Farneback method."""
-    return cv2.calcOpticalFlowFarneback(prvs, next1, None, 0.95, 10, 15, 3, 5, 1.2, 0)
-
-
-def process_video(video_file):
-    """Process a single video to extract and save optical flow frames."""
-    video_name = os.path.splitext(video_file)[0]
-    save_path = setup_directories(video_name)
-    cap = cv2.VideoCapture(os.path.join(VIDEO_DIR, video_file))
+    This function reads the video file, computes optical flow for each frame using the Farneback method,
+    and saves the results.
+    """
+    cap = cv2.VideoCapture(video_path)
     ret, frame1 = cap.read()
     if not ret:
-        print(f"Failed to read the first frame of {video_file}")
+        print(f"Failed to read the video file: {video_path}")
         return
 
-    frame1 = preprocess_frame(frame1)
-    prvs = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
+    prvs = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)  # Convert first frame to grayscale
     hsv = np.zeros_like(frame1)
-    hsv[..., 1] = 255
-    kernel = np.ones(KERNEL_SIZE, np.uint8)
-    frame_count = 0
+    hsv[..., 1] = 255  # Set saturation to maximum
 
+    frame_count = 0
     while True:
         ret, frame2 = cap.read()
         if not ret:
             break
 
-        frame2 = preprocess_frame(frame2)
-        next1 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
-        frame_count += 1
-        print(frame_count)
+        next = cv2.cvtColor(
+            frame2, cv2.COLOR_BGR2GRAY
+        )  # Convert next frame to grayscale
+        flow = cv2.calcOpticalFlowFarneback(
+            prvs, next, None, **FARNEBACK_PARAMS
+        )  # Compute optical flow
 
-        flow = calculate_optical_flow(prvs, next1)
+        # Convert flow to HSV
         mag, ang = cv2.cartToPolar(flow[..., 0], flow[..., 1])
         hsv[..., 0] = ang * 180 / np.pi / 2
         hsv[..., 2] = cv2.normalize(mag, None, 0, 255, cv2.NORM_MINMAX)
-        rgb = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
-        opening = cv2.morphologyEx(rgb, cv2.MORPH_OPEN, kernel)
-        opening_gray = cv2.cvtColor(opening, cv2.COLOR_BGR2GRAY)
-        cv2.imwrite(os.path.join(save_path, f"{frame_count:03d}.png"), opening_gray)
+        bgr = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
 
-        prvs = next1
+        save_optical_flow(video_path, frame_count, bgr)  # Save the optical flow image
+        prvs = next
+        frame_count += 1
 
     cap.release()
 
 
+def save_optical_flow(video_path, frame_count, bgr):
+    """
+    Saves the computed optical flow image to the specified directory.
+
+    Parameters:
+    - video_path: Path to the video file.
+    - frame_count: Frame number.
+    - bgr: Optical flow image in BGR format.
+
+    This function creates the save directory if it doesn't exist and saves the optical flow image.
+    """
+    video_name = os.path.basename(video_path).split(".")[0]
+    save_path = os.path.join(SAVE_DIR, video_name)
+    if not os.path.exists(save_path):
+        os.makedirs(save_path)
+    cv2.imwrite(os.path.join(save_path, f"frame_{frame_count:04d}.png"), bgr)
+
+
 def main():
-    """Main function to process all videos in the directory."""
-    os.chdir(VIDEO_DIR)
-    video_names = os.listdir(VIDEO_DIR)
-    for video_file in video_names:
-        process_video(video_file)
+    """
+    Main function to process all video files in the VIDEO_DIR directory.
+
+    This function performs the following steps:
+    1. Retrieves a list of video files in the VIDEO_DIR directory.
+    2. Processes each video file to compute optical flow for each frame.
+    """
+    video_files = [
+        f for f in os.listdir(VIDEO_DIR) if f.endswith(".flv") or f.endswith(".avi")
+    ]
+    for video_file in video_files:
+        video_path = os.path.join(VIDEO_DIR, video_file)
+        print(f"Processing video: {video_file}")
+        process_video(video_path)
 
 
 if __name__ == "__main__":
+    """
+    Entry point of the script.
+
+    This block checks if the script is being run directly (not imported as a module).
+    If so, it calls the main() function to start processing the video files.
+    """
     main()
