@@ -9,7 +9,6 @@ import os
 import glob
 import numpy as np
 import cv2
-from scipy.misc import imresize
 
 # Constants
 GT_DIR = "~/annotated_frames"
@@ -75,7 +74,7 @@ def process_gt_file(video_fol, gt_file, img_gt):
     if os.path.isfile(gmm_img_path):
         img_gmm = cv2.imread(gmm_img_path)
         img_optical = cv2.imread(optical_img_path)
-        img_optical = imresize(img_optical, [640, 640])
+        img_optical = cv2.resize(img_optical, [640, 640])
         img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
         img_gt[:, :, 0] = 0
         img_gt[:, :, 1] = img_gmm[:, :, 0]
@@ -84,7 +83,7 @@ def process_gt_file(video_fol, gt_file, img_gt):
         img_gmm = np.zeros((640, 640))
         if os.path.isfile(optical_img_path):
             img_optical = cv2.imread(optical_img_path)
-            img_optical = imresize(img_optical, [640, 640])
+            img_optical = cv2.resize(img_optical, [640, 640])
         else:
             img_optical = np.zeros((640, 640, 3))
 

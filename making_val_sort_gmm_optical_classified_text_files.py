@@ -2,8 +2,7 @@ import os
 import cv2
 import numpy as np
 import xml.etree.ElementTree as ET
-from scipy.misc import imresize
-import scipy.misc
+import imageio.v3 as iio
 
 # Constants
 VID_DIR = "~/Training_dataset/Videos/"
@@ -72,13 +71,13 @@ def process_frame(child, frame_id, image_vid, vid_name_short, img_counter):
         )
         x, y = max(x, 0), max(y, 0)
         frame = image_vid[frame_id]
-        frame = imresize(frame, [640, 640])
+        frame = cv2.resize(frame, [640, 640])
         height, width, _ = frame.shape
 
         mid_x, mid_y = (x + x + w) / (2 * width), (y + y + h) / (2 * height)
         box_width, box_height = w / width, h / height
         filename = f"{vid_name_short}_image_{frame_id}"
-        scipy.misc.imsave(f"{SAVE_IMG_DIR}{filename}.jpg", frame)
+        iio.imwrite(f"{SAVE_IMG_DIR}{filename}.jpg", frame)
 
         fish_lab = (
             SPECIE_LIST.index(fish_specie)
