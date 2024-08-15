@@ -96,6 +96,7 @@ train_gmm/
 train_yolo/
 train_optical/
 darknet/
+important_darknet_files/
 
 # macOS system files
 .DS_Store
