@@ -1,170 +1,191 @@
-# -*- coding: utf-8 -*-
 """
 YOLO on Frames Processing Script
 ================================
 
-This script processes video frames and their corresponding ground truth annotations to generate mixed images using GMM and Optical Flow results.
-It saves the processed images for further analysis.
+This script processes images using the YOLO object detection model and saves the detection results.
+It is designed to work with the FishCLEF or UWA dataset.
 
-Author: ahsanjalal, Jan M. Straub
+Author: ahsanjalal, JanMStraub
 Date: 2024-08-12
 
 Constants:
-- GT_DIR: Directory containing the ground truth annotated frames.
-- GMM_RESULTS: Directory containing the GMM output images.
-- OPTICAL_RESULTS: Directory containing the Optical Flow output images.
-- SAVE_MAIN_DIR: Directory to save the mixed images.
-- SPECIE_LIST: List of fish species to be labeled.
+- save_test_part: Directory to save YOLO detection results for the test dataset.
+- save_train_part: Directory to save YOLO detection results for the train dataset.
 
 Functions:
-- process_video: Processes a single video's frames and their corresponding ground truth annotations.
-- process_gt_file: Processes a single ground truth file and generates a mixed image.
-- save_image: Saves the processed mixed image to the specified directory.
-- main: Main function to process all video folders in the GT_DIR directory.
+- detect: Performs object detection on a given image using the YOLO model.
+- main: Main function to process images listed in the validation files and save detection results.
 
 Usage:
-- Run this script to process all video folders in the GT_DIR and save the results in SAVE_MAIN_DIR.
+- Run this script to process images listed in 'val_from_test.txt' and 'val_from_train.txt' and save the YOLO detection results.
 """
 
 import os
-import glob
-import numpy as np
 import cv2
+import numpy as np
+from ctypes import *
+from os.path import join
+from collections import namedtuple
+from pathlib import Path
 
-# Constants
-GT_DIR = "~/annotated_frames"
-GMM_RESULTS = "/Users/jan/Documents/code/cv/project/train_gmm"
-OPTICAL_RESULTS = "~/Optical_flow"
-SAVE_MAIN_DIR = "~/no_gray_gmm_optical_mixed"
-SPECIE_LIST = [
-    "abudefduf vaigiensis",
-    "acanthurus nigrofuscus",
-    "amphiprion clarkii",
-    "chaetodon lununatus",
-    "chaetodon speculum",
-    "chaetodon trifascialis",
-    "chromis chrysura",
-    "dascyllus aruanus",
-    "dascyllus reticulatus",
-    "hemigumnus malapterus",
-    "myripristis kuntee",
-    "neoglyphidodon nigroris",
-    "pempheris vanicolensis",
-    "plectrogly-phidodon dickii",
-    "zebrasoma scopas",
-    "Background",
+
+# Custom structures for YOLO detection
+class BOX(Structure):
+    _fields_ = [("x", c_float), ("y", c_float), ("w", c_float), ("h", c_float)]
+
+
+class DETECTION(Structure):
+    _fields_ = [
+        ("bbox", BOX),
+        ("classes", c_int),
+        ("prob", POINTER(c_float)),
+        ("mask", POINTER(c_float)),
+        ("objectness", c_float),
+        ("sort_class", c_int),
+    ]
+
+
+class IMAGE(Structure):
+    _fields_ = [("w", c_int), ("h", c_int), ("c", c_int), ("data", POINTER(c_float))]
+
+
+class METADATA(Structure):
+    _fields_ = [("classes", c_int), ("names", POINTER(c_char_p))]
+
+
+# Load darknet library
+lib = CDLL(Path(__file__).parent / "../darknet/libdarknet.so", RTLD_GLOBAL)
+
+# Set up function arguments and return types
+lib.network_width.argtypes = [c_void_p]
+lib.network_width.restype = c_int
+lib.network_height.argtypes = [c_void_p]
+lib.network_height.restype = c_int
+lib.get_metadata.argtypes = [c_char_p]
+lib.get_metadata.restype = METADATA
+lib.load_network.argtypes = [c_char_p, c_char_p, c_int]
+lib.load_network.restype = c_void_p
+lib.load_image_color.argtypes = [c_char_p, c_int, c_int]
+lib.load_image_color.restype = IMAGE
+lib.network_predict_image.argtypes = [c_void_p, IMAGE]
+lib.network_predict_image.restype = POINTER(c_float)
+lib.get_network_boxes.argtypes = [
+    c_void_p,
+    c_int,
+    c_int,
+    c_float,
+    c_float,
+    POINTER(c_int),
+    c_int,
+    POINTER(c_int),
 ]
-
-# Global variables
-bkg_count = 0
-total_gt_count = 0
-TP = 0
-FP = 0
-gmm_count = 0
-num = np.zeros(16)  # 17 for UWA dataset
-vid_counter = 0
+lib.get_network_boxes.restype = POINTER(DETECTION)
+lib.do_nms_obj.argtypes = [POINTER(DETECTION), c_int, c_int, c_float]
+lib.free_image.argtypes = [IMAGE]
+lib.free_detections.argtypes = [POINTER(DETECTION), c_int]
 
 
-def process_video(video_fol):
+def detect(net, meta, image, thresh=0.25, hier_thresh=0.5, nms=0.45):
     """
-    Processes a single video's frames and their corresponding ground truth annotations.
+    Performs object detection on a given image using the YOLO model.
 
     Parameters:
-    - video_fol: Folder name of the video.
+    - net: YOLO network object.
+    - meta: Metadata object containing class information.
+    - image: Path to the image file.
+    - thresh: Detection threshold.
+    - hier_thresh: Hierarchical threshold.
+    - nms: Non-max suppression threshold.
 
-    This function reads the ground truth text files and corresponding images, and processes each frame.
+    Returns:
+    - A sorted list of detection results, each containing the class name, probability, and bounding box coordinates.
     """
-    global total_gt_count
-    vid_fol_path = os.path.join(GT_DIR, video_fol)
-    os.chdir(vid_fol_path)
-    video_name = video_fol.split(".flv")[0]
-    gt_text_files = glob.glob("*.txt")
-    gt_height, gt_width = [640, 640]
-    gmm_height, gmm_width = [640, 640]
+    im = lib.load_image_color(image.encode("utf-8"), 0, 0)
+    num = c_int(0)
+    pnum = pointer(num)
+    lib.network_predict_image(net, im)
+    dets = lib.get_network_boxes(net, im.w, im.h, thresh, hier_thresh, None, 0, pnum)
+    num = pnum[0]
 
-    for gt_file in gt_text_files:
-        img_gt = cv2.imread(gt_file.split(".")[0] + ".png")
-        with open(gt_file) as f:
-            gt_text = f.readlines()
-        gt_count = len(gt_text)
-        total_gt_count += gt_count
+    if nms:
+        lib.do_nms_obj(dets, num, meta.classes, nms)
 
-        process_gt_file(video_fol, gt_file, img_gt)
+    results = []
+    for j in range(num):
+        for i in range(meta.classes):
+            if dets[j].prob[i] > 0:
+                b = dets[j].bbox
+                results.append((meta.names[i], dets[j].prob[i], (b.x, b.y, b.w, b.h)))
 
+    lib.free_image(im)
+    lib.free_detections(dets, num)
 
-def process_gt_file(video_fol, gt_file, img_gt):
-    """
-    Processes a single ground truth file and generates a mixed image.
-
-    Parameters:
-    - video_fol: Folder name of the video.
-    - gt_file: Ground truth text file name.
-    - img_gt: Ground truth image.
-
-    This function reads the GMM and Optical Flow images, combines them with the ground truth image, and saves the result.
-    """
-    gmm_img_path = (
-        os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
-    )
-    optical_img_path = (
-        os.path.join(OPTICAL_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
-    )
-
-    if os.path.isfile(gmm_img_path):
-        img_gmm = cv2.imread(gmm_img_path)
-        img_optical = cv2.imread(optical_img_path)
-        img_optical = cv2.resize(img_optical, [640, 640])
-        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
-        img_gt[:, :, 0] = 0
-        img_gt[:, :, 1] = img_gmm[:, :, 0]
-        img_gt[:, :, 2] = img_optical[:, :, 0]
-    else:
-        img_gmm = np.zeros((640, 640))
-        if os.path.isfile(optical_img_path):
-            img_optical = cv2.imread(optical_img_path)
-            img_optical = cv2.resize(img_optical, [640, 640])
-        else:
-            img_optical = np.zeros((640, 640, 3))
-
-        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
-        img_gt[:, :, 0] = 0
-        img_gt[:, :, 1] = img_gmm
-        img_gt[:, :, 2] = img_optical[:, :, 0]
-
-    save_image(video_fol, gt_file, img_gt)
-
-
-def save_image(video_fol, gt_file, img_gt):
-    """
-    Saves the processed mixed image to the specified directory.
-
-    Parameters:
-    - video_fol: Folder name of the video.
-    - gt_file: Ground truth text file name.
-    - img_gt: Processed mixed image.
-
-    This function creates the save directory if it doesn't exist and saves the image.
-    """
-    save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    cv2.imwrite(os.path.join(save_path, gt_file).split(".txt")[0] + ".png", img_gt)
+    return sorted(results, key=lambda x: -x[1])
 
 
 def main():
     """
-    Main function to process all video folders in the GT_DIR directory.
+    Main function to process images listed in the validation files and save YOLO detection results.
 
     This function performs the following steps:
-    1. Retrieves a list of video folders in the GT_DIR directory.
-    2. Processes each video folder and its corresponding ground truth annotations.
+    1. Initializes the YOLO network and metadata.
+    2. Reads validation image paths from 'val_from_test.txt' and 'val_from_train.txt'.
+    3. Processes each image in the validation set to perform object detection.
+    4. Saves the detection results in the specified directories.
+
+    The function uses the YOLO model to detect objects in the images and saves the detection results
+    as binary images where detected regions are highlighted.
     """
-    global vid_counter
-    gt_fol = os.listdir(GT_DIR)
-    for video_fol in gt_fol:
-        print(f"video number {vid_counter} is in process and video is {video_fol}")
-        vid_counter += 1
-        process_video(video_fol)
+
+    # Initialize YOLO network and metadata
+    net = lib.load_network(b"~/cfg/yolov3-fishclef.cfg", b"~/fishclef.weights", 0)
+    meta = lib.get_metadata(b"~/cfg/fishclef.data")
+
+    # Directories to save YOLO detection results
+    save_test_part = "~/Test_dataset/yolo_test_part"
+    save_train_part = "~/Test_dataset/yolo_train_part"
+
+    # Read validation image paths
+    with open("~/val_from_test.txt") as val_from_test, open(
+        "~/val_from_train.txt"
+    ) as val_from_train:
+        val_test = [line.rstrip() for line in val_from_test]
+        val_train = [line.rstrip() for line in val_from_train]
+
+    # Image dimensions
+    img_height, img_width = 640, 640
+    test_count = 0
+    detected_count = 0
+
+    # Process each image in the validation set
+    for img_name in val_test:
+        test_count += 1
+        print(f"Processing {test_count}/{len(val_test)}: {img_name}")
+        video_file = os.path.basename(os.path.dirname(img_name))
+        img_file = os.path.basename(img_name)
+
+        # Create directory to save results if it doesn't exist
+        save_path = join(save_test_part, video_file)
+        os.makedirs(save_path, exist_ok=True)
+
+        # Perform detection
+        detections = detect(net, meta, img_name)
+        detected_blob_img = np.zeros((img_height, img_width), dtype=np.uint8)
+
+        if detections:
+            detected_count += 1
+            print(f"Detected in frame {detected_count}/{test_count}")
+            for fish_info in detections:
+                x, y, w, h = map(int, fish_info[2])
+                xmin, ymin = max(0, x - w // 2), max(0, y - h // 2)
+                xmax, ymax = min(img_width, x + w // 2), min(img_height, y + h // 2)
+
+                # Only consider detections with area less than 25600
+                if w * h < 25600:
+                    detected_blob_img[ymin:ymax, xmin:xmax] = int(fish_info[1] * 255)
+
+        # Save the detection result image
+        cv2.imwrite(join(save_path, img_file), detected_blob_img)
 
 
 if __name__ == "__main__":
@@ -172,6 +193,6 @@ if __name__ == "__main__":
     Entry point of the script.
 
     This block checks if the script is being run directly (not imported as a module).
-    If so, it calls the main() function to start processing the video folders.
+    If so, it calls the main() function to start processing the images.
     """
     main()

@@ -5,7 +5,7 @@ Fish Species Annotation Processing Script
 This script processes video files and their corresponding XML annotations to extract frames and generate labeled data for fish species.
 It saves the processed frames and annotations for further analysis.
 
-Author: ahsanjalal, Jan M. Straub
+Author: ahsanjalal, JanMStraub
 Date: 2024-08-12
 
 Constants:
@@ -31,11 +31,12 @@ import cv2
 import numpy as np
 import xml.etree.ElementTree as ET
 import imageio.v3 as iio
+from pathlib import Path
 
 # Constants
-VID_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/videos"
-XML_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/gt"
-SAVE_IMG_DIR = "/Users/jan/Documents/code/cv/project/train_img/img_pool_retrain"
+VID_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/videos"
+XML_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/gt"
+SAVE_IMG_DIR = Path(__file__).parent / "../train_img/img_pool_retrain"
 SAVE_LAB_DIR = SAVE_IMG_DIR
 SPECIE_LIST = [
     "abudefduf vaigiensis",

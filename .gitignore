@@ -93,7 +93,9 @@ cv_project/
 train_img/
 data/
 train_gmm/
+train_yolo/
 train_optical/
+darknet/
 
 # macOS system files
 .DS_Store

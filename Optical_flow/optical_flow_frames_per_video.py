@@ -5,7 +5,7 @@ Optical Flow Frames Processing Script
 This script processes video files to compute optical flow for each frame and save the results.
 It uses the Farneback method for optical flow computation.
 
-Author: ahsanjalal, Jan M. Straub
+Author: ahsanjalal, JanMStraub
 Date: 2024-08-12
 
 Constants:
@@ -25,10 +25,11 @@ Usage:
 import os
 import cv2
 import numpy as np
+from pathlib import Path
 
 # Constants
-VIDEO_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/videos"
-SAVE_DIR = "/Users/jan/Documents/code/cv/project/train_optical"
+VIDEO_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/videos"
+SAVE_DIR = Path(__file__).parent / "../train_optical"
 FARNEBACK_PARAMS = {
     "pyr_scale": 0.5,
     "levels": 3,

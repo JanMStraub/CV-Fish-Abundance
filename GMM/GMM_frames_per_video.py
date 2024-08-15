@@ -29,10 +29,11 @@ Usage:
 import os
 import cv2
 import numpy as np
+from pathlib import Path
 
 # Constants
-MAIN_DIR = "/Users/jan/Documents/code/cv/project/train_gmm"  # Directory to save processed frames and annotations
-VIDEO_DIR = "/Users/jan/Documents/code/cv/project/data/fishclef_2015_release/training_set/videos"  # Directory containing the input video files
+MAIN_DIR = Path(__file__).parent / "../train_gmm"  # Directory to save processed frames and annotations
+VIDEO_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/videos"  # Directory containing the input video files
 FOREGROUND_DETECTOR_PARAMS = {
     "history": 250,
     "varThreshold": 16,
