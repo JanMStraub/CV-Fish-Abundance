@@ -2,6 +2,9 @@
 """
 Created on Tue Sep 25 16:56:16 2018
 
+This script processes video frames by combining GMM and Optical Flow results 
+with ground truth images. The combined images are saved in a specified directory.
+
 @author: ahsanjalal
 """
 
@@ -43,8 +46,13 @@ gmm_count = 0
 num = np.zeros(16)  # 17 for UWA dataset
 vid_counter = 0
 
-
 def process_video(video_fol):
+    """
+    Process a single video folder by reading ground truth and corresponding GMM and Optical Flow images.
+    
+    Args:
+        video_fol (str): The name of the video folder to process.
+    """
     global total_gt_count
     vid_fol_path = os.path.join(GT_DIR, video_fol)
     os.chdir(vid_fol_path)
@@ -62,8 +70,15 @@ def process_video(video_fol):
 
         process_gt_file(video_fol, gt_file, img_gt)
 
-
 def process_gt_file(video_fol, gt_file, img_gt):
+    """
+    Process a single ground truth file by combining it with GMM and Optical Flow images.
+    
+    Args:
+        video_fol (str): The name of the video folder.
+        gt_file (str): The name of the ground truth file.
+        img_gt (numpy.ndarray): The ground truth image.
+    """
     gmm_img_path = (
         os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
     )
@@ -94,22 +109,30 @@ def process_gt_file(video_fol, gt_file, img_gt):
 
     save_image(video_fol, gt_file, img_gt)
 
-
 def save_image(video_fol, gt_file, img_gt):
+    """
+    Save the combined image to the specified directory.
+    
+    Args:
+        video_fol (str): The name of the video folder.
+        gt_file (str): The name of the ground truth file.
+        img_gt (numpy.ndarray): The combined image to save.
+    """
     save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     cv2.imwrite(os.path.join(save_path, gt_file).split(".txt")[0] + ".png", img_gt)
 
-
 def main():
+    """
+    Main function to process all video folders in the ground truth directory.
+    """
     global vid_counter
     gt_fol = os.listdir(GT_DIR)
     for video_fol in gt_fol:
         print(f"video number {vid_counter} is in process and video is {video_fol}")
         vid_counter += 1
         process_video(video_fol)
-
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,7 @@ def scan_directory_for_jpgs(directory_path, output_file):
                 # Check if the file has a .jpg extension
                 if file_name.lower().endswith('.jpg'):
                     file_path = os.path.join(root, file_name)
-                    out_file.write(f'{file_path}{file_name}\n')
+                    out_file.write(f'build/darknet/x64/data/obj/{file_name}\n')
 
 if __name__ == "__main__":
     directory_path = '/Users/jan/Documents/code/cv/project/darknet/build/darknet/x64/data/obj'  # Specify the directory you want to scan
