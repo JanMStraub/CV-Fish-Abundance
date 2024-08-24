@@ -12,51 +12,28 @@ import os
 import glob
 import numpy as np
 import cv2
+from pathlib import Path
 
-# Constants
-GT_DIR = "~/annotated_frames"
-GMM_RESULTS = "~/gmm_output"
-OPTICAL_RESULTS = "~/Optical_flow"
-SAVE_MAIN_DIR = "~/no_gray_gmm_optical_mixed"
-SPECIE_LIST = [
-    "abudefduf vaigiensis",
-    "acanthurus nigrofuscus",
-    "amphiprion clarkii",
-    "chaetodon lununatus",
-    "chaetodon speculum",
-    "chaetodon trifascialis",
-    "chromis chrysura",
-    "dascyllus aruanus",
-    "dascyllus reticulatus",
-    "hemigumnus malapterus",
-    "myripristis kuntee",
-    "neoglyphidodon nigroris",
-    "pempheris vanicolensis",
-    "plectrogly-phidodon dickii",
-    "zebrasoma scopas",
-    "Background",
-]
+BASE_DIR = Path("/content/drive/MyDrive/Colab Notebooks/CV_Project")
+VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
+GT_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/gt"
+IMG_DIR = BASE_DIR / "train_img/"
+GMM_DIR = BASE_DIR / "train_gmm/"
+OPTICAL_DIR = BASE_DIR / "train_optical/"
+GMM_OPTICAL_DIR = BASE_DIR / "train_gmm_optical/"
+FRAME_RESIZE = (640, 640)  # Dimensions to resize frames
 
-# Global variables
-bkg_count = 0
-total_gt_count = 0
-TP = 0
-FP = 0
-gmm_count = 0
-num = np.zeros(16)  # 17 for UWA dataset
-vid_counter = 0
-
-def process_video(video_fol):
+def process_video_gmm_optical(video_path):
     """
     Process a single video folder by reading ground truth and corresponding GMM and Optical Flow images.
-    
-    Args:
-        video_fol (str): The name of the video folder to process.
+
+    Parameters:
+    - video_path: The name of the video folder to process.
     """
-    global total_gt_count
-    vid_fol_path = os.path.join(GT_DIR, video_fol)
+    
+    vid_fol_path = os.path.join(GT_DIR, video_path)
     os.chdir(vid_fol_path)
-    video_name = video_fol.split(".flv")[0]
+    video_name = video_path.split(".flv")[0]
     gt_text_files = glob.glob("*.txt")
     gt_height, gt_width = [640, 640]
     gmm_height, gmm_width = [640, 640]
@@ -66,73 +43,82 @@ def process_video(video_fol):
         with open(gt_file) as f:
             gt_text = f.readlines()
         gt_count = len(gt_text)
-        total_gt_count += gt_count
 
-        process_gt_file(video_fol, gt_file, img_gt)
+        process_gt_file(video_path, gt_file, img_gt)
 
-def process_gt_file(video_fol, gt_file, img_gt):
+def process_gt_file(video_path, gt_file, img_gt):
     """
     Process a single ground truth file by combining it with GMM and Optical Flow images.
-    
-    Args:
-        video_fol (str): The name of the video folder.
-        gt_file (str): The name of the ground truth file.
-        img_gt (numpy.ndarray): The ground truth image.
+
+    Parameters:
+    - video_path: The name of the video folder to process.
+    - gt_file: The name of the ground truth file.
+    - img_gt: The ground truth image.
     """
     gmm_img_path = (
-        os.path.join(GMM_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+        os.path.join(GMM_DIR, video_path, gt_file).split(".txt")[0] + ".png"
     )
     optical_img_path = (
-        os.path.join(OPTICAL_RESULTS, video_fol, gt_file).split(".txt")[0] + ".png"
+        os.path.join(OPTICAL_DIR, video_path, gt_file).split(".txt")[0] + ".png"
     )
 
     if os.path.isfile(gmm_img_path):
-        img_gmm = cv2.imread(gmm_img_path)
-        img_optical = cv2.imread(optical_img_path)
-        img_optical = cv2.resize(img_optical, [640, 640])
-        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
-        img_gt[:, :, 0] = 0
+        img_gmm = cv2.imread(GMM_DIR)
+        img_gmm = cv2.resize(img_gmm, FRAME_RESIZE)
+        
+        img_optical = cv2.imread(OPTICAL_DIR)
+        img_optical = cv2.resize(img_optical, FRAME_RESIZE)
+        
+        img_gt_gray = cv2.cvtColor(IMG_DIR, cv2.COLOR_BGR2GRAY)
+        img_gt_gray = cv2.resize(img_gt_gray, FRAME_RESIZE)
+        
+        img_gt[:, :, 0] = img_gt_gray[:, :, 0]
         img_gt[:, :, 1] = img_gmm[:, :, 0]
         img_gt[:, :, 2] = img_optical[:, :, 0]
     else:
         img_gmm = np.zeros((640, 640))
         if os.path.isfile(optical_img_path):
             img_optical = cv2.imread(optical_img_path)
-            img_optical = cv2.resize(img_optical, [640, 640])
+            img_optical = cv2.resize(img_optical, FRAME_RESIZE)
+            
+            img_gt_gray = cv2.cvtColor(IMG_DIR, cv2.COLOR_BGR2GRAY)
+            img_gt_gray = cv2.resize(img_gt_gray, FRAME_RESIZE)
         else:
             img_optical = np.zeros((640, 640, 3))
 
-        img_gt_gray = cv2.cvtColor(img_gt, cv2.COLOR_BGR2GRAY)
-        img_gt[:, :, 0] = 0
-        img_gt[:, :, 1] = img_gmm
+        img_gt[:, :, 0] = img_gt_gray[:, :, 0]
+        img_gt[:, :, 1] = img_gmm[:, :, 0]
         img_gt[:, :, 2] = img_optical[:, :, 0]
 
-    save_image(video_fol, gt_file, img_gt)
+    save_image(video_path, gt_file, img_gt)
 
-def save_image(video_fol, gt_file, img_gt):
+def save_image(video_path, gt_file, img_gt):
     """
     Save the combined image to the specified directory.
-    
-    Args:
-        video_fol (str): The name of the video folder.
-        gt_file (str): The name of the ground truth file.
-        img_gt (numpy.ndarray): The combined image to save.
+
+    Parameters:
+    - video_path: The name of the video folder to process.
+    - gt_file: The name of the ground truth file.
+    - img_gt The combined image to save.
     """
-    save_path = os.path.join(SAVE_MAIN_DIR, video_fol)
+    save_path = os.path.join(GMM_OPTICAL_DIR, video_path)
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     cv2.imwrite(os.path.join(save_path, gt_file).split(".txt")[0] + ".png", img_gt)
 
 def main():
     """
-    Main function to process all video folders in the ground truth directory.
+    Function to process all video folders in the ground truth directory.
     """
-    global vid_counter
-    gt_fol = os.listdir(GT_DIR)
-    for video_fol in gt_fol:
-        print(f"video number {vid_counter} is in process and video is {video_fol}")
-        vid_counter += 1
-        process_video(video_fol)
+    
+    video_files = [
+        f for f in os.listdir(VIDEO_DIR) if f.endswith(".flv") or f.endswith(".avi")
+    ]
+    
+    for idx, video_file in enumerate(video_files):
+        print(f"Processing video {idx + 1}/{len(video_files)}: {video_file.name}")
+        process_video_gmm_optical(video_file)
+
 
 if __name__ == "__main__":
     main()

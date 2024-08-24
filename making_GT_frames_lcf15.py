@@ -26,19 +26,20 @@ Usage:
 - Run this script to process all videos in the VID_DIR and save the results in SAVE_IMG_DIR and SAVE_LAB_DIR.
 """
 
-import os
 import cv2
-import numpy as np
 import xml.etree.ElementTree as ET
 import imageio.v3 as iio
 from pathlib import Path
 
-# Constants
-VID_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/videos"
-XML_DIR = Path(__file__).parent / "../data/fishclef_2015_release/training_set/gt"
-SAVE_IMG_DIR = Path(__file__).parent / "../train_img/img_pool_retrain"
-SAVE_LAB_DIR = SAVE_IMG_DIR
-SPECIE_LIST = [
+BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
+VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
+XML_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/gt"
+IMG_DIR = BASE_DIR / "train_img/"
+GMM_DIR = BASE_DIR / "train_gmm/"
+OPTICAL_DIR = BASE_DIR / "train_optical/"
+GMM_OPTICAL_DIR = BASE_DIR / "train_gmm_optical/"
+
+SPECIES_LIST = [
     "abudefduf vaigiensis",
     "acanthurus nigrofuscus",
     "amphiprion clarkii",
@@ -55,11 +56,11 @@ SPECIE_LIST = [
     "plectrogly-phidodon dickii",
     "zebrasoma scopas",
 ]
-OTHER_CLASS = "others"
+
 OTHER_LABEL = 15
 
 
-def process_video(video_path, xml_path, img_counter):
+def process_video_img(video_path, xml_path, img_counter):
     """
     Processes a single video file and its corresponding XML annotation.
 
@@ -72,99 +73,85 @@ def process_video(video_path, xml_path, img_counter):
     - img_counter: Updated counter for the number of processed images.
     - other_fish_count: Count of fish labeled as 'others'.
     """
-    cap = cv2.VideoCapture(video_path)
-    image_vid = []
-    success, image = cap.read()
-    while success:
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # Convert image to RGB
-        image_vid.append(image)  # Append frame to the list
-        success, image = cap.read()
+    cap = cv2.VideoCapture(str(video_path))
+    frames = []
+
+    while True:
+        success, frame = cap.read()
+        if not success:
+            break
+        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        frames.append(frame_rgb)
     cap.release()
 
-    tree = ET.parse(xml_path)  # Parse the XML file
+    tree = ET.parse(xml_path)
     root = tree.getroot()
-    vid_name_short = os.path.basename(video_path).split(".")[0][-15:]
+    vid_name_short = video_path.stem[-15:]
 
-    other_fish_count = 0
     for child in root:
         frame_id = int(child.attrib["id"])
-        if frame_id < len(image_vid):
-            process_frame(child, frame_id, image_vid, vid_name_short, img_counter)
-            img_counter += 1
+        if frame_id < len(frames):
+            img_counter += process_frame(child, frame_id, frames, vid_name_short)
 
-    return img_counter, other_fish_count
+    return img_counter
 
 
-def process_frame(child, frame_id, image_vid, vid_name_short, img_counter):
+def process_frame(child, frame_id, frames, vid_name_short):
     """
     Processes a single frame and extracts fish annotations.
 
     Parameters:
     - child: XML element containing frame annotations.
     - frame_id: ID of the frame.
-    - image_vid: List of frames from the video.
+    - frames: List of frames from the video.
     - vid_name_short: Shortened video name for file naming.
     - img_counter: Counter for the number of processed images.
+
+    Returns:
+    - int: Updated image counter after processing the frame.
     """
+    frame = cv2.resize(frames[frame_id], (640, 640))
+    height, width, _ = frame.shape
+    filename = f"{vid_name_short}_image_{frame_id}"
+    iio.imwrite(IMG_DIR / f"{filename}.jpg", frame)
+
     for g_child in child:
-        fish_specie = g_child.attrib["fish_species"].lower()
-        if fish_specie == "chaetodon lununatus":
-            fish_specie = "chaetodon lunulatus"  # Correct species name
+        fish_species = g_child.attrib["fish_species"].lower()
+        if fish_species == "chaetodon lununatus":
+            fish_species = "chaetodon lunulatus"
 
-        # Extract bounding box coordinates
-        x, y, w, h = map(
-            int,
-            [
-                g_child.attrib["x"],
-                g_child.attrib["y"],
-                g_child.attrib["w"],
-                g_child.attrib["h"],
-            ],
-        )
-        x, y = max(x, 0), max(y, 0)  # Ensure coordinates are non-negative
-        frame = image_vid[frame_id]
-        frame = cv2.resize(frame, [640, 640])  # Resize frame
-        height, width, _ = frame.shape
-
-        # Normalize bounding box coordinates
-        mid_x, mid_y = (x + x + w) / (2 * width), (y + y + h) / (2 * height)
+        x, y, w, h = (int(g_child.attrib[k]) for k in ("x", "y", "w", "h"))
+        x, y = max(x, 0), max(y, 0)
+        mid_x, mid_y = (x + w / 2) / width, (y + h / 2) / height
         box_width, box_height = w / width, h / height
-        filename = f"{vid_name_short}_image_{frame_id}"
-        iio.imwrite(f"{SAVE_IMG_DIR}{filename}.jpg", frame)  # Save frame
 
-        # Determine fish label
-        fish_lab = (
-            SPECIE_LIST.index(fish_specie)
-            if fish_specie in SPECIE_LIST
-            else OTHER_LABEL
-        )
-        item = f"{fish_lab} {mid_x} {mid_y} {box_width} {box_height}"
-        with open(f"{SAVE_LAB_DIR}{filename}.txt", "a") as a:
-            a.write(item + "\n")  # Save annotation
+        fish_label = SPECIES_LIST.index(fish_species) if fish_species in SPECIES_LIST else OTHER_LABEL
+        annotation = f"{fish_label} {mid_x:.6f} {mid_y:.6f} {box_width:.6f} {box_height:.6f}"
+
+        with open(IMG_DIR / f"{filename}.txt", "a") as label_file:
+            label_file.write(annotation + "\n")
+
+    return 1
 
 
 def main():
     """
-    Main function to process all video files in the VID_DIR directory.
-
-    This function performs the following steps:
-    1. Changes the working directory to VID_DIR.
-    2. Retrieves a list of video files in the VID_DIR directory.
-    3. Initializes an image counter.
-    4. Processes each video file and its corresponding XML annotation.
-    5. Prints the total count of fish labeled as 'others'.
+    Main function to process all video files in the VIDEO_DIR directory.
     """
-    os.chdir(VID_DIR)
-    sub_list = np.array(os.listdir(VID_DIR))
+    # Get all .flv and .avi files in the video directory
+    video_files = list(VIDEO_DIR.glob("*.flv")) + list(VIDEO_DIR.glob("*.avi"))
     img_counter = 0
 
-    for vid_count, video in enumerate(sub_list):
-        print(f"video number: {vid_count} is in progress")
-        video_path = os.path.join(VID_DIR, video)
-        xml_path = os.path.join(XML_DIR, os.path.splitext(video)[0] + ".xml")
-        img_counter, other_fish_count = process_video(video_path, xml_path, img_counter)
+    for vid_count, video_path in enumerate(video_files):
+        print(f"Processing video {vid_count + 1}/{len(video_files)}: {video_path.name}")
+        
+        # Create the xml_path as a Path object
+        xml_path = XML_DIR / (video_path.stem + ".xml")
+        
+        # Process the video and update counters
+        img_counter = process_video_img(video_path, xml_path, img_counter)
 
-    print("total count for other fish is:", other_fish_count)
+    print(f"{img_counter} images where processed.")
 
 
 if __name__ == "__main__":
