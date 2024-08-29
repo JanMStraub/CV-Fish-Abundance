@@ -6,14 +6,25 @@ import xml.etree.ElementTree as ET
 
 from pathlib import Path
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
-VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
-GT_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/gt"
-IMG_DIR = BASE_DIR / "train_img/"
-GMM_DIR = BASE_DIR / "train_gmm/"
-OPTICAL_DIR = BASE_DIR / "train_optical/"
-GMM_OPTICAL_DIR = BASE_DIR / "train_gmm_optical/"
+
+# Training set
+TRAIN_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
+TRAIN_GT_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/gt"
+TRAIN_IMG_DIR = BASE_DIR / "train_img/"
+TRAIN_GMM_DIR = BASE_DIR / "train_gmm/"
+TRAIN_OPTICAL_DIR = BASE_DIR / "train_optical/"
+TRAIN_GMM_OPTICAL_DIR = BASE_DIR / "train_gmm_optical/"
+
+# Test set
+TEST_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/videos"
+TEST_GT_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/gt"
+TEST_IMG_DIR = BASE_DIR / "test_img/"
+TEST_GMM_DIR = BASE_DIR / "test_gmm/"
+TEST_OPTICAL_DIR = BASE_DIR / "test_optical/"
+TEST_GMM_OPTICAL_DIR = BASE_DIR / "test_gmm_optical/"
 
 SPECIES_LIST = [
     "abudefduf vaigiensis",
@@ -105,9 +116,11 @@ def save_gmm_annotation(annotation_filename, bboxes, image_width, image_height):
             file.write(f"0 {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\n")
 
 
-def save_annotation(name, annotation_file_path, bboxes, image_width, image_height):
+def save_annotation_batch_test(
+    name, annotation_file_path, bboxes, image_width, image_height
+):
     """
-    Save annotations in YOLO format for each frame.
+    Save annotations in YOLO format for each frame in batches.
 
     Parameters:
     - name (str): Base name for the annotation files.
@@ -125,40 +138,116 @@ def save_annotation(name, annotation_file_path, bboxes, image_width, image_heigh
         frame_id = bbox["frame_id"]
         frame_bboxes.setdefault(frame_id, []).append(bbox)
 
-    # Iterate over each frame and save annotations
+    # Prepare content for each file
+    file_contents = {}
     for frame_id, bboxes in frame_bboxes.items():
+        # Collect annotation lines for this frame
+        content = []
+        for fish in bboxes:
+            fish_species = fish.get("species_name", "").lower()
+            x, y, width, height = (
+                fish.get("x", 0),
+                fish.get("y", 0),
+                fish.get("w", 0),
+                fish.get("h", 0),
+            )
+
+            # Normalize the coordinates
+            x_center = (x + width / 2.0) / image_width
+            y_center = (y + height / 2.0) / image_height
+            width /= image_width
+            height /= image_height
+
+            # Determine the species index
+            species_index = (
+                SPECIES_LIST.index(fish_species)
+                if fish_species in SPECIES_LIST
+                else UNKNOWN_LABEL
+            )
+
+            # Format the annotation line in YOLO format
+            content.append(
+                f"{species_index} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}"
+            )
+
+        # Add content for the current frame
+        file_contents[frame_id] = "\n".join(content)
+
+    # Write all files in a batch
+    for frame_id, content in file_contents.items():
         # Create a unique file name for each frame
         frame_annotation_file = annotation_file_path / f"{name}_{frame_id:04d}.txt"
 
-        # Open the annotation file in write mode
+        # Write the content to the file
         with open(frame_annotation_file, "w") as file:
-            # Iterate over each bounding box in the frame
-            for fish in bboxes:
-                fish_species = fish.get("fish_species", "").lower()
-                x, y, width, height = (
-                    fish.get("x", 0),
-                    fish.get("y", 0),
-                    fish.get("w", 0),
-                    fish.get("h", 0),
-                )
+            file.write(content)
 
-                # Normalize the coordinates
-                x_center = (x + width / 2.0) / image_width
-                y_center = (y + height / 2.0) / image_height
-                width /= image_width
-                height /= image_height
 
-                # Determine the species index
-                species_index = (
-                    SPECIES_LIST.index(fish_species)
-                    if fish_species in SPECIES_LIST
-                    else UNKNOWN_LABEL
-                )
+def save_annotation_batch_train(
+    name, annotation_file_path, bboxes, image_width, image_height
+):
+    """
+    Save annotations in YOLO format for each frame in batches.
 
-                # Write the normalized coordinates to the file in YOLO format
-                file.write(
-                    f"{species_index} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\n"
-                )
+    Parameters:
+    - name (str): Base name for the annotation files.
+    - annotation_file_path (Path): Path object representing the directory to save annotation files.
+    - bboxes (list of dict): List of bounding boxes, where each bounding box is represented as a dictionary with keys 'frame_id', 'fish_species', 'x', 'y', 'w', 'h'.
+    - image_width (int): Width of the image.
+    - image_height (int): Height of the image.
+
+    Returns:
+    - None
+    """
+    # Group bounding boxes by frame_id
+    frame_bboxes = {}
+    for bbox in bboxes:
+        frame_id = bbox["frame_id"]
+        frame_bboxes.setdefault(frame_id, []).append(bbox)
+
+    # Prepare content for each file
+    file_contents = {}
+    for frame_id, bboxes in frame_bboxes.items():
+        # Collect annotation lines for this frame
+        content = []
+        for fish in bboxes:
+            fish_species = fish.get("fish_species", "").lower()
+            x, y, width, height = (
+                fish.get("x", 0),
+                fish.get("y", 0),
+                fish.get("w", 0),
+                fish.get("h", 0),
+            )
+
+            # Normalize the coordinates
+            x_center = (x + width / 2.0) / image_width
+            y_center = (y + height / 2.0) / image_height
+            width /= image_width
+            height /= image_height
+
+            # Determine the species index
+            species_index = (
+                SPECIES_LIST.index(fish_species)
+                if fish_species in SPECIES_LIST
+                else UNKNOWN_LABEL
+            )
+
+            # Format the annotation line in YOLO format
+            content.append(
+                f"{species_index} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}"
+            )
+
+        # Add content for the current frame
+        file_contents[frame_id] = "\n".join(content)
+
+    # Write all files in a batch
+    for frame_id, content in file_contents.items():
+        # Create a unique file name for each frame
+        frame_annotation_file = annotation_file_path / f"{name}_{frame_id:04d}.txt"
+
+        # Write the content to the file
+        with open(frame_annotation_file, "w") as file:
+            file.write(content)
 
 
 def extract_ground_truth(video_path):
@@ -182,7 +271,7 @@ def extract_ground_truth(video_path):
     file_name_without_ext = video_path.stem
 
     # Construct the path to the ground truth XML file
-    gt_xml_path = GT_DIR / f"{file_name_without_ext}.xml"
+    gt_xml_path = TRAIN_GT_DIR / f"{file_name_without_ext}.xml"
 
     # Check if the ground truth XML file exists
     if not gt_xml_path.exists():
@@ -256,7 +345,7 @@ def apply_gmm(frame, frame_idx, gmm_dir, foreground_detector):
     ]
 
     # Save the filtered foreground mask as an image
-    gmm_frame_path = gmm_dir / f"gmm_img_{frame_idx:04d}.png"
+    gmm_frame_path = gmm_dir / f"gmm_img_{frame_idx:04d}.jpg"
     cv2.imwrite(str(gmm_frame_path), filtered_foreground)
 
     # Save the bounding boxes as annotations
@@ -310,7 +399,7 @@ def apply_optical_flow(frame, frame_idx, prvs, hsv, flow_dir):
     bgr_resized = cv2.resize(bgr, FRAME_RESIZE)
 
     # Construct the path to save the optical flow frame
-    flow_frame_path = flow_dir / f"flow_img_{frame_idx:04d}.png"
+    flow_frame_path = flow_dir / f"flow_img_{frame_idx:04d}.jpg"
 
     # Save the resized BGR image to the specified directory
     cv2.imwrite(str(flow_frame_path), bgr_resized)
@@ -345,7 +434,7 @@ def apply_combination(
     combined_frame[:, :, 2] = bgr_resized[:, :, 0]  # Use resized bgr
 
     # Construct the path to save the combined image
-    combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.png"
+    combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.jpg"
 
     # Save the combined image to the specified directory
     cv2.imwrite(str(combined_frame_path), combined_frame)
@@ -356,13 +445,24 @@ def apply_combination(
 
     # Save the ground truth annotations if they exist
     if gt_bboxes:
-        save_annotation(
-            name,
-            combined_dir,
-            gt_bboxes,
-            FRAME_RESIZE[0],
-            FRAME_RESIZE[1],
-        )
+        if "train" in str(combined_dir):
+            save_annotation_batch_train(
+                name,
+                combined_dir,
+                gt_bboxes,
+                FRAME_RESIZE[0],
+                FRAME_RESIZE[1],
+            )
+        
+        if "test" in str(combined_dir):
+            save_annotation_batch_test(
+                name,
+                combined_dir,
+                gt_bboxes,
+                FRAME_RESIZE[0],
+                FRAME_RESIZE[1],
+            )
+
     else:
         # Create an empty annotation file if no ground truth bounding boxes are found
         combined_annotation_path.touch()
@@ -401,7 +501,7 @@ def process_frame(
     - numpy.ndarray: The next grayscale frame for optical flow calculation.
     """
     # Save the original frame to the img_dir
-    img_frame_path = img_dir / f"img_{frame_idx:04d}.png"
+    img_frame_path = img_dir / f"img_{frame_idx:04d}.jpg"
     cv2.imwrite(str(img_frame_path), frame)
 
     # Save annotations for the original frame (train_img)
@@ -409,13 +509,23 @@ def process_frame(
     name = "img"
     if gt_bboxes:
         # Save ground truth annotations if they exist
-        save_annotation(
-            name,
-            img_dir,
-            gt_bboxes,
-            FRAME_RESIZE[0],
-            FRAME_RESIZE[1],
-        )
+        if "train" in str(img_dir):
+            save_annotation_batch_train(
+                name,
+                img_dir,
+                gt_bboxes,
+                FRAME_RESIZE[0],
+                FRAME_RESIZE[1],
+            )
+        
+        if "test" in str(img_dir):
+            save_annotation_batch_test(
+                name,
+                img_dir,
+                gt_bboxes,
+                FRAME_RESIZE[0],
+                FRAME_RESIZE[1],
+            )
     else:
         # Create an empty annotation file if no ground truth bounding boxes are found
         img_annotation_path.touch()
@@ -446,10 +556,10 @@ def process_video(video_path):
     video_name_short = video_path.stem[-15:]
 
     # Define directories for saving images, GMM results, optical flow results, and combined results
-    img_dir = IMG_DIR / video_name_short
-    gmm_dir = GMM_DIR / video_name_short
-    flow_dir = OPTICAL_DIR / video_name_short
-    combined_dir = GMM_OPTICAL_DIR / video_name_short
+    img_dir = TRAIN_IMG_DIR / video_name_short
+    gmm_dir = TRAIN_GMM_DIR / video_name_short
+    flow_dir = TRAIN_OPTICAL_DIR / video_name_short
+    combined_dir = TRAIN_GMM_OPTICAL_DIR / video_name_short
 
     # Create the directories if they do not exist
     for directory in [img_dir, gmm_dir, flow_dir, combined_dir]:
@@ -533,12 +643,19 @@ def main():
     and processes each video file using the process_video function.
     """
     # Get a list of all .flv and .avi video files in the VIDEO_DIR
-    video_files = list(VIDEO_DIR.glob("*.flv")) + list(VIDEO_DIR.glob("*.avi"))
+    video_files = list(TRAIN_VIDEO_DIR.glob("*.flv")) + list(TRAIN_VIDEO_DIR.glob("*.avi"))
 
-    # Iterate over each video file and process it
-    for video in video_files:
-        process_video(video)
+    # Use ThreadPoolExecutor to process videos concurrently
+    with ThreadPoolExecutor() as executor:
+        # Submit all video processing tasks to the thread pool
+        futures = [executor.submit(process_video, video) for video in video_files]
 
+        # Optionally, wait for all the futures to complete and handle any exceptions
+        for future in as_completed(futures):
+            try:
+                future.result()  # Retrieve the result of the function (if any)
+            except Exception as exc:
+                print(f"An error occurred: {exc}")
 
 if __name__ == "__main__":
     # Entry point of the script

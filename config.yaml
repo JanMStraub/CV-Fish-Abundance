@@ -1,0 +1,22 @@
+path: /Users/jan/Documents/code/cv/project
+train: /Users/jan/Documents/code/cv/project/train_img
+val: /Users/jan/Documents/code/cv/project/test_img
+
+# Classes
+names:
+  0: abudefduf vaigiensis
+  1: acanthurus nigrofuscus
+  2: amphiprion clarkii
+  3: chaetodon lununatus
+  4: chaetodon speculum
+  5: chaetodon trifascialis
+  6: chromis chrysura
+  7: dascyllus aruanus
+  8: dascyllus reticulatus
+  9: hemigumnus malapterus
+  10: myripristis kuntee
+  11: neoglyphidodon nigroris
+  12: pempheris vanicolensis
+  13: plectrogly-phidodon dickii
+  14: zebrasoma scopas
+  15: unknown

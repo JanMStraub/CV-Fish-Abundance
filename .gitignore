@@ -98,6 +98,10 @@ train_optical/
 darknet/
 important_darknet_files/
 train_gmm_optical/
+test_img/
+test_optical/
+test_gmm/
+test_gmm_optical/
 
 # macOS system files
 .DS_Store
