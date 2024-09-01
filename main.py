@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Configuration Flags
 SAVE_ORIGINAL = False  # Flag to save original frames
-RELEASE = True  # Flag to switch between concurrent and sequential processing
+RELEASE = False  # Flag to switch between concurrent and sequential processing
 
 # Base directory setup
 BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
@@ -52,23 +52,8 @@ SPECIES_LIST = [
 # Label for unknown species
 UNKNOWN_LABEL = 15
 
-# GMM Foreground detection parameters
-FOREGROUND_DETECTOR_PARAMS = {
-    "history": 250,
-    "varThreshold": 16,
-    "detectShadows": True,
-}
-
-# Blob analysis parameters
-BLOB_ANALYSIS_PARAMS = {"min_area": 200}
-
-# Structuring elements for morphological operations
-STRUCTURING_ELEMENT_OPEN = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
-STRUCTURING_ELEMENT_CLOSE = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
-
 # Frame processing parameters
-FRAME_RESIZE = (640, 640)
-FRAME_ADJUST_GAMMA = 1.5
+FRAME_RESIZE = (240, 240)
 
 # Optical flow parameters
 FARNEBACK_PARAMS = {
@@ -161,7 +146,7 @@ def extract_ground_truth(video_path):
         list: List of ground truth bounding boxes extracted from XML.
     """
     file_name_without_ext = video_path.stem
-    gt_xml_path = TRAIN_GT_DIR / f"{file_name_without_ext}.xml"
+    gt_xml_path = TEST_GT_DIR / f"{file_name_without_ext}.xml"
 
     if not gt_xml_path.exists():
         print(f"Ground truth XML not found: {gt_xml_path}")
@@ -199,13 +184,23 @@ def apply_gmm(frame, foreground_detector):
     Returns:
         np.ndarray: Filtered foreground mask.
     """
+    # frame_denoised = cv2.fastNlMeansDenoising(frame, None)
     foreground = foreground_detector.apply(frame)
     filtered_foreground = cv2.morphologyEx(
-        foreground, cv2.MORPH_OPEN, STRUCTURING_ELEMENT_OPEN
+        foreground, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
     )
     filtered_foreground = cv2.morphologyEx(
-        filtered_foreground, cv2.MORPH_CLOSE, STRUCTURING_ELEMENT_CLOSE
+        filtered_foreground,
+        cv2.MORPH_CLOSE,
+        cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)),
     )
+    # frame_denoised = cv2.fastNlMeansDenoising(filtered_foreground, None)
+    
+    # Shadow Removal: Convert shadows to binary foreground
+    _, filtered_foreground = cv2.threshold(
+        filtered_foreground, 127, 255, cv2.THRESH_BINARY
+    )
+    
     return filtered_foreground
 
 
@@ -228,6 +223,7 @@ def apply_optical_flow(frame, prvs, hsv):
     hsv[..., 2] = cv2.normalize(mag, None, 0, 255, cv2.NORM_MINMAX)
     bgr = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
     bgr_resized = cv2.resize(bgr, FRAME_RESIZE)
+    
     return bgr_resized, next_frame
 
 
@@ -246,6 +242,7 @@ def apply_combination(
         combined_dir (Path): Directory to save the combined image and annotations.
     """
     combined_frame = np.zeros_like(frame)
+    combined_frame[:, :, 0] = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     combined_frame[:, :, 1] = filtered_foreground
     combined_frame[:, :, 2] = bgr_resized[:, :, 0]
     combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.jpg"
@@ -362,8 +359,8 @@ def process_video(video_path):
     """
 
     video_name_short = video_path.stem[-15:]
-    img_dir = TRAIN_IMG_DIR / video_name_short
-    combined_dir = TRAIN_GMM_OPTICAL_DIR / video_name_short
+    img_dir = TEST_IMG_DIR / video_name_short
+    combined_dir = TEST_GMM_OPTICAL_DIR / video_name_short
 
     for directory in [img_dir, combined_dir]:
         os.makedirs(directory, exist_ok=True)
@@ -374,8 +371,9 @@ def process_video(video_path):
     cap = cv2.VideoCapture(str(video_path))
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     foreground_detector = cv2.createBackgroundSubtractorMOG2(
-        **FOREGROUND_DETECTOR_PARAMS
+        history=250, varThreshold=16, detectShadows=True
     )
+
     ret, frame1 = cap.read()
     if not ret:
         print(f"Failed to read the video file: {video_path}")
@@ -390,11 +388,12 @@ def process_video(video_path):
     with tqdm(total=total_frames, desc=f"Processing {video_name_short}") as video_pbar:
         while ret:
             frame = cv2.resize(frame1, FRAME_RESIZE)
-            frame = adjust_gamma(frame, FRAME_ADJUST_GAMMA)
+            frame = adjust_gamma(frame, 1.5)
+            frame_blurred = cv2.GaussianBlur(frame, (5, 5), 0)
 
             # Process the current frame
             next_frame = process_frame(
-                frame,
+                frame_blurred,
                 frame1,
                 frame_idx,
                 gt_bboxes,
@@ -418,8 +417,8 @@ def main():
     """
     Main entry point of the script. Processes either training or test videos.
     """
-    video_files = list(TRAIN_VIDEO_DIR.glob("*.flv")) + list(
-        TRAIN_VIDEO_DIR.glob("*.avi")
+    video_files = list(TEST_VIDEO_DIR.glob("*.flv")) + list(
+        TEST_VIDEO_DIR.glob("*.avi")
     )
 
     if RELEASE:
