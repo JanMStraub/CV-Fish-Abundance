@@ -89,7 +89,6 @@ def get_annotation(
     bboxes,
     image_width,
     image_height,
-    species_key="fish_species",
 ):
     """
     Generates YOLO format annotations for bounding boxes and saves them to files.
@@ -103,6 +102,7 @@ def get_annotation(
         species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
     """
     frame_bboxes = {}
+    
     for bbox in bboxes:
         frame_id = bbox["frame_id"]
         frame_bboxes.setdefault(frame_id, []).append(bbox)
@@ -110,7 +110,7 @@ def get_annotation(
     for frame_id, bboxes in frame_bboxes.items():
         annotations = []
         for fish in bboxes:
-            fish_species = fish.get(species_key, "").lower()
+            fish_species = fish.get("fish_species", "").lower()
             x, y, width, height = (
                 fish.get("x", 0),
                 fish.get("y", 0),
@@ -135,7 +135,7 @@ def get_annotation(
             file.write("\n".join(annotations))
 
 
-def extract_ground_truth(video_path):
+def extract_ground_truth(video_path, species_key):
     """
     Extracts ground truth annotations from the corresponding XML file.
 
@@ -162,14 +162,14 @@ def extract_ground_truth(video_path):
             ground_truth.append(
                 {
                     "frame_id": frame_id,
-                    "fish_species": obj.get("fish_species"),
+                    "fish_species": obj.get(species_key),
                     "x": int(obj.get("x")),
                     "y": int(obj.get("y")),
                     "w": int(obj.get("w")),
                     "h": int(obj.get("h")),
                 }
             )
-
+    
     return ground_truth
 
 
@@ -249,19 +249,12 @@ def apply_combination(
     cv2.imwrite(str(combined_frame_path), combined_frame)
 
     if gt_bboxes:
-        species_key = ""
-        if "train" in str(combined_dir):
-            species_key = "fish_species"
-        if "test" in str(combined_dir):
-            species_key = "species_name"
-
         get_annotation(
             "combined_img",
             combined_dir,
             gt_bboxes,
             FRAME_RESIZE[0],
             FRAME_RESIZE[1],
-            species_key,
         )
 
 
@@ -275,7 +268,6 @@ def process_frame(
     hsv,
     img_dir,
     combined_dir,
-    save_original=False,
 ):
     """
     Processes a single video frame by applying background subtraction (GMM) and optical flow,
@@ -300,12 +292,11 @@ def process_frame(
         hsv (numpy.ndarray): The HSV image used for visualizing optical flow.
         img_dir (Path): Directory to save the original frames.
         combined_dir (Path): Directory to save the combined results of GMM and optical flow.
-        save_original (bool, optional): Flag to indicate whether the original frame should be saved. Defaults to False.
 
     Returns:
         next_frame (numpy.ndarray): The grayscale version of the current frame (frame1) for use in the next iteration of optical flow calculation.
     """
-    if save_original:
+    if SAVE_ORIGINAL:
         # Save the original frame to the img_dir
         img_frame_path = img_dir / f"img_{frame_idx:04d}.png"
         cv2.imwrite(str(img_frame_path), frame)
@@ -362,11 +353,22 @@ def process_video(video_path):
     img_dir = TEST_IMG_DIR / video_name_short
     combined_dir = TEST_GMM_OPTICAL_DIR / video_name_short
 
-    for directory in [img_dir, combined_dir]:
+    for directory in [combined_dir]:
         os.makedirs(directory, exist_ok=True)
+    
+    if SAVE_ORIGINAL:
+        for directory in [img_dir]:
+            os.makedirs(directory, exist_ok=True)
 
+    # Consider different GT names
+    species_key = ""
+    if "train" in str(combined_dir):
+        species_key = "fish_species"
+    if "test" in str(combined_dir):
+        species_key = "species_name"
+    
     # Extract ground truth bounding boxes from the corresponding XML file
-    gt_bboxes = extract_ground_truth(video_path)
+    gt_bboxes = extract_ground_truth(video_path, species_key)
 
     cap = cv2.VideoCapture(str(video_path))
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -402,7 +404,6 @@ def process_video(video_path):
                 hsv,
                 img_dir,
                 combined_dir,
-                SAVE_ORIGINAL,
             )
 
             video_pbar.update(1)
@@ -433,7 +434,6 @@ def main():
                     future.result()
                 except Exception as exc:
                     print(f"An error occurred: {exc}")
-
 
 if __name__ == "__main__":
     main()
