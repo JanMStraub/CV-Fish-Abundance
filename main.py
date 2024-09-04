@@ -53,7 +53,7 @@ SPECIES_LIST = [
 UNKNOWN_LABEL = 15
 
 # Frame processing parameters
-FRAME_RESIZE = (240, 240)
+FRAME_RESIZE = (640, 640)
 
 # Optical flow parameters
 FARNEBACK_PARAMS = {
@@ -146,7 +146,7 @@ def extract_ground_truth(video_path, species_key):
         list: List of ground truth bounding boxes extracted from XML.
     """
     file_name_without_ext = video_path.stem
-    gt_xml_path = TEST_GT_DIR / f"{file_name_without_ext}.xml"
+    gt_xml_path = TRAIN_GT_DIR / f"{file_name_without_ext}.xml"
 
     if not gt_xml_path.exists():
         print(f"Ground truth XML not found: {gt_xml_path}")
@@ -350,8 +350,8 @@ def process_video(video_path):
     """
 
     video_name_short = video_path.stem[-15:]
-    img_dir = TEST_IMG_DIR / video_name_short
-    combined_dir = TEST_GMM_OPTICAL_DIR / video_name_short
+    img_dir = TRAIN_IMG_DIR / video_name_short
+    combined_dir = TRAIN_GMM_OPTICAL_DIR / video_name_short
 
     for directory in [combined_dir]:
         os.makedirs(directory, exist_ok=True)
@@ -418,8 +418,8 @@ def main():
     """
     Main entry point of the script. Processes either training or test videos.
     """
-    video_files = list(TEST_VIDEO_DIR.glob("*.flv")) + list(
-        TEST_VIDEO_DIR.glob("*.avi")
+    video_files = list(TRAIN_VIDEO_DIR.glob("*.flv")) + list(
+        TRAIN_VIDEO_DIR.glob("*.avi")
     )
 
     if RELEASE:
