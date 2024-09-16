@@ -47,6 +47,7 @@ SPECIES_LIST = [
     "pempheris vanicolensis",
     "plectrogly-phidodon dickii",
     "zebrasoma scopas",
+    "canthigaster valentini", # new
 ]
 
 # Label for unknown species
