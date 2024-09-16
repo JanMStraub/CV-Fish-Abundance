@@ -102,6 +102,7 @@ test_img/
 test_optical/
 test_gmm/
 test_gmm_optical/
+runs/
 
 # macOS system files
 .DS_Store
