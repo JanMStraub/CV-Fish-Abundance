@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Configuration Flags
 SAVE_ORIGINAL = False  # Flag to save original frames
-RELEASE = False  # Flag to switch between concurrent and sequential processing
+RELEASE = True  # Flag to switch between concurrent and sequential processing
 
 # Base directory setup
 BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
@@ -47,19 +47,19 @@ SPECIES_LIST = [
     "pempheris vanicolensis",
     "plectrogly-phidodon dickii",
     "zebrasoma scopas",
-    "canthigaster valentini", # new
+    "canthigaster valentini",  # new
 ]
 
 # Label for unknown species
-UNKNOWN_LABEL = 15
+UNKNOWN_LABEL = 16
 
 # Frame processing parameters
 FRAME_RESIZE = (640, 640)
 
 # Optical flow parameters
 FARNEBACK_PARAMS = {
-    "pyr_scale": 0.5,
-    "levels": 3,
+    "pyr_scale": 0.95,
+    "levels": 10,
     "winsize": 15,
     "iterations": 3,
     "poly_n": 5,
@@ -100,10 +100,10 @@ def get_annotation(
         bboxes (list): List of bounding boxes for the frame.
         image_width (int): Width of the image.
         image_height (int): Height of the image.
-        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
+        species_key (str): Key for accessing species name in bbox dictionary (default is 'species_name').
     """
     frame_bboxes = {}
-    
+
     for bbox in bboxes:
         frame_id = bbox["frame_id"]
         frame_bboxes.setdefault(frame_id, []).append(bbox)
@@ -111,7 +111,7 @@ def get_annotation(
     for frame_id, bboxes in frame_bboxes.items():
         annotations = []
         for fish in bboxes:
-            fish_species = fish.get("fish_species", "").lower()
+            fish_species = fish.get("species_name", "").lower()
             x, y, width, height = (
                 fish.get("x", 0),
                 fish.get("y", 0),
@@ -170,7 +170,7 @@ def extract_ground_truth(video_path, species_key):
                     "h": int(obj.get("h")),
                 }
             )
-    
+
     return ground_truth
 
 
@@ -196,12 +196,12 @@ def apply_gmm(frame, foreground_detector):
         cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)),
     )
     # frame_denoised = cv2.fastNlMeansDenoising(filtered_foreground, None)
-    
+
     # Shadow Removal: Convert shadows to binary foreground
     _, filtered_foreground = cv2.threshold(
         filtered_foreground, 127, 255, cv2.THRESH_BINARY
     )
-    
+
     return filtered_foreground
 
 
@@ -224,15 +224,22 @@ def apply_optical_flow(frame, prvs, hsv):
     hsv[..., 2] = cv2.normalize(mag, None, 0, 255, cv2.NORM_MINMAX)
     bgr = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
     bgr_resized = cv2.resize(bgr, FRAME_RESIZE)
-    
+
     return bgr_resized, next_frame
 
 
 def apply_combination(
-    frame, frame_idx, filtered_foreground, bgr_resized, gt_bboxes, combined_dir
+    frame,
+    frame_idx,
+    filtered_foreground,
+    bgr_resized,
+    gt_bboxes,
+    combined_dir,
+    opacity_foreground=0.5,
+    opacity_optical_flow=0.5,
 ):
     """
-    Combines the results of GMM and optical flow, and saves the combined image and annotations.
+    Combines the results of GMM and optical flow with opacity blending, and saves the combined image and annotations.
 
     Args:
         frame (np.ndarray): Original frame.
@@ -241,11 +248,35 @@ def apply_combination(
         bgr_resized (np.ndarray): Optical flow visualization in BGR format.
         gt_bboxes (list): List of ground truth bounding boxes.
         combined_dir (Path): Directory to save the combined image and annotations.
+        opacity_foreground (float): Opacity for filtered foreground mask (0 to 1).
+        opacity_optical_flow (float): Opacity for optical flow visualization (0 to 1).
     """
+
     combined_frame = np.zeros_like(frame)
-    combined_frame[:, :, 0] = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    combined_frame[:, :, 1] = filtered_foreground
-    combined_frame[:, :, 2] = bgr_resized[:, :, 0]
+    grayscale_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    filtered_foreground_normalized = cv2.normalize(
+        filtered_foreground, None, 0, 255, cv2.NORM_MINMAX
+    )
+    blended_foreground = cv2.addWeighted(
+        grayscale_frame,
+        1 - opacity_foreground,
+        filtered_foreground_normalized,
+        opacity_foreground,
+        0,
+    )
+    blue_channel_optical_flow = bgr_resized[:, :, 0]
+    blended_optical_flow = cv2.addWeighted(
+        grayscale_frame,
+        1 - opacity_optical_flow,
+        blue_channel_optical_flow,
+        opacity_optical_flow,
+        0,
+    )
+
+    combined_frame[:, :, 0] = grayscale_frame  # Grayscale frame
+    combined_frame[:, :, 1] = blended_foreground  # filtered foreground
+    combined_frame[:, :, 2] = blended_optical_flow  # Blended optical flow
+
     combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.jpg"
     cv2.imwrite(str(combined_frame_path), combined_frame)
 
@@ -356,7 +387,7 @@ def process_video(video_path):
 
     for directory in [combined_dir]:
         os.makedirs(directory, exist_ok=True)
-    
+
     if SAVE_ORIGINAL:
         for directory in [img_dir]:
             os.makedirs(directory, exist_ok=True)
@@ -367,7 +398,7 @@ def process_video(video_path):
         species_key = "fish_species"
     if "test" in str(combined_dir):
         species_key = "species_name"
-    
+
     # Extract ground truth bounding boxes from the corresponding XML file
     gt_bboxes = extract_ground_truth(video_path, species_key)
 
@@ -435,6 +466,7 @@ def main():
                     future.result()
                 except Exception as exc:
                     print(f"An error occurred: {exc}")
+
 
 if __name__ == "__main__":
     main()
