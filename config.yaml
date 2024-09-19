@@ -2,6 +2,8 @@ path: /Users/jan/Documents/code/cv/project
 train: /Users/jan/Documents/code/cv/project/train_img
 val: /Users/jan/Documents/code/cv/project/test_img
 
+nc: 17
+
 # Classes
 names:
   0: abudefduf vaigiensis

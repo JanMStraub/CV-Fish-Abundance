@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Configuration Flags
 SAVE_ORIGINAL = False  # Flag to save original frames
-RELEASE = True  # Flag to switch between concurrent and sequential processing
+RELEASE = False  # Flag to switch between concurrent and sequential processing
 
 # Base directory setup
 BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
@@ -90,6 +90,7 @@ def get_annotation(
     bboxes,
     image_width,
     image_height,
+    species_key,
 ):
     """
     Generates YOLO format annotations for bounding boxes and saves them to files.
@@ -100,7 +101,7 @@ def get_annotation(
         bboxes (list): List of bounding boxes for the frame.
         image_width (int): Width of the image.
         image_height (int): Height of the image.
-        species_key (str): Key for accessing species name in bbox dictionary (default is 'species_name').
+        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
     """
     frame_bboxes = {}
 
@@ -111,7 +112,7 @@ def get_annotation(
     for frame_id, bboxes in frame_bboxes.items():
         annotations = []
         for fish in bboxes:
-            fish_species = fish.get("species_name", "").lower()
+            fish_species = fish.get(species_key, "").lower()
             x, y, width, height = (
                 fish.get("x", 0),
                 fish.get("y", 0),
@@ -142,12 +143,13 @@ def extract_ground_truth(video_path, species_key):
 
     Args:
         video_path (Path): Path to the video file.
+        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
 
     Returns:
         list: List of ground truth bounding boxes extracted from XML.
     """
     file_name_without_ext = video_path.stem
-    gt_xml_path = TRAIN_GT_DIR / f"{file_name_without_ext}.xml"
+    gt_xml_path = TEST_GT_DIR / f"{file_name_without_ext}.xml"
 
     if not gt_xml_path.exists():
         print(f"Ground truth XML not found: {gt_xml_path}")
@@ -235,6 +237,7 @@ def apply_combination(
     bgr_resized,
     gt_bboxes,
     combined_dir,
+    species_key,
     opacity_foreground=0.5,
     opacity_optical_flow=0.5,
 ):
@@ -248,6 +251,7 @@ def apply_combination(
         bgr_resized (np.ndarray): Optical flow visualization in BGR format.
         gt_bboxes (list): List of ground truth bounding boxes.
         combined_dir (Path): Directory to save the combined image and annotations.
+        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
         opacity_foreground (float): Opacity for filtered foreground mask (0 to 1).
         opacity_optical_flow (float): Opacity for optical flow visualization (0 to 1).
     """
@@ -287,6 +291,7 @@ def apply_combination(
             gt_bboxes,
             FRAME_RESIZE[0],
             FRAME_RESIZE[1],
+            species_key,
         )
 
 
@@ -300,6 +305,7 @@ def process_frame(
     hsv,
     img_dir,
     combined_dir,
+    species_key,
 ):
     """
     Processes a single video frame by applying background subtraction (GMM) and optical flow,
@@ -324,6 +330,7 @@ def process_frame(
         hsv (numpy.ndarray): The HSV image used for visualizing optical flow.
         img_dir (Path): Directory to save the original frames.
         combined_dir (Path): Directory to save the combined results of GMM and optical flow.
+        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
 
     Returns:
         next_frame (numpy.ndarray): The grayscale version of the current frame (frame1) for use in the next iteration of optical flow calculation.
@@ -340,7 +347,9 @@ def process_frame(
     bgr, next_frame = apply_optical_flow(frame1, prvs, hsv)
 
     # Combine GMM and optical flow results and save the combined image
-    apply_combination(frame, frame_idx, foreground, bgr, gt_bboxes, combined_dir)
+    apply_combination(
+        frame, frame_idx, foreground, bgr, gt_bboxes, combined_dir, species_key
+    )
 
     return next_frame
 
@@ -382,8 +391,8 @@ def process_video(video_path):
     """
 
     video_name_short = video_path.stem[-15:]
-    img_dir = TRAIN_IMG_DIR / video_name_short
-    combined_dir = TRAIN_GMM_OPTICAL_DIR / video_name_short
+    img_dir = TEST_IMG_DIR / video_name_short
+    combined_dir = TEST_GMM_OPTICAL_DIR / video_name_short
 
     for directory in [combined_dir]:
         os.makedirs(directory, exist_ok=True)
@@ -395,9 +404,9 @@ def process_video(video_path):
     # Consider different GT names
     species_key = ""
     if "train" in str(combined_dir):
-        species_key = "fish_species"
-    if "test" in str(combined_dir):
         species_key = "species_name"
+    if "test" in str(combined_dir):
+        species_key = "fish_species"
 
     # Extract ground truth bounding boxes from the corresponding XML file
     gt_bboxes = extract_ground_truth(video_path, species_key)
@@ -436,6 +445,7 @@ def process_video(video_path):
                 hsv,
                 img_dir,
                 combined_dir,
+                species_key,
             )
 
             video_pbar.update(1)
