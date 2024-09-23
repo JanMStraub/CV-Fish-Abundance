@@ -12,7 +12,7 @@ SAVE_ORIGINAL = False  # Flag to save original frames
 RELEASE = False  # Flag to switch between concurrent and sequential processing
 
 # Base directory setup
-BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
+BASE_DIR = Path("/home/jan/Documents/code/CV-Fish-Abundance")
 
 # Training set directories
 TRAIN_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
@@ -47,11 +47,10 @@ SPECIES_LIST = [
     "pempheris vanicolensis",
     "plectrogly-phidodon dickii",
     "zebrasoma scopas",
-    "canthigaster valentini",  # new
 ]
 
 # Label for unknown species
-UNKNOWN_LABEL = 16
+UNKNOWN_LABEL = 15
 
 # Frame processing parameters
 FRAME_RESIZE = (640, 640)
@@ -90,7 +89,6 @@ def get_annotation(
     bboxes,
     image_width,
     image_height,
-    species_key,
 ):
     """
     Generates YOLO format annotations for bounding boxes and saves them to files.
@@ -101,7 +99,6 @@ def get_annotation(
         bboxes (list): List of bounding boxes for the frame.
         image_width (int): Width of the image.
         image_height (int): Height of the image.
-        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
     """
     frame_bboxes = {}
 
@@ -112,7 +109,7 @@ def get_annotation(
     for frame_id, bboxes in frame_bboxes.items():
         annotations = []
         for fish in bboxes:
-            fish_species = fish.get(species_key, "").lower()
+            fish_species = fish.get("fish_species", "").lower()
             x, y, width, height = (
                 fish.get("x", 0),
                 fish.get("y", 0),
@@ -237,7 +234,6 @@ def apply_combination(
     bgr_resized,
     gt_bboxes,
     combined_dir,
-    species_key,
     opacity_foreground=0.5,
     opacity_optical_flow=0.5,
 ):
@@ -251,7 +247,6 @@ def apply_combination(
         bgr_resized (np.ndarray): Optical flow visualization in BGR format.
         gt_bboxes (list): List of ground truth bounding boxes.
         combined_dir (Path): Directory to save the combined image and annotations.
-        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
         opacity_foreground (float): Opacity for filtered foreground mask (0 to 1).
         opacity_optical_flow (float): Opacity for optical flow visualization (0 to 1).
     """
@@ -291,7 +286,6 @@ def apply_combination(
             gt_bboxes,
             FRAME_RESIZE[0],
             FRAME_RESIZE[1],
-            species_key,
         )
 
 
@@ -305,7 +299,6 @@ def process_frame(
     hsv,
     img_dir,
     combined_dir,
-    species_key,
 ):
     """
     Processes a single video frame by applying background subtraction (GMM) and optical flow,
@@ -330,7 +323,6 @@ def process_frame(
         hsv (numpy.ndarray): The HSV image used for visualizing optical flow.
         img_dir (Path): Directory to save the original frames.
         combined_dir (Path): Directory to save the combined results of GMM and optical flow.
-        species_key (str): Key for accessing species name in bbox dictionary (default is 'fish_species').
 
     Returns:
         next_frame (numpy.ndarray): The grayscale version of the current frame (frame1) for use in the next iteration of optical flow calculation.
@@ -348,7 +340,7 @@ def process_frame(
 
     # Combine GMM and optical flow results and save the combined image
     apply_combination(
-        frame, frame_idx, foreground, bgr, gt_bboxes, combined_dir, species_key
+        frame, frame_idx, foreground, bgr, gt_bboxes, combined_dir
     )
 
     return next_frame
@@ -404,9 +396,9 @@ def process_video(video_path):
     # Consider different GT names
     species_key = ""
     if "train" in str(combined_dir):
-        species_key = "species_name"
-    if "test" in str(combined_dir):
         species_key = "fish_species"
+    if "test" in str(combined_dir):
+        species_key = "species_name"
 
     # Extract ground truth bounding boxes from the corresponding XML file
     gt_bboxes = extract_ground_truth(video_path, species_key)
@@ -445,7 +437,6 @@ def process_video(video_path):
                 hsv,
                 img_dir,
                 combined_dir,
-                species_key,
             )
 
             video_pbar.update(1)
@@ -460,8 +451,8 @@ def main():
     """
     Main entry point of the script. Processes either training or test videos.
     """
-    video_files = list(TRAIN_VIDEO_DIR.glob("*.flv")) + list(
-        TRAIN_VIDEO_DIR.glob("*.avi")
+    video_files = list(TEST_VIDEO_DIR.glob("*.flv")) + list(
+        TEST_VIDEO_DIR.glob("*.avi")
     )
 
     if RELEASE:
