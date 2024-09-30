@@ -103,6 +103,8 @@ test_optical/
 test_gmm/
 test_gmm_optical/
 runs/
+weights/
+detect_test/
 
 # macOS system files
 .DS_Store
