@@ -105,6 +105,8 @@ test_gmm_optical/
 runs/
 weights/
 detect_test/
+val_img/
+yolov10/
 
 # macOS system files
 .DS_Store
