@@ -1,60 +1,123 @@
-# HOGY Toolbox for Fish Detection and Categorization
+# Real-Time Underwater Fish Detection and Species Classification Using YOLOv7 Optimized for Google Coral
 
-This algorithm detects and classifies fish instances in unconstrained environments using a hybrid approach combining GMM, Optical Flow, and a deep CNN based on YOLO. Preference is given to YOLO during hybridization when results from GMM-Optical and YOLO overlap.
+This repository contains a Python-based implementation developed for the “Computer Vision” course at the University of Heidelberg, Germany. The project focuses on detecting and classifying fish species in underwater videos using background subtraction (GMM) and optical flow as preprocessing steps. The preprocessed frames are then passed to the YOLO model for fish detection and classification.
+As a dataset we utilized the [LifeCLEF 2015](https://www.imageclef.org/lifeclef/2015/fish) Fish Dataset for training and evaluation.
 
-## Update 2024
+This implementation is inspired by the [Fish-Abundance](https://github.com/ahsan856jalal/Fish-Abundance) project by Salman et al.
 
-For the lecture 'Computer Vision' at the University of Heidelberg, Germany, this repository is going to be updated.
-The datasets that we used in out project are the Fish4Knowledge sets for [fish detection and fish species recognition](http://www.perceivelab.com/datasets).
-Other fish related datasets can be found [here](https://globalwetlandsproject.org/computer-vision-resources-fish-classification-datasets/) or [here](https://github.com/Callmewuxin/fish4konwledge/tree/master) or [here](https://public.roboflow.com/object-detection/aquarium).
+## Features
 
-## Making Frames from Videos
+- **Gaussian Mixture Model (GMM)** for background subtraction and foreground detection.
+- **Optical Flow** (Farneback method) for motion tracking between frames.
+- **YOLO-style bounding box annotations** for fish detection based on ground truth data.
+- **Concurrent processing** of video files for faster execution.
+- Automatic generation of combined images with foreground detection, optical flow, and bounding boxes.
+- Configurable parameters such as gamma correction, frame resizing, and visualization opacities.
 
-To save GT frames of the LCF-15 dataset, use `making_GT_frames_lcf15.py` on the dataset. For the UWA dataset, the dataset will be provided upon request: [ahsan.jalal@seecs.edu.pk](mailto:ahsan.jalal@seecs.edu.pk), [ahmad.salman@seecs.edu.pk](mailto:ahmad.salman@seecs.edu.pk).
+## Requirements
 
-## GMM Output
+This project requires Python 3.10 and the following dependencies:
 
-Run `GMM/GMM_frames_per_video.m` to save GMM frames for all videos along with annotated text files. This script is written in Matlab.
+- `opencv-python`
+- `numpy`
+- `tqdm`
+- `imageio`
+- `pathlib`
 
-## Optical Flow Output
+You can install the required dependencies via pip:
 
-Run `Optical_flow/optical_flow_frames_per_video.py` to save Optical Flow for the required frames. This script is written in Python.
+```bash
+pip install -r requirements.txt
+```
 
-## YOLO DNN
+## Dataset
 
-For YOLO, clone this repository: [https://github.com/AlexeyAB/darknet.git](https://github.com/AlexeyAB/darknet.git) and build it according to the instructions on [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet) (use `libso=1` in the Makefile).
+This project uses the FishCLEF 2015 dataset. You can download the dataset from the FishCLEF competition website. Once downloaded, the folder structure should be organized as follows:
 
-### Steps to Follow:
+```bash
+.
+├── data
+│   └── fishclef_2015_release
+│       ├── training_set
+│       │   ├── videos
+│       │   ├── species_samples
+│       │   └── gt
+│       └── test_set
+│           ├── videos
+│           └── gt
+├── train_img
+├── train_combined
+├── test_img
+└── test_combined
+    ├── ...
+```
 
-1. **Make Training Data List**: Follow the instructions in the YOLO repository to create a training data list.
-   
-2. **Edit YOLO Configuration**: 
-   - Edit the `yolov3.cfg` file for the LCF-15 and UWA datasets (15 & 16 classes in LCF-15 and UWA datasets respectively).
-   
-3. **Create `.names` Files**:
-   - Make separate `.names` files for the LCF-15 and UWA datasets. Include all class names as specified in the YOLO instructions.
-   
-4. **Create `.data` Files**:
-   - Make separate `.data` files for each dataset.
-   - Copy contents from the `coco.data` file in the `yolo/cfg` directory into each new file.
-   - Edit the `classes`, `train`, `names`, and `backup` variables accordingly.
+## Usage
 
-### Evaluation
+### Configuration
 
-You need a pre-trained model on the respective datasets. These models will be shared upon request: [ahsan.jalal@seecs.edu.pk](mailto:ahsan.jalal@seecs.edu.pk), [ahmad.salman@seecs.edu.pk](mailto:ahmad.salman@seecs.edu.pk).
+Edit the script's configuration flags and parameters at the top of the file to customize the behavior:
 
-Once you have the models and test splits, use `YOLO_DNN/yolo_on_frames.py` to save classification results.
+- `SAVE_ORIGINAL`: Set to `True` if you want to save the original frames in addition to the processed outputs.
+- `RELEASE`: Set to `True` to process a single video (for testing), or `False` to process videos concurrently.
+- `TRAIN`: Set to `True` to create training images, or `False` to create validation images.
+- `BASE_DIR`: Set the path for the project files.
+- `FRAME_RESIZE`: Target frame size for processing (default is `(640, 640)`).
+- `FARNEBACK_PARAMS`: Parameters for optical flow computation (can be adjusted based on the scene).
+- `OPACITY_FOREGROUND`: Opacity for filtered foreground mask (0 to 1).
+- `OPACITY_OPTICAL_FLOW`: Opacity for optical flow visualization (0 to 1).
 
-## Combining Outputs
+### Running the Script
 
-Use `making_gmm_optical_gray_combined_image.py` to combine GMM and Optical Flow outputs into one 2D frame (green channel for GMM and red channel for Optical Flow).
+To process the videos, simply run the script:
 
-## Classification with ResNet-50
+```bash
+python main.py
+```
 
-ResNet-50 models trained on the LCF-15 and UWA datasets are required to classify objects detected by the GMM & Optical combined output. Models will be shared upon request: [ahsan.jalal@seecs.edu.pk](mailto:ahsan.jalal@seecs.edu.pk), [ahmad.salman@seecs.edu.pk](mailto:ahmad.salman@seecs.edu.pk).
+This will process all video files in the selected set, extract frames, detect fish using background subtraction and optical flow, and generate combined images along with YOLO-style annotations.
 
-Once you have the models, use `making_val_sort_gmm_optical_classified_text_files.py` to save classification results on the GMM & Optical combined input.
+The output will be saved in the following directories:
 
-## F-Score Calculation
+- `train_img/` or `test_img/`: If `SAVE_ORIGINAL` is enabled, original frames will be saved here.
+- `train_combined/` or `test_combined/`: The combined GMM and optical flow results will be saved here, along with ground truth annotations.
 
-Use `val_sort_gmm_optical_vs_yolo_f_score.py` to calculate the F-score for the given dataset using GMM-Optical and YOLO classified outputs. This score will be compared against ground truths (GTs). Preference is given to YOLO output when results overlap with GMM-Optical.
+### Ground Truth Annotation
+
+The ground truth bounding boxes are extracted from XML files provided in the dataset. The script automatically detects the species and generates YOLO annotations for each frame.
+
+### Parallel Processing
+
+By default, the script uses `ThreadPoolExecutor` to process videos concurrently for faster execution. If you want to process videos sequentially (for debugging or testing or for a real-time application), set `RELEASE` to `True`.
+
+## Directory Structure
+
+The main directories used by the script are:
+
+- **Training Set Directories:**
+  - `train_img/`: Original frames from training videos.
+  - `train_combined/`: Combined GMM and optical flow results.
+
+- **Test Set Directories:**
+  - `test_img/`: Original frames from test videos.
+  - `test_combined/`: Combined GMM and optical flow results.
+
+## Example Output
+
+The script generates combined images with the following elements:
+- Grayscale background image.
+- Foreground detected by GMM (overlayed with adjustable opacity).
+- Optical flow visualization (overlayed with adjustable opacity).
+- Ground truth bounding boxes in YOLO format.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests to improve the functionality, performance, or add new features.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+This project is based on the FishCLEF 2015 dataset, and we thank the organizers of the FishCLEF competition for providing the dataset and ground truth annotations.
