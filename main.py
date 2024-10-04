@@ -6,7 +6,7 @@ from video_processing import process_video
 # Configuration Flags
 SAVE_ORIGINAL = False  # Flag to save original frames
 RELEASE = False  # Flag to switch between concurrent and sequential processing
-TRAIN = False  # Flag to switch between creating training images and creating validation images
+TRAIN = True  # Flag to switch between creating training images and creating validation images
 
 # Base directory setup
 BASE_DIR = Path("/home/jan/Documents/code/CV-Fish-Abundance")
@@ -46,7 +46,7 @@ SPECIES_LIST = [
 UNKNOWN_LABEL = len(SPECIES_LIST)
 
 # Frame processing parameters
-FRAME_RESIZE = (240, 240)
+FRAME_RESIZE = (640, 640)
 
 # Optical flow parameters
 FARNEBACK_PARAMS = {
