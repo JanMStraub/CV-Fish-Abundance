@@ -258,7 +258,7 @@ def process_video(
     species_key = ""
     if "train" in str(combined_dir):
         species_key = "fish_species"
-    if "test" in str(combined_dir):
+    if "val" in str(combined_dir):
         species_key = "species_name"
 
     # Extract ground truth bounding boxes from the corresponding XML file

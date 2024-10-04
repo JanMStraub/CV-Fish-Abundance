@@ -1,6 +1,6 @@
 path: /Users/jan/Documents/code/cv/project
-train: /Users/jan/Documents/code/cv/project/train_img
-val: /Users/jan/Documents/code/cv/project/test_img
+train: /Users/jan/Documents/code/cv/project/train_combined
+val: /Users/jan/Documents/code/cv/project/val_combined
 
 nc: 16
 
@@ -22,15 +22,3 @@ names:
   13: plectrogly-phidodon dickii
   14: zebrasoma scopas
   15: unknown
-
-# Augmentation settings
-augmentations:
-  fliplr: 0.5  # 50% chance to flip images left-right
-  flipud: 0.2  # 20% chance to flip images up-down
-  scale: 0.1   # Scale images by +/- 10%
-  translate: 0.1  # Translate images by +/- 10% of image dimensions
-  rotate: 5  # Rotate images by +/- 5 degrees
-  shear: 5  # Shear images by +/- 5 degrees
-  perspective: 0.05  # Apply perspective transformation with a probability
-  mosaic: 0.75  # 75% chance to apply mosaic augmentation
-  mixup: 0.4  # 40% chance to apply mixup augmentation

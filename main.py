@@ -6,10 +6,10 @@ from video_processing import process_video
 # Configuration Flags
 SAVE_ORIGINAL = False  # Flag to save original frames
 RELEASE = False  # Flag to switch between concurrent and sequential processing
-TRAIN = True  # Flag to switch between creating training images and creating validation images
+TRAIN = False  # Flag to switch between creating training images and creating validation images
 
 # Base directory setup
-BASE_DIR = Path("/Users/jan/Documents/code/cv/project")
+BASE_DIR = Path("/home/jan/Documents/code/CV-Fish-Abundance")
 
 # Training set directories
 TRAIN_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/videos"
@@ -46,7 +46,7 @@ SPECIES_LIST = [
 UNKNOWN_LABEL = len(SPECIES_LIST)
 
 # Frame processing parameters
-FRAME_RESIZE = (640, 640)
+FRAME_RESIZE = (240, 240)
 
 # Optical flow parameters
 FARNEBACK_PARAMS = {
