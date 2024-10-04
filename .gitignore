@@ -109,6 +109,8 @@ val_img/
 yolov10/
 test_combined/
 train_combined/
+detect/
+val_combined/
 
 # macOS system files
 .DS_Store

@@ -17,11 +17,11 @@ TRAIN_GT_DIR = BASE_DIR / "data/fishclef_2015_release/training_set/gt"
 TRAIN_IMG_DIR = BASE_DIR / "train_img/"
 TRAIN_GMM_OPTICAL_DIR = BASE_DIR / "train_combined/"
 
-# Test set directories
-TEST_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/videos"
-TEST_GT_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/gt"
-TEST_IMG_DIR = BASE_DIR / "test_img/"
-TEST_GMM_OPTICAL_DIR = BASE_DIR / "test_combined/"
+# Validation set directories
+VAL_VIDEO_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/videos"
+VAL_GT_DIR = BASE_DIR / "data/fishclef_2015_release/test_set/gt"
+VAL_IMG_DIR = BASE_DIR / "val_img/"
+VAL_GMM_OPTICAL_DIR = BASE_DIR / "val_combined/"
 
 # List of species names
 SPECIES_LIST = [
@@ -70,10 +70,10 @@ def main():
     """
 
     # Set directories based on whether we are in training or testing mode
-    video_dir = TRAIN_VIDEO_DIR if TRAIN else TEST_VIDEO_DIR
-    img_dir = TRAIN_IMG_DIR if TRAIN else TEST_IMG_DIR
-    gt_dir = TRAIN_GT_DIR if TRAIN else TEST_GT_DIR
-    combined_dir = TRAIN_GMM_OPTICAL_DIR if TRAIN else TEST_GMM_OPTICAL_DIR
+    video_dir = TRAIN_VIDEO_DIR if TRAIN else VAL_VIDEO_DIR
+    img_dir = TRAIN_IMG_DIR if TRAIN else VAL_IMG_DIR
+    gt_dir = TRAIN_GT_DIR if TRAIN else VAL_GT_DIR
+    combined_dir = TRAIN_GMM_OPTICAL_DIR if TRAIN else VAL_GMM_OPTICAL_DIR
 
     video_files = list(video_dir.glob("*.flv"))
 
