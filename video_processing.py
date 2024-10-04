@@ -156,14 +156,6 @@ def process_frame(
     and then combines the results. Optionally saves the original frame, and stores the combined
     output along with ground truth annotations.
 
-    This function performs the following steps for a given frame:
-
-    1. Optionally saves the original frame to a specified directory.
-    2. Applies Gaussian Mixture Model (GMM) to detect foreground objects in the frame.
-    3. Computes optical flow between the current and next frame to track movement.
-    4. Combines the GMM results and optical flow into a final output image.
-    5. Saves the combined image and associated ground truth annotations to the specified directory.
-
     Args:
         frame (numpy.ndarray): The current video frame after resizing and gamma adjustment.
         frame1 (numpy.ndarray): The next video frame to compute optical flow.
@@ -229,15 +221,7 @@ def process_video(
     opacity_optical_flow,
 ):
     """
-    Processes a video by applying background subtraction (using Gaussian Mixture Model),
-    optical flow, and frame adjustments, and saves the processed frames and combined results
-    along with ground truth annotations.
-
-    This function extracts frames from the input video, performs foreground detection using
-    a Gaussian Mixture Model (GMM), calculates optical flow for movement detection, and
-    combines these results. The processed frames and combined images are saved in specific
-    directories. Additionally, it uses ground truth bounding boxes extracted from an
-    XML file for annotation purposes.
+    Processes a video by applying background subtraction (using Gaussian Mixture Model), optical flow, and frame adjustments, and saves the processed frames and combined results along with ground truth annotations.
 
     Args:
         video_path (Path): Path to the input video file.
@@ -251,20 +235,6 @@ def process_video(
         unknown_label (int): Label for unknown fish species.
         opacity_foreground (float): Opacity for filtered foreground mask (0 to 1).
         opacity_optical_flow (float): Opacity for optical flow visualization (0 to 1).
-
-    Steps:
-        1. Extract ground truth bounding boxes for the video from the corresponding XML file.
-        2. Create directories to store processed images and combined results.
-        3. Open the video and initialize background subtraction (GMM) and optical flow.
-        4. Process each frame in the video:
-            - Resize and adjust gamma for frame.
-            - Apply background subtraction (GMM) for foreground detection.
-            - Compute optical flow to detect movement.
-            - Combine the results of GMM and optical flow.
-            - Save the processed frames and results.
-        5. Release the video capture object when done.
-
-    The function also includes progress tracking using tqdm to visualize the video processing progress.
 
     Parameters:
         video_path (Path): Path to the video file being processed.
