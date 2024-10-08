@@ -110,6 +110,7 @@ yolov10/
 test_combined/
 train_combined/
 val_combined/
+train_*/
 
 # macOS system files
 .DS_Store
