@@ -114,8 +114,8 @@ def apply_combination(
         0,
     )
 
-    combined_frame[:, :, 0] = grayscale_frame  # Grayscale frame
-    combined_frame[:, :, 1] = blended_foreground  # filtered foreground
+    combined_frame[:, :, 0] = grayscale_frame       # Grayscale frame
+    combined_frame[:, :, 1] = blended_foreground    # filtered foreground
     combined_frame[:, :, 2] = blended_optical_flow  # Blended optical flow
 
     combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.jpg"
