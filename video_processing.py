@@ -114,8 +114,8 @@ def apply_combination(
         0,
     )
 
-    combined_frame[:, :, 0] = grayscale_frame  # Grayscale frame
-    combined_frame[:, :, 1] = blended_foreground  # filtered foreground
+    combined_frame[:, :, 0] = grayscale_frame       # Grayscale frame
+    combined_frame[:, :, 1] = blended_foreground    # filtered foreground
     combined_frame[:, :, 2] = blended_optical_flow  # Blended optical flow
 
     combined_frame_path = combined_dir / f"combined_img_{frame_idx:04d}.jpg"
@@ -179,7 +179,7 @@ def process_frame(
     """
     if save_original:
         # Save the original frame to the img_dir
-        img_frame_path = img_dir / f"img_{frame_idx:04d}.png"
+        img_frame_path = img_dir / f"img_{frame_idx:04d}.jpg"
         cv2.imwrite(str(img_frame_path), frame)
 
     # Apply GMM to the frame to detect foreground objects
