@@ -47,8 +47,8 @@ This project uses the FishCLEF 2015 dataset. You can download the dataset from t
 │           └── gt
 ├── train_img
 ├── train_combined
-├── test_img
-└── test_combined
+├── val_img
+└── val_combined
     ├── ...
 ```
 
@@ -95,20 +95,24 @@ By default, the script uses `ThreadPoolExecutor` to process videos concurrently 
 The main directories used by the script are:
 
 - **Training Set Directories:**
+
   - `train_img/`: Original frames from training videos.
   - `train_combined/`: Combined GMM and optical flow results.
 
 - **Test Set Directories:**
-  - `test_img/`: Original frames from test videos.
-  - `test_combined/`: Combined GMM and optical flow results.
+  - `val_img/`: Original frames from test videos.
+  - `val_combined/`: Combined GMM and optical flow results.
 
 ## Example Output
 
 The script generates combined images with the following elements:
+
 - Grayscale background image.
 - Foreground detected by GMM (overlayed with adjustable opacity).
 - Optical flow visualization (overlayed with adjustable opacity).
 - Ground truth bounding boxes in YOLO format.
+
+##
 
 ## Contributing
 
