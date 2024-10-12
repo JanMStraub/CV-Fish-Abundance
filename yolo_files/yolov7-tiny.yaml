@@ -1,13 +1,13 @@
 # parameters
 nc: 80  # number of classes
-depth_multiple: 1.00  # model depth multiple
-width_multiple: 1.00  # layer channel multiple
+depth_multiple: 1.0  # model depth multiple
+width_multiple: 1.0  # layer channel multiple
 
 # anchors
 anchors:
-  - [66,59, 87,77, 113,110]     # P3/8 anchors
-  - [125,172, 182,134, 186,221] # P4/16 anchors
-  - [277,205, 354,301, 499,518] # P5/32 anchors
+  - [10,13, 16,30, 33,23]  # P3/8
+  - [30,61, 62,45, 59,119]  # P4/16
+  - [116,90, 156,198, 373,326]  # P5/32
 
 # yolov7-tiny backbone
 backbone:

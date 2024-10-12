@@ -179,7 +179,7 @@ def process_frame(
     """
     if save_original:
         # Save the original frame to the img_dir
-        img_frame_path = img_dir / f"img_{frame_idx:04d}.png"
+        img_frame_path = img_dir / f"img_{frame_idx:04d}.jpg"
         cv2.imwrite(str(img_frame_path), frame)
 
     # Apply GMM to the frame to detect foreground objects
