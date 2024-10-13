@@ -1,6 +1,7 @@
 path: /home/jan/Documents/code/CV-Fish-Abundance/
-train: ./train_combined_640
-val: ./val_combined
+train: ./txt/train_combined_640.txt
+val: ./txt/val_combined_640.txt
+test: ./txt/test_combined.txt
 
 nc: 16
 

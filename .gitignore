@@ -111,6 +111,9 @@ test_combined/
 train_combined/
 val_combined/
 train_*/
+val_*/
+txt/
+yolov7/
 
 # macOS system files
 .DS_Store
