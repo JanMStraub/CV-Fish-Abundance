@@ -91,6 +91,9 @@ def apply_combination(
         unknown_label (int): Label for unknown fish species.
         opacity_foreground (float): Opacity for filtered foreground mask (0 to 1).
         opacity_optical_flow (float): Opacity for optical flow visualization (0 to 1).
+        
+    Returns:
+        combined_frame (np.ndarray): Image combining the original frame, foreground detection, and optical flow visualization.
     """
 
     combined_frame = np.zeros_like(frame)
